@@ -1,0 +1,19 @@
+name: FinanceBot 3-Hour Automation
+
+on:
+  schedule:
+    # 한국 시간(KST) 기준 평일 3시간마다 실행 (00, 03, 06, 09, 12, 15, 18, 21시 UTC)
+    - cron: '0 */3 * * 1-5'
+  workflow_dispatch: # 테스트를 위해 수동 실행 버튼 활성화
+
+jobs:
+  automation-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Vercel Deploy Hook
+        run: |
+          if [ -z "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}" ]; then
+            echo "Error: VERCEL_DEPLOY_HOOK_URL is missing in GitHub Secrets."
+            exit 1
+          fi
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
