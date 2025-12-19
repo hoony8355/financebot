@@ -34,15 +34,21 @@ const SYSTEM_INSTRUCTION = `
 }
 `;
 
+/**
+ * 지수 백오프를 이용한 재시도 함수
+ */
 async function generateWithRetry(ai, payload, retries = 3) {
   for (let i = 0; i < retries; i++) {
     try {
+      console.log(`Attempt ${i + 1}: Generating content with ${payload.model}...`);
       const response = await ai.models.generateContent(payload);
       return response;
     } catch (error) {
-      if (error.message.includes('429') && i < retries - 1) {
-        console.log(`Quota exceeded (429). Retrying in ${5 * (i + 1)} seconds...`);
-        await new Promise(resolve => setTimeout(resolve, 5000 * (i + 1)));
+      const isQuotaError = error.message.includes('429') || error.message.includes('RESOURCE_EXHAUSTED');
+      if (isQuotaError && i < retries - 1) {
+        const waitTime = (i + 1) * 10000; // 10초, 20초... 점진적 대기
+        console.warn(`Quota exceeded. Waiting ${waitTime/1000}s before retry...`);
+        await new Promise(resolve => setTimeout(resolve, waitTime));
         continue;
       }
       throw error;
@@ -53,7 +59,7 @@ async function generateWithRetry(ai, payload, retries = 3) {
 async function run() {
   const apiKey = process.env.API_KEY;
   if (!apiKey) {
-    console.error("API_KEY is missing");
+    console.error("Error: API_KEY is missing in GitHub Secrets.");
     process.exit(1);
   }
 
@@ -68,22 +74,24 @@ async function run() {
   let reports = [];
   if (fs.existsSync(reportsPath)) {
     try {
-      reports = JSON.parse(fs.readFileSync(reportsPath, 'utf8'));
+      const content = fs.readFileSync(reportsPath, 'utf8');
+      reports = content.trim() ? JSON.parse(content) : [];
     } catch (e) {
+      console.error("Failed to parse existing reports.json, starting fresh.");
       reports = [];
     }
   }
 
-  const hour = new Date().getUTCHours() + 9; // KST
+  const hour = (new Date().getUTCHours() + 9) % 24; // KST 변환
   const market = (hour >= 9 && hour < 16) ? 'KR' : 'US';
   const excludedTickers = reports.slice(0, 10).map(r => r.ticker);
 
-  console.log(`Analyzing ${market} market with gemini-3-flash-preview...`);
+  console.log(`Market Mode: ${market} | KST Hour: ${hour}`);
 
   try {
     const response = await generateWithRetry(ai, {
-      model: 'gemini-3-flash-preview', // 쿼터 제한이 넉넉한 Flash 모델로 변경
-      contents: `[Market: ${market}] 최근 분석 제외: ${excludedTickers.join(', ')}. 현재 시장의 핵심 급등주 또는 이슈 종목 1개를 선정하여 SEO 최적화 리포트를 JSON으로 작성하라.`,
+      model: 'gemini-3-flash-preview', // 무료 티어에서 가장 안정적인 Flash 모델 사용
+      contents: `[Market: ${market}] 최근 분석 제외 종목: ${excludedTickers.join(', ')}. 현재 시장에서 주목해야 할 핵심 종목 1개를 선정하여 SEO 최적화된 심층 분석 리포트를 JSON으로 작성하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         responseMimeType: "application/json",
@@ -99,11 +107,13 @@ async function run() {
       timestamp: new Date().toISOString()
     };
 
+    // 최신 리포트를 맨 앞에 추가 (최대 500개 유지)
     reports = [newReport, ...reports].slice(0, 500);
+
     fs.writeFileSync(reportsPath, JSON.stringify(reports, null, 2));
-    console.log(`Successfully generated and stored: ${newReport.ticker}`);
+    console.log(`Successfully generated and saved report for: ${newReport.ticker}`);
   } catch (error) {
-    console.error("Failed final attempt:", error);
+    console.error("Automation failed after all retries:", error);
     process.exit(1);
   }
 }
