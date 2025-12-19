@@ -1,5 +1,6 @@
 
-import React from 'react';
+import React, { useMemo } from 'react';
+import { marked } from 'marked';
 import { AnalysisReport } from '../types';
 import StockChart from './StockChart';
 import SchemaMarkup from './SchemaMarkup';
@@ -24,6 +25,12 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
     };
     return styles[rating] || styles['Hold'];
   };
+
+  // 마크다운을 HTML로 변환 (메모이제이션으로 성능 최적화)
+  const renderedContent = useMemo(() => {
+    // marked는 동기적으로 작동하며 HTML 문자열을 반환합니다.
+    return marked.parse(report.fullContent || "") as string;
+  }, [report.fullContent]);
 
   return (
     <article className="max-w-4xl mx-auto py-12 px-6 bg-white shadow-sm border border-slate-100 rounded-[2.5rem] mb-20">
@@ -95,24 +102,28 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
         <StockChart basePrice={report.price} trend={report.technicalAnalysis.trend} />
       </div>
 
-      {/* Article Content */}
+      {/* Article Content - Rendered with Marked and Typography plugin */}
       <div className="prose prose-slate max-w-none mb-20 px-2 md:px-8">
         <div className="mb-12">
-          <h2 className="text-2xl font-black text-slate-900 mb-6">시장 컨텍스트 및 매크로 분석</h2>
+          <h2 className="text-2xl font-black text-slate-900 mb-6 border-none p-0">시장 컨텍스트 및 매크로 분석</h2>
           <p className="text-slate-600 leading-relaxed bg-slate-50 p-6 rounded-2xl border border-slate-100">{report.macroContext}</p>
         </div>
 
-        <div className="mb-12" dangerouslySetInnerHTML={{ __html: report.fullContent.replace(/\n/g, '<br/>') }} />
+        {/* 본문 마크다운 영역 */}
+        <div 
+          className="markdown-body" 
+          dangerouslySetInnerHTML={{ __html: renderedContent }} 
+        />
 
-        <div className="bg-white border-2 border-slate-100 rounded-[2rem] overflow-hidden mb-12">
+        <div className="bg-white border-2 border-slate-100 rounded-[2rem] overflow-hidden my-12">
           <div className="bg-slate-50 px-8 py-4 border-b border-slate-100">
-            <h2 className="text-lg font-black text-slate-900 m-0">밸류에이션 및 기술적 리포트</h2>
+            <h2 className="text-lg font-black text-slate-900 m-0 border-none">밸류에이션 및 기술적 리포트</h2>
           </div>
           <div className="p-8">
              <p className="text-slate-600 mb-8">{report.valuationCheck}</p>
              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-6 bg-indigo-50 rounded-2xl border border-indigo-100">
-                  <h3 className="text-sm font-black text-indigo-900 uppercase mb-4 tracking-widest">Chart Levels</h3>
+                  <h3 className="text-sm font-black text-indigo-900 uppercase mb-4 tracking-widest mt-0">Chart Levels</h3>
                   <div className="space-y-4">
                     <div className="flex justify-between">
                       <span className="text-indigo-600/70 text-xs font-bold uppercase">Strong Support</span>
@@ -125,16 +136,16 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
                   </div>
                 </div>
                 <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
-                  <h3 className="text-sm font-black text-emerald-900 uppercase mb-4 tracking-widest">Technical Outlook</h3>
-                  <p className="text-emerald-800 text-sm font-medium">{report.technicalAnalysis.details}</p>
+                  <h3 className="text-sm font-black text-emerald-900 uppercase mb-4 tracking-widest mt-0">Technical Outlook</h3>
+                  <p className="text-emerald-800 text-sm font-medium m-0">{report.technicalAnalysis.details}</p>
                 </div>
              </div>
           </div>
         </div>
 
-        <h2 className="text-2xl font-black text-slate-900 mb-8">관련 섹터 및 경쟁사 비교 (Peer Analysis)</h2>
+        <h2 className="text-2xl font-black text-slate-900 mb-8 border-none p-0">관련 섹터 및 경쟁사 비교 (Peer Analysis)</h2>
         <div className="overflow-x-auto mb-12">
-          <table className="min-w-full divide-y divide-slate-200 border border-slate-100 rounded-2xl overflow-hidden">
+          <table className="min-w-full divide-y divide-slate-200 border border-slate-100 rounded-2xl overflow-hidden not-prose">
             <thead className="bg-slate-50">
               <tr>
                 <th className="px-6 py-4 text-left text-[10px] font-black text-slate-400 uppercase tracking-widest">Ticker / Name</th>
@@ -162,9 +173,9 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
         </div>
 
         {/* People Also Ask Section (Rich Snippets Focus) */}
-        <section className="bg-slate-900 rounded-[3rem] p-10 md:p-16 text-white mt-20 relative overflow-hidden">
+        <section className="bg-slate-900 rounded-[3rem] p-10 md:p-16 text-white mt-20 relative overflow-hidden not-prose">
           <div className="relative z-10">
-            <h2 className="text-3xl font-black mb-12 text-center text-white border-none">People Also Ask <span className="text-indigo-400">자주 묻는 질문</span></h2>
+            <h2 className="text-3xl font-black mb-12 text-center text-white border-none p-0">People Also Ask <span className="text-indigo-400">자주 묻는 질문</span></h2>
             <div className="grid gap-6">
               {report.faqs.map((faq, i) => (
                 <div key={i} className="bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl hover:bg-white/10 transition-colors">

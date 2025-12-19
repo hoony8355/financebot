@@ -27,7 +27,7 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
     `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-preview', // 복잡한 분석과 실시간 검색을 위해 Pro 모델 사용
+      model: 'gemini-3-flash-preview', // 무료 티어에서 더 안정적인 작동을 위해 Flash 모델 사용
       contents: discoveryPrompt,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
@@ -64,8 +64,12 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       timestamp: new Date().toISOString(),
       fullContent: (reportData.fullContent || "") + sourceSection,
     };
-  } catch (error) {
+  } catch (error: any) {
     console.error("AI Stock Analysis Failed:", error);
+    // 무료 티어 할당량 초과 시 구체적인 에러 메시지 처리
+    if (error.message?.includes("429") || error.message?.includes("quota")) {
+      throw new Error("무료 API 할당량이 초과되었습니다. 잠시 후 다시 시도하거나 유료 플랜 키를 사용해주세요.");
+    }
     throw error;
   }
 };
