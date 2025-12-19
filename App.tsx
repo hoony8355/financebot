@@ -1,11 +1,8 @@
 
-import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { discoverAndAnalyzeStock } from './geminiService';
-import { AnalysisReport } from './types';
-import ArticleView from './components/ArticleView';
-
-// Removed conflicting window.aistudio declaration. 
-// The environment provides the AIStudio interface for window.aistudio.
+import React, { useState, useEffect, useCallback } from 'react';
+import { discoverAndAnalyzeStock } from './geminiService.ts';
+import { AnalysisReport } from './types.ts';
+import ArticleView from './components/ArticleView.tsx';
 
 const App: React.FC = () => {
   const [reports, setReports] = useState<AnalysisReport[]>([]);
@@ -15,10 +12,9 @@ const App: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<number>(0);
   const [needsApiKey, setNeedsApiKey] = useState(false);
 
-  // AI Studio API Key 체크
   useEffect(() => {
     const checkApiKey = async () => {
-      // @ts-ignore: aistudio is globally provided by the environment
+      // @ts-ignore
       if (window.aistudio) {
         // @ts-ignore
         const hasKey = await window.aistudio.hasSelectedApiKey();
@@ -29,7 +25,7 @@ const App: React.FC = () => {
   }, []);
 
   const handleSelectKey = async () => {
-    // @ts-ignore: aistudio is globally provided by the environment
+    // @ts-ignore
     if (window.aistudio) {
       // @ts-ignore
       await window.aistudio.openSelectKey();
@@ -63,10 +59,9 @@ const App: React.FC = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const executeAutoPost = useCallback(async (isManual = false) => {
+  const executeAutoPost = useCallback(async () => {
     if (isGenerating) return;
     
-    // AI Studio에서 키가 필요한 경우 다이얼로그 먼저 띄움
     // @ts-ignore
     if (needsApiKey && window.aistudio) {
       await handleSelectKey();
@@ -96,12 +91,7 @@ const App: React.FC = () => {
       setStatus(`발행 완료: ${newReport.ticker} (${new Date().toLocaleTimeString()})`);
     } catch (err: any) {
       console.error("Generation failed:", err);
-      if (err.message?.includes("Requested entity was not found")) {
-        setNeedsApiKey(true);
-        setStatus("API 키를 다시 선택해주세요.");
-      } else {
-        setStatus("분석 실패: API 할당량 또는 네트워크를 확인하세요.");
-      }
+      setStatus(err.message || "분석 실패: 할당량 또는 네트워크 확인");
     } finally {
       setIsGenerating(false);
     }
@@ -139,7 +129,7 @@ const App: React.FC = () => {
               <span className="text-sm font-mono font-black text-slate-900">{formatTime(timeLeft)}</span>
             </div>
             <button 
-              onClick={() => executeAutoPost(true)}
+              onClick={() => executeAutoPost()}
               disabled={isGenerating}
               className={`px-6 py-3 rounded-2xl text-xs font-black transition-all ${isGenerating ? 'bg-slate-100 text-slate-400 cursor-not-allowed' : 'bg-slate-900 text-white hover:bg-indigo-600 active:scale-95 shadow-xl shadow-slate-200'}`}
             >
@@ -166,7 +156,7 @@ const App: React.FC = () => {
               </h1>
               <p className="text-lg text-slate-500 font-medium leading-relaxed">
                 3시간마다 업데이트되는 실시간 시장 스캔 시스템. <br/>
-                Gemini 3 Pro의 고도화된 추론으로 도출된 전문 리서치 데이터를 확인하세요.
+                Gemini 3 Flash의 초고속 분석으로 도출된 전문 리서치 데이터를 확인하세요.
               </p>
               {status !== "시스템 대기 중" && (
                 <div className="mt-8 px-4 py-2 bg-indigo-50 text-indigo-600 text-sm font-bold rounded-full inline-block animate-pulse">
@@ -233,15 +223,12 @@ const App: React.FC = () => {
           <span>•</span>
           <span>Real-time Market Data</span>
           <span>•</span>
-          <span>SEO Engine v2.5</span>
+          <span>Static Site Generated</span>
         </div>
         <div className="bg-slate-100/50 p-6 rounded-3xl max-w-2xl mx-auto border border-slate-200">
           <p className="text-slate-500 text-[11px] leading-relaxed font-bold italic">
             Disclaimer: 본 리포트의 모든 내용은 AI에 의해 자동 생성되며, 실제 시장 데이터와 다를 수 있습니다. 
             모든 투자의 최종 결정과 책임은 투자자 본인에게 있습니다.
-          </p>
-          <p className="mt-4 text-[9px] text-slate-400 font-medium">
-            최적화된 경험을 위해 Google Chrome 브라우저 사용을 권장합니다.
           </p>
         </div>
       </footer>
