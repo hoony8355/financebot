@@ -11,10 +11,17 @@ const SYSTEM_INSTRUCTION = `
 
 function extractJson(text) {
   try {
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    return jsonMatch ? JSON.parse(jsonMatch[0]) : JSON.parse(text);
+    // 텍스트 내에서 가장 바깥쪽의 { } 블록을 찾음
+    const firstBrace = text.indexOf('{');
+    const lastBrace = text.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1) {
+      const jsonStr = text.substring(firstBrace, lastBrace + 1);
+      return JSON.parse(jsonStr);
+    }
+    return JSON.parse(text);
   } catch (e) {
-    throw new Error("JSON 파싱 에러");
+    console.error("JSON Parsing Error Content:", text);
+    throw new Error("응답에서 유효한 JSON을 찾을 수 없습니다.");
   }
 }
 
@@ -58,8 +65,8 @@ async function run() {
 
   try {
     const response = await generateWithRetry(ai, {
-      model: 'gemini-2.5-flash-latest',
-      contents: `Market: ${market}, Excluded: ${excluded.join(',')}. 최신 정보를 검색하여 심층 분석 리포트를 작성하라.`,
+      model: 'gemini-2.5-flash', // 유료 논란 없는 2.5 Flash 모델로 명시
+      contents: `Market: ${market}, Excluded: ${excluded.join(',')}. 최신 이슈를 검색하여 심층 분석 리포트를 JSON으로 작성하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         tools: [{ googleSearch: {} }],
@@ -73,7 +80,9 @@ async function run() {
     const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
     if (chunks) {
       chunks.forEach(chunk => {
-        if (chunk.web?.uri) sources.push({ title: chunk.web.title, uri: chunk.web.uri });
+        if (chunk.web?.uri) {
+          sources.push({ title: chunk.web.title || "참고 자료", uri: chunk.web.uri });
+        }
       });
     }
 

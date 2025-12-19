@@ -5,9 +5,11 @@ import { AnalysisReport, GroundingSource } from "./types";
 
 const extractJson = (text: string) => {
   try {
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      return JSON.parse(jsonMatch[0]);
+    const firstBrace = text.indexOf('{');
+    const lastBrace = text.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1) {
+      const jsonStr = text.substring(firstBrace, lastBrace + 1);
+      return JSON.parse(jsonStr);
     }
     return JSON.parse(text);
   } catch (e) {
@@ -25,11 +27,10 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       : '미국 NASDAQ/NYSE 종목 중 현재 글로벌 트렌드를 주도하는 종목 1개를 선정하라.';
     
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash-latest',
+      model: 'gemini-2.5-flash', // 무료 티어에 최적화된 모델
       contents: `${marketPrompt} 제외 대상: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 형식으로만 응답하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
-        // responseMimeType: "application/json", // Search 도구 사용 시 에러 유발하므로 제거
         tools: [{ googleSearch: {} }],
       },
     });
