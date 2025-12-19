@@ -1,2 +1,180 @@
-
-[]
+[
+  {
+    "ReportTitle": "대한민국 시장 분석 리포트 (실시간 업데이트)",
+    "Date": "2025년 12월 19일 (금) 06:26 AM UTC",
+    "MarketOverview": {
+      "KOSPI": {
+        "CurrentPrice": "4,022.72",
+        "DailyChangePercentage": "+0.62%",
+        "DayRange": "3,997.05 - 4,055.78",
+        "FiftyTwoWeekRange": "2,284.72 - 4,226.75",
+        "Source": ""
+      },
+      "KOSDAQ": {
+        "CurrentPrice": "915.76",
+        "DailyChangePercentage": "+1.60%",
+        "DayRange": "899.25 - 916.43",
+        "FiftyTwoWeekRange": "637.55 - 943.19",
+        "Source": ""
+      }
+    },
+    "KeyEconomicIndicators": {
+      "BankOfKoreaBaseRate": {
+        "Rate": "2.50%",
+        "LastDecisionDate": "2025년 11월 (4회 연속 동결)",
+        "Source": ""
+      },
+      "InflationRate": {
+        "CPI_YoY_November_2025": "2.4%",
+        "CPI_MoM_October_to_November_2025": "-0.19%",
+        "CoreInflation_YoY_November_2025": "2.0%",
+        "Forecast2025": "2.1% (BoK)",
+        "Forecast2026": "2.1% (BoK, if KRW/USD remains at ~1,470)",
+        "Source": ""
+      },
+      "GDPGrowthRate": {
+        "Q3_2025_QoQ": "1.30%",
+        "Q3_2025_YoY": "1.7%",
+        "AnnualForecast2025": "1.0% (BoK revised)",
+        "AnnualForecast2026": "1.8% (BoK revised)",
+        "Source": ""
+      }
+    },
+    "Currency": {
+      "KRW_USD_ExchangeRate": {
+        "CurrentRate": "1 USD = 1,473.98 KRW (2025년 12월 18일 23:49 UTC 기준)",
+        "RecentTrend": "원화 약세 지속 (목요일 1,482.1원/달러 기록, 8개월래 최저치)",
+        "BOK_Meeting_Impact": "한국은행은 12월 19일 외환시장 환율 논의를 위한 내부 회의를 개최할 예정이며, 원화 약세가 2026년 인플레이션 상승을 초래할 수 있다고 경고함.",
+        "Source": ""
+      }
+    },
+    "RecentMarketNews": [
+      {
+        "Headline": "AI 거품 우려로 인한 주식 시장 변동성",
+        "Summary": "12월 19일 목요일, 인공지능(AI) 밸류에이션에 대한 우려가 재부상하면서 코스피가 급락 출발했습니다. 이는 오라클의 주요 투자자가 데이터 센터 프로젝트에서 철수했다는 보도 이후 미국 주요 주가지수 하락에 영향을 받았습니다.",
+        "Date": "2025년 12월 18일"
+      },
+      {
+        "Headline": "스테이블코인 관련 주식 상승 및 규제 기대감",
+        "Summary": "한국의 암호화폐 및 블록체인 관련 주식들이 스테이블코인 발행 합법화에 대한 정부의 움직임에 힘입어 상승하고 있습니다. 다날과 같은 기업들은 관련 법안 통과 시 가장 큰 수혜를 입을 것으로 예상됩니다.",
+        "Date": "2025년 12월 18일"
+      },
+      {
+        "Headline": "코스피 3주 연속 상승세 마감 예상",
+        "Summary": "한국 주식 시장은 칩 제조업체인 SK하이닉스가 미국 동종업체의 상승세를 추종함에도 불구하고 3주 연속 상승세를 마감할 것으로 예상됩니다.",
+        "Date": "2025년 12월 18일"
+      },
+      {
+        "Headline": "단기 공매도 금지 조치",
+        "Summary": "한국은 이전에 공매도를 금지한 바 있습니다.",
+        "Date": "불특정"
+      }
+    ],
+    "AnalystComment": "2025년 12월 19일 현재 대한민국 시장은 주요 지수가 소폭 상승하며 긍정적인 모습을 보이지만, AI 관련 기술주 밸류에이션에 대한 우려와 원화 약세가 지속되는 등 불안정한 요인들도 상존합니다. 한국은행은 원화 약세가 향후 인플레이션에 미칠 영향에 대해 면밀히 주시하고 있습니다. 스테이블코인 규제 완화에 대한 기대감은 관련 기술주에 긍정적인 영향을 미치고 있습니다.",
+    "market": "KR",
+    "id": "report-1766125586695",
+    "timestamp": "2025-12-19T06:26:26.695Z",
+    "sources": [
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIZp83e_5V08BhR5Ya2yVIC4_fCjRLHfmnq3pPvGOuRfacJbiJvAktS0wkbqnwNcTJtze9gLC94C-MiwL6eEzpeHDSSUk9upOd9mv-EzOmY1E5T12qcOfM8buNZ46PvMQ="
+      },
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd7xGZ0e-OYgHefqMwUijJRvwDTQasR4zn0VGSM6_b7XxsS5xQNhJLonC76xxNm0e0lt1gh7zIXrndvKPKKYPLkvu4_1_h2KzDeSKRlqivjt4C5haMHH-dA_9nHM9haaG2"
+      },
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTz9lLNS1WfepuyIgTmLx952bSoWOCTun48DlsqhpQ_H4yAU1PncDFt29mdvL4SLvnaDbpqcFgfpgyT76ip4IEiDtEH4Q09sRCIF7mak84hgl6d5Wj_X45WscZpTaLJaCF3Q=="
+      },
+      {
+        "title": "tradingeconomics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf-4ZbAY0IY9TVoWwr5D54uUKXLKokJGHEH5zEHIxNK5o3Oy8467_rcgT-bXnx5NdsPwzGpoc1NlAULyZkh0rZTroIaRM9NUYktZNsAzvp5FzAylqIWrGbbiLC-TSdSf50W3yuPhpW7jIYaaosbfxE"
+      },
+      {
+        "title": "focus-economics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj-J5ky0GwePHhMP_igwIMMOycjQazVdQGi9_6jCcpC95GG_kDSh9BycY2JPmJILZR39YGFFTS7_T3HJ91imVhC7CUBioGofA-mDY1cfbQAnVK-I0MdlpBnqswE07UVBz6UyG-OEr5-kRc47wkb6rBs42s9M68mTOufUjjnME92w=="
+      },
+      {
+        "title": "bok.or.kr",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhZCLeTL97JoDMIOOvvBbeXv_ORrdZXWGbAEiZRfY0LW00W9rBrel2wNctElKMw60lSnYVgmhkkd6IYOcmmspzpkm6pHdgRilzqUjsWVq9mCZEYu-bG7T-VLPagpAp2Ug="
+      },
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmDzoMXnzp3Ky6hnHcsqjPkLCkMnPHqEX8ybFhRsvAfGmHGWOJaNZrcfmRoOTDPJ0p3hZDEkIawlqz6LRndEDEn7S5uVNifJKIvdYgUzpOoAX7MBk5VMojjtskFRvHC4hV_N85BPKXkbnYNBXbfFxUKnyxp-1LvwnvH8foj8BsEOgulMfv2kmRyBXEG9I="
+      },
+      {
+        "title": "macromicro.me",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIqTrKs10cYzxbvBlSnKD_36EYZfUKj6hTa1TmVgSsfnxwijbwVDsqlmEhb8pLq5VQweqaR9GeU-S-nEP5ho9PIZ-S5mgs8fdaqV6QkEPNPeBxOc2SHxdsAFkAYgrkAkCGSkvfWEove3Bb9guDFaebkeSxyNK2WoM="
+      },
+      {
+        "title": "rateinflation.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErnOGc7e0HnbkvSyTJZZ7b01nAkFJEIDgmUKSLodfEAY7a7RJtK35t09Uy6wBjAhHTBFGflN0qNfVWP3mDb7bSavSx9hxlZTBIKMk61vrCwQ_lVOI8MuNqWPbExorecUL5j7lGhUpL2M5k1HuEy55Q89MpbXdUKkknF2S7"
+      },
+      {
+        "title": "tradingeconomics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErNcrQ2QIUxw-wI0eF4SE0gCRCyGavFvTIZPDMJR57hTyG4oLMQHX6xdDmXPs3-nWmYBbuJqcwgVeoJzcAdEowpGMrhV0SRDFlWDQE3-nhcFbcYB-kxt0AyZkKw7dVbUyyp_raei2HjMhB-H2pVkwq"
+      },
+      {
+        "title": "economy.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEvPxkJaUetFKqq0lzOu9K9dHi_dQoluukK8U-eFVbiM1LSfN-CTuN6gK-bqXta--1235Ubcy0OqU0npCeyYdQ4M0iAZbn_MZCvjTpXukFDdZo-3OVa3eOl3avJcTV7o20mFXwxjDEUG1r_I6MIBjyW_bPscT5"
+      },
+      {
+        "title": "focus-economics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0uSEkXCmVwKLjFGh94gbyqgtQhzGWDDUBpRIPkFmJRnrI7lbPOsv-R-zTaEBmpw7r2d-6RE5TJfI0q4Y85S08gAi5eaM2Eb9ZpteARM3f-JVsHIXwvEUiCvPFG8pkZIPnK9mLg0FDb40dGJf9ukFn9tudxpDL8g9aLVTr"
+      },
+      {
+        "title": "chosun.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFswxERx8ZAC3CpRfuQVS50HIbjS7xaXRTNVBPhWB796QRCtSlsJpfK7Vf-ojtmyXNT_ibRgtSSlc1FQuFFmDnW3JU5hfm3LitzWhVyEzI8ibXz8ZW2NSLX_25cLZEFBk1_ZkZX23RsDK2KiWStveZntsj2dcMwNRhNzjYvlqdrzekvUDU="
+      },
+      {
+        "title": "tradingeconomics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFy-hPU9-bU7y5giEYJkA4z2K6qQkp1QroBxDRCCgCKpeaURD5MPP0NblvrOMsHK2_G_2AQdImv7KJuPO6HlT_i_ktAOOKdMukxXpJIfmlpASMAY5FWUjbkJ_RFmWXBg4PhkU9ri_uQKDKXghDjMyfwR0G8-BO"
+      },
+      {
+        "title": "theglobaleconomy.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8WV-hGZC6HXmx79Xm9oyWKjKbwlszO4Zh9Ezk1fTamTbBuqwWuQvlx85cVWZ43U5jpMB5ZzlHceeGgklXUu3J6A0S3ril-rNv7MK0519ZoVF3mkZUTQiCaO1GzmmKXTblv1YlMvQHX9egkaCyPrwxkLI="
+      },
+      {
+        "title": "tradingeconomics.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUlVFqW9WAbHXm92prPszlLG8JGyk--w1bEPYZzuJz5ktvDWFZFdvn5n8cb1215vJNy_PCJekU6fF_nDjIEpt9u6pEJaBnihuNSBrQLcMPj1-iGcfKKDVPka0Q46WWcDHqRHGcXSVgGkeL95aR"
+      },
+      {
+        "title": "ceicdata.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXPuH0dUVSXGw1ArukbESrF3nwSgwDjLewy0zjgksv73LYprBGz4sJzNLp010TnpEtNNOPObckBOP_H4cSRikmPjWSMpS85UnmWOiMYewrQ0xMw49NXufnTa8lYh6tAMKxBwWU9bKpohpZ8mMRQglX01fn9Uw="
+      },
+      {
+        "title": "xe.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTwubPd83kza7Y9RRleuCxy26pxUKwQ7vnxNwuFvGNMdgilK6c3NgJaLPrOfNejwMqeCIau4GoOExjOSQneh9LqLpserVqALvDLhQMFxbZHwhWDhH25fIV3RX0cVfhQyJ0kXcOX8QlysYzbGjm8z_cGmJPfvJLKiHqlUYDQXqcwQ=="
+      },
+      {
+        "title": "xe.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbeehp-bsjk6oGhyEkkZkDPmV9TUMznjvn2_S_d4mdYfZw5daIdrzM53cebs9F5JTCaB7Lh5Qsu97hg1TFURLrDn9OWvs9W6UJ_q_Qi3tKATamq-rjKperPLHnLiBwfUFFDgO5IAFUNoQpkg2h23w7Ch0S8ADgkO76TfddgPu_PQ=="
+      },
+      {
+        "title": "channelnewsasia.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEny5WWOtaMIG-F1BG4c_ysLA_v6TWKaoWf6UBPvB5gYbH6VD4JM0cvaIuuFvYEi5FkME7imuoZBiU9esNFsdTgDiLFFUSffJdKJIcvXVKYakdmcmZ5VbTrkszyQnBy273w6LqJDYc5OhnqkHD4vVojBr9UPjkragwe2Pwwjj7NAEJxYOecJb1laAfQJpgdsPQDkw6o7uNpOBkCixIt9uSGDWzD9w=="
+      },
+      {
+        "title": "koreaherald.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT1ntPUlzSmYRv4BONLiUua_yRAH4na7mUhyOF3XR6JFD_fbOcES6IYHJodrcG1pz-LTqL6yyl3GHAufBlCDnPL2sNQS-MRdio_LJI9J6ivR3iwgO7Jaz-Xb2awMgRpoRqthweKg=="
+      },
+      {
+        "title": "dlnews.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOOe8fzwHxXDlzeOrZsCxStx_Jyvi_sbnopV3FqHyHK-Zd45pi6queu-MqL4uWmHaASQtbn90ni06vqK5q70XeodvqUMSzJk7GFTgphnPxfM8pi9oSfDUNr5J0g-8-V2zO-n5ZGMK5ud-ke13BMz00rIP5MY6rJjfiaKDQDaaI5cGBX1jlyA=="
+      },
+      {
+        "title": "marketscreener.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBfLzrGemOd_uFXKe8BU0RP6SyEphBFyYWp2vYYf5Z0UiS2hS_ogIe36-TgECFATwmRdlZre8HeYQa0coozpmiIe9r0wlsmsBTXYRUkgK75RV_Hfka2e0umrZvPH-204TiTyQ0gX26eGfRuhRT01ZiUhZr6UMpT1n4TuMw73jzaEBf8HT67T4sWVFfvSWLlKGVc3Z4chuVjyh_s29g8OR0gqrUZ7nxSf1IRgWSBg=="
+      },
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_NBbe7_dnh_BOw6weRcxLudOUrSOL_DYyZ7mCqbgbD7uzaFUbMHKNFzK9NK-VpYPEqSh025Kxs267khiWOlfe8TWGuDQxcr1lzue27qaoLxUZeR3ZIYXBDqYvp2JlBP_V"
+      },
+      {
+        "title": "investing.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV56__cRHhDVCY9CVrcToCFTwBQFK0-f3GuylIxnL_gxehLhsVQ-AmqJlbo5NdhNG5XJ_jETKAGJIkwqc3ZKcNgtsmfl4MHOBJIf5OK9coYxfeXrM5tLlUsi-enVVF0OAh"
+      }
+    ]
+  }
+]
