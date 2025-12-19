@@ -32,8 +32,5 @@ yarn-error.log*
 Thumbs.db
 
 # Project specific
-data/
+# data/ 를 제거하여 자동화 결과물이 저장소에 반영되게 함
 posts/
-
-# GitHub Actions (Protecting manually created workflows)
-.github/
