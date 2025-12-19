@@ -3,7 +3,8 @@ import { GoogleGenAI } from "@google/genai";
 import { SYSTEM_INSTRUCTION } from "./constants";
 import { AnalysisReport, GroundingSource } from "./types";
 
-const extractJson = (text: string) => {
+const extractJson = (text: string | undefined) => {
+  if (!text) throw new Error("분석 데이터가 생성되지 않았습니다.");
   try {
     const firstBrace = text.indexOf('{');
     const lastBrace = text.lastIndexOf('}');
@@ -14,7 +15,7 @@ const extractJson = (text: string) => {
     return JSON.parse(text);
   } catch (e) {
     console.error("JSON 파싱 실패:", text);
-    throw new Error("모델 응답 형식이 올바르지 않습니다.");
+    throw new Error("모델 응답의 형식이 올바르지 않습니다.");
   }
 };
 
@@ -25,19 +26,24 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
   for (let i = 0; i < retries; i++) {
     try {
       const marketPrompt = market === 'KR' 
-        ? '대한민국 KOSPI/KOSDAQ 종목 중 현재 가장 뜨거운 종목 1개를 선정하라.' 
-        : '미국 NASDAQ/NYSE 종목 중 현재 글로벌 트렌드를 주도하는 종목 1개를 선정하라.';
+        ? '대한민국 증시에서 현재 거래량이 급증하거나 이슈가 있는 종목 1개를 선정하라.' 
+        : '미국 증시에서 현재 기술적/실적 이슈로 주목받는 종목 1개를 선정하라.';
       
       const response = await ai.models.generateContent({
         model: 'gemini-2.5-flash',
-        contents: `${marketPrompt} 제외 대상: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 형식으로만 응답하라.`,
+        contents: `${marketPrompt} 제외 종목: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 구조로만 응답하라.`,
         config: {
           systemInstruction: SYSTEM_INSTRUCTION,
           tools: [{ googleSearch: {} }],
         },
       });
 
-      const reportData = extractJson(response.text || "{}");
+      let responseText = response.text;
+      if (!responseText && response.candidates?.[0]?.content?.parts) {
+        responseText = response.candidates[0].content.parts.find((p: any) => p.text)?.text;
+      }
+
+      const reportData = extractJson(responseText);
       
       const sources: GroundingSource[] = [];
       const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
@@ -57,14 +63,14 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
         sources: sources.length > 0 ? sources : undefined
       };
     } catch (error: any) {
-      const isRetryable = error.message.includes('503') || error.message.includes('overloaded') || error.message.includes('429');
+      const isRetryable = error.message?.includes('503') || error.message?.includes('overloaded') || error.message?.includes('429');
       if (isRetryable && i < retries - 1) {
         await new Promise(r => setTimeout(r, 2000 * (i + 1)));
         continue;
       }
       console.error(error);
-      throw new Error(error.message || "분석 중 오류 발생");
+      throw new Error(error.message || "분석 프로세스 도중 오류 발생");
     }
   }
-  throw new Error("최대 재시도 횟수를 초과했습니다.");
+  throw new Error("서버 응답 지연으로 분석을 완료하지 못했습니다.");
 };

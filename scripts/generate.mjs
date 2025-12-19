@@ -10,6 +10,9 @@ const SYSTEM_INSTRUCTION = `
 `;
 
 function extractJson(text) {
+  if (!text) {
+    throw new Error("모델로부터 수신된 텍스트 응답이 없습니다.");
+  }
   try {
     const firstBrace = text.indexOf('{');
     const lastBrace = text.lastIndexOf('}');
@@ -19,7 +22,7 @@ function extractJson(text) {
     }
     return JSON.parse(text);
   } catch (e) {
-    console.error("JSON Parsing Error Content:", text);
+    console.error("JSON Parsing Error. Original Text:", text);
     throw new Error("응답에서 유효한 JSON을 찾을 수 없습니다.");
   }
 }
@@ -38,9 +41,8 @@ async function generateWithRetry(ai, payload, retries = 5) {
         error.message.includes('overloaded');
 
       if (isRetryable && i < retries - 1) {
-        // 지수 백오프: 20초, 40초, 60초... 순으로 대기 시간 증가
         const wait = (i + 1) * 20000;
-        console.log(`Model busy or rate limited (Attempt ${i + 1}/${retries}). Waiting ${wait/1000}s...`);
+        console.log(`Model busy (Attempt ${i + 1}/${retries}). Waiting ${wait/1000}s...`);
         await new Promise(r => setTimeout(r, wait));
         continue;
       }
@@ -76,16 +78,21 @@ async function run() {
   try {
     const response = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
-      contents: `Market: ${market}, Excluded: ${excluded.join(',')}. 최신 이슈를 검색하여 심층 분석 리포트를 JSON으로 작성하라.`,
+      contents: `Market: ${market}, Excluded: ${excluded.join(',')}. 최신 실시간 정보를 검색하여 전문적인 분석 리포트를 { ... } 형태의 JSON 데이터로만 작성하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         tools: [{ googleSearch: {} }],
       },
     });
 
-    const reportData = extractJson(response.text);
+    // response.text가 없을 경우 parts에서 수동 추출
+    let responseText = response.text;
+    if (!responseText && response.candidates?.[0]?.content?.parts) {
+      responseText = response.candidates[0].content.parts.find(p => p.text)?.text;
+    }
+
+    const reportData = extractJson(responseText);
     
-    // 검색 출처 추출
     const sources = [];
     const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
     if (chunks) {
@@ -108,7 +115,7 @@ async function run() {
     fs.writeFileSync(reportsPath, JSON.stringify(reports, null, 2));
     console.log(`Successfully generated: ${newReport.ticker}`);
   } catch (error) {
-    console.error("Execution failed after retries:", error);
+    console.error("Execution failed:", error);
     process.exit(1);
   }
 }

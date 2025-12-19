@@ -1,10 +1,10 @@
 
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { discoverAndAnalyzeStock } from './geminiService.ts';
 import { AnalysisReport } from './types.ts';
 import ArticleView from './components/ArticleView.tsx';
 
-const App: React.FC = () => {
+const App = () => {
   const [reports, setReports] = useState<AnalysisReport[]>([]);
   const [activeReport, setActiveReport] = useState<AnalysisReport | null>(null);
   const [status, setStatus] = useState<string>("시스템 대기 중");
@@ -20,7 +20,7 @@ const App: React.FC = () => {
           fetchedReports = await response.json();
         }
       } catch (e) {
-        console.warn("데이터 로드 실패, 로컬 스토리지 확인");
+        console.warn("Static data load failed");
       }
 
       const saved = localStorage.getItem('ai_blog_v2_reports');
@@ -48,7 +48,7 @@ const App: React.FC = () => {
   }, []);
 
   const updateMetaTags = (report: AnalysisReport) => {
-    document.title = `${report.title} | FinanceAI Pro 분석`;
+    document.title = `${report.title} | FinanceAI Pro`;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', report.summary);
   };
@@ -56,16 +56,29 @@ const App: React.FC = () => {
   const handleNavigateToReport = (report: AnalysisReport) => {
     setActiveReport(report);
     updateMetaTags(report);
-    const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?id=${report.id}`;
-    window.history.pushState({ path: newUrl }, '', newUrl);
+    
+    // pushState 오류 방지: blob: 이나 특수 도메인 환경 대응
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.set('id', report.id);
+      window.history.pushState({ path: url.toString() }, '', url.toString());
+    } catch (e) {
+      console.warn("History pushState is restricted in this environment.");
+    }
     window.scrollTo(0, 0);
   };
 
   const handleBackToFeed = () => {
     setActiveReport(null);
     document.title = "FinanceAI Pro | 실시간 글로벌 증시 분석";
-    const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
-    window.history.pushState({ path: newUrl }, '', newUrl);
+    
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('id');
+      window.history.pushState({ path: url.toString() }, '', url.toString());
+    } catch (e) {
+      console.warn("History pushState is restricted.");
+    }
   };
 
   const executeAutoPost = useCallback(async () => {
@@ -77,7 +90,7 @@ const App: React.FC = () => {
       const now = new Date();
       const hour = now.getHours();
       const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
-      const excludedTickers = reports.slice(0, 5).map(r => r.ticker);
+      const excludedTickers = reports.slice(0, 10).map(r => r.ticker);
 
       const newReport = await discoverAndAnalyzeStock(market, excludedTickers);
       
@@ -88,7 +101,7 @@ const App: React.FC = () => {
       setStatus(`발행 완료: ${newReport.ticker}`);
     } catch (err: any) {
       console.error(err);
-      setStatus("분석 중 오류가 발생했습니다.");
+      setStatus(err.message || "분석 중 오류가 발생했습니다.");
     } finally {
       setIsGenerating(false);
     }
@@ -154,8 +167,8 @@ const App: React.FC = () => {
                 AI Autonomous <span className="text-indigo-600">Stock</span> Research.
               </h1>
               <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                매 3시간마다 GitHub Actions가 자동으로 글로벌 시장을 스캔하고<br/> 
-                SEO에 최적화된 심층 분석 리포트를 영구 발행합니다.
+                매 3시간마다 자동으로 글로벌 시장을 스캔하고<br/> 
+                SEO에 최적화된 심층 분석 리포트를 발행합니다.
               </p>
               {status !== "시스템 대기 중" && (
                 <div className="mt-8 px-4 py-2 bg-indigo-50 text-indigo-600 text-sm font-bold rounded-full inline-block animate-pulse border border-indigo-100">
@@ -200,6 +213,11 @@ const App: React.FC = () => {
                   </div>
                 </div>
               ))}
+              {reports.length === 0 && !isGenerating && (
+                <div className="col-span-full py-20 text-center text-slate-400 font-bold">
+                  아직 발행된 리포트가 없습니다. 'LIVE TEST' 버튼을 눌러 첫 분석을 시작해보세요.
+                </div>
+              )}
             </div>
           </>
         )}
