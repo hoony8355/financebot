@@ -34,3 +34,6 @@ Thumbs.db
 # Project specific
 data/
 posts/
+
+# GitHub Actions (Protecting manually created workflows)
+.github/

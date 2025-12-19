@@ -3,11 +3,10 @@ import { GoogleGenAI } from "@google/genai";
 import { SYSTEM_INSTRUCTION } from "./constants";
 import { AnalysisReport } from "./types";
 
-// API Key는 환경변수에서 직접 가져오며, 항상 최신 상태를 유지하기 위해 호출 시마다 인스턴스 생성을 고려할 수 있으나
-// 여기서는 기본적인 싱글톤 방식을 유지하되 정의에 충실함
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
-
 export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStocks: string[]): Promise<AnalysisReport> => {
+  // 호출 시점에 인스턴스를 생성하여 최신 API 키(AI Studio 다이얼로그 반영)를 사용하도록 함
+  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+
   try {
     const marketPrompt = market === 'KR' 
       ? '대한민국 KOSPI 및 KOSDAQ 시장에서 현재 거래량이 급증하거나 테마를 주도하는 핵심 종목 1개를 선정하라.' 
@@ -38,9 +37,15 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
     });
 
     const text = response.text || "{}";
-    const reportData = JSON.parse(text);
+    let reportData;
+    try {
+      reportData = JSON.parse(text);
+    } catch (e) {
+      console.error("JSON Parsing Error:", text);
+      throw new Error("AI가 유효한 JSON 형식을 반환하지 않았습니다.");
+    }
     
-    // Google Search Grounding 출처 추출 및 본문에 추가
+    // Google Search Grounding 출처 추출
     const groundingChunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
     const sourceLinks = Array.from(new Set(
       groundingChunks
@@ -57,7 +62,7 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       market,
       id: `report-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
       timestamp: new Date().toISOString(),
-      fullContent: reportData.fullContent + sourceSection,
+      fullContent: (reportData.fullContent || "") + sourceSection,
     };
   } catch (error) {
     console.error("AI Stock Analysis Failed:", error);
