@@ -34,6 +34,22 @@ const SYSTEM_INSTRUCTION = `
 }
 `;
 
+async function generateWithRetry(ai, payload, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await ai.models.generateContent(payload);
+      return response;
+    } catch (error) {
+      if (error.message.includes('429') && i < retries - 1) {
+        console.log(`Quota exceeded (429). Retrying in ${5 * (i + 1)} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, 5000 * (i + 1)));
+        continue;
+      }
+      throw error;
+    }
+  }
+}
+
 async function run() {
   const apiKey = process.env.API_KEY;
   if (!apiKey) {
@@ -62,11 +78,11 @@ async function run() {
   const market = (hour >= 9 && hour < 16) ? 'KR' : 'US';
   const excludedTickers = reports.slice(0, 10).map(r => r.ticker);
 
-  console.log(`Analyzing ${market} market...`);
+  console.log(`Analyzing ${market} market with gemini-3-flash-preview...`);
 
   try {
-    const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-preview',
+    const response = await generateWithRetry(ai, {
+      model: 'gemini-3-flash-preview', // 쿼터 제한이 넉넉한 Flash 모델로 변경
       contents: `[Market: ${market}] 최근 분석 제외: ${excludedTickers.join(', ')}. 현재 시장의 핵심 급등주 또는 이슈 종목 1개를 선정하여 SEO 최적화 리포트를 JSON으로 작성하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
@@ -83,13 +99,11 @@ async function run() {
       timestamp: new Date().toISOString()
     };
 
-    // 최신 리포트를 맨 앞에 추가 (누적 방식)
-    reports = [newReport, ...reports].slice(0, 500); // 최대 500개 보관
-
+    reports = [newReport, ...reports].slice(0, 500);
     fs.writeFileSync(reportsPath, JSON.stringify(reports, null, 2));
     console.log(`Successfully generated and stored: ${newReport.ticker}`);
   } catch (error) {
-    console.error("Failed:", error);
+    console.error("Failed final attempt:", error);
     process.exit(1);
   }
 }

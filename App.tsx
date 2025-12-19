@@ -11,7 +11,6 @@ const App: React.FC = () => {
   const [isGenerating, setIsGenerating] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number>(0);
 
-  // 1. URL 파라미터 확인 및 데이터 로드
   useEffect(() => {
     const initApp = async () => {
       let fetchedReports: AnalysisReport[] = [];
@@ -35,7 +34,6 @@ const App: React.FC = () => {
 
       setReports(fetchedReports);
 
-      // URL 파라미터(?id=...)가 있으면 해당 리포트 즉시 노출 (SEO용)
       const params = new URLSearchParams(window.location.search);
       const reportId = params.get('id');
       if (reportId) {
@@ -49,7 +47,6 @@ const App: React.FC = () => {
     initApp();
   }, []);
 
-  // SEO를 위한 메타 태그 업데이트 함수
   const updateMetaTags = (report: AnalysisReport) => {
     document.title = `${report.title} | FinanceAI Pro 분석`;
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -59,7 +56,6 @@ const App: React.FC = () => {
   const handleNavigateToReport = (report: AnalysisReport) => {
     setActiveReport(report);
     updateMetaTags(report);
-    // URL 변경 (새로고침 없이 파라미터 추가)
     const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?id=${report.id}`;
     window.history.pushState({ path: newUrl }, '', newUrl);
     window.scrollTo(0, 0);
@@ -98,7 +94,6 @@ const App: React.FC = () => {
     }
   }, [reports, isGenerating]);
 
-  // 카운트다운 타이머
   useEffect(() => {
     const timer = setInterval(() => {
       const now = new Date();

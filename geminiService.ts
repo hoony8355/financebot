@@ -4,8 +4,6 @@ import { SYSTEM_INSTRUCTION } from "./constants";
 import { AnalysisReport } from "./types";
 
 export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStocks: string[]): Promise<AnalysisReport> => {
-  // Always obtain the API key exclusively from the environment variable process.env.API_KEY.
-  // Create a new client instance right before making an API call.
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 
   try {
@@ -13,19 +11,16 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       ? '대한민국 KOSPI/KOSDAQ 종목 중 현재 가장 뜨거운 종목 1개를 선정하라.' 
       : '미국 NASDAQ/NYSE 종목 중 현재 글로벌 트렌드를 주도하는 종목 1개를 선정하라.';
     
-    // Using gemini-3-pro-preview for complex reasoning and data extraction tasks.
     const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-preview',
+      model: 'gemini-3-flash-preview', // Flash 모델로 변경 (무료 티어 안정성)
       contents: `${marketPrompt} 제외 대상: ${excludedStocks.join(', ')}.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         responseMimeType: "application/json",
-        // Enable Google Search to find current stock trends and data.
         tools: [{ googleSearch: {} }],
       },
     });
 
-    // Directly access the text property of the response object.
     const text = response.text || "{}";
     const reportData = JSON.parse(text);
     
