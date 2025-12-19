@@ -8,6 +8,11 @@ export interface StockData {
   market: 'KR' | 'US';
 }
 
+export interface GroundingSource {
+  title: string;
+  uri: string;
+}
+
 export interface AnalysisReport {
   id: string;
   title: string;
@@ -39,6 +44,7 @@ export interface AnalysisReport {
   }[];
   fullContent: string;
   faqs: { question: string; answer: string; }[];
+  sources?: GroundingSource[]; // 실시간 검색 근거 추가
 }
 
 export interface BlogSettings {

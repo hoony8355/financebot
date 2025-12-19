@@ -53,11 +53,6 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
         </div>
       </header>
 
-      {/* [광고] 상단 광고 영역 */}
-      <div className="ads-placeholder">
-        AD SLOT: ARTICLE TOP
-      </div>
-
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
         <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
           <p className="text-[10px] text-slate-400 font-black uppercase mb-2">Target Price</p>
@@ -94,11 +89,6 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
         <StockChart basePrice={report.price} trend={report.technicalAnalysis.trend} />
       </div>
 
-      {/* [광고] 중간 광고 영역 */}
-      <div className="ads-placeholder">
-        AD SLOT: MID-CONTENT
-      </div>
-
       <div className="prose prose-slate max-w-none mb-20 px-2 md:px-8">
         <div className="mb-12">
           <h2 className="text-2xl font-black text-slate-900 mb-6">Macro context & Sector Outlook</h2>
@@ -110,34 +100,26 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
           dangerouslySetInnerHTML={{ __html: renderedContent }} 
         />
 
-        <div className="bg-white border-2 border-slate-100 rounded-[2rem] overflow-hidden my-12 p-8">
-           <h2 className="text-xl font-black text-slate-900 mb-6 mt-0">Valuation & Technical Outlook</h2>
-           <p className="text-slate-600 mb-8">{report.valuationCheck}</p>
-           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 bg-indigo-50 rounded-2xl border border-indigo-100">
-                <h3 className="text-sm font-black text-indigo-900 uppercase mb-4 tracking-widest mt-0">Support & Resistance</h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between font-black text-indigo-900">
-                    <span className="text-indigo-600/70 text-xs font-bold">SUPPORT</span>
-                    <span>{report.technicalAnalysis.support.toLocaleString()} {report.currency}</span>
-                  </div>
-                  <div className="flex justify-between font-black text-indigo-900">
-                    <span className="text-indigo-600/70 text-xs font-bold">RESISTANCE</span>
-                    <span>{report.technicalAnalysis.resistance.toLocaleString()} {report.currency}</span>
-                  </div>
-                </div>
-              </div>
-              <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
-                <h3 className="text-sm font-black text-emerald-900 uppercase mb-4 tracking-widest mt-0">Signal Status</h3>
-                <p className="text-emerald-800 text-sm font-medium m-0">{report.technicalAnalysis.details}</p>
-              </div>
-           </div>
-        </div>
-
-        {/* [광고] 하단 광고 영역 */}
-        <div className="ads-placeholder">
-          AD SLOT: BOTTOM-CONTENT
-        </div>
+        {/* [데이터 근거] 검색 출처 섹션 */}
+        {report.sources && report.sources.length > 0 && (
+          <div className="mt-16 p-8 bg-slate-50 rounded-3xl border border-slate-100 not-prose">
+            <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-6">AI Research Sources</h3>
+            <div className="flex flex-wrap gap-3">
+              {report.sources.map((src, i) => (
+                <a 
+                  key={i} 
+                  href={src.uri} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition-all flex items-center gap-2"
+                >
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                  {src.title || "Reference"}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         <section className="bg-slate-900 rounded-[3rem] p-10 md:p-16 text-white mt-20 relative overflow-hidden not-prose">
           <div className="relative z-10">
