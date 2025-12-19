@@ -20,43 +20,51 @@ const extractJson = (text: string) => {
 
 export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStocks: string[]): Promise<AnalysisReport> => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+  const retries = 3;
 
-  try {
-    const marketPrompt = market === 'KR' 
-      ? '대한민국 KOSPI/KOSDAQ 종목 중 현재 가장 뜨거운 종목 1개를 선정하라.' 
-      : '미국 NASDAQ/NYSE 종목 중 현재 글로벌 트렌드를 주도하는 종목 1개를 선정하라.';
-    
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash', // 무료 티어에 최적화된 모델
-      contents: `${marketPrompt} 제외 대상: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 형식으로만 응답하라.`,
-      config: {
-        systemInstruction: SYSTEM_INSTRUCTION,
-        tools: [{ googleSearch: {} }],
-      },
-    });
-
-    const reportData = extractJson(response.text || "{}");
-    
-    // 검색 출처 추출
-    const sources: GroundingSource[] = [];
-    const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
-    if (chunks) {
-      chunks.forEach((chunk: any) => {
-        if (chunk.web && chunk.web.uri) {
-          sources.push({ title: chunk.web.title || "참고 자료", uri: chunk.web.uri });
-        }
+  for (let i = 0; i < retries; i++) {
+    try {
+      const marketPrompt = market === 'KR' 
+        ? '대한민국 KOSPI/KOSDAQ 종목 중 현재 가장 뜨거운 종목 1개를 선정하라.' 
+        : '미국 NASDAQ/NYSE 종목 중 현재 글로벌 트렌드를 주도하는 종목 1개를 선정하라.';
+      
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: `${marketPrompt} 제외 대상: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 형식으로만 응답하라.`,
+        config: {
+          systemInstruction: SYSTEM_INSTRUCTION,
+          tools: [{ googleSearch: {} }],
+        },
       });
+
+      const reportData = extractJson(response.text || "{}");
+      
+      const sources: GroundingSource[] = [];
+      const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
+      if (chunks) {
+        chunks.forEach((chunk: any) => {
+          if (chunk.web && chunk.web.uri) {
+            sources.push({ title: chunk.web.title || "참고 자료", uri: chunk.web.uri });
+          }
+        });
+      }
+      
+      return {
+        ...reportData,
+        market,
+        id: `report-${Date.now()}`,
+        timestamp: new Date().toISOString(),
+        sources: sources.length > 0 ? sources : undefined
+      };
+    } catch (error: any) {
+      const isRetryable = error.message.includes('503') || error.message.includes('overloaded') || error.message.includes('429');
+      if (isRetryable && i < retries - 1) {
+        await new Promise(r => setTimeout(r, 2000 * (i + 1)));
+        continue;
+      }
+      console.error(error);
+      throw new Error(error.message || "분석 중 오류 발생");
     }
-    
-    return {
-      ...reportData,
-      market,
-      id: `report-${Date.now()}`,
-      timestamp: new Date().toISOString(),
-      sources: sources.length > 0 ? sources : undefined
-    };
-  } catch (error: any) {
-    console.error(error);
-    throw new Error(error.message || "분석 중 오류 발생");
   }
+  throw new Error("최대 재시도 횟수를 초과했습니다.");
 };

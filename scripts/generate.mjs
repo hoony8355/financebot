@@ -11,7 +11,6 @@ const SYSTEM_INSTRUCTION = `
 
 function extractJson(text) {
   try {
-    // 텍스트 내에서 가장 바깥쪽의 { } 블록을 찾음
     const firstBrace = text.indexOf('{');
     const lastBrace = text.lastIndexOf('}');
     if (firstBrace !== -1 && lastBrace !== -1) {
@@ -25,15 +24,23 @@ function extractJson(text) {
   }
 }
 
-async function generateWithRetry(ai, payload, retries = 3) {
+async function generateWithRetry(ai, payload, retries = 5) {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await ai.models.generateContent(payload);
       return response;
     } catch (error) {
-      if ((error.message.includes('429') || error.message.includes('RESOURCE_EXHAUSTED')) && i < retries - 1) {
+      const isRetryable = 
+        error.message.includes('429') || 
+        error.message.includes('503') || 
+        error.message.includes('RESOURCE_EXHAUSTED') || 
+        error.message.includes('UNAVAILABLE') || 
+        error.message.includes('overloaded');
+
+      if (isRetryable && i < retries - 1) {
+        // 지수 백오프: 20초, 40초, 60초... 순으로 대기 시간 증가
         const wait = (i + 1) * 20000;
-        console.log(`Quota limit. Waiting ${wait/1000}s...`);
+        console.log(`Model busy or rate limited (Attempt ${i + 1}/${retries}). Waiting ${wait/1000}s...`);
         await new Promise(r => setTimeout(r, wait));
         continue;
       }
@@ -44,7 +51,10 @@ async function generateWithRetry(ai, payload, retries = 3) {
 
 async function run() {
   const apiKey = process.env.API_KEY;
-  if (!apiKey) process.exit(1);
+  if (!apiKey) {
+    console.error("API_KEY is missing");
+    process.exit(1);
+  }
 
   const ai = new GoogleGenAI({ apiKey });
   const reportsDir = path.join(process.cwd(), 'data');
@@ -65,7 +75,7 @@ async function run() {
 
   try {
     const response = await generateWithRetry(ai, {
-      model: 'gemini-2.5-flash', // 유료 논란 없는 2.5 Flash 모델로 명시
+      model: 'gemini-2.5-flash',
       contents: `Market: ${market}, Excluded: ${excluded.join(',')}. 최신 이슈를 검색하여 심층 분석 리포트를 JSON으로 작성하라.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
@@ -98,7 +108,7 @@ async function run() {
     fs.writeFileSync(reportsPath, JSON.stringify(reports, null, 2));
     console.log(`Successfully generated: ${newReport.ticker}`);
   } catch (error) {
-    console.error("Execution failed:", error);
+    console.error("Execution failed after retries:", error);
     process.exit(1);
   }
 }
