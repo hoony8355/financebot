@@ -20,6 +20,8 @@ export interface AnalysisReport {
   sentimentScore: number;
   fearGreedIndex: number;
   targetPrice: number;
+  investmentRating: 'Strong Buy' | 'Buy' | 'Hold' | 'Sell';
+  macroContext: string;
   reasons: string[];
   valuationCheck: string;
   technicalAnalysis: {
@@ -28,12 +30,18 @@ export interface AnalysisReport {
     trend: '상승' | '하락' | '횡보';
     details: string;
   };
-  peers: { name: string; symbol: string; price: number; performance: string; }[];
+  peers: { 
+    name: string; 
+    symbol: string; 
+    price: number; 
+    performance: string;
+    diffReason: string;
+  }[];
   fullContent: string;
   faqs: { question: string; answer: string; }[];
 }
 
 export interface BlogSettings {
-  lastGeneratedStocks: string[]; // Duplicate prevention list
+  lastGeneratedStocks: string[];
   nextGenerationTime: string;
 }
