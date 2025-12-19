@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinanceAI Pro | 전문 금융 분석 플랫폼</title>
-    <!-- 브라우저 process 에러 방지 폴리필 -->
+    <!-- 브라우저 process 에러 방지 및 환경변수 주입 보호 -->
     <script>
-      window.process = { env: { API_KEY: "" } };
+      window.process = window.process || { env: {} };
+      // 기존에 주입된 API_KEY가 없다면 빈 문자열로 초기화 (ReferenceError 방지)
+      if (!window.process.env.API_KEY) {
+        window.process.env.API_KEY = "";
+      }
     </script>
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -14,11 +14,21 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const checkApiKey = async () => {
+      // 1. 먼저 process.env.API_KEY가 있는지 확인 (Vercel 환경변수 등)
+      if (process.env.API_KEY && process.env.API_KEY !== "") {
+        setNeedsApiKey(false);
+        return;
+      }
+
+      // 2. AI Studio 환경일 경우 다이얼로그 확인
       // @ts-ignore
       if (window.aistudio) {
         // @ts-ignore
         const hasKey = await window.aistudio.hasSelectedApiKey();
         setNeedsApiKey(!hasKey);
+      } else {
+        // 둘 다 없을 경우 키 설정 필요 상태로 간주
+        setNeedsApiKey(true);
       }
     };
     checkApiKey();
@@ -30,6 +40,8 @@ const App: React.FC = () => {
       // @ts-ignore
       await window.aistudio.openSelectKey();
       setNeedsApiKey(false);
+    } else {
+      alert("Vercel 환경변수(API_KEY)를 설정하거나 AI Studio 환경에서 실행해 주세요.");
     }
   };
 
@@ -62,9 +74,15 @@ const App: React.FC = () => {
   const executeAutoPost = useCallback(async () => {
     if (isGenerating) return;
     
-    // @ts-ignore
-    if (needsApiKey && window.aistudio) {
-      await handleSelectKey();
+    // 환경변수도 없고 AI Studio 키 선택도 안된 경우에만 팝업 시도
+    if (needsApiKey && (!process.env.API_KEY || process.env.API_KEY === "")) {
+      // @ts-ignore
+      if (window.aistudio) {
+        await handleSelectKey();
+      } else {
+        setStatus("오류: API 키가 설정되지 않았습니다.");
+        return;
+      }
     }
 
     setIsGenerating(true);
@@ -73,6 +91,7 @@ const App: React.FC = () => {
     try {
       const now = new Date();
       const hour = now.getHours();
+      // 9시~16시 사이면 한국 시장, 그 외는 미국 시장 우선
       const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
       
       const oneWeekAgo = new Date();
@@ -91,7 +110,7 @@ const App: React.FC = () => {
       setStatus(`발행 완료: ${newReport.ticker} (${new Date().toLocaleTimeString()})`);
     } catch (err: any) {
       console.error("Generation failed:", err);
-      setStatus(err.message || "분석 실패: 할당량 또는 네트워크 확인");
+      setStatus(err.message || "분석 실패: 네트워크 또는 API 상태를 확인하세요.");
     } finally {
       setIsGenerating(false);
     }
@@ -116,7 +135,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            {needsApiKey && (
+            {needsApiKey && !process.env.API_KEY && (
               <button 
                 onClick={handleSelectKey}
                 className="px-4 py-2 bg-amber-100 text-amber-700 text-xs font-bold rounded-xl border border-amber-200 hover:bg-amber-200 transition-colors"

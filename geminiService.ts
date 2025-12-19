@@ -4,8 +4,14 @@ import { SYSTEM_INSTRUCTION } from "./constants";
 import { AnalysisReport } from "./types";
 
 export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStocks: string[]): Promise<AnalysisReport> => {
-  // 호출 시점에 인스턴스를 생성하여 최신 API 키(AI Studio 다이얼로그 반영)를 사용하도록 함
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+  const apiKey = process.env.API_KEY;
+  
+  if (!apiKey || apiKey === "") {
+    throw new Error("API 키가 설정되지 않았습니다. Vercel 환경변수 또는 AI Studio 설정을 확인해주세요.");
+  }
+
+  // 매 호출마다 새로운 인스턴스를 생성하여 런타임에 주입된 최신 키를 반영
+  const ai = new GoogleGenAI({ apiKey });
 
   try {
     const marketPrompt = market === 'KR' 
@@ -26,8 +32,9 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       이후 제공된 시스템 인스트럭션에 따라 최고 수준의 SEO 최적화 리포트를 JSON으로 작성하라.
     `;
 
+    // gemini-3-flash-preview는 무료 티어에서 높은 할당량과 빠른 속도를 제공함
     const response = await ai.models.generateContent({
-      model: 'gemini-3-flash-preview', // 무료 티어에서 더 안정적인 작동을 위해 Flash 모델 사용
+      model: 'gemini-3-flash-preview',
       contents: discoveryPrompt,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
@@ -42,10 +49,9 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
       reportData = JSON.parse(text);
     } catch (e) {
       console.error("JSON Parsing Error:", text);
-      throw new Error("AI가 유효한 JSON 형식을 반환하지 않았습니다.");
+      throw new Error("AI가 유효한 분석 데이터를 반환하지 못했습니다. 다시 시도해 주세요.");
     }
     
-    // Google Search Grounding 출처 추출
     const groundingChunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
     const sourceLinks = Array.from(new Set(
       groundingChunks
@@ -66,10 +72,15 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
     };
   } catch (error: any) {
     console.error("AI Stock Analysis Failed:", error);
-    // 무료 티어 할당량 초과 시 구체적인 에러 메시지 처리
+    
     if (error.message?.includes("429") || error.message?.includes("quota")) {
-      throw new Error("무료 API 할당량이 초과되었습니다. 잠시 후 다시 시도하거나 유료 플랜 키를 사용해주세요.");
+      throw new Error("무료 API 사용량 한도를 초과했습니다. 잠시 후(약 1분 뒤) 다시 시도해 주세요.");
     }
-    throw error;
+    
+    if (error.message?.includes("API Key")) {
+      throw new Error("API 키 인증에 실패했습니다. 키가 정확한지 확인해 주세요.");
+    }
+
+    throw new Error(error.message || "알 수 없는 오류가 발생했습니다.");
   }
 };
