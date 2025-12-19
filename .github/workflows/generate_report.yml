@@ -1,18 +1,21 @@
+
 name: Autonomous Financial Report Generator
 
 on:
   schedule:
     - cron: '0 */3 * * *' # 3시간마다 실행
-  workflow_dispatch: # 수동 실행 버튼 제공
+  workflow_dispatch: # 수동 실행 버튼
 
 jobs:
   analyze:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # 깃허브 저장소에 쓰기 권한 부여
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 전체 히스토리를 가져와 push 충돌 방지
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,6 +34,18 @@ jobs:
         run: |
           git config --global user.name "FinanceBot-AI"
           git config --global user.email "bot@finance-ai.pro"
+          
+          # 변경사항 확인
           git add data/reports.json
-          git commit -m "Auto-update: New Financial Analysis Report [skip ci]" || echo "No changes to commit"
-          git push
+          
+          # 변경사항이 있을 때만 커밋 및 푸시 진행
+          if git diff --staged --quiet; then
+            echo "No changes detected in reports.json"
+          else
+            # [skip ci]를 제거하여 Vercel 배포를 트리거함
+            git commit -m "🚀 Auto-update: New Financial Analysis Report"
+            
+            # 다른 프로세스와의 충돌 방지를 위해 리베이스 후 푸시
+            git pull --rebase origin main
+            git push origin main
+          fi
