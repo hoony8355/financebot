@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinanceAI Pro | 전문 금융 분석 플랫폼</title>
-    <!-- 브라우저 process 에러 방지 및 환경변수 주입 보호 -->
+    <title>FinanceAI Pro | 실시간 글로벌 증시 분석</title>
+    <meta name="description" content="AI가 분석하는 실시간 주식 전망 및 기술적 분석 리포트. 글로벌 시장의 핵심 종목을 초정밀 스캔합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="FinanceAI Pro">
+    
+    <!-- 에드센스 코드 (사용자님의 코드로 교체 가능) -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx" crossorigin="anonymous"></script> -->
+
     <script>
       window.process = window.process || { env: {} };
-      // 기존에 주입된 API_KEY가 없다면 빈 문자열로 초기화 (ReferenceError 방지)
       if (!window.process.env.API_KEY) {
         window.process.env.API_KEY = "";
       }
@@ -18,17 +23,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', 'Noto Sans KR', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-        }
+        body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f8fafc; color: #1e293b; }
         .prose h2 { color: #1e293b !important; font-weight: 900 !important; margin-top: 3rem !important; margin-bottom: 1.5rem !important; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.75rem; }
         .prose h3 { color: #334155 !important; font-weight: 800 !important; margin-top: 2rem !important; }
         .prose p { line-height: 1.8 !important; margin-bottom: 1.5rem !important; color: #475569 !important; font-size: 1.05rem; }
         .prose strong { color: #4f46e5 !important; font-weight: 700 !important; }
-        .prose blockquote { border-left-color: #4f46e5 !important; background-color: #f8fafc; padding: 1rem 1.5rem; border-radius: 0.5rem; font-style: normal; }
-        .prose hr { margin-top: 3rem !important; margin-bottom: 3rem !important; border-color: #e2e8f0 !important; }
+        .markdown-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+        .ads-placeholder { background: #f1f5f9; border: 1px dashed #cbd5e1; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 12px; font-weight: bold; margin: 2rem 0; min-height: 100px; }
     </style>
 <script type="importmap">
 {
@@ -41,15 +42,14 @@
     "recharts": "https://esm.sh/recharts@^3.6.0",
     "marked": "https://esm.sh/marked@12.0.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "path": "https://esm.sh/path@^0.12.7",
-    "fs": "https://esm.sh/fs@^0.0.1-security"
+    "fs": "https://esm.sh/fs@^0.0.1-security",
+    "path": "https://esm.sh/path@^0.12.7"
   }
 }
 </script>
 </head>
 <body>
     <div id="root"></div>
-    <!-- 명시적 엔트리 포인트 선언 -->
     <script type="module" src="index.tsx"></script>
 </body>
 </html>
