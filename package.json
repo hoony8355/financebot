@@ -13,7 +13,9 @@
     "react-dom": "^19.2.3",
     "@google/genai": "^1.34.0",
     "recharts": "^3.6.0",
-    "marked": "12.0.0"
+    "marked": "12.0.0",
+    "path": "^0.12.7",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

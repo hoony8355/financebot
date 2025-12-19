@@ -10,53 +10,72 @@ const App: React.FC = () => {
   const [status, setStatus] = useState<string>("시스템 대기 중");
   const [isGenerating, setIsGenerating] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number>(0);
-  const [needsApiKey, setNeedsApiKey] = useState(false);
 
+  // 1. 초기 데이터 로드 (서버에서 생성된 JSON + 로컬 스토리지)
   useEffect(() => {
-    const checkApiKey = async () => {
-      // 1. 먼저 process.env.API_KEY가 있는지 확인 (Vercel 환경변수 등)
-      if (process.env.API_KEY && process.env.API_KEY !== "") {
-        setNeedsApiKey(false);
-        return;
-      }
+    const initData = async () => {
+      let finalReports: AnalysisReport[] = [];
 
-      // 2. AI Studio 환경일 경우 다이얼로그 확인
-      // @ts-ignore
-      if (window.aistudio) {
-        // @ts-ignore
-        const hasKey = await window.aistudio.hasSelectedApiKey();
-        setNeedsApiKey(!hasKey);
-      } else {
-        // 둘 다 없을 경우 키 설정 필요 상태로 간주
-        setNeedsApiKey(true);
-      }
-    };
-    checkApiKey();
-  }, []);
-
-  const handleSelectKey = async () => {
-    // @ts-ignore
-    if (window.aistudio) {
-      // @ts-ignore
-      await window.aistudio.openSelectKey();
-      setNeedsApiKey(false);
-    } else {
-      alert("Vercel 환경변수(API_KEY)를 설정하거나 AI Studio 환경에서 실행해 주세요.");
-    }
-  };
-
-  useEffect(() => {
-    const saved = localStorage.getItem('ai_blog_v2_reports');
-    if (saved) {
+      // 먼저 서버에 저장된 reports.json 시도
       try {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed)) setReports(parsed);
+        const response = await fetch('./data/reports.json');
+        if (response.ok) {
+          finalReports = await response.json();
+        }
       } catch (e) {
-        console.error("Failed to load local reports:", e);
+        console.warn("Server reports not found, falling back to local storage.");
       }
-    }
+
+      // 로컬 스토리지 데이터 합치기 (중복 제거)
+      const saved = localStorage.getItem('ai_blog_v2_reports');
+      if (saved) {
+        try {
+          const localParsed = JSON.parse(saved);
+          const combined = [...finalReports, ...localParsed];
+          // ID 기준으로 중복 제거
+          finalReports = Array.from(new Map(combined.map(item => [item.id, item])).values())
+            .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+        } catch (e) {
+          console.error("Local storage parse error");
+        }
+      }
+
+      setReports(finalReports.slice(0, 100));
+    };
+
+    initData();
   }, []);
 
+  const executeAutoPost = useCallback(async () => {
+    if (isGenerating) return;
+    
+    // API Key handling is external to the application as per security guidelines.
+    // The application must not ask the user for it.
+    setIsGenerating(true);
+    setStatus("AI가 실시간 데이터를 분석 중입니다...");
+
+    try {
+      const now = new Date();
+      const hour = now.getHours();
+      const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
+      const excludedTickers = reports.slice(0, 10).map(r => r.ticker);
+
+      const newReport = await discoverAndAnalyzeStock(market, excludedTickers);
+      
+      const updatedReports = [newReport, ...reports].slice(0, 100);
+      setReports(updatedReports);
+      localStorage.setItem('ai_blog_v2_reports', JSON.stringify(updatedReports));
+      setActiveReport(newReport);
+      setStatus(`발행 완료: ${newReport.ticker}`);
+    } catch (err: any) {
+      console.error(err);
+      setStatus(err.message || "분석 실패");
+    } finally {
+      setIsGenerating(false);
+    }
+  }, [reports, isGenerating]);
+
+  // 타이머 로직 및 렌더링 부분
   useEffect(() => {
     const calculateNextRun = () => {
       const now = new Date();
@@ -65,56 +84,10 @@ const App: React.FC = () => {
       const nextRunSeconds = Math.ceil((currentSeconds + 1) / interval) * interval;
       setTimeLeft(nextRunSeconds - currentSeconds);
     };
-
     calculateNextRun();
     const timer = setInterval(calculateNextRun, 1000);
     return () => clearInterval(timer);
   }, []);
-
-  const executeAutoPost = useCallback(async () => {
-    if (isGenerating) return;
-    
-    // 환경변수도 없고 AI Studio 키 선택도 안된 경우에만 팝업 시도
-    if (needsApiKey && (!process.env.API_KEY || process.env.API_KEY === "")) {
-      // @ts-ignore
-      if (window.aistudio) {
-        await handleSelectKey();
-      } else {
-        setStatus("오류: API 키가 설정되지 않았습니다.");
-        return;
-      }
-    }
-
-    setIsGenerating(true);
-    setStatus("AI가 글로벌 시장 데이터를 스캐닝하는 중...");
-
-    try {
-      const now = new Date();
-      const hour = now.getHours();
-      // 9시~16시 사이면 한국 시장, 그 외는 미국 시장 우선
-      const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
-      
-      const oneWeekAgo = new Date();
-      oneWeekAgo.setDate(now.getDate() - 7);
-      
-      const excludedTickers = reports
-        .filter(r => new Date(r.timestamp) > oneWeekAgo)
-        .map(r => r.ticker);
-
-      const newReport = await discoverAndAnalyzeStock(market, excludedTickers);
-      
-      const updatedReports = [newReport, ...reports].slice(0, 100);
-      setReports(updatedReports);
-      localStorage.setItem('ai_blog_v2_reports', JSON.stringify(updatedReports));
-      setActiveReport(newReport);
-      setStatus(`발행 완료: ${newReport.ticker} (${new Date().toLocaleTimeString()})`);
-    } catch (err: any) {
-      console.error("Generation failed:", err);
-      setStatus(err.message || "분석 실패: 네트워크 또는 API 상태를 확인하세요.");
-    } finally {
-      setIsGenerating(false);
-    }
-  }, [reports, isGenerating, needsApiKey]);
 
   const formatTime = (s: number) => {
     const h = Math.floor(s / 3600);
@@ -133,18 +106,9 @@ const App: React.FC = () => {
             </div>
             <span className="font-black text-2xl text-slate-900 tracking-tight hidden sm:block">FinanceBot <span className="text-indigo-600">Pro</span></span>
           </div>
-
           <div className="flex items-center gap-4">
-            {needsApiKey && !process.env.API_KEY && (
-              <button 
-                onClick={handleSelectKey}
-                className="px-4 py-2 bg-amber-100 text-amber-700 text-xs font-bold rounded-xl border border-amber-200 hover:bg-amber-200 transition-colors"
-              >
-                API 키 설정 필요
-              </button>
-            )}
             <div className="hidden lg:flex flex-col items-end">
-              <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Next Auto Cycle</span>
+              <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Autonomous Cycle</span>
               <span className="text-sm font-mono font-black text-slate-900">{formatTime(timeLeft)}</span>
             </div>
             <button 
@@ -170,12 +134,15 @@ const App: React.FC = () => {
         ) : (
           <>
             <header className="mb-16 text-center max-w-3xl mx-auto">
+              <div className="inline-block px-4 py-1.5 bg-indigo-50 text-indigo-600 text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-6">
+                Autonomous Analysis System
+              </div>
               <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
                 AI Driven <span className="text-indigo-600 underline decoration-indigo-200 underline-offset-8">Financial</span> Intelligence.
               </h1>
               <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                3시간마다 업데이트되는 실시간 시장 스캔 시스템. <br/>
-                Gemini 3 Flash의 초고속 분석으로 도출된 전문 리서치 데이터를 확인하세요.
+                GitHub Actions가 3시간마다 자동으로 생성하는 최신 리포트.<br/>
+                Gemini 3 Pro의 초정밀 시장 스캔 데이터를 확인하세요.
               </p>
               {status !== "시스템 대기 중" && (
                 <div className="mt-8 px-4 py-2 bg-indigo-50 text-indigo-600 text-sm font-bold rounded-full inline-block animate-pulse">
@@ -221,35 +188,12 @@ const App: React.FC = () => {
                 </div>
               ))}
             </div>
-            
-            {reports.length === 0 && (
-              <div className="text-center py-40 bg-white rounded-[4rem] border-2 border-dashed border-slate-100 flex flex-col items-center">
-                <div className="w-24 h-24 bg-slate-50 rounded-full flex items-center justify-center mb-8 text-slate-300">
-                  <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                </div>
-                <h3 className="text-2xl font-black text-slate-900 mb-4">데이터가 비어있습니다</h3>
-                <p className="text-slate-400 font-bold mb-10 max-w-sm">상단의 LIVE TEST 버튼을 눌러 첫 번째 AI 리서치 리포트를 생성하세요.</p>
-              </div>
-            )}
           </>
         )}
       </main>
-
-      <footer className="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200 mt-20 text-center">
-        <p className="text-slate-900 font-black text-2xl mb-4 tracking-tighter">FinanceBot <span className="text-indigo-600">Pro</span></p>
-        <div className="flex justify-center gap-6 mb-8 text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-          <span>Autonomous AI Analysis</span>
-          <span>•</span>
-          <span>Real-time Market Data</span>
-          <span>•</span>
-          <span>Static Site Generated</span>
-        </div>
-        <div className="bg-slate-100/50 p-6 rounded-3xl max-w-2xl mx-auto border border-slate-200">
-          <p className="text-slate-500 text-[11px] leading-relaxed font-bold italic">
-            Disclaimer: 본 리포트의 모든 내용은 AI에 의해 자동 생성되며, 실제 시장 데이터와 다를 수 있습니다. 
-            모든 투자의 최종 결정과 책임은 투자자 본인에게 있습니다.
-          </p>
-        </div>
+      
+      <footer className="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200 mt-20 text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
+        © 2025 FinanceBot Pro • Managed by GitHub Actions • Powered by Gemini AI
       </footer>
     </div>
   );
