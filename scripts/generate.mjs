@@ -101,12 +101,12 @@ async function run() {
   const market = (krHour >= 9 && krHour < 16) ? 'KR' : 'US';
   const excluded = reports.slice(0, 5).map(r => r.ticker).filter(Boolean);
 
-  console.log(`Step 1: Researching market data for ${market}...`);
+  console.log(`Step 1: Researching market data for ${market} using Gemini 2.5 Flash...`);
 
   try {
     // [1단계] 실시간 검색 및 데이터 수집
     const researchResponse = await generateWithRetry(ai, {
-      model: 'gemini-3-flash-preview',
+      model: 'gemini-2.5-flash',
       contents: `${market} 증시에서 현재 가장 주목받는 핫종목 1개를 선정하여 데이터를 추출하라. 제외 종목: ${excluded.join(',')}`,
       config: {
         systemInstruction: RESEARCH_INSTRUCTION,
@@ -121,9 +121,9 @@ async function run() {
     await new Promise(r => setTimeout(r, 20000));
 
     // [2단계] 수집된 데이터를 바탕으로 본문 집필
-    console.log(`Step 2: Writing full article for ${researchData.ticker}...`);
+    console.log(`Step 2: Writing full article for ${researchData.ticker} using Gemini 2.5 Flash...`);
     const writingResponse = await generateWithRetry(ai, {
-      model: 'gemini-3-flash-preview',
+      model: 'gemini-2.5-flash',
       contents: `다음 데이터를 바탕으로 고품질 금융 리포트를 작성하라: ${JSON.stringify(researchData)}`,
       config: {
         systemInstruction: WRITING_INSTRUCTION,
