@@ -1,2 +1,116 @@
-
-[]
+[
+  {
+    "ticker": "071970",
+    "price": 98000,
+    "currency": "KRW",
+    "summary": "HD현대마린엔진은 '통합 HD현대중공업' 출범과 한미 조선업 협력 '마스가' 프로젝트에 따른 실적 확대 기대감으로 주목받고 있습니다. 친환경 이중연료엔진 수요 증가 및 OEM에서 직계약으로의 공급 방식 변화로 수익성 강화가 전망되며, 9천억 원 이상의 수주 잔고를 확보하여 2~3년치 일감을 확보한 상태입니다.",
+    "sentimentScore": 0.85,
+    "fearGreedIndex": 79.9,
+    "targetPrice": 117800,
+    "investmentRating": "Strong Buy",
+    "reasons": [
+      "'통합 HD현대중공업' 출범에 따른 시너지 효과 및 실적 개선 기대감 증대.",
+      "한미 조선업 협력 프로젝트 '마스가(MASGA)'와 같은 정부 정책 모멘텀이 조선업 전반에 긍정적인 영향.",
+      "글로벌 친환경 규제 강화에 따른 이중연료엔진(DF엔진) 수요 급증 및 기존 OEM 방식에서 직계약 방식으로의 전환으로 인한 수익성 강화.",
+      "3분기 말 기준 9천억 원 이상의 견고한 엔진 수주 잔고를 확보하여 2~3년치 안정적인 일감 확보.",
+      "터보차저 국산화 및 생산능력(CAPA) 확대 가능성을 통해 부품 사업 부문의 성장 잠재력."
+    ],
+    "technicalAnalysis": {
+      "support": 85000,
+      "resistance": 100000,
+      "trend": "상승",
+      "details": "최근 2거래일 연속 강세를 보이며 주가가 상승 추세에 있으며, 연초 대비 200% 이상 급등하는 등 꾸준히 우상향 곡선을 그려왔습니다. 다만 단기간 급등에 따른 피로감으로 소폭 조정 가능성도 있으나, 중장기적으로는 긍정적인 시장 환경과 실적 개선 기대감에 힘입어 상승 추세가 유지될 것으로 보입니다. 이전 종가인 85,000원이 단기 지지선으로 작용할 수 있으며, 최근 상승세를 고려할 때 100,000원 선이 저항선으로 예상됩니다."
+    },
+    "peers": [
+      {
+        "name": "한화엔진",
+        "symbol": "082740",
+        "price": 42250,
+        "performance": "+6.02%",
+        "diffReason": "선박 엔진 시장의 주요 경쟁사로, HD현대마린엔진과 친환경 엔진 개발 및 시장 점유율 경쟁 중. 한화엔진 역시 조선업 호황에 따른 수혜를 받고 있으나, HD현대마린엔진의 HD현대그룹 편입으로 인한 시너지 및 그룹 내 캡티브 물량 확보에서 차이가 발생할 수 있습니다."
+      },
+      {
+        "name": "HD한국조선해양",
+        "symbol": "009540",
+        "price": 93000,
+        "performance": "-0.96%",
+        "diffReason": "HD현대마린엔진의 모기업으로, 조선업 전반의 수직계열화를 구축하고 있습니다. HD현대마린엔진은 HD한국조선해양 계열사로서 그룹사 내 시너지를 기대할 수 있으나, HD한국조선해양은 조선업 전체를 아우르는 반면 HD현대마린엔진은 선박 엔진 및 부품에 특화되어 있어 사업 구조 및 성장 동력에 차이가 있습니다."
+      }
+    ],
+    "title": "HD현대마린엔진(071970): 친환경 엔진 시장 선도와 '통합 HD현대중공업' 시너지로 성장 가속화 분석",
+    "macroContext": "글로벌 해상 운송 산업은 기후 변화 대응 및 탄소 중립 목표 달성을 위한 강력한 친환경 규제 압력에 직면해 있습니다. 국제해사기구(IMO)의 탄소 집약도 지수(CII), 에너지 효율 지수(EEXI) 등 환경 규제 강화는 선사들로 하여금 액화천연가스(LNG), 메탄올, 암모니아 등 이중연료(Dual-Fuel, DF) 엔진을 탑재한 친환경 선박 발주를 가속화하는 핵심 동력으로 작용하고 있습니다. 이러한 변화는 선박 엔진 제조업체에게는 새로운 성장 기회를 제공하며, 특히 친환경 엔진 기술력을 갖춘 기업의 시장 점유율 확대에 결정적인 역할을 합니다. 또한, '마스가(MASGA)' 프로젝트와 같은 한미 조선업 협력 강화는 글로벌 공급망 재편 및 역내 조선산업 활성화에 기여하며 국내 조선업 전반에 긍정적인 모멘텀을 제공하고 있습니다. 전 세계적으로 경기 회복 기대감과 함께 운송 물동량 증가 추세가 이어지며 신조선 발주 수요가 견조하게 유지되고 있으며, 이는 선박 엔진 및 부품 시장의 성장을 뒷받침하고 있습니다. 현재 금융 시장의 Fear & Greed Index가 79.9로 '극심한 탐욕' 구간에 진입한 것은 전반적인 시장의 위험 선호 심리가 높아졌음을 시사하며, 성장 잠재력이 큰 산업 및 기업에 대한 투자 심리가 강하게 작용하고 있음을 보여줍니다.",
+    "valuationCheck": "HD현대마린엔진(071970)은 현재 98,000원에 거래되고 있으며, 제시된 목표주가는 117,800원으로 약 20% 이상의 상승 여력을 보유하고 있습니다. 'Strong Buy'의 투자 의견은 현재 주가가 기업의 내재 가치 대비 저평가되어 있거나, 향후 강력한 성장 동력을 바탕으로 높은 주가 상승이 기대된다는 분석을 반영합니다. 이러한 긍정적인 밸류에이션은 친환경 이중연료엔진 수요 증가, OEM에서 직계약으로의 공급 방식 변화를 통한 수익성 개선, 그리고 9천억 원 이상의 견고한 수주 잔고 확보 등 명확한 실적 성장 기반에 의해 뒷받침됩니다. 또한, '통합 HD현대중공업' 출범에 따른 그룹 내 시너지 효과는 안정적인 캡티브(Captive) 물량 확보와 함께 비용 절감 및 R&D 효율 증대를 통해 기업 가치를 한 단계 더 끌어올릴 잠재력을 가지고 있습니다. 경쟁사인 한화엔진과 비교 시, HD현대마린엔진은 HD현대그룹이라는 강력한 모기업의 지원을 바탕으로 더욱 안정적인 사업 구조와 확장 가능성을 확보하고 있으며, 이는 장기적인 밸류에이션 프리미엄으로 작용할 수 있습니다. HD한국조선해양과의 관계에서는 모기업의 수직계열화 전략 하에 핵심 부품 공급사로서의 가치가 부각되어 조선업 전반의 호황 수혜를 직접적으로 누릴 수 있다는 점에서 긍정적인 밸류에이션을 정당화합니다.",
+    "fullContent": "# HD현대마린엔진(071970): 친환경 해상 모빌리티 시대의 핵심 동력 분석\n\n## 1. HD현대마린엔진(071970) 기업 개요 및 핵심 사업 모델\nHD현대마린엔진(종목코드: 071970)은 선박용 엔진 및 발전 설비를 제조하는 대한민국 대표 기업으로, HD현대그룹의 핵심 계열사 중 하나입니다. 이 회사는 선박의 심장이라 할 수 있는 대형 디젤 엔진 및 이중연료(DF) 엔진을 비롯하여 엔진 관련 부품 및 서비스를 제공하며 글로벌 조선 산업의 성장에 기여하고 있습니다. 특히, 친환경 선박 시대의 도래와 함께 이중연료 엔진 기술력을 바탕으로 시장 선도적인 위치를 공고히 하고 있으며, '통합 HD현대중공업' 출범이라는 그룹 차원의 재편 속에서 더욱 중요한 역할을 수행할 것으로 기대됩니다.\n\nHD현대마린엔진의 사업 모델은 크게 △선박용 대형 엔진 제조 및 판매 △엔진 부품 생산 △서비스 및 유지보수 사업으로 나눌 수 있습니다. 특히 친환경 규제 강화에 발맞춰 LNG, 메탄올, 암모니아 등 다양한 대체 연료를 사용할 수 있는 이중연료 엔진 개발 및 생산에 집중하고 있으며, 이는 향후 기업의 지속 가능한 성장을 이끌 핵심 동력으로 평가받고 있습니다.\n\n## 2. 핵심 성장 동력 분석: 친환경, 시너지, 그리고 안정적 수주\nHD현대마린엔진의 투자 매력도는 여러 강력한 성장 동력에서 비롯됩니다. 이들은 기업의 실적 개선과 주가 상승을 견인할 주요 요인으로 작용할 것입니다.\n\n### 2.1. 글로벌 친환경 규제와 이중연료엔진(DF엔진) 수요 폭증\n국제해사기구(IMO)는 해운 부문의 탄소 배출량을 줄이기 위한 규제를 지속적으로 강화하고 있습니다. 2023년부터 시행된 탄소 집약도 지수(CII)와 에너지 효율 지수(EEXI)는 선사들에게 친환경 선박으로의 전환을 강제하는 주요 요인입니다. 이러한 규제 강화는 기존 디젤 엔진 대신 LNG, 메탄올, 암모니아 등 친환경 연료를 사용하는 이중연료(DF) 엔진 선박의 수요를 폭발적으로 증가시키고 있습니다. HD현대마린엔진은 이러한 시장 변화에 선제적으로 대응하며 DF 엔진 기술력을 확보하고 있으며, 이는 향후 수주 확대와 수익성 개선에 직접적인 영향을 미칠 것입니다. 특히, 기존 OEM(주문자 상표 부착 생산) 방식에서 직계약 방식으로의 공급 전환은 마진율 개선을 통해 수익성을 더욱 강화할 전망입니다.\n\n### 2.2. '통합 HD현대중공업' 출범 및 그룹 시너지 효과 극대화\n'통합 HD현대중공업'의 출범은 HD현대마린엔진에게 강력한 시너지 효과를 가져다줄 것으로 예상됩니다. 이는 단순히 계열사 간의 물리적 통합을 넘어, HD현대그룹의 조선 부문 수직계열화를 더욱 공고히 하여 효율성을 극대화하는 전략입니다. HD현대마린엔진은 그룹 내 안정적인 캡티브(Captive) 물량을 확보하고, 공동 R&D 및 생산 효율화를 통해 비용 절감과 기술력 향상을 동시에 이룰 수 있습니다. 또한, '마스가(MASGA)' 프로젝트와 같은 한미 조선업 협력 강화는 국내 조선업 전체에 긍정적인 모멘텀을 제공하며, HD현대그룹의 해외 시장 확장에도 기여하여 HD현대마린엔진의 간접적인 수혜로 이어질 것입니다.\n\n### 2.3. 견고한 수주 잔고와 안정적인 실적 가시성\n3분기 말 기준, HD현대마린엔진은 9천억 원 이상의 견고한 엔진 수주 잔고를 확보하고 있습니다. 이는 약 2~3년치 안정적인 일감을 확보했다는 의미로, 향후 매출액과 이익의 가시성을 높여 기업의 실적 안정성을 크게 강화합니다. 조선업의 특성상 수주 산업은 장기적인 관점에서 기업의 성장을 예측하는 중요한 지표이며, HD현대마린엔진의 풍부한 수주 잔고는 불확실한 대외 환경 속에서도 꾸준한 매출 성장을 기대하게 하는 핵심 요인입니다.\n\n### 2.4. 터보차저 국산화 및 부품 사업의 잠재력\n엔진 핵심 부품인 터보차저의 국산화 추진은 HD현대마린엔진의 또 다른 성장 잠재력입니다. 부품 국산화는 원가 경쟁력 강화와 함께 생산 효율성 증대를 가져오며, 해외 의존도를 낮춰 공급망 안정화에도 기여합니다. 더불어 생산능력(CAPA) 확대를 통해 부품 사업 부문의 성장을 가속화할 수 있으며, 이는 전체 매출 및 수익성 개선에 긍정적인 영향을 미칠 것입니다.\n\n## 3. 밸류에이션 및 투자 의견 진단\n현재 HD현대마린엔진의 주가는 98,000원이며, 목표주가는 117,800원으로 제시되어 있습니다. 'Strong Buy' 의견은 앞서 언급된 강력한 성장 동력과 더불어 현재 시장 환경에서의 HD현대마린엔진의 경쟁 우위를 반영한 것입니다. 특히 높은 수주 잔고와 친환경 엔진 시장의 확장은 중장기적인 실적 개선을 담보하며, 이는 현 주가 대비 추가 상승 여력이 충분하다는 판단의 근거가 됩니다.\n\n동종업계 경쟁사인 한화엔진(082740)과 비교했을 때, HD현대마린엔진은 HD현대그룹이라는 강력한 지원군을 등에 업고 그룹 내 캡티브 물량 확보에서 유리한 위치를 점하고 있습니다. 또한, HD한국조선해양(009540)의 자회사로서 조선업 수직계열화의 핵심 축을 담당하며 그룹사 전체의 시너지 효과를 극대화할 수 있다는 점에서 차별화된 투자 매력을 가집니다.\n\n## 4. 기술적 분석 및 주가 전망\nHD현대마린엔진의 주가는 연초 대비 200% 이상 급등하며 꾸준히 우상향 곡선을 그려왔습니다. 최근 2거래일 연속 강세를 보이며 상승 추세가 명확합니다. 기술적 지지선은 이전 종가인 85,000원 선으로 형성되어 있으며, 최근 상승세를 고려할 때 단기 저항선은 100,000원 선으로 예상됩니다. 시장의 '극심한 탐욕' 심리(Fear & Greed Index 79.9)는 긍정적인 투자 분위기를 반영하지만, 단기간 급등에 따른 피로감으로 소폭 조정 가능성도 배제할 수 없습니다. 그러나 중장기적으로는 글로벌 친환경 조선업의 구조적 성장과 HD현대마린엔진의 견조한 실적 개선 기대감에 힘입어 상승 추세가 유지될 것으로 전망됩니다.\n\n## 5. 리스크 요인 및 투자 시 고려사항\nHD현대마린엔진의 긍정적인 전망에도 불구하고, 투자자는 잠재적 리스크 요인을 신중하게 고려해야 합니다. 첫째, 글로벌 경기 침체 및 해상 물동량 감소는 조선업 전반의 발주 수요에 부정적인 영향을 미 미칠 수 있습니다. 둘째, 원자재 가격 변동(철강, 비철금속 등)은 생산 원가에 직접적인 영향을 주어 수익성을 악화시킬 수 있습니다. 셋째, 친환경 엔진 기술 경쟁 심화 및 경쟁사의 등장 또한 시장 점유율에 영향을 줄 수 있습니다. 마지막으로, 단기간의 급격한 주가 상승은 조정의 빌미를 제공할 수 있으므로, 분할 매수 등 신중한 접근이 필요합니다.\n\n## 6. 결론: 친환경 조선 시대의 선도 기업\nHD현대마린엔진(071970)은 글로벌 친환경 규제 강화라는 거대한 패러다임 전환 속에서 이중연료엔진 기술력, HD현대그룹의 강력한 시너지, 그리고 안정적인 수주 잔고를 바탕으로 독보적인 성장 궤도를 달리고 있습니다. 'Strong Buy'의 투자 의견과 117,800원의 목표주가는 이러한 긍정적인 전망을 반영하며, 향후 지속적인 기업 가치 상승이 기대됩니다. 단기적인 주가 변동성에도 불구하고, 중장기적인 관점에서 HD현대마린엔진은 친환경 해상 모빌리티 시대를 선도하는 핵심 기업으로서 투자 매력이 높다고 판단됩니다.",
+    "faqs": [
+      {
+        "question": "HD현대마린엔진(071970)의 주요 사업 내용은 무엇인가요?",
+        "answer": "HD현대마린엔진은 선박용 대형 엔진 및 발전 설비 제조, 엔진 부품 생산, 그리고 관련 서비스 및 유지보수를 주요 사업으로 영위합니다. 특히 친환경 이중연료(DF) 엔진 개발 및 생산에 집중하고 있습니다."
+      },
+      {
+        "question": "HD현대마린엔진의 친환경 이중연료엔진(DF엔진) 수요가 증가하는 이유는 무엇인가요?",
+        "answer": "국제해사기구(IMO)의 탄소 배출 규제 강화(CII, EEXI)로 인해 선사들이 LNG, 메탄올 등 친환경 연료를 사용하는 DF엔진 선박 발주를 확대하고 있기 때문입니다. HD현대마린엔진은 이러한 시장 변화에 선제적으로 대응하며 기술력을 확보하고 있습니다."
+      },
+      {
+        "question": "'통합 HD현대중공업' 출범이 HD현대마린엔진에 어떤 영향을 미치나요?",
+        "answer": "'통합 HD현대중공업' 출범은 HD현대그룹의 조선 부문 수직계열화를 강화하여 HD현대마린엔진이 안정적인 캡티브(Captive) 물량을 확보하고, 공동 R&D 및 생산 효율성을 높이는 등 강력한 시너지 효과를 창출할 것으로 기대됩니다."
+      },
+      {
+        "question": "HD현대마린엔진의 현재 수주 잔고 상황은 어떻습니까?",
+        "answer": "3분기 말 기준, HD현대마린엔진은 9천억 원 이상의 견고한 엔진 수주 잔고를 확보하고 있어, 약 2~3년치 안정적인 일감을 확보한 상태입니다. 이는 향후 매출 및 이익의 가시성을 높이는 긍정적인 요인입니다."
+      },
+      {
+        "question": "HD현대마린엔진 투자 시 고려해야 할 주요 리스크는 무엇인가요?",
+        "answer": "글로벌 경기 침체 및 해상 물동량 감소, 원자재 가격 변동, 친환경 엔진 기술 경쟁 심화, 그리고 단기간의 급격한 주가 상승에 따른 조정 가능성 등이 주요 리스크 요인으로 고려됩니다."
+      }
+    ],
+    "market": "KR",
+    "id": "report-1766376699902",
+    "timestamp": "2025-12-22T04:11:39.902Z",
+    "sources": [
+      {
+        "title": "donga.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xMN5yyDqDP9ZyAOZAdmDmm3Xm_CCCYxQOzHuwYe5SNFpS7iECL8UTPuRJTaEuoXIw13Tv8nvet89mbwpb-UthOlgrjEyFLm242qOnxbqfUsddb2ZoiOKcFB309bB74WXnlLU2iuXiaRw38KfuRSD9Q=="
+      },
+      {
+        "title": "youtube.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiiTVq8hl-MLY2c_FfCfwjQYRz-9cttC7Pm5eumPnNgQTXApH0p0mIIPj9NI7_Rh0a-XPAkFRxaVFkFbuj6CGIi2gDM0yudXUJIwpcn4pzfHVXmnirOHeOexfB9kytLnWM1emaHt4="
+      },
+      {
+        "title": "newdaily.co.kr",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLD2wKJyGMCGNT3wQvCS0y6RHnCCIkbW8msSLBoNvphfj_1Dk0cPPTcvpzmH3tO86bGUNcoZv6VEVzCdatXe6xue9hcsramB5tDsOKFCY2id_VANglmwKdlhmC_6q4Ax4hGha-VV1jJgCvlc5BFK48TJAQYsdJzTwtykEKWjx4fIrX"
+      },
+      {
+        "title": "roa.ai",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmHlr4klDpaPHUBSe27zdY3MFSB2t9YDqaKBxmlJOr_1QOeXxYUSGVEgRKUh1_SfFTU9jfcrg0l7mtZfYxhrJCxk-Uv12E7QXvA9PmeXYv_QXRToqHXuaJR-q7tkkxjGwItgmQLZCpnYVSaVs3ejYO9aAIL5XpAL5L4IEcvSRH7Q=="
+      },
+      {
+        "title": "hd-marineengine.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkeWwRj8--4Mw0MUY7gRVp9bjS2W_5hJ4DObtLVJM-SWRXUrR2O8y1uGh2Y1mJ_sah-jjiFtS63iwOVy1dgJyoXM7FA8KovKzyGjQKF8JJepjZnkrbnBdNF2Hxio5eas_fSqZlFSXbQKEuo2ki8Ut9xqQu"
+      },
+      {
+        "title": "edaily.co.kr",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0g4YLuKPdJgU9kF7WL1ey7MU8HJqdKF2E2IptnrHSoFgoxgzvBSsMA4sJSrB1CI_lEJ7325u3AE8pUI8nKjHOsWDIz7_VWoB01d675rJMDZcL8k0J-ZK_kZhce-acJDGIgdY63nHdl3bmdLiMDJQaY0J7UJmD7kJ0RS9W"
+      },
+      {
+        "title": "hd.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvdNglwCvErX0JsDEf7tkU75KsMLYmp-aQLQnPYL46tyRfjGxi4QsB_-ZtnKy4dxfHS66IGng1zDd7Jkij7OMtP2iV71j5f3kiIus5U4tH4BuOzJwIY4OppeBKdD6QlUUeGljfeLcbCrJJY2NWGRGDDMD4"
+      },
+      {
+        "title": "finup.co.kr",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5yadhEgSJBUkEyWrILsU3HA0A2xlwKLSpdfqP8zH2Y5cRYMHKSKFnigiDqcaS7equWs_771Hy1FJXG_CZg2RpzkKFUmuye6DlI5VAW7Qn7lmz5JFJxBiIXsPuISAOoiNtRcY="
+      },
+      {
+        "title": "namu.wiki",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoPOvheyp6_qL2u2IR3UM3m7raXp2LpM_pt7vwrq6gjc6bjMIUsM_0t9aa8sl9V-HZInkohZxBEEQUrk1MNbcu0xSCrpvXF5x8SzolNJYZPg5z1PxSF9vMMiNE7C7rOSKhLOoR5O9ePwXHPxVjZhYG1llLEPAq21rFHFfoTrsGvTm-WqwhFRo="
+      },
+      {
+        "title": "goover.ai",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF___VeKy_VS0Fr9TiKtQKVSplvYvKmQtEkF5imyN9rd8WVPvfWmc8Xj2VchJ_p-3dUfWiQgqlUHb_2GxaeAHAmfFiDvUwH8aRLjEmdt6FwGqBm7HjwCHbqImI8MQmD1oHdu3cHOVpilIpqpjCk_whD-sm4O7wIEqbXrjGoDbGfLCAMPLfHubkiGSlgfUTSQWr2Md4-lBeiGJQ91JZCugwG"
+      },
+      {
+        "title": "sirens.kr",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqe9MwOUgQIH1CGaRvK-DBTfnf-aQxzcmiaPoFEvccFFeO6M2Spf_Dl53SGFVgp9-r8zp0_dmpNW52WWNl-Py-LTQCH_PptpPLZ9SyGpousHC_8uyHovcDwmGfi_l4V8Nq"
+      }
+    ]
+  }
+]
