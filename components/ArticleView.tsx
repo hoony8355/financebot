@@ -35,9 +35,13 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
       <SchemaMarkup report={report} />
       
       <header className="mb-12 text-center">
-        <div className="flex justify-center gap-2 mb-6">
+        <div className="flex justify-center flex-wrap gap-2 mb-6">
           <span className="px-3 py-1 rounded-full bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest">
             {report.market === 'KR' ? 'K-Stock Report' : 'Wall Street Pulse'}
+          </span>
+          <span className="px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-[10px] font-black uppercase tracking-widest flex items-center gap-1">
+            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+            Verified Data
           </span>
           <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${getRatingBadge(report.investmentRating)}`}>
             AI RATING: {report.investmentRating}
@@ -47,7 +51,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
           {report.title}
         </h1>
         <div className="flex items-center justify-center gap-4 text-xs font-bold text-slate-400">
-          <span>AI Research Bot</span>
+          <span>AI Research Bot x Yahoo Finance</span>
           <span>•</span>
           <time>{new Date(report.timestamp).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
         </div>
@@ -56,7 +60,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
         <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
           <p className="text-[10px] text-slate-400 font-black uppercase mb-2">Target Price</p>
-          <p className="text-xl font-black text-slate-900">{report.targetPrice.toLocaleString()} <span className="text-sm font-medium">{report.currency}</span></p>
+          <p className="text-xl font-black text-slate-900">{report.targetPrice?.toLocaleString() || 'N/A'} <span className="text-sm font-medium">{report.currency}</span></p>
         </div>
         <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
           <p className="text-[10px] text-slate-400 font-black uppercase mb-2">Sentiment</p>
@@ -100,7 +104,6 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
           dangerouslySetInnerHTML={{ __html: renderedContent }} 
         />
 
-        {/* [데이터 근거] 검색 출처 섹션 */}
         {report.sources && report.sources.length > 0 && (
           <div className="mt-16 p-8 bg-slate-50 rounded-3xl border border-slate-100 not-prose">
             <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-6">AI Research Sources</h3>
@@ -139,7 +142,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
       <footer className="mt-20 py-12 border-t border-slate-100 text-center">
         <p className="text-slate-400 text-[10px] font-black uppercase tracking-widest mb-4">Investment Disclosure</p>
         <p className="text-slate-500 text-[11px] leading-relaxed max-w-2xl mx-auto">
-          본 콘텐츠는 AI 엔진에 의해 자동 생성된 리포트입니다. 모든 투자의 책임은 본인에게 있으며, 본 사이트의 내용은 참고용으로만 활용하시기 바랍니다.
+          본 콘텐츠는 Yahoo Finance 실시간 데이터와 Gemini AI 엔진에 의해 자동 생성된 리포트입니다. 모든 투자의 책임은 본인에게 있으며, 본 사이트의 내용은 참고용으로만 활용하시기 바랍니다.
         </p>
       </footer>
     </article>
