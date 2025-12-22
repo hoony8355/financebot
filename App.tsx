@@ -5,231 +5,176 @@ import { AnalysisReport } from './types.ts';
 import ArticleView from './components/ArticleView.tsx';
 
 const App = () => {
-  const [reports, setReports] = useState<AnalysisReport[]>([]);
+  const [manifest, setManifest] = useState<any[]>([]);
   const [activeReport, setActiveReport] = useState<AnalysisReport | null>(null);
   const [status, setStatus] = useState<string>("시스템 대기 중");
   const [isGenerating, setIsGenerating] = useState(false);
+  const [isLoadingArticle, setIsLoadingArticle] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number>(0);
+
+  const fetchFullReport = async (id: string) => {
+    setIsLoadingArticle(true);
+    try {
+      const response = await fetch(`./data/articles/${id}.json?t=${Date.now()}`);
+      if (!response.ok) throw new Error("아티클을 불러올 수 없습니다.");
+      return await response.json() as AnalysisReport;
+    } catch (e) {
+      console.error(e);
+      return null;
+    } finally {
+      setIsLoadingArticle(false);
+    }
+  };
 
   useEffect(() => {
     const initApp = async () => {
-      let fetchedReports: AnalysisReport[] = [];
       try {
-        // 캐시를 방지하기 위해 타임스탬프 쿼리 추가
-        const response = await fetch(`./data/reports.json?t=${Date.now()}`);
+        const response = await fetch(`./data/reports-manifest.json?t=${Date.now()}`);
         if (response.ok) {
           const data = await response.json();
-          // 데이터 구조가 올바른(title이 있는) 리포트만 필터링
-          fetchedReports = Array.isArray(data) ? data.filter(r => r.title) : [];
+          setManifest(Array.isArray(data) ? data : []);
+          
+          const params = new URLSearchParams(window.location.search);
+          const reportId = params.get('id');
+          if (reportId) {
+            const full = await fetchFullReport(reportId);
+            if (full) {
+              setActiveReport(full);
+              updateMeta(full);
+            }
+          }
         }
       } catch (e) {
-        console.warn("Static data load failed, checking local cache...");
-      }
-
-      const saved = localStorage.getItem('ai_blog_v2_reports');
-      if (saved) {
-        try {
-          const localParsed = JSON.parse(saved).filter((r: any) => r.title);
-          // 서버 데이터와 로컬 데이터 병합 (ID 기준 중복 제거)
-          fetchedReports = Array.from(new Map([...fetchedReports, ...localParsed].map(item => [item.id, item])).values())
-            .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
-        } catch (e) {}
-      }
-
-      setReports(fetchedReports);
-
-      const params = new URLSearchParams(window.location.search);
-      const reportId = params.get('id');
-      if (reportId) {
-        const found = fetchedReports.find(r => r.id === reportId);
-        if (found) {
-          setActiveReport(found);
-          updateMetaTags(found);
-        }
+        console.warn("Manifest loading failed", e);
       }
     };
     initApp();
   }, []);
 
-  const updateMetaTags = (report: AnalysisReport) => {
-    document.title = `${report.title} | FinanceAI Pro`;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', report.summary);
+  const updateMeta = (report: AnalysisReport) => {
+    document.title = `${report.title} | FinanceBot Pro`;
   };
 
-  const handleNavigateToReport = (report: AnalysisReport) => {
-    setActiveReport(report);
-    updateMetaTags(report);
-    
-    try {
+  const handleNavigate = async (item: any) => {
+    const full = await fetchFullReport(item.id);
+    if (full) {
+      setActiveReport(full);
+      updateMeta(full);
       const url = new URL(window.location.href);
-      url.searchParams.set('id', report.id);
-      window.history.pushState({ path: url.toString() }, '', url.toString());
-    } catch (e) {
-      console.warn("History pushState restricted");
+      url.searchParams.set('id', item.id);
+      window.history.pushState({}, '', url.toString());
+      window.scrollTo(0, 0);
     }
-    window.scrollTo(0, 0);
   };
 
-  const handleBackToFeed = () => {
+  const handleBack = () => {
     setActiveReport(null);
-    document.title = "FinanceAI Pro | 실시간 글로벌 증시 분석";
-    
-    try {
-      const url = new URL(window.location.href);
-      url.searchParams.delete('id');
-      window.history.pushState({ path: url.toString() }, '', url.toString());
-    } catch (e) {
-      console.warn("History pushState restricted");
-    }
+    document.title = "FinanceBot Pro | 실시간 분석";
+    const url = new URL(window.location.href);
+    url.searchParams.delete('id');
+    window.history.pushState({}, '', url.toString());
   };
 
-  const executeAutoPost = useCallback(async () => {
+  const executeLiveTest = useCallback(async () => {
     if (isGenerating) return;
     setIsGenerating(true);
-    setStatus("AI가 정밀 분석 리포트를 작성 중입니다...");
-
+    setStatus("AI 분석 중 (Gemini 2.5 Flash)...");
     try {
-      const now = new Date();
-      const hour = now.getHours();
-      const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
-      const excludedTickers = reports.slice(0, 5).map(r => r.ticker);
-
-      const newReport = await discoverAndAnalyzeStock(market, excludedTickers);
-      
-      if (!newReport.title) throw new Error("분석 결과 데이터가 불완전합니다.");
-
-      const updatedReports = [newReport, ...reports].slice(0, 100);
-      setReports(updatedReports);
-      localStorage.setItem('ai_blog_v2_reports', JSON.stringify(updatedReports));
-      handleNavigateToReport(newReport);
-      setStatus(`발행 완료: ${newReport.ticker}`);
-    } catch (err: any) {
-      console.error(err);
-      setStatus(err.message || "분석 중 오류가 발생했습니다.");
+      const hour = new Date().getHours();
+      const market = (hour >= 9 && hour < 16) ? 'KR' : 'US';
+      const report = await discoverAndAnalyzeStock(market, manifest.slice(0, 5).map(m => m.ticker));
+      setActiveReport(report);
+      setStatus("발행 완료");
+    } catch (e: any) {
+      setStatus(e.message);
     } finally {
       setIsGenerating(false);
     }
-  }, [reports, isGenerating]);
+  }, [manifest, isGenerating]);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const now = new Date();
       const interval = 3 * 3600;
-      const currentSeconds = (now.getUTCHours() * 3600 + now.getUTCMinutes() * 60 + now.getUTCSeconds()) % interval;
-      setTimeLeft(interval - currentSeconds);
+      const current = (new Date().getUTCHours() * 3600 + new Date().getUTCMinutes() * 60) % interval;
+      setTimeLeft(interval - current);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
 
   const formatTime = (s: number) => {
-    const h = Math.floor(s / 3600);
     const m = Math.floor((s % 3600) / 60);
     const sec = s % 60;
-    return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+    return `${Math.floor(s/3600)}h ${m}m ${sec}s`;
   };
 
   return (
     <div className="min-h-screen bg-[#f8fafc]">
-      <nav className="bg-white/90 backdrop-blur-xl border-b border-slate-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between py-4">
-          <div className="flex items-center gap-3 cursor-pointer" onClick={handleBackToFeed}>
-            <div className="w-11 h-11 bg-indigo-600 rounded-2xl flex items-center justify-center text-white font-bold shadow-indigo-100 shadow-xl">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            </div>
-            <span className="font-black text-2xl text-slate-900 tracking-tight hidden sm:block">FinanceBot <span className="text-indigo-600">Pro</span></span>
+      <nav className="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <div className="flex items-center gap-3 cursor-pointer" onClick={handleBack}>
+          <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>
-          <div className="flex items-center gap-4">
-            <div className="hidden md:flex flex-col items-end mr-4">
-              <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Next Auto Analysis (UTC)</span>
-              <span className="text-sm font-mono font-black text-slate-900">{formatTime(timeLeft)}</span>
-            </div>
-            <button 
-              onClick={() => executeAutoPost()}
-              disabled={isGenerating}
-              className={`px-6 py-3 rounded-2xl text-xs font-black transition-all ${isGenerating ? 'bg-slate-100 text-slate-400 cursor-not-allowed' : 'bg-slate-900 text-white hover:bg-indigo-600 shadow-xl shadow-slate-200'}`}
-            >
-              {isGenerating ? 'ANALYZING...' : 'LIVE TEST'}
-            </button>
+          <span className="font-black text-xl text-slate-900">FinanceBot <span className="text-indigo-600">Pro</span></span>
+        </div>
+        <div className="flex items-center gap-4">
+          <div className="text-right hidden sm:block">
+            <p className="text-[9px] font-black text-slate-400 uppercase">Next Sync</p>
+            <p className="text-xs font-mono font-bold">{formatTime(timeLeft)}</p>
           </div>
+          <button onClick={executeLiveTest} disabled={isGenerating} className="px-5 py-2.5 bg-slate-900 text-white rounded-xl text-xs font-black hover:bg-indigo-600 transition-all shadow-lg">
+            {isGenerating ? 'ANALYZING...' : 'LIVE TEST'}
+          </button>
         </div>
       </nav>
 
+      {isLoadingArticle && (
+        <div className="fixed inset-0 bg-white/50 backdrop-blur-sm z-[60] flex items-center justify-center">
+          <div className="animate-spin w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full"/>
+        </div>
+      )}
+
       <main className="max-w-7xl mx-auto px-6 py-12">
         {activeReport ? (
-          <div className="animate-in fade-in slide-in-from-bottom-6 duration-700">
-            <button onClick={handleBackToFeed} className="mb-8 flex items-center gap-2 text-slate-500 font-bold hover:text-indigo-600 transition-colors group text-sm">
-              <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7"></path></svg>
-              전체 리포트 피드로 돌아가기
+          <div>
+            <button onClick={handleBack} className="mb-8 text-slate-500 font-bold hover:text-indigo-600 flex items-center gap-2 text-sm">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7"/></svg>
+              목록으로 돌아가기
             </button>
             <ArticleView report={activeReport} />
           </div>
         ) : (
           <>
-            <header className="mb-16 text-center max-w-3xl mx-auto">
-              <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
-                AI Autonomous <span className="text-indigo-600">Stock</span> Research.
-              </h1>
-              <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                매 3시간마다 자동으로 글로벌 시장을 스캔하고<br/> 
-                SEO에 최적화된 심층 분석 리포트를 발행합니다.
-              </p>
-              {status !== "시스템 대기 중" && (
-                <div className="mt-8 px-4 py-2 bg-indigo-50 text-indigo-600 text-sm font-bold rounded-full inline-block animate-pulse border border-indigo-100">
-                  {status}
-                </div>
-              )}
+            <header className="mb-16 text-center max-w-2xl mx-auto">
+              <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">AI Stock Research</h1>
+              <p className="text-slate-500 font-medium">실시간 검색 기반 Gemini 2.5 Flash 모델이 작성한<br/>기관급 투자 분석 리포트를 매일 무료로 제공합니다.</p>
+              {status !== "시스템 대기 중" && <div className="mt-6 px-4 py-1.5 bg-indigo-50 text-indigo-600 text-xs font-black rounded-full inline-block border border-indigo-100">{status}</div>}
             </header>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-              {reports.map((report, index) => (
-                <div 
-                  key={report.id}
-                  className="bg-white rounded-[3rem] border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 cursor-pointer group flex flex-col h-[480px] overflow-hidden"
-                  onClick={() => handleNavigateToReport(report)}
-                  style={{ animationDelay: `${index * 50}ms` }}
-                >
-                  <div className="p-10 flex flex-col h-full">
-                    <div className="flex justify-between items-center mb-10">
-                      <div className={`px-4 py-1.5 rounded-xl text-[10px] font-black uppercase tracking-widest ${report.market === 'KR' ? 'bg-rose-50 text-rose-600' : 'bg-blue-50 text-blue-600'}`}>
-                        {report.market === 'KR' ? 'K-MARKET' : 'U.S. MARKET'}
-                      </div>
-                      <span className="text-[10px] font-black text-slate-300 uppercase">
-                        {new Date(report.timestamp).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' })}
-                      </span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {manifest.map((item) => (
+                <div key={item.id} onClick={() => handleNavigate(item)} className="bg-white rounded-[2.5rem] p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer group">
+                  <div className="flex justify-between items-center mb-6">
+                    <span className={`px-3 py-1 rounded-lg text-[10px] font-black ${item.market === 'KR' ? 'bg-rose-50 text-rose-600' : 'bg-blue-50 text-blue-600'}`}>{item.market}</span>
+                    <span className="text-[10px] font-bold text-slate-400">{new Date(item.timestamp).toLocaleDateString()}</span>
+                  </div>
+                  <h2 className="text-xl font-black text-slate-900 mb-4 leading-tight group-hover:text-indigo-600 line-clamp-2">{item.title}</h2>
+                  <p className="text-sm text-slate-500 line-clamp-3 mb-6 font-medium leading-relaxed">{item.summary}</p>
+                  <div className="pt-6 border-t flex justify-between items-end">
+                    <div>
+                      <p className="text-[9px] font-black text-slate-400 uppercase">Ticker</p>
+                      <p className="font-black text-slate-900">{item.ticker}</p>
                     </div>
-                    <h2 className="text-2xl font-black text-slate-900 mb-6 leading-tight group-hover:text-indigo-600 transition-colors line-clamp-2">
-                      {report.title}
-                    </h2>
-                    <p className="text-sm text-slate-500 line-clamp-4 mb-8 flex-grow leading-relaxed font-medium">
-                      {report.summary}
-                    </p>
-                    <div className="flex items-center justify-between pt-8 border-t border-slate-50">
-                      <div>
-                        <p className="text-[10px] font-black text-slate-400 uppercase mb-1">Ticker</p>
-                        <p className="font-black text-slate-900 text-xl">{report.ticker}</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-[10px] font-black text-slate-400 uppercase mb-1">AI Score</p>
-                        <p className={`font-black text-lg ${report.sentimentScore >= 70 ? 'text-emerald-600' : 'text-slate-900'}`}>{report.sentimentScore}%</p>
-                      </div>
+                    <div className="text-right">
+                      <p className="text-[9px] font-black text-slate-400 uppercase">Score</p>
+                      <p className="font-black text-indigo-600">{item.sentimentScore}%</p>
                     </div>
                   </div>
                 </div>
               ))}
-              {reports.length === 0 && !isGenerating && (
-                <div className="col-span-full py-20 text-center text-slate-400 font-bold">
-                  데이터 로딩 중이거나 발행된 리포트가 없습니다.
-                </div>
-              )}
             </div>
           </>
         )}
       </main>
-      
-      <footer className="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200 mt-20 text-center text-slate-400 text-[11px] font-black uppercase tracking-[0.2em]">
-        © 2025 FinanceBot Pro • Autonomous AI Engine • SEO Optimized Content
-      </footer>
     </div>
   );
 };
