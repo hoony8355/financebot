@@ -4,6 +4,9 @@ import fs from 'fs';
 import path from 'path';
 import process from 'node:process';
 
+const YAHOO_API_KEY = "8a9f2e7a4fmshcd54a5b1fe0913ep159f2bjsn2648fd0a6ae1";
+const YAHOO_HOST = "yh-finance.p.rapidapi.com";
+
 const RESEARCH_INSTRUCTION = `
 # Role: 전문 금융 데이터 분석가
 # Task: 실시간 검색을 통해 특정 종목의 핵심 금융 데이터와 최근 이슈를 조사하라.
@@ -57,30 +60,40 @@ function extractJson(text) {
   }
 }
 
+async function fetchChartHistory(symbol, market) {
+  try {
+    const ticker = market === 'KR' ? (symbol.length === 6 ? `${symbol}.KS` : symbol) : symbol;
+    const url = `https://${YAHOO_HOST}/stock/v3/get-chart?interval=60m&symbol=${ticker}&range=5d&region=${market === 'KR' ? 'KR' : 'US'}`;
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: { 'X-RapidAPI-Key': YAHOO_API_KEY, 'X-RapidAPI-Host': YAHOO_HOST }
+    });
+    if (!response.ok) return [];
+    const result = await response.json();
+    const timestamps = result.chart?.result?.[0]?.timestamp || [];
+    const quotes = result.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
+    return timestamps.map((ts, i) => ({
+      time: new Date(ts * 1000).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
+      price: parseFloat(quotes[i]?.toFixed(2)) || 0
+    })).filter(p => p.price > 0);
+  } catch (e) { return []; }
+}
+
 async function generateWithRetry(ai, payload, retries = 5) {
   for (let i = 0; i < retries; i++) {
     try {
-      const response = await ai.models.generateContent(payload);
-      return response;
+      return await ai.models.generateContent(payload);
     } catch (error) {
-      const isQuotaError = error.message?.includes('429') || error.message?.includes('quota');
-      if (i < retries - 1) {
-        const wait = isQuotaError ? (i + 1) * 65000 : (i + 1) * 15000;
-        console.log(`[Retry ${i + 1}/${retries}] Waiting ${wait / 1000}s...`);
-        await new Promise(r => setTimeout(r, wait));
-        continue;
-      }
-      throw error;
+      const wait = (i + 1) * 20000;
+      console.log(`Retry ${i + 1}...`);
+      await new Promise(r => setTimeout(r, wait));
     }
   }
 }
 
 async function run() {
   const apiKey = process.env.API_KEY;
-  if (!apiKey) {
-    console.error("API_KEY is missing");
-    process.exit(1);
-  }
+  if (!apiKey) process.exit(1);
 
   const ai = new GoogleGenAI({ apiKey });
   const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -91,40 +104,25 @@ async function run() {
   if (!fs.existsSync(articlesDir)) fs.mkdirSync(articlesDir, { recursive: true });
 
   let manifest = [];
-  if (fs.existsSync(manifestPath)) {
-    try { 
-      manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')); 
-    } catch (e) { 
-      manifest = []; 
-    }
-  }
+  try { manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')); } catch (e) {}
 
-  const now = new Date();
-  const krHour = (now.getUTCHours() + 9) % 24;
+  const krHour = (new Date().getUTCHours() + 9) % 24;
   const market = (krHour >= 9 && krHour < 16) ? 'KR' : 'US';
-  const excluded = manifest.slice(0, 15).map(r => r.ticker).filter(Boolean);
-
-  console.log(`Step 1: Researching ${market} market using Gemini 2.5 Flash...`);
+  const excluded = manifest.slice(0, 10).map(r => r.ticker);
 
   try {
     const researchResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
-      contents: `${market} 증시에서 최근 이슈 종목 1개를 선정하라. 제외: ${excluded.join(',')}`,
-      config: {
-        systemInstruction: RESEARCH_INSTRUCTION,
-        tools: [{ googleSearch: {} }],
-      },
+      contents: `${market} 증시 이슈 종목 1개 선정. 제외: ${excluded.join(',')}`,
+      config: { systemInstruction: RESEARCH_INSTRUCTION, tools: [{ googleSearch: {} }] },
     });
 
     const researchData = extractJson(researchResponse.text);
-    console.log(`Research complete: ${researchData.ticker}. Waiting 30s...`);
+    const chartData = await fetchChartHistory(researchData.ticker, market);
 
-    await new Promise(r => setTimeout(r, 30000));
-
-    console.log(`Step 2: Writing full article...`);
     const writingResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
-      contents: `데이터 기반 심층 분석: ${JSON.stringify(researchData)}`,
+      contents: `데이터 기반 분석: ${JSON.stringify(researchData)}`,
       config: { systemInstruction: WRITING_INSTRUCTION },
     });
 
@@ -132,33 +130,17 @@ async function run() {
     const reportId = `report-${Date.now()}`;
     const timestamp = new Date().toISOString();
 
-    const fullArticle = { 
-      ...researchData, 
-      ...writingData, 
-      market, id: reportId, timestamp 
-    };
-    
-    // 개별 파일 저장
+    const fullArticle = { ...researchData, ...writingData, chartData, market, id: reportId, timestamp };
     fs.writeFileSync(path.join(articlesDir, `${reportId}.json`), JSON.stringify(fullArticle, null, 2));
 
-    // 매니페스트 업데이트
-    const summaryEntry = {
-      id: reportId,
-      title: fullArticle.title,
-      ticker: fullArticle.ticker,
-      market: fullArticle.market,
-      timestamp: fullArticle.timestamp,
-      summary: fullArticle.summary,
-      sentimentScore: fullArticle.sentimentScore,
-      investmentRating: fullArticle.investmentRating
-    };
-
-    const updatedManifest = [summaryEntry, ...manifest].slice(0, 1000);
+    const updatedManifest = [{
+      id: reportId, title: fullArticle.title, ticker: fullArticle.ticker,
+      market, timestamp, summary: fullArticle.summary,
+      sentimentScore: fullArticle.sentimentScore, investmentRating: fullArticle.investmentRating
+    }, ...manifest].slice(0, 100);
     fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
-
-    console.log(`Success: ${reportId} created.`);
+    console.log(`Success: ${reportId}`);
   } catch (error) {
-    console.error("Failure:", error.message);
     process.exit(1);
   }
 }

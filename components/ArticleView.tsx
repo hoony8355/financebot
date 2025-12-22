@@ -90,7 +90,11 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
       </section>
 
       <div className="mb-16">
-        <StockChart basePrice={report.price} trend={report.technicalAnalysis.trend} />
+        <StockChart 
+          basePrice={report.price} 
+          trend={report.technicalAnalysis.trend} 
+          data={report.chartData} 
+        />
       </div>
 
       <div className="prose prose-slate max-w-none mb-20 px-2 md:px-8">

@@ -13,6 +13,11 @@ export interface GroundingSource {
   uri: string;
 }
 
+export interface ChartPoint {
+  time: string;
+  price: number;
+}
+
 export interface AnalysisReport {
   id: string;
   title: string;
@@ -44,7 +49,8 @@ export interface AnalysisReport {
   }[];
   fullContent: string;
   faqs: { question: string; answer: string; }[];
-  sources?: GroundingSource[]; // 실시간 검색 근거 추가
+  sources?: GroundingSource[];
+  chartData?: ChartPoint[]; // 실제 주가 히스토리 데이터
 }
 
 export interface BlogSettings {
