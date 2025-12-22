@@ -9,37 +9,40 @@ const YAHOO_HOST = "yh-finance.p.rapidapi.com";
 
 const RESEARCH_INSTRUCTION = `
 # Role: 전문 금융 데이터 분석가
-# Task: 실시간 검색을 통해 특정 종목의 핵심 금융 데이터와 최근 이슈를 조사하라.
+# Task: 실시간 검색과 7일간의 주가 데이터를 통해 특정 종목을 분석하라.
 # Output Schema (JSON ONLY):
 {
   "ticker": "string",
   "price": number,
   "currency": "KRW | USD",
-  "summary": "핵심 이슈 3줄 요약",
+  "summary": "핵심 요약 (SEO용)",
   "sentimentScore": number,
   "fearGreedIndex": number,
   "targetPrice": number,
   "investmentRating": "Strong Buy | Buy | Hold | Sell",
+  "technicalSignal": "Golden Cross | Oversold | Overbought | Dead Cross | Neutral",
+  "riskLevel": "Low | Medium | High | Extreme",
   "reasons": ["근거1", "근거2", "근거3"],
+  "scenarios": { "bull": "상승 시나리오", "bear": "하락 시나리오" },
   "technicalAnalysis": {
     "support": number,
     "resistance": number,
     "trend": "상승 | 하락 | 횡보",
-    "details": "기술적 분석 요약"
+    "details": "기술적 분석"
   },
   "peers": [{"name": "경쟁사", "symbol": "티커", "price": number, "performance": "성과", "diffReason": "차이점"}]
 }
 `;
 
 const WRITING_INSTRUCTION = `
-# Role: 테크니컬 SEO 금융 작가
-# Task: 제공된 데이터를 바탕으로 검색 엔진에 최적화된 1500자 이상의 심층 분석 리포트를 작성하라.
+# Role: 수석 금융 에디터
+# Task: 제공된 데이터를 바탕으로 2000자 이상의 초고도화 금융 리포트를 작성하라.
 # Output Schema (JSON ONLY):
 {
-  "title": "H1 타이틀: 강력한 정보 중심적 제목",
-  "macroContext": "글로벌 매크로 환경 분석 본문",
-  "valuationCheck": "밸류에이션 상세 진단 본문",
-  "fullContent": "Markdown 형식의 심층 분석 본문. H2, H3 태그 필수 사용.",
+  "title": "H1: 전문적인 분석 제목",
+  "macroContext": "산업 및 매크로 컨텍스트",
+  "valuationCheck": "밸류에이션 상세 분석",
+  "fullContent": "Markdown 형식의 심층 분석 본문. 데이터 지표와 전문 용어를 적극적으로 사용할 것.",
   "faqs": [{"question": "질문", "answer": "답변"}]
 }
 `;
@@ -63,7 +66,7 @@ function extractJson(text) {
 async function fetchChartHistory(symbol, market) {
   try {
     const ticker = market === 'KR' ? (symbol.length === 6 ? `${symbol}.KS` : symbol) : symbol;
-    const url = `https://${YAHOO_HOST}/stock/v3/get-chart?interval=60m&symbol=${ticker}&range=5d&region=${market === 'KR' ? 'KR' : 'US'}`;
+    const url = `https://${YAHOO_HOST}/stock/v3/get-chart?interval=60m&symbol=${ticker}&range=7d&region=${market === 'KR' ? 'KR' : 'US'}`;
     const response = await fetch(url, {
       method: 'GET',
       headers: { 'X-RapidAPI-Key': YAHOO_API_KEY, 'X-RapidAPI-Host': YAHOO_HOST }
@@ -73,7 +76,7 @@ async function fetchChartHistory(symbol, market) {
     const timestamps = result.chart?.result?.[0]?.timestamp || [];
     const quotes = result.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
     return timestamps.map((ts, i) => ({
-      time: new Date(ts * 1000).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
+      time: new Date(ts * 1000).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit' }),
       price: parseFloat(quotes[i]?.toFixed(2)) || 0
     })).filter(p => p.price > 0);
   } catch (e) { return []; }
@@ -113,7 +116,7 @@ async function run() {
   try {
     const researchResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
-      contents: `${market} 증시 이슈 종목 1개 선정. 제외: ${excluded.join(',')}`,
+      contents: `${market} 증시의 핵심 이슈 종목 1개 선정 (변동성 혹은 거래량 상위). 제외: ${excluded.join(',')}`,
       config: { systemInstruction: RESEARCH_INSTRUCTION, tools: [{ googleSearch: {} }] },
     });
 
@@ -122,7 +125,7 @@ async function run() {
 
     const writingResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
-      contents: `데이터 기반 분석: ${JSON.stringify(researchData)}`,
+      contents: `분석 데이터: ${JSON.stringify(researchData)}, 차트 데이터: ${JSON.stringify(chartData)}`,
       config: { systemInstruction: WRITING_INSTRUCTION },
     });
 

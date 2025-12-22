@@ -23,12 +23,13 @@ const extractJson = (text: string | undefined) => {
 };
 
 /**
- * Yahoo Finance에서 실제 차트 데이터를 가져옵니다 (최근 5일, 60분 간격)
+ * Yahoo Finance에서 실제 7일 데이터를 가져옵니다 (최근 7일, 60분 간격)
  */
 const fetchChartHistory = async (symbol: string, market: 'KR' | 'US'): Promise<ChartPoint[]> => {
   try {
     const ticker = market === 'KR' ? (symbol.length === 6 ? `${symbol}.KS` : symbol) : symbol;
-    const url = `https://${YAHOO_HOST}/stock/v3/get-chart?interval=60m&symbol=${ticker}&range=5d&region=${market === 'KR' ? 'KR' : 'US'}`;
+    // range를 7d로 변경하여 더 긴 호흡의 데이터 확보
+    const url = `https://${YAHOO_HOST}/stock/v3/get-chart?interval=60m&symbol=${ticker}&range=7d&region=${market === 'KR' ? 'KR' : 'US'}`;
     
     const response = await fetch(url, {
       method: 'GET',
@@ -41,7 +42,7 @@ const fetchChartHistory = async (symbol: string, market: 'KR' | 'US'): Promise<C
     const quotes = result.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
 
     return timestamps.map((ts: number, i: number) => ({
-      time: new Date(ts * 1000).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
+      time: new Date(ts * 1000).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit' }),
       price: parseFloat(quotes[i]?.toFixed(2)) || 0
     })).filter((p: any) => p.price > 0);
   } catch (e) {
@@ -65,6 +66,8 @@ const fetchRealTimeStockData = async (symbol: string, market: 'KR' | 'US') => {
       currency: data.price?.currency,
       change: data.price?.regularMarketChangePercent?.raw * 100,
       marketCap: data.price?.marketCap?.fmt,
+      volume: data.summaryDetail?.volume?.fmt,
+      avgVolume: data.summaryDetail?.averageVolume?.fmt
     };
   } catch (e) {
     return null;
@@ -77,14 +80,14 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
   // 1. 이슈 종목 검색
   const discoveryResponse = await ai.models.generateContent({
     model: 'gemini-2.5-flash',
-    contents: `${market} 증시에서 현재 거래량이 급증하거나 이슈가 있는 종목 1개를 선정하여 티커(Ticker)만 알려달라. 제외 종목: ${excludedStocks.join(', ')}`,
+    contents: `${market} 증시에서 현재 거래량이 급증하거나 강력한 테마를 형성하고 있는 핵심 종목 1개를 선정하여 티커(Ticker)만 알려달라. 제외 종목: ${excludedStocks.join(', ')}`,
     config: { tools: [{ googleSearch: {} }] },
   });
   
   const tickerMatch = discoveryResponse.text.match(/[A-Z0-9.]{2,10}/);
-  const symbol = tickerMatch ? tickerMatch[0] : (market === 'US' ? 'NVDA' : '005930');
+  const symbol = tickerMatch ? tickerMatch[0] : (market === 'US' ? 'TSLA' : '005930');
 
-  // 2. 실시간 데이터 및 차트 히스토리 병렬 요청
+  // 2. 실시간 데이터 및 7일 차트 히스토리 병렬 요청
   const [realData, chartData] = await Promise.all([
     fetchRealTimeStockData(symbol, market),
     fetchChartHistory(symbol, market)
@@ -93,9 +96,11 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
   // 3. 심층 분석 생성
   const analysisPrompt = `
     종목: ${symbol} (${market})
-    실시간 데이터: ${JSON.stringify(realData || "검색 데이터 활용")}
-    차트 추세(최근): ${JSON.stringify(chartData.slice(-5))}
-    위 데이터를 반드시 반영하여, 검색 엔진 최적화된 심층 분석 리포트를 지정된 JSON 구조로 생성하라.
+    실시간 마켓 데이터: ${JSON.stringify(realData || "검색 데이터 활용")}
+    최근 7일 실제 주가 히스토리: ${JSON.stringify(chartData)}
+    
+    위의 실제 가격 데이터를 분석하여, 전문적인 리포트를 작성하라.
+    특히 7일간의 가격 흐름에서 포착되는 기술적 신호(RSI, 지지/저항)를 반드시 포함하라.
   `;
 
   const response = await ai.models.generateContent({
@@ -124,7 +129,7 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
   return {
     ...reportData,
     market,
-    chartData, // 실제 차트 데이터 포함
+    chartData,
     id: `report-${Date.now()}`,
     timestamp: new Date().toISOString(),
     sources: sources.length > 0 ? sources : undefined
