@@ -2,8 +2,9 @@
 import { GoogleGenAI } from "@google/genai";
 import fs from 'fs';
 import path from 'path';
+// Explicitly import process from node:process to resolve typing issues with exit and cwd
+import process from 'node:process';
 
-// 프론트엔드의 constants.tsx와 동일한 스키마를 강제합니다.
 const SYSTEM_INSTRUCTION = `
 # Role: 글로벌 금융 분석가 및 테크니컬 SEO 전략가
 # Mission: 지정된 JSON 구조에 맞춰서만 응답하라.
@@ -57,9 +58,11 @@ async function generateWithRetry(ai, payload, retries = 5) {
       const response = await ai.models.generateContent(payload);
       return response;
     } catch (error) {
+      const isQuotaError = error.message?.includes('429') || error.message?.includes('quota');
       if (i < retries - 1) {
-        const wait = (i + 1) * 15000;
-        console.log(`재시도 중... (${i + 1}/${retries})`);
+        // 429 에러(할당량 초과) 발생 시 대기 시간을 대폭 늘림 (60초, 120초, 180초...)
+        const wait = isQuotaError ? (i + 1) * 60000 : (i + 1) * 15000;
+        console.log(`[Retry ${i + 1}/${retries}] ${isQuotaError ? 'Quota limit hit (429).' : 'Error occurred.'} Waiting ${wait / 1000}s...`);
         await new Promise(r => setTimeout(r, wait));
         continue;
       }
@@ -70,7 +73,10 @@ async function generateWithRetry(ai, payload, retries = 5) {
 
 async function run() {
   const apiKey = process.env.API_KEY;
-  if (!apiKey) process.exit(1);
+  if (!apiKey) {
+    console.error("API_KEY is missing");
+    process.exit(1);
+  }
 
   const ai = new GoogleGenAI({ apiKey });
   const reportsDir = path.join(process.cwd(), 'data');
@@ -83,31 +89,30 @@ async function run() {
     try { reports = JSON.parse(fs.readFileSync(reportsPath, 'utf8')); } catch (e) { reports = []; }
   }
 
-  // 한국 시간(UTC+9) 기준으로 시장 결정
   const now = new Date();
   const krHour = (now.getUTCHours() + 9) % 24;
   const market = (krHour >= 9 && krHour < 16) ? 'KR' : 'US';
-  const excluded = reports.slice(0, 10).map(r => r.ticker).filter(Boolean);
+  const excluded = reports.slice(0, 5).map(r => r.ticker).filter(Boolean);
 
-  console.log(`Target Market: ${market}, Excluded: ${excluded.join(', ')}`);
+  console.log(`Execution Start - Market: ${market}, Time: ${now.toISOString()}`);
 
   try {
     const response = await generateWithRetry(ai, {
-      model: 'gemini-3-flash-preview', // 최신 모델 사용
-      contents: `${market} 증시에서 가장 핫한 종목 1개를 골라라. 제외 종목: ${excluded.join(',')}. 실시간 구글 검색을 통해 심층 분석 리포트를 JSON으로 작성하라.`,
+      model: 'gemini-3-flash-preview',
+      contents: `${market} 증시 핫종목 1개 심층 분석. 제외: ${excluded.join(',')}. 실시간 검색 결과 포함 필수.`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         tools: [{ googleSearch: {} }],
       },
     });
 
-    let responseText = response.text;
-    if (!responseText && response.candidates?.[0]?.content?.parts) {
-      responseText = response.candidates[0].content.parts.find(p => p.text)?.text;
-    }
-
+    const responseText = response.text;
     const reportData = extractJson(responseText);
     
+    // 필수 필드 확인 및 보정
+    if (!reportData.title && reportData.reportTitle) reportData.title = reportData.reportTitle;
+    if (!reportData.summary && reportData.marketOverview) reportData.summary = typeof reportData.marketOverview === 'string' ? reportData.marketOverview : "분석 요약 제공됨";
+
     const sources = [];
     const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks;
     if (chunks) {
@@ -118,7 +123,6 @@ async function run() {
       });
     }
 
-    // 필수 필드 보정 및 ID 생성
     const newReport = { 
       ...reportData, 
       market, 
@@ -127,12 +131,13 @@ async function run() {
       sources: sources.length > 0 ? sources : undefined
     };
 
-    // 기존 데이터와 병합 (ID 중복 제거)
+    if (!newReport.title) throw new Error("Generated report is missing a title.");
+
     const updatedReports = [newReport, ...reports].slice(0, 500);
     fs.writeFileSync(reportsPath, JSON.stringify(updatedReports, null, 2));
-    console.log(`Successfully generated and saved: ${newReport.ticker || newReport.title}`);
+    console.log(`Success: Saved ${newReport.ticker || newReport.title}`);
   } catch (error) {
-    console.error("Execution failed:", error);
+    console.error("Critical Failure:", error.message);
     process.exit(1);
   }
 }

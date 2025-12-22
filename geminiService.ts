@@ -29,8 +29,9 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
         ? '대한민국 증시에서 현재 거래량이 급증하거나 이슈가 있는 종목 1개를 선정하라.' 
         : '미국 증시에서 현재 기술적/실적 이슈로 주목받는 종목 1개를 선정하라.';
       
+      // Use the recommended gemini-3-flash-preview model for search and text analysis tasks
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-flash-preview',
         contents: `${marketPrompt} 제외 종목: ${excludedStocks.join(', ')}. 반드시 지정된 JSON 구조로만 응답하라.`,
         config: {
           systemInstruction: SYSTEM_INSTRUCTION,
@@ -38,10 +39,8 @@ export const discoverAndAnalyzeStock = async (market: 'KR' | 'US', excludedStock
         },
       });
 
-      let responseText = response.text;
-      if (!responseText && response.candidates?.[0]?.content?.parts) {
-        responseText = response.candidates[0].content.parts.find((p: any) => p.text)?.text;
-      }
+      // Directly access .text property as per SDK guidelines
+      const responseText = response.text;
 
       const reportData = extractJson(responseText);
       

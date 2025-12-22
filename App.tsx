@@ -15,18 +15,22 @@ const App = () => {
     const initApp = async () => {
       let fetchedReports: AnalysisReport[] = [];
       try {
-        const response = await fetch('./data/reports.json');
+        // 캐시를 방지하기 위해 타임스탬프 쿼리 추가
+        const response = await fetch(`./data/reports.json?t=${Date.now()}`);
         if (response.ok) {
-          fetchedReports = await response.json();
+          const data = await response.json();
+          // 데이터 구조가 올바른(title이 있는) 리포트만 필터링
+          fetchedReports = Array.isArray(data) ? data.filter(r => r.title) : [];
         }
       } catch (e) {
-        console.warn("Static data load failed");
+        console.warn("Static data load failed, checking local cache...");
       }
 
       const saved = localStorage.getItem('ai_blog_v2_reports');
       if (saved) {
         try {
-          const localParsed = JSON.parse(saved);
+          const localParsed = JSON.parse(saved).filter((r: any) => r.title);
+          // 서버 데이터와 로컬 데이터 병합 (ID 기준 중복 제거)
           fetchedReports = Array.from(new Map([...fetchedReports, ...localParsed].map(item => [item.id, item])).values())
             .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
         } catch (e) {}
@@ -57,13 +61,12 @@ const App = () => {
     setActiveReport(report);
     updateMetaTags(report);
     
-    // pushState 오류 방지: blob: 이나 특수 도메인 환경 대응
     try {
       const url = new URL(window.location.href);
       url.searchParams.set('id', report.id);
       window.history.pushState({ path: url.toString() }, '', url.toString());
     } catch (e) {
-      console.warn("History pushState is restricted in this environment.");
+      console.warn("History pushState restricted");
     }
     window.scrollTo(0, 0);
   };
@@ -77,7 +80,7 @@ const App = () => {
       url.searchParams.delete('id');
       window.history.pushState({ path: url.toString() }, '', url.toString());
     } catch (e) {
-      console.warn("History pushState is restricted.");
+      console.warn("History pushState restricted");
     }
   };
 
@@ -90,10 +93,12 @@ const App = () => {
       const now = new Date();
       const hour = now.getHours();
       const market: 'KR' | 'US' = (hour >= 9 && hour < 16) ? 'KR' : 'US';
-      const excludedTickers = reports.slice(0, 10).map(r => r.ticker);
+      const excludedTickers = reports.slice(0, 5).map(r => r.ticker);
 
       const newReport = await discoverAndAnalyzeStock(market, excludedTickers);
       
+      if (!newReport.title) throw new Error("분석 결과 데이터가 불완전합니다.");
+
       const updatedReports = [newReport, ...reports].slice(0, 100);
       setReports(updatedReports);
       localStorage.setItem('ai_blog_v2_reports', JSON.stringify(updatedReports));
@@ -111,9 +116,8 @@ const App = () => {
     const timer = setInterval(() => {
       const now = new Date();
       const interval = 3 * 3600;
-      const currentSeconds = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
-      const nextRun = Math.ceil((currentSeconds + 1) / interval) * interval;
-      setTimeLeft(nextRun - currentSeconds);
+      const currentSeconds = (now.getUTCHours() * 3600 + now.getUTCMinutes() * 60 + now.getUTCSeconds()) % interval;
+      setTimeLeft(interval - currentSeconds);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
@@ -137,7 +141,7 @@ const App = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="hidden md:flex flex-col items-end mr-4">
-              <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Next Auto Analysis</span>
+              <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Next Auto Analysis (UTC)</span>
               <span className="text-sm font-mono font-black text-slate-900">{formatTime(timeLeft)}</span>
             </div>
             <button 
@@ -215,7 +219,7 @@ const App = () => {
               ))}
               {reports.length === 0 && !isGenerating && (
                 <div className="col-span-full py-20 text-center text-slate-400 font-bold">
-                  아직 발행된 리포트가 없습니다. 'LIVE TEST' 버튼을 눌러 첫 분석을 시작해보세요.
+                  데이터 로딩 중이거나 발행된 리포트가 없습니다.
                 </div>
               )}
             </div>
