@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1766773525330",
+    "title": "H1: SOBR Safe Inc. (SOBR): 극심한 변동성 속 재무 리스크와 투자 전망 분석",
+    "ticker": "SOBR",
+    "market": "US",
+    "timestamp": "2025-12-26T18:25:25.330Z",
+    "summary": "SOBR Safe Inc. (SOBR)는 비침습성 알코올 감지 기술을 개발하는 회사로, 최근 200만 달러 규모의 사모 발행 발표로 인해 주가에 큰 변동성을 보였습니다. 12월 24일 82.3% 급등 후, 12월 26일 프리마켓에서 11.4% 하락했습니다. [9, 13, 18]",
+    "sentimentScore": -0.4,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1766762295162",
     "title": "H1: Citius Pharmaceuticals (CTXR): 극한 변동성과 파이프라인 기대치의 교차점 – 심층 리스크 분석",
     "ticker": "CTXR",
