@@ -10,6 +10,7 @@
     <meta name="naver-site-verification" content="9859d191b7667acc35a37b637c61badb667f4aba" />
     
     <title>FinanceAI Pro | 실시간 글로벌 증시 분석</title>
+    <!-- Basic Meta tags are now handled by React Helmet, but keeping defaults here as fallback -->
     <meta name="description" content="AI가 분석하는 실시간 주식 전망 및 기술적 분석 리포트. 글로벌 시장의 핵심 종목을 초정밀 스캔합니다.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="FinanceAI Pro">
@@ -63,13 +64,16 @@
     "marked": "https://esm.sh/marked@12.0.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
     "fs": "https://esm.sh/fs@^0.0.1-security",
-    "path": "https://esm.sh/path@^0.12.7"
+    "path": "https://esm.sh/path@^0.12.7",
+    "react-helmet-async": "https://esm.sh/react-helmet-async@2.0.4"
   }
 }
 </script>
+<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
     <script type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
