@@ -4,6 +4,7 @@ import { marked } from 'marked';
 import { AnalysisReport } from '../types';
 import StockChart from './StockChart';
 import SchemaMarkup from './SchemaMarkup';
+import SEOHead from './SEOHead';
 
 interface ArticleViewProps {
   report: AnalysisReport;
@@ -40,8 +41,29 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
     return marked.parse(report.fullContent || "") as string;
   }, [report.fullContent]);
 
+  // SEO를 위한 키워드 생성
+  const seoKeywords = [
+    report.ticker,
+    report.market === 'KR' ? '국내주식' : '미국주식',
+    report.investmentRating,
+    '주가 전망',
+    '기술적 분석',
+    '목표 주가',
+    `${report.ticker} 주가`
+  ];
+
   return (
     <article className="max-w-4xl mx-auto py-12 px-6 bg-white shadow-sm border border-slate-100 rounded-[2.5rem] mb-20">
+      {/* Dynamic SEO Injection */}
+      <SEOHead 
+        title={`${report.title} - ${report.ticker} 분석`}
+        description={report.summary}
+        keywords={seoKeywords}
+        type="article"
+        publishedTime={report.timestamp}
+        url={`https://financebot-omega.vercel.app/report/${report.id}`}
+        ticker={report.ticker}
+      />
       <SchemaMarkup report={report} />
       
       <header className="mb-12 text-center">
@@ -63,7 +85,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
         <div className="flex items-center justify-center gap-4 text-xs font-bold text-slate-400">
           <span>AI Lead Analyst x Yahoo Finance</span>
           <span>•</span>
-          <time>{new Date(report.timestamp).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+          <time dateTime={report.timestamp}>{new Date(report.timestamp).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
         </div>
       </header>
 
