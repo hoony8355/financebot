@@ -1,4 +1,14 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Styles moved from index.html */
+body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f8fafc; color: #1e293b; }
+
+/* Markdown styles override */
+.prose h2 { color: #1e293b !important; font-weight: 900 !important; margin-top: 3rem !important; margin-bottom: 1.5rem !important; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.75rem; }
+.prose h3 { color: #334155 !important; font-weight: 800 !important; margin-top: 2rem !important; }
+.prose p { line-height: 1.8 !important; margin-bottom: 1.5rem !important; color: #475569 !important; font-size: 1.05rem; }
+.prose strong { color: #4f46e5 !important; font-weight: 700 !important; }
+.markdown-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+.ads-placeholder { background: #f1f5f9; border: 1px dashed #cbd5e1; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 12px; font-weight: bold; margin: 2rem 0; min-height: 100px; }
