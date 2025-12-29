@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://financebot-omega.vercel.app/sitemap.xml
