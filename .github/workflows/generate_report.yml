@@ -1,3 +1,4 @@
+
 name: Autonomous Financial Report Generator
 
 on:
@@ -34,16 +35,16 @@ jobs:
           git config --global user.name "FinanceBot-AI"
           git config --global user.email "bot@finance-ai.pro"
           
-          # 생성된 데이터 파일 스테이징
-          git add public/data/reports-manifest.json public/data/articles/*.json
+          # sitemap.xml을 포함하여 생성된 모든 데이터 파일 스테이징
+          git add public/data/reports-manifest.json public/data/articles/*.json public/sitemap.xml
           
           if git diff --staged --quiet; then
             echo "No changes detected"
           else
-            # 스테이징되지 않은 나머지(npm install 관련 등) 제거
+            # 스테이징되지 않은 변경사항은 폐기 (clean working directory)
             git checkout -- .
             
-            git commit -m "🚀 Auto-update: New Financial Analysis Report"
+            git commit -m "🚀 Auto-update: New Financial Analysis Report & Sitemap"
             
             # 리베이스를 통해 동시성 충돌 방지
             git pull --rebase --autostash origin main
