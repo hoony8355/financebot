@@ -15,7 +15,8 @@ const App = () => {
   const fetchFullReport = async (id: string) => {
     setIsLoadingArticle(true);
     try {
-      const response = await fetch(`./data/articles/${id}.json?t=${Date.now()}`);
+      // 절대 경로('/')를 사용하여 하위 경로(/report/...)에서도 정상적으로 데이터를 불러오도록 수정
+      const response = await fetch(`/data/articles/${id}.json?t=${Date.now()}`);
       if (!response.ok) throw new Error("아티클을 불러올 수 없습니다.");
       return await response.json() as AnalysisReport;
     } catch (e) {
@@ -29,13 +30,24 @@ const App = () => {
   useEffect(() => {
     const initApp = async () => {
       try {
-        const response = await fetch(`./data/reports-manifest.json?t=${Date.now()}`);
+        // 절대 경로 사용
+        const response = await fetch(`/data/reports-manifest.json?t=${Date.now()}`);
         if (response.ok) {
           const data = await response.json();
           setManifest(Array.isArray(data) ? data : []);
           
-          const params = new URLSearchParams(window.location.search);
-          const reportId = params.get('id');
+          // 경로 기반 라우팅 로직 (/report/ID)
+          const path = window.location.pathname;
+          let reportId = null;
+
+          if (path.startsWith('/report/')) {
+            reportId = path.split('/report/')[1];
+          } else {
+            // 하위 호환성: 기존 파라미터 방식도 지원
+            const params = new URLSearchParams(window.location.search);
+            reportId = params.get('id');
+          }
+
           if (reportId) {
             const full = await fetchFullReport(reportId);
             if (full) {
@@ -60,9 +72,8 @@ const App = () => {
     if (full) {
       setActiveReport(full);
       updateMeta(full);
-      const url = new URL(window.location.href);
-      url.searchParams.set('id', item.id);
-      window.history.pushState({}, '', url.toString());
+      // SEO 친화적인 경로 기반 URL 업데이트
+      window.history.pushState({}, '', `/report/${item.id}`);
       window.scrollTo(0, 0);
     }
   };
@@ -70,9 +81,7 @@ const App = () => {
   const handleBack = () => {
     setActiveReport(null);
     document.title = "FinanceBot Pro | 실시간 분석";
-    const url = new URL(window.location.href);
-    url.searchParams.delete('id');
-    window.history.pushState({}, '', url.toString());
+    window.history.pushState({}, '', '/');
   };
 
   const executeLiveTest = useCallback(async () => {

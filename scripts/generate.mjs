@@ -142,6 +142,31 @@ async function run() {
       sentimentScore: fullArticle.sentimentScore, investmentRating: fullArticle.investmentRating
     }, ...manifest].slice(0, 100);
     fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
+    
+    // --- Sitemap.xml 자동 생성 시작 ---
+    const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
+    const baseUrl = "https://financebot-omega.vercel.app";
+    
+    const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${baseUrl}/</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  ${updatedManifest.map(item => `
+  <url>
+    <loc>${baseUrl}/report/${item.id}</loc>
+    <lastmod>${item.timestamp || new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>`).join('')}
+</urlset>`;
+
+    fs.writeFileSync(sitemapPath, sitemapContent);
+    // --- Sitemap.xml 자동 생성 끝 ---
+
     console.log(`Success: ${reportId}`);
   } catch (error) {
     process.exit(1);
