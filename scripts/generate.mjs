@@ -49,17 +49,27 @@ const WRITING_INSTRUCTION = `
 
 function extractJson(text) {
   if (!text) throw new Error("응답이 없습니다.");
+  
+  // 1단계: Markdown 코드 블록 제거 (```json ... ```)
+  let cleanText = text.replace(/```json/g, "").replace(/```/g, "").trim();
+
   try {
-    const firstBrace = text.indexOf('{');
-    const lastBrace = text.lastIndexOf('}');
-    if (firstBrace !== -1 && lastBrace !== -1) {
-      const jsonStr = text.substring(firstBrace, lastBrace + 1);
-      return JSON.parse(jsonStr);
-    }
-    return JSON.parse(text);
+    // 2단계: 순수 텍스트에서 JSON 파싱 시도
+    return JSON.parse(cleanText);
   } catch (e) {
-    console.error("JSON 파싱 에러:", text);
-    throw new Error("유효한 JSON 형식이 아닙니다.");
+    // 3단계: 파싱 실패 시, 중괄호({}) 구간만 강제로 추출하여 재시도
+    try {
+      const firstBrace = cleanText.indexOf('{');
+      const lastBrace = cleanText.lastIndexOf('}');
+      if (firstBrace !== -1 && lastBrace !== -1) {
+        const jsonStr = cleanText.substring(firstBrace, lastBrace + 1);
+        return JSON.parse(jsonStr);
+      }
+    } catch (e2) {
+      console.error("JSON Parsing Failed. Raw Text:", text);
+      throw new Error("유효한 JSON 형식이 아닙니다.");
+    }
+    throw e;
   }
 }
 
@@ -143,7 +153,7 @@ async function run() {
     }, ...manifest].slice(0, 100);
     fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
     
-    // --- Sitemap.xml 자동 생성 시작 ---
+    // --- Sitemap.xml 자동 생성 ---
     const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
     const baseUrl = "https://financebot-omega.vercel.app";
     
@@ -165,10 +175,9 @@ async function run() {
 </urlset>`;
 
     fs.writeFileSync(sitemapPath, sitemapContent);
-    // --- Sitemap.xml 자동 생성 끝 ---
-
     console.log(`Success: ${reportId}`);
   } catch (error) {
+    console.error("Critical Error:", error);
     process.exit(1);
   }
 }
