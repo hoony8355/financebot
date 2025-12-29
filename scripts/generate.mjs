@@ -98,20 +98,34 @@ async function fetchChartHistory(symbol, market) {
 }
 
 async function generateWithRetry(ai, payload, retries = 5) {
+  let lastError;
   for (let i = 0; i < retries; i++) {
     try {
-      return await ai.models.generateContent(payload);
+      const response = await ai.models.generateContent(payload);
+      // 응답이 유효한지 확인
+      if (response && response.text) {
+        return response;
+      } else {
+        throw new Error("Empty response from AI");
+      }
     } catch (error) {
-      const wait = (i + 1) * 20000;
-      console.log(`Retry ${i + 1}...`);
+      console.log(`Retry ${i + 1}/${retries} failed: ${error.message}`);
+      lastError = error;
+      // Exponential backoff
+      const wait = (i + 1) * 10000;
       await new Promise(r => setTimeout(r, wait));
     }
   }
+  // 모든 재시도가 실패하면 명시적으로 에러를 던져서 호출자가 undefined를 처리하려다 죽는 것을 방지
+  throw lastError || new Error("Failed to generate content after multiple retries.");
 }
 
 async function run() {
   const apiKey = process.env.API_KEY;
-  if (!apiKey) process.exit(1);
+  if (!apiKey) {
+    console.error("Error: API_KEY is missing.");
+    process.exit(1);
+  }
 
   const ai = new GoogleGenAI({ apiKey });
   const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -129,6 +143,9 @@ async function run() {
   const excluded = manifest.slice(0, 10).map(r => r.ticker);
 
   try {
+    console.log(`Starting analysis for market: ${market} using gemini-2.5-flash...`);
+    
+    // 1단계: 종목 선정
     const researchResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
       contents: `${market} 증시의 핵심 이슈 종목 1개 선정 (변동성 혹은 거래량 상위). 제외: ${excluded.join(',')}`,
@@ -136,8 +153,12 @@ async function run() {
     });
 
     const researchData = extractJson(researchResponse.text);
+    console.log(`Selected Ticker: ${researchData.ticker}`);
+
+    // 2단계: 차트 데이터 확보
     const chartData = await fetchChartHistory(researchData.ticker, market);
 
+    // 3단계: 리포트 작성
     const writingResponse = await generateWithRetry(ai, {
       model: 'gemini-2.5-flash',
       contents: `분석 데이터: ${JSON.stringify(researchData)}, 차트 데이터: ${JSON.stringify(chartData)}`,
@@ -182,7 +203,7 @@ async function run() {
     fs.writeFileSync(sitemapPath, sitemapContent);
     console.log(`Success: ${reportId}`);
   } catch (error) {
-    console.error("Critical Error:", error);
+    console.error("Critical Error during generation:", error);
     process.exit(1);
   }
 }
