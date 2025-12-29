@@ -37,12 +37,17 @@ const RESEARCH_INSTRUCTION = `
 const WRITING_INSTRUCTION = `
 # Role: 수석 금융 에디터
 # Task: 제공된 데이터를 바탕으로 2000자 이상의 초고도화 금융 리포트를 작성하라.
+# Guidelines:
+- **Do NOT use H1 (#) tags in the fullContent.** The article title is already rendered as H1.
+- Start your section headers with H2 (##).
+- Use bolding, lists, and tables to enhance readability.
+
 # Output Schema (JSON ONLY):
 {
-  "title": "H1: 전문적인 분석 제목",
+  "title": "H1에 들어갈 전문적인 분석 제목 (본문에 포함하지 말 것)",
   "macroContext": "산업 및 매크로 컨텍스트",
   "valuationCheck": "밸류에이션 상세 분석",
-  "fullContent": "Markdown 형식의 심층 분석 본문. 데이터 지표와 전문 용어를 적극적으로 사용할 것.",
+  "fullContent": "Markdown 형식의 심층 분석 본문. H2(##) 태그부터 사용하여 구조화할 것.",
   "faqs": [{"question": "질문", "answer": "답변"}]
 }
 `;
