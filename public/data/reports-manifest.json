@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1767215928800",
+    "title": "Super Micro Computer (SMCI): 고성장 AI 서버 시장의 선두 주자, 기회와 리스크의 심층 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2025-12-31T21:18:48.800Z",
+    "summary": "Super Micro Computer (SMCI)는 AI 및 클라우드 컴퓨팅 시장을 위한 고성능 서버 및 스토리지 솔루션의 선두 주자입니다. NVIDIA Blackwell 및 AMD Instinct GPU와의 파트너십을 통해 제품 포트폴리오를 적극적으로 확장하고 있습니다. 강력한 매출 성장과 '그린 컴퓨팅'에 대한 집중에도 불구하고, SMCI는 기업 지배구조 및 특허 침해 조사와 관련된 도전 과제에 직면해 있습니다.",
+    "sentimentScore": 6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1767205823079",
     "title": "Palantir Technologies (PLTR): AI 플랫폼 선두주자의 고속 성장과 밸류에이션 리스크 심층 분석",
     "ticker": "PLTR",
