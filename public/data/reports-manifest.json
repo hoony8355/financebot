@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1767357665759",
+    "title": "테슬라(TSLA): 혁신과 현실 사이, 고평가 논란 속 장기 성장 잠재력 분석",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-01-02T12:41:05.759Z",
+    "summary": "테슬라는 2025년 4분기 예상보다 저조한 차량 인도량 발표를 앞두고 있으며, 높은 밸류에이션과 경쟁 심화로 단기적으로 변동성이 예상됩니다. 하지만 자율주행(Cybercab) 및 AI 기술, 에너지 사업 부문의 장기 성장 잠재력에 대한 기대감도 여전히 존재합니다.",
+    "sentimentScore": 35,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1767345899449",
     "title": "AMC Entertainment Holdings: 극심한 재무 압박과 높은 변동성 속 투자 리스크 심층 분석",
     "ticker": "AMC",
