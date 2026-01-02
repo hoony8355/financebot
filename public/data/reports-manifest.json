@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1767345899449",
+    "title": "AMC Entertainment Holdings: 극심한 재무 압박과 높은 변동성 속 투자 리스크 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-01-02T09:24:59.449Z",
+    "summary": "AMC Entertainment Holdings (AMC)는 높은 변동성과 막대한 부채로 인해 상당한 재정적 어려움을 겪고 있습니다. 최근 양호한 영화 관객 수에도 불구하고 주가는 하락세를 보이며 투자자들의 회의적인 시각이 지배적입니다. 기술적 지표는 과매도 상태를 시사하지만, 회사의 기본적인 재무 건전성에 대한 우려가 지속되고 있습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1767335598858",
     "title": "켄코아에어로스페이스(274090): 성장 잠재력과 단기 실적 리스크의 교차 분석",
     "ticker": "274090",
