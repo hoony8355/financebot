@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768079956585",
+    "title": "Atara Biotherapeutics (ATRA): Tab-cel FDA 승인 임박, 극심한 변동성 속 고위험-고수익 투자 분석",
+    "ticker": "ATRA",
+    "market": "US",
+    "timestamp": "2026-01-10T21:19:16.585Z",
+    "summary": "Atara Biotherapeutics (ATRA)는 T세포 면역치료제를 개발하는 임상 단계의 생명공학 회사이며, 특히 엡스타인-바 바이러스(EBV) 관련 질환 치료제 개발에 집중하고 있습니다. 최근 Tabelecleucel (tab-cel)의 미국 FDA 승인 결정이 임박하여 높은 시장 변동성을 보이고 있습니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1768069735930",
     "title": "Vistra Corp. (VST): AI 시대의 에너지 혁신, 메타와의 동맹으로 새로운 도약",
     "ticker": "VST",
@@ -988,15 +998,5 @@
     "summary": "Starfighters Space, Inc. (FJET)는 F-104 초음속 항공기를 활용하여 조종사 및 우주비행사 훈련, 비행 중 테스트, 극초음속 연구 개발, 소형 위성 발사 서비스 등을 제공하는 미국 항공우주 및 방위 회사입니다. 최근 NYSE American에 상장되어 높은 변동성과 거래량을 보이며 시장의 주목을 받고 있습니다.",
     "sentimentScore": 50,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1766503178555",
-    "title": "H1: Zenas BioPharma (ZBIO): 오벡셀리맙의 MoonStone 2상 성공과 면역학 기반 치료제의 지평 확대에 대한 심층 분석",
-    "ticker": "ZBIO",
-    "market": "US",
-    "timestamp": "2025-12-23T15:19:38.555Z",
-    "summary": "Zenas BioPharma (ZBIO)는 자가면역 질환을 위한 혁신적인 면역학 기반 치료제 개발 및 상용화에 주력하는 임상 단계 바이오제약 기업입니다. 주요 후보 물질인 오벡셀리맙(obexelimab)은 재발성 다발성 경화증(RMS) 2상 MoonStone 임상 시험에서 새로운 병변을 95% 감소시키는 긍정적인 결과를 발표하며 강력한 성장 모멘텀을 확보했습니다. NASDAQ Biotechnology Index에 편입되었으며, 파이프라인에는 여러 면역학 기반 치료제 후보 물질들이 포함되어 있습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
