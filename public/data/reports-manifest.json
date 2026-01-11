@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768156156131",
+    "title": "Mingteng International (MTEN): 극심한 변동성과 상장 폐지 위험에 직면한 자동차 금형 기업 심층 분석",
+    "ticker": "MTEN",
+    "market": "US",
+    "timestamp": "2026-01-11T18:29:16.131Z",
+    "summary": "Mingteng International Corporation Inc. (MTEN)는 중국 기반의 자동차 금형 생산 전문 지주회사로, 최근 주가 희석 우려와 대규모 매도세로 인해 1월 9일-10일 사이 75% 이상 급락하며 극심한 변동성을 보였습니다. 현재 주가는 사상 최저치 부근에서 거래되고 있으며, 시장의 '위험 선호' 분위기와는 대조적인 모습을 보이고 있습니다.",
+    "sentimentScore": -0.8,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1768135213453",
     "title": "GameStop (GME) 심층 분석: 야심찬 비전과 가속화되는 구조적 도전",
     "ticker": "GME",
@@ -987,16 +997,6 @@
     "timestamp": "2025-12-24T09:21:54.729Z",
     "summary": "Reviva Pharmaceuticals Holdings, Inc.는 중추신경계, 호흡기 및 대사 질환 치료제 개발에 주력하는 임상 단계 바이오 제약 회사입니다. 최근 FDA가 주력 조현병 치료제인 브릴라록사진(brilaroxazine)에 대해 두 번째 임상 3상 시험을 권고하면서 주가가 급락했습니다. 이는 상당한 추가 자금 조달과 규제 승인 일정 지연을 의미합니다.",
     "sentimentScore": 25,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1766557746058",
-    "title": "H1: SK하이닉스(000660): AI 시대 HBM 리더십 기반 구조적 성장 로드맵 분석",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2025-12-24T06:29:06.058Z",
-    "summary": "SK하이닉스는 대한민국을 대표하는 글로벌 반도체 기업으로, 특히 고대역폭 메모리(HBM) 분야에서 독보적인 기술력과 시장 점유율을 바탕으로 인공지능(AI) 시대의 핵심 수혜주로 주목받고 있습니다. 최근 AI 서버용 메모리 수요 급증에 힘입어 긍정적인 시장 전망과 애널리스트들의 높은 목표 주가가 제시되고 있습니다.",
-    "sentimentScore": 85,
     "investmentRating": "Strong Buy"
   }
 ]
