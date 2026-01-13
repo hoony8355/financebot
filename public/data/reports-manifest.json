@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768308389225",
+    "title": "Direct Digital Holdings (DRCT) 심층 분석: 나스닥 상장 위기 속 극단적 변동성과 투자 위험 평가",
+    "ticker": "DRCT",
+    "market": "US",
+    "timestamp": "2026-01-13T12:46:29.225Z",
+    "summary": "Direct Digital Holdings (DRCT)는 최근 주가 급락과 나스닥 상장 규정 미준수 통보, 경영진 지분 매각 등의 부정적인 소식으로 높은 변동성을 보이고 있는 디지털 광고 플랫폼 기업입니다. 7일간의 주가는 지속적인 하락세를 보였습니다.",
+    "sentimentScore": -70,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1768286042883",
     "title": "STX엔진(077970): 견고한 실적 속 밸류에이션과 변동성 리스크 공존 심층 분석",
     "ticker": "077970",
@@ -988,15 +998,5 @@
     "summary": "Dynavax Technologies (DVAX)는 Sanofi에 주당 15.50달러, 총 22억 달러 규모로 인수될 예정인 미국 생명공학 기업입니다. 이 인수를 통해 Sanofi는 성인 예방접종 포트폴리오를 강화하고 Dynavax의 B형 간염 백신(HEPLISAV-B) 및 대상포진 백신 후보물질을 확보합니다. 2025년 12월 24일 발표된 이 거래는 2026년 1분기에 완료될 것으로 예상됩니다. 인수 발표 후 DVAX 주가는 38% 이상 급등하며 투자자들의 긍정적인 반응을 이끌어냈습니다.",
     "sentimentScore": 75,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1766644115723",
-    "title": "H1: 한진칼(180640) 기업 가치 심층 분석: 글로벌 회복세 속 지주회사의 재평가 가능성",
-    "ticker": "180640",
-    "market": "KR",
-    "timestamp": "2025-12-25T06:28:35.723Z",
-    "summary": "Hanjinkal Corp. (180640)는 대한민국의 지주회사로, 주요 자회사인 대한항공(여객, 화물, 항공우주), 한진택배(물류, 택배), KAL호텔네트워크(호텔) 등을 통해 항공, 물류, 호텔 및 여행 사업을 영위하고 있습니다. 특히 대한항공의 주요 지분을 보유하며 글로벌 여행 수요 및 화물 운송 시장에 크게 기여하고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
