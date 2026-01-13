@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768339323013",
+    "title": "Ondas Holdings (ONDS) 심층 분석: 자율 시스템 및 미션 크리티컬 IoT 시장의 고성장 잠재력과 투자 리스크 평가",
+    "ticker": "ONDS",
+    "market": "US",
+    "timestamp": "2026-01-13T21:22:03.013Z",
+    "summary": "Ondas Holdings Inc.는 온다스 네트워크(Ondas Networks)와 온다스 자율 시스템(OAS) 두 사업 부문을 통해 사설 무선, 드론 및 자동화된 데이터 솔루션을 제공하는 기술 기업입니다. 온다스 네트워크는 철도, 에너지, 유틸리티 등 미션 크리티컬 IoT 애플리케이션을 위한 FullMAX SDR 플랫폼을 개발하며, OAS는 American Robotics 및 Airobotics를 통해 국방, 보안 및 핵심 인프라를 위한 Optimus System 및 Iron Drone Raider와 같은 AI 기반 자율 드론 시스템을 '서비스로서의 로봇(RaaS)' 모델로 제공하고 있습니다. 특히 OAS는 최근 새로운 정부 계약을 수주하며 강력한 성장 동력으로 부각되고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1768329074244",
     "title": "AMC Entertainment Holdings Inc.: 변동성 속 재무 구조 개선 압박과 투자 심리 분석",
     "ticker": "AMC",
@@ -988,15 +998,5 @@
     "summary": "마이크론 테크놀로지(MU)는 인공지능(AI) 기반 고대역폭 메모리(HBM) 수요 급증과 견고한 실적 발표에 힘입어 2025년 크게 성장하며 사상 최고가를 기록했습니다. 2026년까지 HBM 생산량이 매진되어 강력한 매출 및 마진 가시성을 확보했으며, 반도체 산업이 AI 주도의 장기적인 '슈퍼사이클'에 진입했다는 평가를 받고 있습니다.",
     "sentimentScore": 85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1766675879183",
-    "title": "H1: Omeros Corporation: YARTEMLEA FDA 승인 및 Novo Nordisk 딜로 재평가 국면 진입 - 희귀질환 시장의 새로운 지평",
-    "ticker": "OMER",
-    "market": "US",
-    "timestamp": "2025-12-25T15:17:59.183Z",
-    "summary": "Omeros Corporation은 최근 조혈모세포 이식 관련 혈전성 미세혈관병증(TA-TMA) 치료제인 YARTEMLEA(narsoplimab-wuug)에 대한 미국 FDA 승인을 받으며 주가가 급등했습니다. 이는 해당 질환에 대한 최초이자 유일한 치료제로, 회사의 핵심 촉매제로 작용했습니다. 또한, Novo Nordisk와 MASP-3 억제제 잘테니바트(zaltenibart)에 대한 자산 매입 및 라이선스 계약을 체결하여 상당한 마일스톤 지급 및 로열티를 받을 잠재력을 확보했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Buy"
   }
 ]
