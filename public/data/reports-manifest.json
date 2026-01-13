@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768329074244",
+    "title": "AMC Entertainment Holdings Inc.: 변동성 속 재무 구조 개선 압박과 투자 심리 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-01-13T18:31:14.244Z",
+    "summary": "AMC Entertainment Holdings Inc.는 최근 52주 신저가 기록 후 반등하며 높은 변동성을 보였습니다. 박스오피스 실적은 긍정적이나, 주식 희석 우려 등 재무 건전성에 대한 장기적인 부담으로 인해 투자 심리가 복합적으로 작용하고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1768317958921",
     "title": "Atara Biotherapeutics (ATRA): 규제 불확실성 증폭과 재정적 압박 속 동종 T-세포 치료제의 미래 탐색",
     "ticker": "ATRA",
@@ -988,15 +998,5 @@
     "summary": "Omeros Corporation은 최근 조혈모세포 이식 관련 혈전성 미세혈관병증(TA-TMA) 치료제인 YARTEMLEA(narsoplimab-wuug)에 대한 미국 FDA 승인을 받으며 주가가 급등했습니다. 이는 해당 질환에 대한 최초이자 유일한 치료제로, 회사의 핵심 촉매제로 작용했습니다. 또한, Novo Nordisk와 MASP-3 억제제 잘테니바트(zaltenibart)에 대한 자산 매입 및 라이선스 계약을 체결하여 상당한 마일스톤 지급 및 로열티를 받을 잠재력을 확보했습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1766666140645",
-    "title": "H1: Palantir Technologies (PLTR) 심층 분석: AI 주도 성장과 밸류에이션 프리미엄의 이중성",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2025-12-25T12:35:40.645Z",
-    "summary": "Palantir Technologies (PLTR)는 2025년에 AI 소프트웨어 플랫폼에 대한 정부 및 상업 부문의 수요 증가에 힘입어 뛰어난 성과를 보였습니다. 3분기 실적은 예상치를 상회하며 강력한 매출 성장을 기록했습니다. 주가는 연초 대비 150% 이상 급등했으나, 높은 밸류에이션에 대한 분석가들의 신중한 시각으로 '보유' 컨센서스를 유지하고 있습니다. 전략적 계약 수주와 확장하는 AI 시장에서의 핵심적인 위치가 주목됩니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Hold"
   }
 ]
