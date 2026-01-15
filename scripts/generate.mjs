@@ -53,7 +53,7 @@ const WRITING_INSTRUCTION = `
 `;
 
 function extractJson(text) {
-  if (!text) throw new Error("응답이 없습니다.");
+  if (!text) throw new Error("응답 내용이 비어있습니다.");
   
   // 1단계: Markdown 코드 블록 제거 (```json ... ```)
   let cleanText = text.replace(/```json/g, "").replace(/```/g, "").trim();
@@ -102,22 +102,74 @@ async function generateWithRetry(ai, payload, retries = 5) {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await ai.models.generateContent(payload);
-      // 응답이 유효한지 확인
-      if (response && response.text) {
+      if (response && typeof response.text === 'string') {
         return response;
       } else {
-        throw new Error("Empty response from AI");
+        throw new Error("Empty or invalid response from AI");
       }
     } catch (error) {
       console.log(`Retry ${i + 1}/${retries} failed: ${error.message}`);
       lastError = error;
-      // Exponential backoff
       const wait = (i + 1) * 10000;
       await new Promise(r => setTimeout(r, wait));
     }
   }
-  // 모든 재시도가 실패하면 명시적으로 에러를 던져서 호출자가 undefined를 처리하려다 죽는 것을 방지
   throw lastError || new Error("Failed to generate content after multiple retries.");
+}
+
+// --- Static HTML Generation for SEO ---
+// 메인 index.html 템플릿을 읽어서, 리포트별 메타태그를 주입한 정적 파일을 생성합니다.
+function generateStaticHtml(report, templateHtml, outputDir) {
+  let html = templateHtml;
+  
+  // Title Truncation Logic (SEOHead.tsx와 동일하게 맞춤)
+  const siteName = 'FinanceAI Pro';
+  let finalTitle = report.title;
+  if (report.ticker && !finalTitle.includes(report.ticker)) {
+    finalTitle = `${finalTitle} (${report.ticker})`;
+  }
+  if (!finalTitle.includes(siteName)) {
+    if (finalTitle.length + siteName.length + 3 <= 60) {
+      finalTitle = `${finalTitle} | ${siteName}`;
+    }
+  }
+  if (finalTitle.length > 60) {
+    finalTitle = finalTitle.substring(0, 57) + '...';
+  }
+
+  const description = report.summary.replace(/"/g, '&quot;');
+  const url = `https://financebot-omega.vercel.app/report/${report.id}`;
+  
+  // Replace Title
+  html = html.replace(/<title>.*?<\/title>/, `<title>${finalTitle}</title>`);
+  
+  // Replace Meta Description (존재하는 태그 치환)
+  // 정규식으로 기존 태그를 찾아서 교체하거나, 없으면 head 끝에 추가하는 방식도 가능하지만,
+  // index.html이 고정되어 있으므로 치환 방식을 사용합니다.
+  
+  // 1. Description
+  // index.html에 기본 meta description이 없다면 추가해줘야 하지만, 
+  // 현재 React Helmet으로 관리되므로, 여기서는 "소스 보기"용으로 강제 주입합니다.
+  // <head> 태그 닫기 직전에 SEO 태그들을 삽입하는 것이 가장 확실합니다.
+  
+  const seoTags = `
+    <title>${finalTitle}</title>
+    <meta name="description" content="${description}" />
+    <meta property="og:title" content="${finalTitle}" />
+    <meta property="og:description" content="${description}" />
+    <meta property="og:url" content="${url}" />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:title" content="${finalTitle}" />
+    <meta name="twitter:description" content="${description}" />
+  `;
+
+  // 기존 <title> 태그 제거하고 새로운 태그들로 대체 (중복 방지)
+  html = html.replace(/<title>.*?<\/title>/, '');
+  html = html.replace('</head>', `${seoTags}</head>`);
+
+  const filePath = path.join(outputDir, `${report.id}.html`);
+  fs.writeFileSync(filePath, html);
+  console.log(`Generated Static HTML: ${filePath}`);
 }
 
 async function run() {
@@ -130,10 +182,13 @@ async function run() {
   const ai = new GoogleGenAI({ apiKey });
   const dataDir = path.join(process.cwd(), 'public', 'data');
   const articlesDir = path.join(dataDir, 'articles');
+  const reportsHtmlDir = path.join(process.cwd(), 'public', 'report'); // 정적 HTML 저장소
   const manifestPath = path.join(dataDir, 'reports-manifest.json');
+  const indexHtmlPath = path.join(process.cwd(), 'index.html');
   
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
   if (!fs.existsSync(articlesDir)) fs.mkdirSync(articlesDir, { recursive: true });
+  if (!fs.existsSync(reportsHtmlDir)) fs.mkdirSync(reportsHtmlDir, { recursive: true });
 
   let manifest = [];
   try { manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')); } catch (e) {}
@@ -141,6 +196,14 @@ async function run() {
   const krHour = (new Date().getUTCHours() + 9) % 24;
   const market = (krHour >= 9 && krHour < 16) ? 'KR' : 'US';
   const excluded = manifest.slice(0, 10).map(r => r.ticker);
+
+  // 템플릿 HTML 읽기
+  let templateHtml = "";
+  try {
+    templateHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+  } catch (e) {
+    console.error("Warning: Could not read index.html template");
+  }
 
   try {
     console.log(`Starting analysis for market: ${market} using gemini-2.5-flash...`);
@@ -170,7 +233,14 @@ async function run() {
     const timestamp = new Date().toISOString();
 
     const fullArticle = { ...researchData, ...writingData, chartData, market, id: reportId, timestamp };
+    
+    // JSON 저장
     fs.writeFileSync(path.join(articlesDir, `${reportId}.json`), JSON.stringify(fullArticle, null, 2));
+
+    // 정적 HTML 생성 (SEO용)
+    if (templateHtml) {
+      generateStaticHtml(fullArticle, templateHtml, reportsHtmlDir);
+    }
 
     const updatedManifest = [{
       id: reportId, title: fullArticle.title, ticker: fullArticle.ticker,
@@ -179,6 +249,26 @@ async function run() {
     }, ...manifest].slice(0, 100);
     fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
     
+    // 기존의 상위 50개 게시글에 대해서도 정적 HTML 재생성 (업데이트 보장)
+    if (templateHtml) {
+        console.log("Regenerating static HTMLs for recent reports...");
+        for (const item of updatedManifest.slice(0, 50)) {
+            try {
+                // 전체 데이터를 로드해야 함 (fullArticle 정보가 manifest에는 일부만 있음)
+                // 이미 방금 생성한 건 건너뛰기
+                if (item.id === reportId) continue;
+                
+                const itemPath = path.join(articlesDir, `${item.id}.json`);
+                if (fs.existsSync(itemPath)) {
+                    const itemData = JSON.parse(fs.readFileSync(itemPath, 'utf8'));
+                    generateStaticHtml(itemData, templateHtml, reportsHtmlDir);
+                }
+            } catch (e) {
+                console.warn(`Failed to regenerate HTML for ${item.id}`, e);
+            }
+        }
+    }
+
     // --- Sitemap.xml 자동 생성 ---
     const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
     const baseUrl = "https://financebot-omega.vercel.app";
