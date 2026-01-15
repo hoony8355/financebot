@@ -56,7 +56,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({ report }) => {
     <article className="max-w-4xl mx-auto py-12 px-6 bg-white shadow-sm border border-slate-100 rounded-[2.5rem] mb-20">
       {/* Dynamic SEO Injection */}
       <SEOHead 
-        title={`${report.title} - ${report.ticker} 분석`}
+        title={report.title} // 중복 수식어 제거, SEOHead에서 Ticker 및 길이 조정 자동 처리
         description={report.summary}
         keywords={seoKeywords}
         type="article"
