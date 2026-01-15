@@ -44,6 +44,11 @@ const StockChart: React.FC<StockChartProps> = ({ basePrice, trend, data }) => {
     
   const color = isUp ? '#ef4444' : '#3b82f6';
 
+  // Accessibility & SVG Title/Desc
+  // 사용자가 "빈 타이틀/디스크립션"으로 오해하는 SVG 내부 태그를 채워줍니다.
+  const chartTitle = isRealData ? "주가 변동 추이 차트" : "시뮬레이션 주가 흐름 차트";
+  const chartDesc = `지난 ${isRealData ? '7일간의' : '24시간'} 주가 흐름을 시각화한 차트입니다. 현재 추세는 ${trend}세입니다.`;
+
   return (
     <div className="h-80 w-full bg-slate-50/50 rounded-[2.5rem] p-8 border border-slate-100">
       <div className="flex justify-between items-center mb-8">
@@ -63,7 +68,12 @@ const StockChart: React.FC<StockChartProps> = ({ basePrice, trend, data }) => {
         {isRealData && <span className="text-[10px] font-black text-white bg-slate-900 px-3 py-1 rounded-full tracking-widest">7D HISTORY</span>}
       </div>
       <ResponsiveContainer width="100%" height="75%">
-        <AreaChart data={chartData}>
+        <AreaChart 
+          data={chartData}
+          accessibilityLayer={true} // Recharts 접근성 레이어 활성화
+          title={chartTitle}        // SVG <title> 태그 채우기
+          desc={chartDesc}          // SVG <desc> 태그 채우기
+        >
           <defs>
             <linearGradient id="colorPrice" x1="0" y1="0" x2="0" y2="1">
               <stop offset="5%" stopColor={color} stopOpacity={0.2}/>
