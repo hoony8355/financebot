@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768490756736",
+    "title": "AMD (Advanced Micro Devices) 심층 분석: AI 시대의 선도자, 성장과 위험의 교차점",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-01-15T15:25:56.736Z",
+    "summary": "AMD는 고성능 컴퓨팅, 그래픽 및 AI 데이터 센터 기술을 제공하는 선도적인 반도체 기업입니다. 최근 AI 가속기 칩 수요 증가와 데이터 센터 시장에서의 강력한 입지로 투자자들의 높은 관심을 받고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1768469314005",
     "title": "NVIDIA: AI 컴퓨팅의 지배자, 혁신을 통한 미래 성장 동력 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "IonQ는 양자 컴퓨터 개발 및 제조에 특화된 미국 양자 컴퓨팅 기업입니다. 최근 한국과학기술정보연구원(KISTI)에 100큐비트 양자 시스템을 공급하는 계약을 체결했으며, QuantumBasel 및 미국 공군 연구소(AFRL)와의 파트너십도 확대하고 있습니다. 높은 성장 잠재력을 지닌 기술 선도 기업으로 평가받지만, 상업화 초기 단계의 높은 변동성과 밸류에이션 논란이 있습니다.",
     "sentimentScore": -0.2,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1766773525330",
-    "title": "H1: SOBR Safe Inc. (SOBR): 극심한 변동성 속 재무 리스크와 투자 전망 분석",
-    "ticker": "SOBR",
-    "market": "US",
-    "timestamp": "2025-12-26T18:25:25.330Z",
-    "summary": "SOBR Safe Inc. (SOBR)는 비침습성 알코올 감지 기술을 개발하는 회사로, 최근 200만 달러 규모의 사모 발행 발표로 인해 주가에 큰 변동성을 보였습니다. 12월 24일 82.3% 급등 후, 12월 26일 프리마켓에서 11.4% 하락했습니다. [9, 13, 18]",
-    "sentimentScore": -0.4,
-    "investmentRating": "Sell"
   }
 ]
