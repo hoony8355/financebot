@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768502218529",
+    "title": "Harrow Health Inc. (HROW): 안과 제약 시장의 성장 동력, 리스크 분석 및 투자 전략",
+    "ticker": "HROW",
+    "market": "US",
+    "timestamp": "2026-01-15T18:36:58.529Z",
+    "summary": "Harrow Health Inc.는 미국 시장을 위한 안과용 의약품 개발 및 상용화에 중점을 둔 안과 제약 회사입니다. FDA 승인 의약품 및 조제 의약품을 포함한 종합적인 포트폴리오를 보유하고 있으며, 2024년 53.32%의 매출 성장을 기록하며 바이오시밀러 시장에서 전략적 입지를 다지고 있습니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1768490756736",
     "title": "AMD (Advanced Micro Devices) 심층 분석: AI 시대의 선도자, 성장과 위험의 교차점",
     "ticker": "AMD",
@@ -988,15 +998,5 @@
     "summary": "HLB는 리보세라닙 FDA 승인 재도전 및 2025년 말 바이오텍 시장의 주요 이슈로 부상했습니다. 최근 긍정적 임상 결과와 그룹 실적 개선 기대에도 불구하고, 기술적 분석은 매도 신호를 보이며 변동성이 큰 상황입니다.",
     "sentimentScore": 10,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1766783778091",
-    "title": "H1: IonQ (IONQ): 양자 컴퓨팅 시장의 선구자, 고성장 잠재력과 고위험 밸류에이션의 교차 분석",
-    "ticker": "IONQ",
-    "market": "US",
-    "timestamp": "2025-12-26T21:16:18.091Z",
-    "summary": "IonQ는 양자 컴퓨터 개발 및 제조에 특화된 미국 양자 컴퓨팅 기업입니다. 최근 한국과학기술정보연구원(KISTI)에 100큐비트 양자 시스템을 공급하는 계약을 체결했으며, QuantumBasel 및 미국 공군 연구소(AFRL)와의 파트너십도 확대하고 있습니다. 높은 성장 잠재력을 지닌 기술 선도 기업으로 평가받지만, 상업화 초기 단계의 높은 변동성과 밸류에이션 논란이 있습니다.",
-    "sentimentScore": -0.2,
-    "investmentRating": "Strong Buy"
   }
 ]
