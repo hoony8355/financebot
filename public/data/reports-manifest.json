@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768760919429",
+    "title": "Applied Digital (APLD): AI 인프라 시장의 고성장 잠룡, 기회와 위험 심층 분석",
+    "ticker": "APLD",
+    "market": "US",
+    "timestamp": "2026-01-18T18:28:39.429Z",
+    "summary": "Applied Digital (APLD)는 고성능 컴퓨팅(HPC) 및 인공지능(AI) 데이터 센터 솔루션을 설계, 구축 및 운영하는 기업입니다. 최근 분기 매출이 250% 급증했으며, 코어위브(CoreWeave)와 같은 하이퍼스케일러와의 장기 계약을 통해 약 160억 달러에 달하는 상당한 수주 잔고를 확보하며 AI 인프라 시장에서 강력한 성장세를 보이고 있습니다. 주가는 2026년 초부터 크게 상승하며 높은 변동성을 나타내고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1768749568524",
     "title": "엔비디아(NVDA): AI 컴퓨팅 혁명 주도자, 성장 동력과 밸류에이션 심층 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "UnitedHealth Group (UNH)는 미국 증시의 주요 헬스케어 기업으로, 최근 최고경영자 교체 및 2025년 가이던스 중단 발표와 Medicare 약품 리필 비용 관련 우려로 인해 주가에 큰 변동성을 겪었습니다. 그러나 회사는 운영 개혁 및 AI 기술 통합을 통해 효율성을 개선하려는 노력을 보이고 있으며, 애널리스트들은 장기적인 관점에서 'Strong Buy' 의견과 함께 높은 목표 주가를 제시하고 있습니다. 최근 7거래일간의 하락세 이후 반등하는 모습을 보이며 투자자들의 관심을 끌고 있습니다.",
     "sentimentScore": 0.4,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1766935017268",
-    "title": "H1: Plug Power Inc. (PLUG) 심층 분석: 수소 경제 전환기의 기회와 재정적 위험성 평가",
-    "ticker": "PLUG",
-    "market": "US",
-    "timestamp": "2025-12-28T15:16:57.268Z",
-    "summary": "Plug Power Inc.는 수소 및 연료전지 시스템을 설계, 개발, 상용화 및 제조하는 기업입니다. 전기분해기 수요 증가, 신규 수소 공장 가동, 주요 파트너십 확장에 따라 중요한 전환기를 맞고 있지만, 지속적인 손실과 높은 현금 소진율 등 재정적 위험에 직면해 있습니다.",
-    "sentimentScore": 0.55,
-    "investmentRating": "Hold"
   }
 ]
