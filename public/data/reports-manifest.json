@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1768847596214",
+    "title": "Palantir Technologies (PLTR): AI 시대의 핵심 인프라 제공자, 성장 잠재력과 밸류에이션 프리미엄 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-01-19T18:33:16.214Z",
+    "summary": "Palantir Technologies는 정부 및 상업 부문에 AI 기반 데이터 분석 플랫폼을 제공하는 선두 기업으로, AI 시장 성장의 수혜를 받고 있으나 높은 밸류에이션 부담과 최근의 단기 조정에 직면해 있습니다.",
+    "sentimentScore": 70,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1768836519359",
     "title": "AST SpaceMobile (ASTS): 혁신적 위성 통신의 빛과 그림자 - 고변동성 시장 속 밸류에이션 심층 분석",
     "ticker": "ASTS",
@@ -988,15 +998,5 @@
     "summary": "테라뷰(TeraView Holdings, 950250)는 테라헤르츠(THz) 기술 기반의 반도체 및 2차전지 검사 장비를 개발하는 영국계 지주회사입니다. 2025년 12월 코스닥 상장 이후 초기 급등세를 보였으나, 곧바로 차익 실현 매물 출회 및 재무 건전성 우려로 주가가 급락하며 높은 변동성을 보이고 있습니다.",
     "sentimentScore": 20,
     "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1766982765712",
-    "title": "H1: 한화에어로스페이스 (012450): 우주·방산 산업의 교차점에서 모멘텀 극대화",
-    "ticker": "012450",
-    "market": "KR",
-    "timestamp": "2025-12-29T04:32:45.712Z",
-    "summary": "한화에어로스페이스는 1977년 설립된 한국의 대표적인 항공우주 및 방산 전문 기업으로, 항공기 엔진 제조를 주력으로 성장했습니다. 현재는 방산, 항공 엔진, 우주 발사체 및 위성 추진 시스템, 파워 시스템, 시큐리티, 산업용 장비 등 다양한 사업 포트폴리오를 보유하고 있으며, 최근에는 누리호 기술 이전 및 달 착륙선 추진시스템 개발 계약을 통해 우주 산업 분야에서 독보적인 기술력을 강화하고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
