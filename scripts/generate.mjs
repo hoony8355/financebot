@@ -157,12 +157,13 @@ function generateStaticHtml(report, templateHtml, outputDir) {
   html = html.replace('</head>', `${seoTags}</head>`);
 
   // 2. [중요] 개발용 스크립트(.tsx) 제거 및 프로덕션용 스크립트(.js/.css) 주입
-  // 로컬 index.html에는 <script type="module" src="/index.tsx"></script>가 있지만,
-  // 배포 환경(Vercel)에서는 빌드된 JS 파일을 불러와야 함.
-  // vite.config.ts에서 파일명을 assets/index.js, assets/index.css로 고정했음.
+  // 유연한 정규식 사용: 태그 속성 순서나 공백에 상관없이 매칭
+  // 예: <script type="module" src="/index.tsx"></script> 또는 <script src="/index.tsx" type="module"> 등
+  html = html.replace(/<script[^>]+src="\/index\.tsx"[^>]*><\/script>/g, '');
   
-  html = html.replace(/<script type="module" src="\/index.tsx"><\/script>/g, '');
-  
+  // 안전장치: 혹시라도 정규식이 실패할 경우를 대비해 정확한 문자열로 한 번 더 시도
+  html = html.replace('<script type="module" src="/index.tsx"></script>', '');
+
   const productionAssets = `
     <link rel="stylesheet" href="/assets/index.css">
     <script type="module" src="/assets/index.js"></script>
@@ -173,7 +174,7 @@ function generateStaticHtml(report, templateHtml, outputDir) {
 
   const filePath = path.join(outputDir, `${report.id}.html`);
   fs.writeFileSync(filePath, html);
-  console.log(`Generated Static HTML: ${filePath}`);
+  // console.log(`Generated Static HTML: ${filePath}`);
 }
 
 async function run() {
@@ -241,7 +242,7 @@ async function run() {
     // JSON 저장
     fs.writeFileSync(path.join(articlesDir, `${reportId}.json`), JSON.stringify(fullArticle, null, 2));
 
-    // 정적 HTML 생성 (SEO용)
+    // 정적 HTML 생성 (SEO용) - 신규 리포트
     if (templateHtml) {
       generateStaticHtml(fullArticle, templateHtml, reportsHtmlDir);
     }
@@ -253,24 +254,30 @@ async function run() {
     }, ...manifest].slice(0, 100);
     fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
     
-    // 기존의 상위 50개 게시글에 대해서도 정적 HTML 재생성 (업데이트 보장)
+    // [중요] 기존의 모든 게시글에 대해서도 정적 HTML 일괄 재생성
+    // 이 로직이 있어야 이전에 생성된 '흰 화면' HTML 파일들이 모두 수정됩니다.
     if (templateHtml) {
-        console.log("Regenerating static HTMLs for recent reports...");
-        for (const item of updatedManifest.slice(0, 50)) {
+        console.log("Regenerating ALL static HTML files to apply fixes...");
+        const allFiles = fs.readdirSync(articlesDir).filter(f => f.endsWith('.json'));
+        
+        let successCount = 0;
+        for (const file of allFiles) {
             try {
-                // 전체 데이터를 로드해야 함 (fullArticle 정보가 manifest에는 일부만 있음)
-                // 이미 방금 생성한 건 건너뛰기
-                if (item.id === reportId) continue;
-                
-                const itemPath = path.join(articlesDir, `${item.id}.json`);
-                if (fs.existsSync(itemPath)) {
-                    const itemData = JSON.parse(fs.readFileSync(itemPath, 'utf8'));
-                    generateStaticHtml(itemData, templateHtml, reportsHtmlDir);
-                }
+                // 방금 생성한 파일은 건너뜀
+                if (file === `${reportId}.json`) continue;
+
+                const itemPath = path.join(articlesDir, file);
+                const itemData = JSON.parse(fs.readFileSync(itemPath, 'utf8'));
+                // id가 없는 데이터 보호
+                if (!itemData.id) continue;
+
+                generateStaticHtml(itemData, templateHtml, reportsHtmlDir);
+                successCount++;
             } catch (e) {
-                console.warn(`Failed to regenerate HTML for ${item.id}`, e);
+                console.warn(`Failed to regenerate HTML for ${file}`, e);
             }
         }
+        console.log(`Successfully regenerated ${successCount} existing HTML files.`);
     }
 
     // --- Sitemap.xml 자동 생성 ---
