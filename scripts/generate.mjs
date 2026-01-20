@@ -122,7 +122,7 @@ async function generateWithRetry(ai, payload, retries = 5) {
 function generateStaticHtml(report, templateHtml, outputDir) {
   let html = templateHtml;
   
-  // Title Truncation Logic (SEOHead.tsx와 동일하게 맞춤)
+  // Title Truncation Logic
   const siteName = 'FinanceAI Pro';
   let finalTitle = report.title;
   if (report.ticker && !finalTitle.includes(report.ticker)) {
@@ -140,18 +140,7 @@ function generateStaticHtml(report, templateHtml, outputDir) {
   const description = report.summary.replace(/"/g, '&quot;');
   const url = `https://financebot-omega.vercel.app/report/${report.id}`;
   
-  // Replace Title
-  html = html.replace(/<title>.*?<\/title>/, `<title>${finalTitle}</title>`);
-  
-  // Replace Meta Description (존재하는 태그 치환)
-  // 정규식으로 기존 태그를 찾아서 교체하거나, 없으면 head 끝에 추가하는 방식도 가능하지만,
-  // index.html이 고정되어 있으므로 치환 방식을 사용합니다.
-  
-  // 1. Description
-  // index.html에 기본 meta description이 없다면 추가해줘야 하지만, 
-  // 현재 React Helmet으로 관리되므로, 여기서는 "소스 보기"용으로 강제 주입합니다.
-  // <head> 태그 닫기 직전에 SEO 태그들을 삽입하는 것이 가장 확실합니다.
-  
+  // 1. SEO 메타태그 주입
   const seoTags = `
     <title>${finalTitle}</title>
     <meta name="description" content="${description}" />
@@ -163,9 +152,24 @@ function generateStaticHtml(report, templateHtml, outputDir) {
     <meta name="twitter:description" content="${description}" />
   `;
 
-  // 기존 <title> 태그 제거하고 새로운 태그들로 대체 (중복 방지)
+  // 기존 Title 제거 및 Head 닫기 직전에 SEO 태그 삽입
   html = html.replace(/<title>.*?<\/title>/, '');
   html = html.replace('</head>', `${seoTags}</head>`);
+
+  // 2. [중요] 개발용 스크립트(.tsx) 제거 및 프로덕션용 스크립트(.js/.css) 주입
+  // 로컬 index.html에는 <script type="module" src="/index.tsx"></script>가 있지만,
+  // 배포 환경(Vercel)에서는 빌드된 JS 파일을 불러와야 함.
+  // vite.config.ts에서 파일명을 assets/index.js, assets/index.css로 고정했음.
+  
+  html = html.replace(/<script type="module" src="\/index.tsx"><\/script>/g, '');
+  
+  const productionAssets = `
+    <link rel="stylesheet" href="/assets/index.css">
+    <script type="module" src="/assets/index.js"></script>
+  `;
+  
+  // body 태그 닫기 직전에 실제 에셋 주입
+  html = html.replace('</body>', `${productionAssets}</body>`);
 
   const filePath = path.join(outputDir, `${report.id}.html`);
   fs.writeFileSync(filePath, html);
