@@ -1,0 +1,101 @@
+name: Manual HTML Backfill
+
+on:
+  workflow_dispatch: # 수동 실행 전용
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Missing HTMLs
+        run: |
+          # 일회성 스크립트 생성 및 실행
+          cat << 'EOF' > backfill.mjs
+          import fs from 'fs';
+          import path from 'path';
+          
+          const articlesDir = path.join(process.cwd(), 'public', 'data', 'articles');
+          const outputDir = path.join(process.cwd(), 'public', 'report');
+          const templatePath = path.join(process.cwd(), 'index.html');
+
+          if (!fs.existsSync(templatePath)) {
+            console.error('Error: index.html not found');
+            process.exit(1);
+          }
+          
+          const templateHtml = fs.readFileSync(templatePath, 'utf8');
+          if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+
+          const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.json'));
+          console.log(`Found ${files.length} articles.`);
+
+          let count = 0;
+          files.forEach(file => {
+            try {
+              const json = JSON.parse(fs.readFileSync(path.join(articlesDir, file), 'utf8'));
+              if (!json.id) return;
+
+              // SEO 태그 생성 로직 (generate.mjs와 동일하게 적용)
+              const siteName = 'FinanceAI Pro';
+              let finalTitle = json.title || 'Report';
+              if (json.ticker && !finalTitle.includes(json.ticker)) {
+                 finalTitle = `${finalTitle} (${json.ticker})`;
+              }
+              if (!finalTitle.includes(siteName) && (finalTitle.length + siteName.length + 3 <= 60)) {
+                 finalTitle = `${finalTitle} | ${siteName}`;
+              }
+              if (finalTitle.length > 60) finalTitle = finalTitle.substring(0, 57) + '...';
+
+              const description = (json.summary || '').replace(/"/g, '&quot;');
+              const url = `https://financebot-omega.vercel.app/report/${json.id}`;
+
+              const seoTags = `
+              <title>${finalTitle}</title>
+              <meta name="description" content="${description}" />
+              <meta property="og:title" content="${finalTitle}" />
+              <meta property="og:description" content="${description}" />
+              <meta property="og:url" content="${url}" />
+              <meta property="og:type" content="article" />
+              <meta name="twitter:title" content="${finalTitle}" />
+              <meta name="twitter:description" content="${description}" />
+              `;
+
+              let html = templateHtml.replace(/<title>.*?<\/title>/, '');
+              html = html.replace('</head>', `${seoTags}</head>`);
+
+              fs.writeFileSync(path.join(outputDir, `${json.id}.html`), html);
+              count++;
+            } catch (e) {
+              console.error(`Failed to process ${file}:`, e);
+            }
+          });
+          console.log(`Successfully generated ${count} HTML files.`);
+          EOF
+          
+          # 스크립트 실행
+          node backfill.mjs
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "FinanceBot-AI"
+          git config --global user.email "bot@finance-ai.pro"
+          
+          git add public/report/*.html
+          
+          if git diff --staged --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "🔧 Maintenance: Backfill missing static HTML files"
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi
