@@ -1,4 +1,3 @@
-
 name: Autonomous Financial Report Generator
 
 on:
@@ -35,8 +34,8 @@ jobs:
           git config --global user.name "FinanceBot-AI"
           git config --global user.email "bot@finance-ai.pro"
           
-          # sitemap.xml을 포함하여 생성된 모든 데이터 파일 스테이징
-          git add public/data/reports-manifest.json public/data/articles/*.json public/sitemap.xml
+          # 아래 줄에 public/report/*.html 을 추가했습니다.
+          git add public/data/reports-manifest.json public/data/articles/*.json public/report/*.html public/sitemap.xml
           
           if git diff --staged --quiet; then
             echo "No changes detected"
