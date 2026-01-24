@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769268059271",
+    "title": "Movano Inc. (MOVE): AI 기대감과 위태로운 펀더멘털 간의 극심한 괴리 분석",
+    "ticker": "MOVE",
+    "market": "US",
+    "timestamp": "2026-01-24T15:20:59.271Z",
+    "summary": "Movano Inc. (MOVE)는 여성 건강 모니터링 웨어러블인 Evie Ring을 개발하는 헬스케어 기술 기업입니다. 최근 Movano 주가는 합병 예정 파트너인 Corvex가 Nvidia의 H200 GPU 장기 임대 계약을 확보하여 AI 기반 배터리 기술 역량 강화에 대한 기대감으로 인해 크게 상승했습니다. 주가는 하루 만에 140% 이상 급등하는 등 극심한 변동성을 보였습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1769258402775",
     "title": "인텔 (INTC): 단기 변동성 속 장기 회복 잠재력 분석 - IDM 2.0 전략과 AI 시대의 기회",
     "ticker": "INTC",
@@ -988,15 +998,5 @@
     "summary": "AMC Entertainment Holdings (AMC)는 높은 변동성과 막대한 부채로 인해 상당한 재정적 어려움을 겪고 있습니다. 최근 양호한 영화 관객 수에도 불구하고 주가는 하락세를 보이며 투자자들의 회의적인 시각이 지배적입니다. 기술적 지표는 과매도 상태를 시사하지만, 회사의 기본적인 재무 건전성에 대한 우려가 지속되고 있습니다.",
     "sentimentScore": 30,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1767335598858",
-    "title": "켄코아에어로스페이스(274090): 성장 잠재력과 단기 실적 리스크의 교차 분석",
-    "ticker": "274090",
-    "market": "KR",
-    "timestamp": "2026-01-02T06:33:18.858Z",
-    "summary": "켄코아에어로스페이스 (274090)는 항공기 부품 제조, MRO (유지보수 및 정비), 우주발사체 부품 공급을 전문으로 하는 한국의 항공우주 기업입니다. 록히드마틴, 보잉, 에어버스 등 글로벌 주요 고객사를 보유하고 있으며, 최근 분기 실적은 손실이 확대되었으나 UAM 및 우주산업 등 미래 성장 동력을 확보하고 있습니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Sell"
   }
 ]
