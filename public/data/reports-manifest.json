@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769246450315",
+    "title": "GameStop (GME): 디지털 전환 시대의 밈 주식, 기회와 위험의 교차점 심층 분석",
+    "ticker": "GME",
+    "market": "US",
+    "timestamp": "2026-01-24T09:20:50.315Z",
+    "summary": "비디오 게임 소매업체 GameStop (GME)은 CEO의 대규모 자사주 매입과 비용 절감을 위한 매장 폐쇄 노력으로 최근 단기적인 주가 상승을 보였으나, 디지털 전환에 따른 매출 감소와 부정적인 애널리스트 전망으로 인해 높은 변동성이 지속되고 있습니다.",
+    "sentimentScore": -0.2,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1769227173272",
     "title": "씨아이에스(CIS): 전고체 배터리 핵심 장비 기술력과 현대차 로봇 시너지로 도약하는 2차전지 선도 기업 분석",
     "ticker": "222080",
@@ -988,15 +998,5 @@
     "summary": "삼성전자 주가는 인공지능 반도체 수요 급증과 견조한 수출 실적에 힘입어 2026년 첫 거래일에 사상 최고치를 경신하며 코스피 강세를 견인했습니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1767302397007",
-    "title": "Plug Power(PLUG): 수소 경제 선구자의 도전과 기회 심층 분석",
-    "ticker": "PLUG",
-    "market": "US",
-    "timestamp": "2026-01-01T21:19:57.007Z",
-    "summary": "Plug Power는 수소 및 연료전지 시스템을 개발하는 대체 에너지 기술 기업으로, 최근 수익성 문제, 현금 소진, 연방 대출 보증 위험에 대한 조사가 진행 중입니다. 분석가 의견은 엇갈리며 대체로 '보류' 의견을 유지하고 있습니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Hold"
   }
 ]
