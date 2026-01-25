@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769375988084",
+    "title": "Brand Engagement Network (BNAI): 규제 산업 AI의 선두주자? 고위험-고수익 스펙트럼 분석",
+    "ticker": "BNAI",
+    "market": "US",
+    "timestamp": "2026-01-25T21:19:48.084Z",
+    "summary": "Brand Engagement Network, Inc. (BNAI)는 규제 산업을 위한 대화형 및 에이전트 AI 솔루션을 제공하는 초기 단계의 생성형 AI 인프라 회사입니다. 최근 아프리카 AI 라이선스 파트너십 및 주요 제약 회사와의 계약 발표로 투자자들의 관심이 급증하며 주가가 크게 상승했습니다. 회사는 고유의 Engagement Language Model(ELM) 기술로 경쟁 우위를 확보하고 있으며, 2026년 1분기부터 반복적인 라이선스 수입이 발생할 것으로 예상됩니다. 하지만 제한된 매출, 지속적인 손실, 주주 희석 가능성 등으로 인해 높은 위험을 안고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1769354447942",
     "title": "Revelation Biosciences (REVB) 심층 분석: 극심한 변동성과 임상 위험에 대한 평가",
     "ticker": "REVB",
@@ -988,15 +998,5 @@
     "summary": "Outlook Therapeutics (OTLK)는 습성 황반변성 치료제 ONS-5010/LYTENAVA에 대한 미국 식품의약국(FDA)의 생물학적제제 허가 신청(BLA)이 두 번째로 거부되면서 주가가 급락했습니다. 이는 회사에게 중대한 규제적 좌절로 작용했으며, 추가적인 확증 데이터를 요구하는 FDA의 결정은 향후 미국 시장 진출에 대한 불확실성을 가중시키고 있습니다. 그럼에도 불구하고 ONS-5010은 이미 유럽연합과 영국에서 마케팅 승인을 받았으며, 회사는 미국 승인을 위해 모든 필요한 조치를 취할 것이라고 밝혔습니다.",
     "sentimentScore": -0.9,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1767453605839",
-    "title": "Datavault AI (DVLT): AI-기반 Web 3.0 혁신기업의 고위험-고수익 투자 기회 심층 분석",
-    "ticker": "DVLT",
-    "market": "US",
-    "timestamp": "2026-01-03T15:20:05.839Z",
-    "summary": "Datavault AI Inc. (DVLT)는 AI 기반 데이터 관리 및 Web 3.0 솔루션을 제공하는 기술 기업으로, 최근 특별 배당 발표와 함께 주가 변동성이 확대되며 시장의 주목을 받고 있습니다. 혁신적인 기술과 성장 잠재력에도 불구하고, 재무 건전성 및 내부자 매도 등의 우려가 공존합니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Buy"
   }
 ]
