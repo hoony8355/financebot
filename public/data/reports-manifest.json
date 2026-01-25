@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769354447942",
+    "title": "Revelation Biosciences (REVB) 심층 분석: 극심한 변동성과 임상 위험에 대한 평가",
+    "ticker": "REVB",
+    "market": "US",
+    "timestamp": "2026-01-25T15:20:47.942Z",
+    "summary": "Revelation Biosciences Inc. (REVB)는 임상 단계의 바이오 제약 회사로, 면역 체계 치료제 개발에 중점을 둡니다. 최근 급성 신장 손상(AKI) 치료제인 Gemini의 승인 경로에 대해 FDA와 합의하여 주가가 급등했으나, 동시에 워런트 행사에 따른 주가 하락도 경험하는 등 높은 변동성을 보였습니다. 지난 1년간 주가는 90% 이상 하락하며 52주 최저치 부근에서 거래되고 있습니다.",
+    "sentimentScore": -70,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1769344927248",
     "title": "Direct Digital Holdings (DRCT): 고변동성 속 디지털 광고 시장의 성장 잠재력과 재무 건전성 분석",
     "ticker": "DRCT",
@@ -988,15 +998,5 @@
     "summary": "Datavault AI Inc. (DVLT)는 AI 기반 데이터 관리 및 Web 3.0 솔루션을 제공하는 기술 기업으로, 최근 특별 배당 발표와 함께 주가 변동성이 확대되며 시장의 주목을 받고 있습니다. 혁신적인 기술과 성장 잠재력에도 불구하고, 재무 건전성 및 내부자 매도 등의 우려가 공존합니다.",
     "sentimentScore": 40,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1767432028067",
-    "title": "엔비디아(NVDA) 2026년 성장 동력 분석 및 초고도화 투자 전략",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-01-03T09:20:28.067Z",
-    "summary": "NVIDIA는 GPU, AI 칩 및 데이터 센터 솔루션 분야의 선두 주자입니다. 특히 H200 칩에 대한 강력한 수요와 미중 무역 긴장 완화가 2026년 성장의 주요 동력입니다. 회사는 Blackwell 아키텍처에서 Rubin 플랫폼으로 전환 중이며 최근 AI 칩 스타트업 Groq의 자산을 인수했습니다.",
-    "sentimentScore": 90,
-    "investmentRating": "Strong Buy"
   }
 ]
