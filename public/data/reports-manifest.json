@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769462690407",
+    "title": "CoreWeave (CRWV): NVIDIA 투자로 도약하는 AI 클라우드 인프라의 미래 심층 분석",
+    "ticker": "CRWV",
+    "market": "US",
+    "timestamp": "2026-01-26T21:24:50.407Z",
+    "summary": "CoreWeave (CRWV)는 AI 클라우드 인프라 회사로, NVIDIA로부터 20억 달러 규모의 투자를 유치하고 AI 공장 건설을 위한 파트너십을 강화하면서 큰 주목을 받고 있습니다. 이 소식은 애널리스트들의 관심 증가와 주가 변동성으로 이어졌습니다. CoreWeave는 AI 워크로드에 최적화된 고성능 컴퓨팅 자원을 전문으로 제공합니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1769452578939",
     "title": "Battalion Oil Corporation (BATL): 운영 개선에 따른 주가 급등과 근본적 재무 리스크 분석",
     "ticker": "BATL",
@@ -988,15 +998,5 @@
     "summary": "플러그 파워(PLUG)는 최근 애널리스트 상향 조정과 NASA와의 공급 계약, 비용 절감 계획 발표 등의 긍정적인 소식으로 1월 2일 13% 이상 급등하며 단기 상승 모멘텀을 확보했습니다. 하지만 여전히 지속적인 손실, 현금 소진, 유동성 문제 등의 높은 재무적 위험에 직면해 있어 투자 등급은 '보유' 의견입니다.",
     "sentimentScore": 71,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1767561558699",
-    "title": "Ondas Holdings Inc. (ONDS): 미션 크리티컬 자율 시스템 및 방위 기술 플랫폼으로의 전략적 진화 분석",
-    "ticker": "ONDS",
-    "market": "US",
-    "timestamp": "2026-01-04T21:19:18.699Z",
-    "summary": "Ondas Holdings Inc. (ONDS)는 미션 크리티컬 산업 인터넷 애플리케이션 및 서비스를 위한 무선 연결 솔루션과 자율 항공 및 지상 로봇 인텔리전스를 제공하는 기업입니다. 2026년 1분기 중 사명을 Ondas Inc.로 변경하고 플로리다주 웨스트 팜 비치로 본사를 이전할 계획을 발표했으며, 이는 '확장된 글로벌 방위 및 보안 기술 플랫폼'으로의 진화를 반영합니다. 최근 1,000만 달러 규모의 자율 시스템 신규 주문 확보, 전술 무인 지상 차량 제조업체인 Roboteam Ltd. 인수 완료, AI 기반 지뢰 제거 파일럿 프로그램 성공 등 긍정적인 소식이 이어졌습니다. 이로 인해 지난 6개월간 주가가 419% 이상, 지난 1년간 271% 이상 급등하는 등 높은 변동성과 거래량을 보였습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
