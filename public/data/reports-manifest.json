@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769548689164",
+    "title": "엔비디아(NVDA): AI 시대의 핵심 인프라, 성장 동력과 잠재적 리스크 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-01-27T21:18:09.164Z",
+    "summary": "NVIDIA (NVDA)는 AI 및 데이터 센터 수요 증가에 힘입어 강력한 시장 위치를 유지하고 있으며, 다수 애널리스트가 '강력 매수' 의견을 제시하고 있습니다. 기술적 지표는 긍정적인 추세를 시사하지만, 단기적인 변동성과 경쟁 심화는 잠재적 위험 요인입니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1769539254463",
     "title": "Dermata Therapeutics (DRMA): 전략적 전환과 파이프라인 잠재력 분석 - 고위험 고수익 기회 모색",
     "ticker": "DRMA",
@@ -988,15 +998,5 @@
     "summary": "HLB는 바이오 의약품, 헬스케어, 선박 사업을 영위하는 기업으로, 특히 간암 신약 '리보세라닙' 개발에 주력하고 있습니다. 최근 김태한 전 삼성바이오로직스 대표이사 영입 소식과 함께 바이오 부문의 글로벌 경쟁력 강화 기대감이 커지고 있으며, 주가는 긍정적인 기술적 신호와 함께 상승 추세를 보이고 있습니다.",
     "sentimentScore": 80,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1767648080048",
-    "title": "Ironwood Pharmaceuticals (IRWD): LINZESS 호조와 파이프라인 기대, 그러나 재무 건전성 리스크 공존",
-    "ticker": "IRWD",
-    "market": "US",
-    "timestamp": "2026-01-05T21:21:20.048Z",
-    "summary": "Ironwood Pharmaceuticals Inc. (IRWD)는 위장(GI) 및 희귀 질환 치료제 개발 및 상업화에 주력하는 바이오기술 기업입니다. LINZESS(linaclotide)의 강력한 판매와 긍정적인 2026년 재무 가이던스 발표에 힘입어 최근 주가가 급등했습니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Hold"
   }
 ]
