@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769539254463",
+    "title": "Dermata Therapeutics (DRMA): 전략적 전환과 파이프라인 잠재력 분석 - 고위험 고수익 기회 모색",
+    "ticker": "DRMA",
+    "market": "US",
+    "timestamp": "2026-01-27T18:40:54.463Z",
+    "summary": "Dermata Therapeutics는 피부 질환 및 미용 피부 상태 치료를 위한 의약품 후보 개발에 중점을 둔 임상 단계 의료 피부과 회사입니다. 최근 전략적 전환을 통해 일반의약품(OTC) 피부 관리 제품 개발 및 유통에 집중하고 있으며, 주 1회 사용 여드름 치료 키트 출시를 목표로 합니다. [12] 2026년 1월 27일, 회사는 최대 705,000달러 규모의 시장 판매 주식 제공 한도를 늘렸으며, 이는 기존 주주의 지분 희석으로 이어질 수 있습니다. [3, 4]",
+    "sentimentScore": 0.1,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1769518206012",
     "title": "MBAI: Check-Cap의 MBody AI 전환, 로봇 AI 시장의 새로운 도전자인가?",
     "ticker": "MBAI",
@@ -988,15 +998,5 @@
     "summary": "Ironwood Pharmaceuticals Inc. (IRWD)는 위장(GI) 및 희귀 질환 치료제 개발 및 상업화에 주력하는 바이오기술 기업입니다. LINZESS(linaclotide)의 강력한 판매와 긍정적인 2026년 재무 가이던스 발표에 힘입어 최근 주가가 급등했습니다.",
     "sentimentScore": 70,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1767637994189",
-    "title": "UnitedHealth Group (UNH): 헬스케어 거인의 비용 압박 극복과 AI 기반 성장 잠재력 분석",
-    "ticker": "UNH",
-    "market": "US",
-    "timestamp": "2026-01-05T18:33:14.189Z",
-    "summary": "UnitedHealth Group (UNH)는 미국 최대 규모의 헬스케어 기업으로, 건강 보험 서비스(UnitedHealthcare)와 헬스케어 서비스(Optum)를 제공합니다. 2025년 Fortune Global 500에서 7위를 차지할 만큼 거대 기업이지만, 최근 1년간 주가는 비용 압박, 의료 이용률 증가, 규제 심화, 실적 부진 등으로 34.5% 급락했습니다. 그러나 최근 내부자 매수와 워런 버핏의 버크셔 해서웨이 투자 소식으로 회복에 대한 기대감이 커지고 있습니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Buy"
   }
 ]
