@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769592892485",
+    "title": "Global Interactive Technologies (GITS) 심층 분석: K-Pop IP 확장 전략과 극심한 변동성 리스크 평가",
+    "ticker": "GITS",
+    "market": "US",
+    "timestamp": "2026-01-28T09:34:52.485Z",
+    "summary": "Global Interactive Technologies, Inc. (GITS)는 한국의 K-Pop 및 한국 문화를 중심으로 하는 소셜 미디어 및 콘텐츠 플랫폼 기업입니다. 최근 K-Pop 그룹 ATEEZ와의 애니메이션 영화 'The Legend of MegaRace' 공식 테마곡 파트너십 발표로 인해 주가가 급등하며 높은 변동성을 보였습니다. 이 회사는 Faning과 FANTOO 플랫폼을 통해 팬덤 커뮤니티를 운영하고 콘텐츠를 유통하며 지적 재산권(IP) 확장에 집중하고 있습니다. [10, 15, 16, 18, 22, 27, 32, 33]",
+    "sentimentScore": 85,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1769573239754",
     "title": "알테오젠 (196170): Hybrozyme™ 기술 기반 SC 제형 시장 선도력 및 글로벌 파트너십 심층 분석",
     "ticker": "196170",
@@ -988,15 +998,5 @@
     "summary": "대창(012800)은 비철금속 전문 제조업체로, 최근 글로벌 구리 가격 급등과 그래핀 테마의 부각으로 인해 주가가 단기간에 크게 상승하며 높은 거래량과 변동성을 보이고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1767681292406",
-    "title": "금호전기 (001210) 심층 분석: LED 테마의 급등과 신사업 모멘텀, 그리고 펀더멘털 리스크 평가",
-    "ticker": "001210",
-    "market": "KR",
-    "timestamp": "2026-01-06T06:34:52.406Z",
-    "summary": "금호전기(001210)는 2026년 1월 6일 거래량 급증과 함께 상한가를 기록하며 LED 테마주로서 높은 변동성을 보였습니다. 최근 외국인 순매수가 유입되었으나, 지속적인 매출 감소와 영업손실은 리스크 요인입니다. 스마트 조명 솔루션 등 신사업 모멘텀에 주목해야 합니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
