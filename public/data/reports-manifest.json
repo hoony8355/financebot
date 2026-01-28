@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769604640077",
+    "title": "Super Micro Computer (SMCI): AI 인프라 성장 속 변동성 높은 서버 솔루션 리더의 투자 매력 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-01-28T12:50:40.077Z",
+    "summary": "AI 인프라 수요 증가에 따른 높은 변동성을 보이는 서버 솔루션 제공업체 SMCI, 최근 주가 급등 후 조정, 저평가 분석과 함께 강력한 성장 잠재력 부각.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1769592892485",
     "title": "Global Interactive Technologies (GITS) 심층 분석: K-Pop IP 확장 전략과 극심한 변동성 리스크 평가",
     "ticker": "GITS",
@@ -988,15 +998,5 @@
     "summary": "형지엘리트(093240)는 학생복 '엘리트'를 기반으로 유니폼 및 스포츠 상품화 사업을 영위하는 국내 의류 전문 기업입니다. 최근 최병오 형지 회장이 이재명 대통령의 중국 국빈 방문 경제 사절단에 동행하여 웨어러블 로봇 신사업 추진에 대한 기대감이 고조되고 있습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1767750129232",
-    "title": "대창(012800) 심층 분석: 글로벌 구리 강세와 그래핀 테마, 과열 속 성장 기회 모색",
-    "ticker": "012800",
-    "market": "KR",
-    "timestamp": "2026-01-07T01:42:09.232Z",
-    "summary": "대창(012800)은 비철금속 전문 제조업체로, 최근 글로벌 구리 가격 급등과 그래핀 테마의 부각으로 인해 주가가 단기간에 크게 상승하며 높은 거래량과 변동성을 보이고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Buy"
   }
 ]
