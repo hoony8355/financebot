@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769625440880",
+    "title": "QT Imaging Holdings Inc. (QTI): 나스닥 재상장 모멘텀과 혁신 기술 기반의 성장 잠재력 분석",
+    "ticker": "QTI",
+    "market": "US",
+    "timestamp": "2026-01-28T18:37:20.880Z",
+    "summary": "QT Imaging Holdings Inc. (QTI)는 저주파 음파를 활용한 유방 영상 시스템을 개발하는 의료기기 회사입니다. 최근 OTCQB에서 나스닥 캐피탈 마켓으로 성공적으로 재상장(2026년 1월 28일)하며 강력한 턴어라운드를 보여주고 있으며, 2025년 매출 목표를 초과 달성하고 주요 협력 계약을 체결하는 등 긍정적인 모멘텀을 형성하고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1769604640077",
     "title": "Super Micro Computer (SMCI): AI 인프라 성장 속 변동성 높은 서버 솔루션 리더의 투자 매력 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "엔비디아(NVDA)는 인공지능(AI) 컴퓨팅의 핵심인 GPU 시장을 선도하는 기업으로, 높은 거래량과 지속적인 기술 혁신으로 미국 증시의 주요 이슈 종목입니다. 2026년 CES에서 발표된 AI 로드맵과 파트너십은 긍정적인 시장 기대를 형성하고 있습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1767767669343",
-    "title": "형지엘리트 (093240): 신사업 모멘텀과 고변동성 리스크 공존, 전략적 접근 필요",
-    "ticker": "093240",
-    "market": "KR",
-    "timestamp": "2026-01-07T06:34:29.343Z",
-    "summary": "형지엘리트(093240)는 학생복 '엘리트'를 기반으로 유니폼 및 스포츠 상품화 사업을 영위하는 국내 의류 전문 기업입니다. 최근 최병오 형지 회장이 이재명 대통령의 중국 국빈 방문 경제 사절단에 동행하여 웨어러블 로봇 신사업 추진에 대한 기대감이 고조되고 있습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
