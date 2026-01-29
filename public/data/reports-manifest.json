@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769651863336",
+    "title": "SK하이닉스: AI 시대 HBM 리더십 기반 압도적 성장을 통한 투자 매력 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-01-29T01:57:43.336Z",
+    "summary": "SK하이닉스는 글로벌 메모리 반도체 선도 기업으로, 특히 AI 시대의 핵심인 고대역폭 메모리(HBM) 시장을 주도하며 강력한 성장세를 보이고 있습니다. 2025년 역대 최대 실적을 달성했으며, AI 반도체 수요 증가와 메모리 업황 개선에 힘입어 2026년에도 실적 고공행진이 전망됩니다. 최근 코스피 시장의 상승을 견인하는 핵심 종목 중 하나입니다.",
+    "sentimentScore": 90,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1769625440880",
     "title": "QT Imaging Holdings Inc. (QTI): 나스닥 재상장 모멘텀과 혁신 기술 기반의 성장 잠재력 분석",
     "ticker": "QTI",
@@ -988,15 +998,5 @@
     "summary": "Aeva Technologies, Inc.는 자율주행차, 로봇공학 및 산업 자동화를 위한 고급 감지 및 인지 솔루션을 개발하는 회사입니다. 독점적인 4D LiDAR 기술을 활용하며, 최근 NVIDIA와의 파트너십 발표와 CES 2026에서의 신기술 공개 계획으로 인해 주가가 크게 상승했습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1767778150876",
-    "title": "엔비디아(NVDA): AI 시대의 지배적 혁신 리더십과 투자 전망 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-01-07T09:29:10.876Z",
-    "summary": "엔비디아(NVDA)는 인공지능(AI) 컴퓨팅의 핵심인 GPU 시장을 선도하는 기업으로, 높은 거래량과 지속적인 기술 혁신으로 미국 증시의 주요 이슈 종목입니다. 2026년 CES에서 발표된 AI 로드맵과 파트너십은 긍정적인 시장 기대를 형성하고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
