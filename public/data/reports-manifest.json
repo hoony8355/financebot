@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769660863423",
+    "title": "빛과전자(069540): 저궤도 위성통신, 방산, 데이터센터가 견인하는 차세대 광통신 모듈 전문기업 분석",
+    "ticker": "069540",
+    "market": "KR",
+    "timestamp": "2026-01-29T04:27:43.423Z",
+    "summary": "광통신 모듈 전문 기업인 빛과전자는 최근 정부의 '한국판 스타링크' 저궤도 위성통신망 구축 논의와 방위산업 사업본부 출범에 따른 군수용 광통신 시장 진출 기대감으로 주가가 급등했습니다. 데이터센터용 광모듈 제품 라인업 확장과 미국 시장 진출도 적극 추진 중입니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1769651863336",
     "title": "SK하이닉스: AI 시대 HBM 리더십 기반 압도적 성장을 통한 투자 매력 분석",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "SoFi Technologies (SOFI)는 최근 대규모 주식 공모와 신제품 출시에도 불구하고 주식 희석 우려와 하향 조정된 애널리스트 의견으로 인해 단기적인 하락 압력을 받고 있는 핀테크 주식입니다. 높은 변동성과 밸류에이션이 특징입니다.",
     "sentimentScore": 0.35,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1767789909962",
-    "title": "AEVA: 4D LiDAR 기술의 선구자, NVIDIA 파트너십과 미래 성장 잠재력 분석",
-    "ticker": "AEVA",
-    "market": "US",
-    "timestamp": "2026-01-07T12:45:09.962Z",
-    "summary": "Aeva Technologies, Inc.는 자율주행차, 로봇공학 및 산업 자동화를 위한 고급 감지 및 인지 솔루션을 개발하는 회사입니다. 독점적인 4D LiDAR 기술을 활용하며, 최근 NVIDIA와의 파트너십 발표와 CES 2026에서의 신기술 공개 계획으로 인해 주가가 크게 상승했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Buy"
   }
 ]
