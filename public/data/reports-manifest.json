@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769884340234",
+    "title": "테슬라(TSLA): 전기차 거인의 AI·로보틱스 전환, 성장통 속 미래 가치 재평가",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-01-31T18:32:20.234Z",
+    "summary": "Tesla (TSLA)는 전기차 및 에너지 사업을 영위하며, 최근 SpaceX와의 잠재적 합병 논의와 로봇택시, Optimus 로봇 등 AI 및 로보틱스로의 사업 확장이 주요 동력으로 부상하고 있습니다. 2025년 4분기 실적은 예상치를 상회했으나, 연간 매출 감소 및 차량 인도량 둔화, 높은 자본 지출 우려 등 단기적인 리스크 또한 상존합니다. 주가는 높은 변동성을 보이며, 광범위한 시장의 탐욕 지수 속에서 혼조세를 띠고 있습니다.",
+    "sentimentScore": 50,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1769873016012",
     "title": "Innodata Inc. (INOD): AI 및 데이터 엔지니어링 시장의 고성장 주식, 밸류에이션 프리미엄과 변동성 속 투자 심층 분석",
     "ticker": "INOD",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-10T18:28:55.930Z",
     "summary": "Vistra Corp. (VST)는 텍사스 어빙에 본사를 둔 통합 소매 전력 및 발전 회사입니다. 천연가스, 원자력, 석탄, 태양광, 배터리 에너지 저장 시설을 포함한 다양한 발전 포트폴리오를 운영하며 약 500만 고객에게 41,000 메가와트의 발전 용량을 제공합니다. 최근 Vistra는 Meta Platforms와의 20년 전력 구매 계약(PPA)을 통해 Meta의 AI 운영에 2,600 메가와트 이상의 무탄소 에너지를 공급하기로 합의하며 주가가 급등했습니다. 이와 함께 Cogentrix 인수를 통해 천연가스 발전 용량을 확장했습니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1768048748419",
-    "title": "Applied Digital (APLD): AI 인프라 확장의 선봉, 성장 모멘텀과 과매수 위험 심층 분석",
-    "ticker": "APLD",
-    "market": "US",
-    "timestamp": "2026-01-10T12:39:08.419Z",
-    "summary": "Applied Digital (APLD)는 고성능 컴퓨팅(HPC) 인프라 제공업체로, 최근 높은 변동성과 강력한 주가 상승을 보였습니다. 2026년 1월 9일 주가는 약 18% 상승했으며, 지난 2주간 46.5% 급등했습니다. 이는 AI 데이터 센터 투자 확대와 클라우드 사업부(ChronoScale) 분사 제안에 힘입은 것입니다.",
-    "sentimentScore": 0.6,
     "investmentRating": "Strong Buy"
   }
 ]
