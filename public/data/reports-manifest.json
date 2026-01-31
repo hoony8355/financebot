@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769894485184",
+    "title": "FAT Brands Inc. (FATBB): 파산 절차 중인 외식 프랜차이즈의 극심한 투기적 위험 분석",
+    "ticker": "FATBB",
+    "market": "US",
+    "timestamp": "2026-01-31T21:21:25.184Z",
+    "summary": "FAT Brands Inc.는 Fatburger, Johnny Rockets 등 다수 레스토랑 브랜드를 운영하는 프랜차이즈 기업으로, 최근 14억 달러 이상의 부채 구조조정을 위해 챕터 11 파산 신청을 했습니다. 이로 인해 주가는 극심한 변동성을 보이며 투기적 거래의 대상이 되고 있습니다.",
+    "sentimentScore": -0.8,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1769884340234",
     "title": "테슬라(TSLA): 전기차 거인의 AI·로보틱스 전환, 성장통 속 미래 가치 재평가",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "Atara Biotherapeutics (ATRA)는 T세포 면역치료제를 개발하는 임상 단계의 생명공학 회사이며, 특히 엡스타인-바 바이러스(EBV) 관련 질환 치료제 개발에 집중하고 있습니다. 최근 Tabelecleucel (tab-cel)의 미국 FDA 승인 결정이 임박하여 높은 시장 변동성을 보이고 있습니다.",
     "sentimentScore": 60,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1768069735930",
-    "title": "Vistra Corp. (VST): AI 시대의 에너지 혁신, 메타와의 동맹으로 새로운 도약",
-    "ticker": "VST",
-    "market": "US",
-    "timestamp": "2026-01-10T18:28:55.930Z",
-    "summary": "Vistra Corp. (VST)는 텍사스 어빙에 본사를 둔 통합 소매 전력 및 발전 회사입니다. 천연가스, 원자력, 석탄, 태양광, 배터리 에너지 저장 시설을 포함한 다양한 발전 포트폴리오를 운영하며 약 500만 고객에게 41,000 메가와트의 발전 용량을 제공합니다. 최근 Vistra는 Meta Platforms와의 20년 전력 구매 계약(PPA)을 통해 Meta의 AI 운영에 2,600 메가와트 이상의 무탄소 에너지를 공급하기로 합의하며 주가가 급등했습니다. 이와 함께 Cogentrix 인수를 통해 천연가스 발전 용량을 확장했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
