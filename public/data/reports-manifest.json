@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769959484826",
+    "title": "Elong Power Holding Limited (ELPW): 3000% 급등, 극단적 변동성 속 투기적 평가와 리스크 분석",
+    "ticker": "ELPW",
+    "market": "US",
+    "timestamp": "2026-02-01T15:24:44.826Z",
+    "summary": "Elong Power Holding Limited는 오늘 3000%가 넘는 급등을 기록하며 미국 증시에서 가장 높은 변동성을 보인 종목 중 하나입니다. 주로 전력 관련 산업에 종사하는 소형주이며, 최근 특별한 공시 없이 급등세를 보였습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1769950128452",
     "title": "버라이즌(VZ) 심층 분석: 2026년 실적 호조와 잉여현금흐름 전망을 통한 투자 매력 점검",
     "ticker": "VZ",
@@ -988,15 +998,5 @@
     "summary": "Revolution Medicines는 RAS-addicted 암 치료를 위한 표적 치료제를 개발하는 임상 단계 종양학 회사입니다. 최근 KRAS G12D-변이 비소세포폐암(NSCLC) 치료를 위한 Zoldonrasib에 대한 FDA 혁신 치료제 지정을 획득했으며, 머크(Merck)의 280억~320억 달러 규모 인수설로 인해 주가가 급등하며 높은 변동성을 보였습니다. 애널리스트들은 \"Strong Buy\" 의견을 제시하고 있지만, 평균 목표 주가는 현재 주가보다 낮습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1768156156131",
-    "title": "Mingteng International (MTEN): 극심한 변동성과 상장 폐지 위험에 직면한 자동차 금형 기업 심층 분석",
-    "ticker": "MTEN",
-    "market": "US",
-    "timestamp": "2026-01-11T18:29:16.131Z",
-    "summary": "Mingteng International Corporation Inc. (MTEN)는 중국 기반의 자동차 금형 생산 전문 지주회사로, 최근 주가 희석 우려와 대규모 매도세로 인해 1월 9일-10일 사이 75% 이상 급락하며 극심한 변동성을 보였습니다. 현재 주가는 사상 최저치 부근에서 거래되고 있으며, 시장의 '위험 선호' 분위기와는 대조적인 모습을 보이고 있습니다.",
-    "sentimentScore": -0.8,
-    "investmentRating": "Sell"
   }
 ]
