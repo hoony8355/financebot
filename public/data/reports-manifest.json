@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1769970892544",
+    "title": "AMD(NASDAQ: AMD) 심층 분석: AI 반도체 시장의 핵심 플레이어, 단기 변동성 속 장기 성장 잠재력 평가",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-02-01T18:34:52.544Z",
+    "summary": "AI 칩 시장의 핵심 플레이어인 AMD는 AI 가속기 수요 증가와 강력한 애널리스트 목표가에도 불구하고 최근 MI450-시리즈 칩 지연 루머로 주가가 하락세를 보였습니다. 장기적인 성장 잠재력은 긍정적이나, 단기적인 변동성이 높은 상황입니다.",
+    "sentimentScore": -0.3,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1769959484826",
     "title": "Elong Power Holding Limited (ELPW): 3000% 급등, 극단적 변동성 속 투기적 평가와 리스크 분석",
     "ticker": "ELPW",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-12T01:47:29.160Z",
     "summary": "삼성전자는 글로벌 반도체 및 전자제품 선도 기업으로, 최근 메모리 반도체(특히 AI 관련 HBM) 수요 증가와 '슈퍼 사이클' 기대감에 힘입어 주가가 강한 상승세를 보이고 있습니다. 2025년 4분기 잠정 영업이익이 시장 예상치를 크게 상회하며 실적 퀀텀 점프를 예고했으며, 개인 투자자들의 대규모 순매수와 '빚투' 증가가 특징입니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1768166359093",
-    "title": "Revolution Medicines (RVMD): M&A 프리미엄과 혁신 파이프라인의 충돌 분석",
-    "ticker": "RVMD",
-    "market": "US",
-    "timestamp": "2026-01-11T21:19:19.093Z",
-    "summary": "Revolution Medicines는 RAS-addicted 암 치료를 위한 표적 치료제를 개발하는 임상 단계 종양학 회사입니다. 최근 KRAS G12D-변이 비소세포폐암(NSCLC) 치료를 위한 Zoldonrasib에 대한 FDA 혁신 치료제 지정을 획득했으며, 머크(Merck)의 280억~320억 달러 규모 인수설로 인해 주가가 급등하며 높은 변동성을 보였습니다. 애널리스트들은 \"Strong Buy\" 의견을 제시하고 있지만, 평균 목표 주가는 현재 주가보다 낮습니다.",
-    "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
   }
 ]
