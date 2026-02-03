@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770133840690",
+    "title": "인텔(INTC) 심층 분석: 파운드리 전환기의 기회와 도전",
+    "ticker": "INTC",
+    "market": "US",
+    "timestamp": "2026-02-03T15:50:40.690Z",
+    "summary": "Intel Corporation (INTC)는 반도체 설계 및 제조 분야의 선두 기업으로, 최근 애플과 엔비디아의 파운드리 생산 능력 활용 검토 소식과 AI 관련 사업 확장으로 주가가 크게 변동하고 있습니다. 긍정적인 파트너십 기대감에도 불구하고, 최근 4분기 실적 발표 후 1분기 예상 실적이 시장 기대에 미치지 못하며 주가가 하락한 바 있으며, 파운드리 사업의 손실과 공급 제약이 우려 요인으로 작용하고 있습니다.",
+    "sentimentScore": 0.2,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1770123552159",
     "title": "팔란티어 테크놀로지스: AI 혁신을 통한 초고속 성장, 과연 고평가 논란을 넘어설 것인가?",
     "ticker": "PLTR",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-13T15:25:58.921Z",
     "summary": "Atara Biotherapeutics (ATRA)는 난치성 암 및 자가면역 질환을 위한 동종 T-세포 면역치료제 개발에 주력하는 미국 헬스케어 기업입니다. 최근 주요 파이프라인인 EBVALLO(tabelecleucel)가 미국 FDA로부터 두 번째 '완전응답서한(CRL)'을 받으면서 주가가 급락했습니다. FDA는 이전 임상시험 설계에 대한 가이던스를 번복하며 단일군 임상시험의 유효성 입증이 불충분하다고 밝혔습니다.",
     "sentimentScore": -8,
-    "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1768308389225",
-    "title": "Direct Digital Holdings (DRCT) 심층 분석: 나스닥 상장 위기 속 극단적 변동성과 투자 위험 평가",
-    "ticker": "DRCT",
-    "market": "US",
-    "timestamp": "2026-01-13T12:46:29.225Z",
-    "summary": "Direct Digital Holdings (DRCT)는 최근 주가 급락과 나스닥 상장 규정 미준수 통보, 경영진 지분 매각 등의 부정적인 소식으로 높은 변동성을 보이고 있는 디지털 광고 플랫폼 기업입니다. 7일간의 주가는 지속적인 하락세를 보였습니다.",
-    "sentimentScore": -70,
     "investmentRating": "Sell"
   }
 ]
