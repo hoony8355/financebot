@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770240812155",
+    "title": "Eli Lilly (LLY): 비만 및 당뇨 시장 지배와 파이프라인 혁신을 통한 성장 동력 분석",
+    "ticker": "LLY",
+    "market": "US",
+    "timestamp": "2026-02-04T21:33:32.155Z",
+    "summary": "Eli Lilly (LLY)는 최근 강력한 2025년 4분기 실적과 긍정적인 2026년 가이던스를 발표하며 주가가 급등했습니다. 이는 주로 비만 및 당뇨병 치료제인 Mounjaro와 Zepbound의 견조한 판매에 힘입은 것입니다. [2, 18, 23, 25]",
+    "sentimentScore": 0.82,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1770209911201",
     "title": "PayPal, 급변하는 디지털 결제 시장 속 성장 둔화와 리더십 교체: 심층 분석 및 전망",
     "ticker": "PYPL",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-14T01:47:08.127Z",
     "summary": "두산에너빌리티는 대한민국의 선도적인 발전 플랜트 전문 기업으로, 원자력(특히 소형모듈원전, SMR), 복합화력, 해상풍력 등 에너지 및 담수 분야에서 통합 솔루션을 제공합니다. 최근 AI 데이터센터의 전력 수요 증가와 맞물려 SMR 및 가스터빈 수주 기대감이 커지며 주가 상승을 견인하고 있습니다.",
     "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1768339323013",
-    "title": "Ondas Holdings (ONDS) 심층 분석: 자율 시스템 및 미션 크리티컬 IoT 시장의 고성장 잠재력과 투자 리스크 평가",
-    "ticker": "ONDS",
-    "market": "US",
-    "timestamp": "2026-01-13T21:22:03.013Z",
-    "summary": "Ondas Holdings Inc.는 온다스 네트워크(Ondas Networks)와 온다스 자율 시스템(OAS) 두 사업 부문을 통해 사설 무선, 드론 및 자동화된 데이터 솔루션을 제공하는 기술 기업입니다. 온다스 네트워크는 철도, 에너지, 유틸리티 등 미션 크리티컬 IoT 애플리케이션을 위한 FullMAX SDR 플랫폼을 개발하며, OAS는 American Robotics 및 Airobotics를 통해 국방, 보안 및 핵심 인프라를 위한 Optimus System 및 Iron Drone Raider와 같은 AI 기반 자율 드론 시스템을 '서비스로서의 로봇(RaaS)' 모델로 제공하고 있습니다. 특히 OAS는 최근 새로운 정부 계약을 수주하며 강력한 성장 동력으로 부각되고 있습니다.",
-    "sentimentScore": 75,
     "investmentRating": "Strong Buy"
   }
 ]
