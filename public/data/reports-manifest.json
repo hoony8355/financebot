@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770187965256",
+    "title": "삼성전자(005930): AI 시대의 핵심 수혜주, 반도체 슈퍼 사이클을 이끄는 글로벌 리더",
+    "ticker": "005930",
+    "market": "KR",
+    "timestamp": "2026-02-04T06:52:45.256Z",
+    "summary": "삼성전자는 대한민국에 본사를 둔 반도체, 전자제품, 디스플레이 및 통신장비를 설계, 제조하는 글로벌 선두 기업입니다. 메모리 반도체(DRAM, NAND), 파운드리, 스마트폰, TV, 가전 등 광범위한 사업 포트폴리오를 보유하고 있으며, 최근에는 HBM, AI 데이터센터, 로보틱스 등 신성장 동력에 집중하고 있습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1770133840690",
     "title": "인텔(INTC) 심층 분석: 파운드리 전환기의 기회와 도전",
     "ticker": "INTC",
@@ -988,15 +998,5 @@
     "summary": "AMC Entertainment Holdings Inc.는 최근 52주 신저가 기록 후 반등하며 높은 변동성을 보였습니다. 박스오피스 실적은 긍정적이나, 주식 희석 우려 등 재무 건전성에 대한 장기적인 부담으로 인해 투자 심리가 복합적으로 작용하고 있습니다.",
     "sentimentScore": 0.3,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1768317958921",
-    "title": "Atara Biotherapeutics (ATRA): 규제 불확실성 증폭과 재정적 압박 속 동종 T-세포 치료제의 미래 탐색",
-    "ticker": "ATRA",
-    "market": "US",
-    "timestamp": "2026-01-13T15:25:58.921Z",
-    "summary": "Atara Biotherapeutics (ATRA)는 난치성 암 및 자가면역 질환을 위한 동종 T-세포 면역치료제 개발에 주력하는 미국 헬스케어 기업입니다. 최근 주요 파이프라인인 EBVALLO(tabelecleucel)가 미국 FDA로부터 두 번째 '완전응답서한(CRL)'을 받으면서 주가가 급락했습니다. FDA는 이전 임상시험 설계에 대한 가이던스를 번복하며 단일군 임상시험의 유효성 입증이 불충분하다고 밝혔습니다.",
-    "sentimentScore": -8,
-    "investmentRating": "Sell"
   }
 ]
