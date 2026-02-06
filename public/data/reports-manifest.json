@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770403861118",
+    "title": "NVIDIA (NVDA): AI 혁명을 주도하는 거인의 미래 성장 잠재력 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-02-06T18:51:01.118Z",
+    "summary": "NVIDIA는 AI 컴퓨팅 및 반도체 분야의 글로벌 리더로, GPU와 데이터센터 사업을 통해 AI 혁명을 주도하고 있습니다. 주가는 높은 변동성을 보이지만, AI 수요 증가와 Blackwell 아키텍처와 같은 신제품 사이클에 힘입어 2026년에도 상당한 성장 잠재력을 가질 것으로 예상됩니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1770382724688",
     "title": "아마존(AMZN): AI 시대의 담대한 투자와 장기 성장 잠재력 분석 - 단기적 불확실성 속 매수 기회 평가",
     "ticker": "AMZN",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-15T18:36:58.529Z",
     "summary": "Harrow Health Inc.는 미국 시장을 위한 안과용 의약품 개발 및 상용화에 중점을 둔 안과 제약 회사입니다. FDA 승인 의약품 및 조제 의약품을 포함한 종합적인 포트폴리오를 보유하고 있으며, 2024년 53.32%의 매출 성장을 기록하며 바이오시밀러 시장에서 전략적 입지를 다지고 있습니다.",
     "sentimentScore": 0.65,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1768490756736",
-    "title": "AMD (Advanced Micro Devices) 심층 분석: AI 시대의 선도자, 성장과 위험의 교차점",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-01-15T15:25:56.736Z",
-    "summary": "AMD는 고성능 컴퓨팅, 그래픽 및 AI 데이터 센터 기술을 제공하는 선도적인 반도체 기업입니다. 최근 AI 가속기 칩 수요 증가와 데이터 센터 시장에서의 강력한 입지로 투자자들의 높은 관심을 받고 있습니다.",
-    "sentimentScore": 75,
     "investmentRating": "Strong Buy"
   }
 ]
