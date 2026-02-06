@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770413445942",
+    "title": "재생에너지 기반 AI 인프라의 선구자: IREN Limited, 변곡점에 선 투자 기회 분석",
+    "ticker": "IREN",
+    "market": "US",
+    "timestamp": "2026-02-06T21:30:45.942Z",
+    "summary": "IREN Limited는 재생에너지를 활용하여 비트코인 채굴 및 AI 데이터 센터를 운영하는 기업으로, 최근 실적 발표 후 주가 변동성이 확대되었지만, AI/HPC 인프라 전환에 대한 기대감이 상존합니다.",
+    "sentimentScore": 4.5,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1770403861118",
     "title": "NVIDIA (NVDA): AI 혁명을 주도하는 거인의 미래 성장 잠재력 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "한미반도체는 고대역폭메모리(HBM) 생산에 필수적인 TC 본더 장비의 선두 제조사로, 최근 SK하이닉스와의 대규모 공급 계약 체결로 시장의 주목을 받고 있습니다. AI 반도체 수요 증가에 따른 HBM 시장 성장의 주요 수혜주로 꼽히지만, 높은 밸류에이션과 경쟁 심화 가능성은 위험 요인으로 작용합니다.",
     "sentimentScore": 65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1768502218529",
-    "title": "Harrow Health Inc. (HROW): 안과 제약 시장의 성장 동력, 리스크 분석 및 투자 전략",
-    "ticker": "HROW",
-    "market": "US",
-    "timestamp": "2026-01-15T18:36:58.529Z",
-    "summary": "Harrow Health Inc.는 미국 시장을 위한 안과용 의약품 개발 및 상용화에 중점을 둔 안과 제약 회사입니다. FDA 승인 의약품 및 조제 의약품을 포함한 종합적인 포트폴리오를 보유하고 있으며, 2024년 53.32%의 매출 성장을 기록하며 바이오시밀러 시장에서 전략적 입지를 다지고 있습니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Strong Buy"
   }
 ]
