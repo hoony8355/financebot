@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770678366964",
+    "title": "CoreWeave: AI 인프라 시장의 급부상하는 강자, 성장 잠재력과 리스크 분석",
+    "ticker": "CRWV",
+    "market": "US",
+    "timestamp": "2026-02-09T23:06:06.964Z",
+    "summary": "CoreWeave는 NVIDIA GPU 기반의 고성능 컴퓨팅 자원을 제공하는 클라우드 인프라 기업으로, AI 및 머신러닝 워크로드에 특화되어 있습니다. 2025년 3월 주당 40달러로 상장된 이후 급격한 성장세를 보였으며, AI 수요 증가와 Microsoft, OpenAI 등 주요 기술 기업과의 파트너십을 통해 매출이 크게 증대될 것으로 예상됩니다.",
+    "sentimentScore": 62,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1770642489739",
     "title": "PLSE (Pulse Biosciences): 심방세동 치료 시장의 패러다임 전환을 이끄는 nsPFA 기술의 잠재력 분석",
     "ticker": "PLSE",
@@ -988,15 +998,5 @@
     "summary": "AST SpaceMobile (ASTS)는 미국 미사일 방어국 SHIELD 프로그램 계약자로 선정되며 강력한 정부 부문 성장 잠재력을 확보했습니다. 최근 52주 최고가를 경신하며 주가가 급등했으나, 높은 현금 소모율, 잠재적 주식 희석 위험, 그리고 애널리스트 컨센서스 목표주가를 크게 상회하는 현재 가격으로 인해 고평가 논란이 있습니다.",
     "sentimentScore": 25,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1768827084113",
-    "title": "ImmunityBio (IBRX): ANKTIVA의 시장 침투와 파이프라인 확장이 이끄는 고성장 잠재력 분석",
-    "ticker": "IBRX",
-    "market": "US",
-    "timestamp": "2026-01-19T12:51:24.113Z",
-    "summary": "ImmunityBio (IBRX)는 혁신적인 암 면역치료제를 개발하는 바이오테크 기업으로, 방광암 치료제 ANKTIVA의 2025년 매출이 전년 대비 700% 급증하며 주목받고 있습니다. 최근 사우디 FDA로부터 비소세포폐암 및 방광암 치료제로 승인받았으며, 1차 방광암 임상시험도 순조롭게 진행 중입니다. 이러한 긍정적인 소식에 힘입어 주가는 최근 급등세를 보였으며, 애널리스트들은 'Strong Buy' 의견과 높은 목표 주가를 제시하고 있습니다.",
-    "sentimentScore": 90,
-    "investmentRating": "Strong Buy"
   }
 ]
