@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770845650367",
+    "title": "Astera Labs (ALAB): AI 인프라 성장의 첨병, 급락 속 기회와 위험 분석",
+    "ticker": "ALAB",
+    "market": "US",
+    "timestamp": "2026-02-11T21:34:10.367Z",
+    "summary": "AI 및 클라우드 인프라 반도체 솔루션 기업 Astera Labs (ALAB)는 강력한 성장 전망에도 불구하고 2026년 2월 11일 주가가 급락하며 높은 변동성을 보이고 있습니다. 엔비디아, AMD, 구글, 아마존 등 주요 기술 기업과의 파트너십을 통해 AI 서버 시장에서 핵심적인 역할을 하고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1770825698833",
     "title": "유니티 소프트웨어(U) 급락 속 투자 매력도 재평가: AI 성장 동력과 밸류에이션 리스크 심층 분석",
     "ticker": "U",
@@ -988,15 +998,5 @@
     "summary": "PAVmed Inc.은 진단, 의료 기기 및 디지털 건강 분야에서 미충족 의료 수요를 해결하는 혁신적인 제품을 개발하고 상용화하는 다각화된 상업 단계 의료 기술 회사입니다. 주요 제품으로는 식도 전암 진단을 위한 EsoGuard 및 EsoCheck, 손목 터널 증후군 치료를 위한 CarpX, 그리고 Veris 암 치료 플랫폼 등이 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1768988072125",
-    "title": "테슬라(TSLA): 불확실성 증폭, 밸류에이션 리스크와 다가오는 실적 발표의 그림자",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-01-21T09:34:32.125Z",
-    "summary": "테슬라(TSLA)는 전기차 시장의 선두주자이나, 2026년 1월 현재 판매량 감소 전망과 높은 밸류에이션, 경쟁 심화로 인해 하방 압력을 받고 있습니다. 기술적 지표는 단기 약세를 시사하며, 다가오는 실적 발표가 중요한 변수가 될 것입니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Hold"
   }
 ]
