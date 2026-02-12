@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770901592544",
+    "title": "Decent Holding Inc. (DXST): 과매도 상태의 극심한 하락 추세와 투자 경고 보고서",
+    "ticker": "DXST",
+    "market": "US",
+    "timestamp": "2026-02-12T13:06:32.544Z",
+    "summary": "Decent Holding Inc. (DXST)는 중국에서 산업 폐수 처리, 생태 강 복원 및 강 생태계 관리 서비스를 제공하는 소형주 기업입니다. 최근 높은 변동성과 거래량으로 주목받았으며, 기술적 분석은 강한 하락 추세를 시사합니다.",
+    "sentimentScore": 20,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1770889838469",
     "title": "Neo-Concept International (NCI): 유상증자발 하방 압력 및 재무 리스크 심화 분석",
     "ticker": "NCI",
@@ -988,15 +998,5 @@
     "summary": "Corvus Pharmaceuticals (CRVS)는 고형암, T세포 림프종, 자가면역 질환 및 감염성 질환 치료를 위한 면역 조절제 후보물질 개발에 중점을 둔 임상 단계 바이오 제약 회사입니다. 최근 아토피 피부염에 대한 소켈리티닙(soquelitinib)의 긍정적인 임상 1상 시험 데이터와 확대된 공모 발행으로 인해 주가 변동성과 거래량이 크게 증가했습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1769074389662",
-    "title": "C3.ai Inc. (AI): 엔터프라이즈 AI 시장의 기회와 지속적인 수익성 도전 분석",
-    "ticker": "AI",
-    "market": "US",
-    "timestamp": "2026-01-22T09:33:09.662Z",
-    "summary": "C3.ai Inc.는 기업 인공지능(AI) 소프트웨어 전문 미국 정보 기술 회사로, 다양한 산업 분야의 대규모 조직을 위한 디지털 전환을 가속화하는 플랫폼과 애플리케이션을 제공합니다. 구독 기반 비즈니스 모델을 운영하며 마이크로소프트, AWS와 같은 주요 기술 기업과의 전략적 파트너십에 중점을 둡니다.",
-    "sentimentScore": 50,
-    "investmentRating": "Hold"
   }
 ]
