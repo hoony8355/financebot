@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1770889838469",
+    "title": "Neo-Concept International (NCI): 유상증자발 하방 압력 및 재무 리스크 심화 분석",
+    "ticker": "NCI",
+    "market": "US",
+    "timestamp": "2026-02-12T09:50:38.469Z",
+    "summary": "Neo-Concept International Group Holdings Limited (NCI)는 홍콩에 본사를 둔 종합 의류 솔루션 제공업체로, 시장 트렌드 분석부터 물류 관리까지 다양한 서비스를 제공하며 'les 100 ciels' 브랜드로 제품을 판매합니다. 최근 2026년 2월 11일 약 810만 달러 규모의 보통주 공모가 마감된 후 주가가 급락하며 높은 변동성을 보이고 있습니다.",
+    "sentimentScore": 15,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1770879694592",
     "title": "NVIDIA: AI 시대의 선봉장, 초고속 성장 궤도와 잠재적 리스크 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "C3.ai Inc.는 기업 인공지능(AI) 소프트웨어 전문 미국 정보 기술 회사로, 다양한 산업 분야의 대규모 조직을 위한 디지털 전환을 가속화하는 플랫폼과 애플리케이션을 제공합니다. 구독 기반 비즈니스 모델을 운영하며 마이크로소프트, AWS와 같은 주요 기술 기업과의 전략적 파트너십에 중점을 둡니다.",
     "sentimentScore": 50,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769063718958",
-    "title": "한온시스템: 유상증자 기반 재무구조 개선과 ESS 열관리 신사업 통한 기업가치 재평가 분석",
-    "ticker": "018880",
-    "market": "KR",
-    "timestamp": "2026-01-22T06:35:18.958Z",
-    "summary": "한온시스템(018880)은 대한민국의 자동차 열 관리 시스템 및 부품 전문 기업으로, 최근 유상증자를 통한 재무구조 개선과 에너지저장장치(ESS) 열관리 분야 진출을 모색하며 시장의 주목을 받고 있습니다. 1월 22일 코스피 시장에서 높은 거래량을 기록하며 활발한 움직임을 보였습니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Buy"
   }
 ]
