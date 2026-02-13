@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771008509375",
+    "title": "Rivian Automotive (RIVN): R2 SUV 기반 성장 모멘텀과 수익성 전환 경로 분석",
+    "ticker": "RIVN",
+    "market": "US",
+    "timestamp": "2026-02-13T18:48:29.375Z",
+    "summary": "Rivian Automotive (RIVN)는 4분기 실적 예상치를 상회하고 R2 SUV 출시 기대감에 힘입어 2026년 차량 인도량 전망치를 강하게 제시하며 주가가 급등했습니다. 이 상승은 연초 대비 상당한 하락세를 겪었던 주식에 긍정적인 전환점이 될 수 있습니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1770997319434",
     "title": "넷플릭스(NFLX): 과매도 국면, 견고한 펀더멘털 속 WBD 인수 리스크 재평가",
     "ticker": "NFLX",
@@ -988,15 +998,5 @@
     "summary": "팔란티어(PLTR)는 정부 및 상업 부문에 AI 소프트웨어 플랫폼을 제공하는 기업으로, 최근 급격한 하락세를 보인 후 중요한 기술적 지지선에 도달하여 단기 변동성이 예상됩니다. 장기적인 성장 잠재력은 여전하나, 단기적인 약세 신호와 높은 밸류에이션이 리스크 요인으로 작용하고 있습니다.",
     "sentimentScore": 40,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769279405686",
-    "title": "NVIDIA, AI 시대의 핵심 인프라: 심층 투자 분석 리포트",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-01-24T18:30:05.686Z",
-    "summary": "NVIDIA Corporation은 그래픽 처리 장치(GPU), 시스템 온 칩(SoC) 및 관련 멀티미디어 소프트웨어의 선도적인 설계 및 제조사입니다. 주로 게임, 전문 시각화, 데이터 센터(특히 AI 및 고성능 컴퓨팅), 그리고 자동차 시장에 제품을 공급하며, AI 인프라의 핵심 플레이어로 평가받고 있습니다.",
-    "sentimentScore": 90,
-    "investmentRating": "Strong Buy"
   }
 ]
