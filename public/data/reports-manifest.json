@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771073198585",
+    "title": "Algorhythm Holdings (RIME): AI 물류 혁명의 첨단인가, 투기적 과열의 정점인가? 심층 분석",
+    "ticker": "RIME",
+    "market": "US",
+    "timestamp": "2026-02-14T12:46:38.585Z",
+    "summary": "Algorhythm Holdings (RIME)는 AI 기술 및 가전제품 지주 회사입니다. 자회사인 SemiCab을 통해 AI 기반 물류 플랫폼을 운영하며, 최근 이 플랫폼이 인력 증원 없이 화물 운송량을 300~400% 늘릴 수 있다는 소식에 주가가 200% 이상 급등했습니다. 이는 물류 산업 전반에 'AI 혁명'에 대한 우려를 불러일으키며 높은 변동성을 보였습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1771061439148",
     "title": "핀터레스트 (PINS)의 최근 급락 심층 분석: 도전과 기회 속 투자 전략",
     "ticker": "PINS",
@@ -988,15 +998,5 @@
     "summary": "Revelation Biosciences Inc. (REVB)는 임상 단계의 바이오 제약 회사로, 면역 체계 치료제 개발에 중점을 둡니다. 최근 급성 신장 손상(AKI) 치료제인 Gemini의 승인 경로에 대해 FDA와 합의하여 주가가 급등했으나, 동시에 워런트 행사에 따른 주가 하락도 경험하는 등 높은 변동성을 보였습니다. 지난 1년간 주가는 90% 이상 하락하며 52주 최저치 부근에서 거래되고 있습니다.",
     "sentimentScore": -70,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1769344927248",
-    "title": "Direct Digital Holdings (DRCT): 고변동성 속 디지털 광고 시장의 성장 잠재력과 재무 건전성 분석",
-    "ticker": "DRCT",
-    "market": "US",
-    "timestamp": "2026-01-25T12:42:07.248Z",
-    "summary": "Direct Digital Holdings, Inc.는 중소기업을 위한 엔드투엔드 프로그래매틱 광고 플랫폼을 운영하는 회사입니다. 최근 자회사 Orange 142를 통해 규제 산업에 초점을 맞춘 고-컴플라이언스 관행을 발표했습니다. 이 회사의 주가는 2026년 1월 19일부터 23일까지 74.82% 급등하는 등 최근 상당한 변동성을 보였습니다. 그러나 재무적으로는 마이너스 수익성 지표와 높은 부채 수준으로 인해 어려움을 겪고 있으며, 이는 2026년 1월 12일에 나스닥 상장 규정 준수를 위해 55대 1 역주식 분할을 단행한 배경이 됩니다.",
-    "sentimentScore": 0.5,
-    "investmentRating": "Hold"
   }
 ]
