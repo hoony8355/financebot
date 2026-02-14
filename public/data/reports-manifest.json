@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771104251262",
+    "title": "플러그 파워(PLUG) 투자 심층 분석: 수소 경제의 기대와 현실, 그리고 중장기 전망",
+    "ticker": "PLUG",
+    "market": "US",
+    "timestamp": "2026-02-14T21:24:11.262Z",
+    "summary": "플러그 파워(Plug Power)는 수소 연료 전지 시스템의 선두 주자로, 최근 주주총회 안건 가결, 유럽 프로젝트의 긍정적 진전, 그리고 다수의 집단 소송이라는 복합적인 이슈 속에서 높은 시장 변동성을 보이고 있습니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771073198585",
     "title": "Algorhythm Holdings (RIME): AI 물류 혁명의 첨단인가, 투기적 과열의 정점인가? 심층 분석",
     "ticker": "RIME",
@@ -988,15 +998,5 @@
     "summary": "Brand Engagement Network, Inc. (BNAI)는 규제 산업을 위한 대화형 및 에이전트 AI 솔루션을 제공하는 초기 단계의 생성형 AI 인프라 회사입니다. 최근 아프리카 AI 라이선스 파트너십 및 주요 제약 회사와의 계약 발표로 투자자들의 관심이 급증하며 주가가 크게 상승했습니다. 회사는 고유의 Engagement Language Model(ELM) 기술로 경쟁 우위를 확보하고 있으며, 2026년 1분기부터 반복적인 라이선스 수입이 발생할 것으로 예상됩니다. 하지만 제한된 매출, 지속적인 손실, 주주 희석 가능성 등으로 인해 높은 위험을 안고 있습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1769354447942",
-    "title": "Revelation Biosciences (REVB) 심층 분석: 극심한 변동성과 임상 위험에 대한 평가",
-    "ticker": "REVB",
-    "market": "US",
-    "timestamp": "2026-01-25T15:20:47.942Z",
-    "summary": "Revelation Biosciences Inc. (REVB)는 임상 단계의 바이오 제약 회사로, 면역 체계 치료제 개발에 중점을 둡니다. 최근 급성 신장 손상(AKI) 치료제인 Gemini의 승인 경로에 대해 FDA와 합의하여 주가가 급등했으나, 동시에 워런트 행사에 따른 주가 하락도 경험하는 등 높은 변동성을 보였습니다. 지난 1년간 주가는 90% 이상 하락하며 52주 최저치 부근에서 거래되고 있습니다.",
-    "sentimentScore": -70,
-    "investmentRating": "Sell"
   }
 ]
