@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771180579700",
+    "title": "NVIDIA: AI 혁명의 선두주자, 압도적 지배력과 잠재적 리스크 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-02-15T18:36:19.700Z",
+    "summary": "NVIDIA는 컴퓨터 그래픽 프로세서, 칩셋 및 관련 멀티미디어 소프트웨어의 설계 및 제조를 주력으로 하며, 특히 AI 및 고성능 컴퓨팅(HPC)을 위한 데이터 센터 플랫폼, Mellanox 네트워킹 솔루션, 자율주행 기술 등 다양한 분야에서 사업을 영위하고 있습니다. AI 모델 개발 및 훈련에 필수적인 CUDA 소프트웨어 플랫폼도 제공합니다.",
+    "sentimentScore": 1.12,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1771159806346",
     "title": "Arm Holdings (ARM): AI 시대의 핵심 IP, 성장과 밸류에이션의 딜레마 분석",
     "ticker": "ARM",
@@ -988,15 +998,5 @@
     "summary": "Battalion Oil Corporation (BATL)은 델라웨어 분지의 육상 석유 및 천연가스 자산에 주력하는 독립 에너지 회사입니다. 최근 새로운 가스 처리 계약 체결과 원유 생산량의 상당한 증가에 힘입어 주가가 급등했습니다. 과거 재무적 어려움에도 불구하고, 운영 개선이 단기적인 강력한 시장 관심과 높은 변동성을 유발하고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769441379417",
-    "title": "모바노(MOVE) 주가 급등 심층 분석: AI 촉매와 근본적 위험의 교차점",
-    "ticker": "MOVE",
-    "market": "US",
-    "timestamp": "2026-01-26T15:29:39.417Z",
-    "summary": "Movano Inc. (Movano Health)는 의료 및 소비자 장치 영역에서 헬스케어 솔루션 플랫폼을 개발하는 헬스케어 기술 기업입니다. 주요 제품으로는 여성 건강 지표를 추적하는 Evie Ring이 있으며, 무혈압 혈압 및 비침습 혈당 모니터링 기술도 개발 중입니다. 최근 주가는 합병 예정인 Corvex가 AI 기반 배터리 기술 공급업체와 NVIDIA H200 GPU 장기 임대 계약을 체결했다는 소식에 급등했습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
