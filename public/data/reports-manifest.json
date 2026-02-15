@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771131264203",
+    "title": "제주반도체(080220): 온디바이스 AI 시대의 첨병인가, 과열된 기대감인가?",
+    "ticker": "080220",
+    "market": "KR",
+    "timestamp": "2026-02-15T04:54:24.203Z",
+    "summary": "제주반도체는 모바일 및 IoT 기기용 저전력 메모리 반도체를 개발하는 팹리스 기업으로, 온디바이스 AI 시장 성장에 대한 기대로 최근 높은 변동성과 급등세를 보였습니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771104251262",
     "title": "플러그 파워(PLUG) 투자 심층 분석: 수소 경제의 기대와 현실, 그리고 중장기 전망",
     "ticker": "PLUG",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 고대역폭 메모리(HBM) 시장의 선두 주자로, 인공지능(AI) 산업의 폭발적인 성장에 따른 메모리 수요 급증의 핵심 수혜주입니다. 차세대 HBM 기술 리더십과 견고한 실적 개선 전망을 바탕으로 국내 증시 반도체 섹터 강세를 주도하고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1769375988084",
-    "title": "Brand Engagement Network (BNAI): 규제 산업 AI의 선두주자? 고위험-고수익 스펙트럼 분석",
-    "ticker": "BNAI",
-    "market": "US",
-    "timestamp": "2026-01-25T21:19:48.084Z",
-    "summary": "Brand Engagement Network, Inc. (BNAI)는 규제 산업을 위한 대화형 및 에이전트 AI 솔루션을 제공하는 초기 단계의 생성형 AI 인프라 회사입니다. 최근 아프리카 AI 라이선스 파트너십 및 주요 제약 회사와의 계약 발표로 투자자들의 관심이 급증하며 주가가 크게 상승했습니다. 회사는 고유의 Engagement Language Model(ELM) 기술로 경쟁 우위를 확보하고 있으며, 2026년 1분기부터 반복적인 라이선스 수입이 발생할 것으로 예상됩니다. 하지만 제한된 매출, 지속적인 손실, 주주 희석 가능성 등으로 인해 높은 위험을 안고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Buy"
   }
 ]
