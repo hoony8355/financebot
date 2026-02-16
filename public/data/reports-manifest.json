@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771235658882",
+    "title": "테슬라(TSLA): 전기차 시장의 도전과 AI/로보틱스 혁신으로의 진화",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-02-16T09:54:18.882Z",
+    "summary": "테슬라(TSLA)는 전기차, 에너지 생성 및 저장 시스템을 설계, 개발, 제조, 판매하는 기업입니다. 최근 인공지능(AI), 자율주행(로보택시), 휴머노이드 로봇(Optimus) 분야로 사업 확장을 가속화하고 있으며, 스페이스X 및 xAI와의 잠재적 통합 가능성도 언급되고 있습니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771217946492",
     "title": "에코프로비엠, 흑자 전환 이면의 과제와 밸류에이션 재조명: 변동성 장세 속 투자 전략",
     "ticker": "247540",
@@ -988,15 +998,5 @@
     "summary": "Check-Cap Ltd. (MBAI)는 최근 MBody AI와의 합병 및 AI 기반 로봇 시스템 솔루션으로의 사업 전환 소식에 힘입어 극심한 변동성과 큰 폭의 주가 상승을 보였습니다. 나스닥 상장 규정 준수 회복 또한 투자 심리에 긍정적으로 작용했습니다. 그러나 신규 AI 사업은 아직 초기 단계이며, 회사는 과거 재정적 어려움이 있었습니다.",
     "sentimentScore": 65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769462690407",
-    "title": "CoreWeave (CRWV): NVIDIA 투자로 도약하는 AI 클라우드 인프라의 미래 심층 분석",
-    "ticker": "CRWV",
-    "market": "US",
-    "timestamp": "2026-01-26T21:24:50.407Z",
-    "summary": "CoreWeave (CRWV)는 AI 클라우드 인프라 회사로, NVIDIA로부터 20억 달러 규모의 투자를 유치하고 AI 공장 건설을 위한 파트너십을 강화하면서 큰 주목을 받고 있습니다. 이 소식은 애널리스트들의 관심 증가와 주가 변동성으로 이어졌습니다. CoreWeave는 AI 워크로드에 최적화된 고성능 컴퓨팅 자원을 전문으로 제공합니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Buy"
   }
 ]
