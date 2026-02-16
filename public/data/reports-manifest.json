@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771246959912",
+    "title": "BigBear.ai Holdings (BBAI) 심층 분석: AI 기반 국방 기술 기업의 도전과 전망",
+    "ticker": "BBAI",
+    "market": "US",
+    "timestamp": "2026-02-16T13:02:39.912Z",
+    "summary": "BigBear.ai Holdings, Inc. (BBAI)는 정부 부문에 AI 기반 의사결정 인텔리전스 솔루션을 제공하는 기업으로, 최근 매출 감소와 수익성 악화, 증권 사기 조사 등으로 인해 주가 변동성이 매우 높습니다. 50일 이동평균선이 200일 이동평균선 아래로 내려가는 데드 크로스 등 기술적 지표는 약세를 보이며, 애널리스트 컨센서스는 '보유'입니다.",
+    "sentimentScore": -0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771235658882",
     "title": "테슬라(TSLA): 전기차 시장의 도전과 AI/로보틱스 혁신으로의 진화",
     "ticker": "TSLA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-27T18:40:54.463Z",
     "summary": "Dermata Therapeutics는 피부 질환 및 미용 피부 상태 치료를 위한 의약품 후보 개발에 중점을 둔 임상 단계 의료 피부과 회사입니다. 최근 전략적 전환을 통해 일반의약품(OTC) 피부 관리 제품 개발 및 유통에 집중하고 있으며, 주 1회 사용 여드름 치료 키트 출시를 목표로 합니다. [12] 2026년 1월 27일, 회사는 최대 705,000달러 규모의 시장 판매 주식 제공 한도를 늘렸으며, 이는 기존 주주의 지분 희석으로 이어질 수 있습니다. [3, 4]",
     "sentimentScore": 0.1,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769518206012",
-    "title": "MBAI: Check-Cap의 MBody AI 전환, 로봇 AI 시장의 새로운 도전자인가?",
-    "ticker": "MBAI",
-    "market": "US",
-    "timestamp": "2026-01-27T12:50:06.012Z",
-    "summary": "Check-Cap Ltd. (MBAI)는 최근 MBody AI와의 합병 및 AI 기반 로봇 시스템 솔루션으로의 사업 전환 소식에 힘입어 극심한 변동성과 큰 폭의 주가 상승을 보였습니다. 나스닥 상장 규정 준수 회복 또한 투자 심리에 긍정적으로 작용했습니다. 그러나 신규 AI 사업은 아직 초기 단계이며, 회사는 과거 재정적 어려움이 있었습니다.",
-    "sentimentScore": 65,
     "investmentRating": "Hold"
   }
 ]
