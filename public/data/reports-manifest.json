@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771217946492",
+    "title": "에코프로비엠, 흑자 전환 이면의 과제와 밸류에이션 재조명: 변동성 장세 속 투자 전략",
+    "ticker": "247540",
+    "market": "KR",
+    "timestamp": "2026-02-16T04:59:06.493Z",
+    "summary": "에코프로비엠은 국내 리튬이온 이차전지 양극소재 선도 기업으로, 최근 4분기 실적 흑자 전환에 성공했으나 일회성 이익과 밸류에이션 부담으로 변동성이 확대되고 있습니다. 하반기 헝가리 공장 가동 및 신규 수주 기대감과 전기차 시장 둔화 우려가 공존하며, 개인 투자자 및 공매도 세력의 수급에 따라 주가 등락이 예상됩니다.",
+    "sentimentScore": 0,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771180579700",
     "title": "NVIDIA: AI 혁명의 선두주자, 압도적 지배력과 잠재적 리스크 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "CoreWeave (CRWV)는 AI 클라우드 인프라 회사로, NVIDIA로부터 20억 달러 규모의 투자를 유치하고 AI 공장 건설을 위한 파트너십을 강화하면서 큰 주목을 받고 있습니다. 이 소식은 애널리스트들의 관심 증가와 주가 변동성으로 이어졌습니다. CoreWeave는 AI 워크로드에 최적화된 고성능 컴퓨팅 자원을 전문으로 제공합니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1769452578939",
-    "title": "Battalion Oil Corporation (BATL): 운영 개선에 따른 주가 급등과 근본적 재무 리스크 분석",
-    "ticker": "BATL",
-    "market": "US",
-    "timestamp": "2026-01-26T18:36:18.939Z",
-    "summary": "Battalion Oil Corporation (BATL)은 델라웨어 분지의 육상 석유 및 천연가스 자산에 주력하는 독립 에너지 회사입니다. 최근 새로운 가스 처리 계약 체결과 원유 생산량의 상당한 증가에 힘입어 주가가 급등했습니다. 과거 재무적 어려움에도 불구하고, 운영 개선이 단기적인 강력한 시장 관심과 높은 변동성을 유발하고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Hold"
   }
 ]
