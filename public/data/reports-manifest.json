@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771311556257",
+    "title": "뉴인텍(012340): 친환경차 핵심 부품사의 '동전주' 리스크와 성장 잠재력 분석",
+    "ticker": "012340",
+    "market": "KR",
+    "timestamp": "2026-02-17T06:59:16.257Z",
+    "summary": "뉴인텍은 친환경차량(전기차, 수소차, 하이브리드) 및 태양광 인버터용 핵심 부품인 전자 커패시터와 금속증착필름을 제조하는 기업입니다. 현대·기아차에 대한 높은 점유율을 바탕으로 성장 잠재력을 지니고 있으나, 최근 '동전주' 상장폐지 기준 강화 이슈로 인해 극심한 주가 변동성을 겪고 있습니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771303903464",
     "title": "KB금융: 국내 금융지주 리레이팅의 선두주자, PBR 1배 돌파와 주주환원 가치 분석",
     "ticker": "105560",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-28T12:50:40.077Z",
     "summary": "AI 인프라 수요 증가에 따른 높은 변동성을 보이는 서버 솔루션 제공업체 SMCI, 최근 주가 급등 후 조정, 저평가 분석과 함께 강력한 성장 잠재력 부각.",
     "sentimentScore": 0.6,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769592892485",
-    "title": "Global Interactive Technologies (GITS) 심층 분석: K-Pop IP 확장 전략과 극심한 변동성 리스크 평가",
-    "ticker": "GITS",
-    "market": "US",
-    "timestamp": "2026-01-28T09:34:52.485Z",
-    "summary": "Global Interactive Technologies, Inc. (GITS)는 한국의 K-Pop 및 한국 문화를 중심으로 하는 소셜 미디어 및 콘텐츠 플랫폼 기업입니다. 최근 K-Pop 그룹 ATEEZ와의 애니메이션 영화 'The Legend of MegaRace' 공식 테마곡 파트너십 발표로 인해 주가가 급등하며 높은 변동성을 보였습니다. 이 회사는 Faning과 FANTOO 플랫폼을 통해 팬덤 커뮤니티를 운영하고 콘텐츠를 유통하며 지적 재산권(IP) 확장에 집중하고 있습니다. [10, 15, 16, 18, 22, 27, 32, 33]",
-    "sentimentScore": 85,
     "investmentRating": "Hold"
   }
 ]
