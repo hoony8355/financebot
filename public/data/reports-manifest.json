@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771333374718",
+    "title": "리비안(RIVN)의 전환점: R2 SUV와 폭스바겐 파트너십이 이끄는 성장 동력 분석",
+    "ticker": "RIVN",
+    "market": "US",
+    "timestamp": "2026-02-17T13:02:54.718Z",
+    "summary": "Rivian Automotive (RIVN)는 2025년 4분기 실적 호조와 2026년 신형 R2 SUV의 긍정적인 인도량 가이던스에 힘입어 최근 강력한 상승 모멘텀을 보였습니다. 이는 전반적인 기술주 매도세와 도전적인 전기차 시장 속에서 나타난 성과입니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1771311556257",
     "title": "뉴인텍(012340): 친환경차 핵심 부품사의 '동전주' 리스크와 성장 잠재력 분석",
     "ticker": "012340",
@@ -988,15 +998,5 @@
     "summary": "QT Imaging Holdings Inc. (QTI)는 저주파 음파를 활용한 유방 영상 시스템을 개발하는 의료기기 회사입니다. 최근 OTCQB에서 나스닥 캐피탈 마켓으로 성공적으로 재상장(2026년 1월 28일)하며 강력한 턴어라운드를 보여주고 있으며, 2025년 매출 목표를 초과 달성하고 주요 협력 계약을 체결하는 등 긍정적인 모멘텀을 형성하고 있습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1769604640077",
-    "title": "Super Micro Computer (SMCI): AI 인프라 성장 속 변동성 높은 서버 솔루션 리더의 투자 매력 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-01-28T12:50:40.077Z",
-    "summary": "AI 인프라 수요 증가에 따른 높은 변동성을 보이는 서버 솔루션 제공업체 SMCI, 최근 주가 급등 후 조정, 저평가 분석과 함께 강력한 성장 잠재력 부각.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
