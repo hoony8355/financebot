@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771613207474",
+    "title": "카바나(CVNA): 턴어라운드 성공과 2026년 불확실성 사이의 고위험 고수익 투자 분석",
+    "ticker": "CVNA",
+    "market": "US",
+    "timestamp": "2026-02-20T18:46:47.474Z",
+    "summary": "온라인 중고차 소매업체 카바나(CVNA)는 2025년 4분기 매출과 주당순이익(EPS)에서 시장 예상치를 크게 상회하며 흑자 전환에 성공했습니다. 그러나 2026년 실적 가이던스가 불확실하다는 점과 최근 애널리스트들의 목표가 하향 조정으로 인해 주가 변동성이 확대되고 있습니다.",
+    "sentimentScore": -2,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1771580439601",
     "title": "Knorex (KNRX): 'Agentic AI-ready Ads API' 발사에 따른 단기 모멘텀 및 구조적 리스크 심층 분석",
     "ticker": "KNRX",
@@ -988,15 +998,5 @@
     "summary": "Innodata Inc. (INOD)는 인공지능(AI) 및 데이터 엔지니어링 솔루션을 전문으로 하는 디지털 서비스 및 기술 기업입니다. 최근 미국 미사일 방어청(Missile Defense Agency)의 SHIELD 프로그램의 주요 계약자로 선정되었으며, Palantir Technologies와의 파트너십을 통해 AI 기반 로데오 이벤트 분석을 위한 데이터 엔지니어링 및 주석 서비스를 제공하고 있습니다. 회사는 견고한 매출 및 EPS 성장을 보였으며, 애널리스트들은 긍정적인 전망을 유지하고 있습니다. 그러나 주가는 높은 변동성을 보이며, 기술적 지표는 상충되는 신호를 나타내고 있어 투자에 주의가 필요합니다.",
     "sentimentScore": 0.59,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1769851690030",
-    "title": "First Majestic Silver (AG) 심층 분석: 극심한 변동성과 귀금속 시장의 재편",
-    "ticker": "AG",
-    "market": "US",
-    "timestamp": "2026-01-31T09:28:10.030Z",
-    "summary": "First Majestic Silver (AG)는 2026년 1월 30일 은 가격 폭락으로 17.20% 급락하며 극심한 변동성을 보였습니다. 최근 '실버 스퀴즈'에 힘입어 주가가 급등했지만, 귀금속 시장의 광범위한 조정에 취약함을 드러냈습니다.",
-    "sentimentScore": -0.8,
-    "investmentRating": "Hold"
   }
 ]
