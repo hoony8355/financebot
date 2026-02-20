@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771580439601",
+    "title": "Knorex (KNRX): 'Agentic AI-ready Ads API' 발사에 따른 단기 모멘텀 및 구조적 리스크 심층 분석",
+    "ticker": "KNRX",
+    "market": "US",
+    "timestamp": "2026-02-20T09:40:39.601Z",
+    "summary": "Knorex Ltd.는 AI 기반의 프로그래매틱 광고 솔루션을 제공하는 B2B 기술 기업입니다. Knorex XPO 클라우드 플랫폼을 통해 Meta, Google, LinkedIn, TikTok 등 다양한 채널에서 광고 워크플로우를 자동화합니다. 싱가포르에 본사를 두고 있으며 미국, 베트남, 인도, 말레이시아 등에서 사업을 운영하고 있습니다. 2025년 9월 NYSE American에 IPO를 진행했습니다. 최근 'agentic AI-ready Ads API' 출시로 주가가 폭등하며 시장의 주목을 받았습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771552868487",
     "title": "SK증권: 시장 활황과 STO 기대감 속 급등세, 지속 가능성 및 리스크 점검",
     "ticker": "001510",
@@ -987,16 +997,6 @@
     "timestamp": "2026-01-31T09:28:10.030Z",
     "summary": "First Majestic Silver (AG)는 2026년 1월 30일 은 가격 폭락으로 17.20% 급락하며 극심한 변동성을 보였습니다. 최근 '실버 스퀴즈'에 힘입어 주가가 급등했지만, 귀금속 시장의 광범위한 조정에 취약함을 드러냈습니다.",
     "sentimentScore": -0.8,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1769833512994",
-    "title": "덕양에너젠(0001A0): 신규 상장주, 수소 경제의 기대와 밸류에이션 리스크 심층 분석",
-    "ticker": "0001A0",
-    "market": "KR",
-    "timestamp": "2026-01-31T04:25:12.994Z",
-    "summary": "덕양에너젠(0001A0)은 2026년 첫 코스닥 상장 종목으로, 고순도 산업용 수소 생산 전문 기업입니다. 상장 첫날인 1월 30일 공모가 10,000원 대비 248.5% 급등한 34,850원에 마감했으며, 장중 한때 39,500원까지 치솟았습니다. 이날 국내 증시에서 삼성전자와 SK하이닉스에 이어 세 번째로 높은 거래대금을 기록하며 시장의 뜨거운 관심을 받았습니다. 수소 경제 전환이라는 미래 성장 동력에 대한 기대감이 주가에 크게 반영된 것으로 보입니다.",
-    "sentimentScore": 0.85,
     "investmentRating": "Hold"
   }
 ]
