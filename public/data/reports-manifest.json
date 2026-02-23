@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771840528052",
+    "title": "Intel Corporation (INTC): 전환기 속 AI 및 파운드리 전략의 심층 분석",
+    "ticker": "INTC",
+    "market": "US",
+    "timestamp": "2026-02-23T09:55:28.052Z",
+    "summary": "Intel Corporation (INTC)은 미국에 본사를 둔 세계 최대 반도체 제조업체로, 마이크로프로세서, 데이터센터 칩, AI 관련 기술을 설계 및 생산합니다. 최근 차세대 AI PC용 Core Ultra Series 3 프로세서를 출시하고 AI 및 파운드리 사업 확장에 집중하며 200억 달러 규모의 미국 제조 시설 투자를 계획하고 있습니다. 2025년 4분기 실적은 예상을 상회했으나, 2026년 1분기 매출 가이던스는 하락세를 보여 주가에 변동성을 더하고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771773897937",
     "title": "AppLovin (APP): AI 광고 기술 리더십과 신규 시장 확장 이니셔티브, 저평가 논란 속 투자 매력 분석",
     "ticker": "APP",
@@ -988,15 +998,5 @@
     "summary": "AI 칩 시장의 핵심 플레이어인 AMD는 AI 가속기 수요 증가와 강력한 애널리스트 목표가에도 불구하고 최근 MI450-시리즈 칩 지연 루머로 주가가 하락세를 보였습니다. 장기적인 성장 잠재력은 긍정적이나, 단기적인 변동성이 높은 상황입니다.",
     "sentimentScore": -0.3,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1769959484826",
-    "title": "Elong Power Holding Limited (ELPW): 3000% 급등, 극단적 변동성 속 투기적 평가와 리스크 분석",
-    "ticker": "ELPW",
-    "market": "US",
-    "timestamp": "2026-02-01T15:24:44.826Z",
-    "summary": "Elong Power Holding Limited는 오늘 3000%가 넘는 급등을 기록하며 미국 증시에서 가장 높은 변동성을 보인 종목 중 하나입니다. 주로 전력 관련 산업에 종사하는 소형주이며, 최근 특별한 공시 없이 급등세를 보였습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Hold"
   }
 ]
