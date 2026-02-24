@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771938276562",
+    "title": "NVIDIA: AI 혁명 시대의 선도자, 심층 투자 분석 보고서",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-02-24T13:04:36.562Z",
+    "summary": "NVIDIA Corporation은 GPU, 칩셋 및 관련 멀티미디어 소프트웨어의 선도적인 설계 및 제조업체로, AI 하드웨어 및 소프트웨어, 게임, 전문 시각화, 데이터 센터 시장에서 지배적인 위치를 차지하고 있습니다. 최근 'Magnificent Seven' 기술 대기업 중 하나로 부상하며 AI 칩 수요 급증에 힘입어 알파벳을 능가하는 시가총액을 기록했습니다.",
+    "sentimentScore": 85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1771926789450",
     "title": "Arcellx (ACLX) 인수 분석: Gilead의 전략적 베팅과 Anito-cel의 미래 가치 평가",
     "ticker": "ACLX",
@@ -988,15 +998,5 @@
     "summary": "Intel Corporation (INTC)는 반도체 설계 및 제조 분야의 선두 기업으로, 최근 애플과 엔비디아의 파운드리 생산 능력 활용 검토 소식과 AI 관련 사업 확장으로 주가가 크게 변동하고 있습니다. 긍정적인 파트너십 기대감에도 불구하고, 최근 4분기 실적 발표 후 1분기 예상 실적이 시장 기대에 미치지 못하며 주가가 하락한 바 있으며, 파운드리 사업의 손실과 공급 제약이 우려 요인으로 작용하고 있습니다.",
     "sentimentScore": 0.2,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1770123552159",
-    "title": "팔란티어 테크놀로지스: AI 혁신을 통한 초고속 성장, 과연 고평가 논란을 넘어설 것인가?",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-02-03T12:59:12.159Z",
-    "summary": "팔란티어 테크놀로지스 주식은 2026년 2월 3일, 2025년 4분기 강력한 실적 발표와 2026년 낙관적인 매출 전망에 힘입어 개장 전 거래에서 급등했습니다. 특히 미국 상업 및 정부 부문의 AI 수요가 성장을 견인했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Buy"
   }
 ]
