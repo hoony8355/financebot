@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1771959759409",
+    "title": "IBM, AI 혁신과 레거시 위협 사이: 전략적 변곡점과 투자 전망 심층 분석",
+    "ticker": "IBM",
+    "market": "US",
+    "timestamp": "2026-02-24T19:02:39.409Z",
+    "summary": "IBM은 2026년 2월 23일 Anthropic의 AI COBOL 현대화 툴 출시로 주가가 13% 이상 급락하며 25년 만에 최악의 하루를 기록했으나, 24일 애널리스트들의 긍정적 분석과 Deepgram과의 협력 소식에 힘입어 반등했습니다. 회사는 하이브리드 클라우드 및 AI 리더로 변모 중이며 watsonx AI 플랫폼을 통해 상당한 성장을 보이고 있지만, 레거시 비즈니스에 대한 AI의 잠재적 영향에 대한 우려가 상존합니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1771938276562",
     "title": "NVIDIA: AI 혁명 시대의 선도자, 심층 투자 분석 보고서",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 대한민국에 본사를 둔 반도체, 전자제품, 디스플레이 및 통신장비를 설계, 제조하는 글로벌 선두 기업입니다. 메모리 반도체(DRAM, NAND), 파운드리, 스마트폰, TV, 가전 등 광범위한 사업 포트폴리오를 보유하고 있으며, 최근에는 HBM, AI 데이터센터, 로보틱스 등 신성장 동력에 집중하고 있습니다.",
     "sentimentScore": 65,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1770133840690",
-    "title": "인텔(INTC) 심층 분석: 파운드리 전환기의 기회와 도전",
-    "ticker": "INTC",
-    "market": "US",
-    "timestamp": "2026-02-03T15:50:40.690Z",
-    "summary": "Intel Corporation (INTC)는 반도체 설계 및 제조 분야의 선두 기업으로, 최근 애플과 엔비디아의 파운드리 생산 능력 활용 검토 소식과 AI 관련 사업 확장으로 주가가 크게 변동하고 있습니다. 긍정적인 파트너십 기대감에도 불구하고, 최근 4분기 실적 발표 후 1분기 예상 실적이 시장 기대에 미치지 못하며 주가가 하락한 바 있으며, 파운드리 사업의 손실과 공급 제약이 우려 요인으로 작용하고 있습니다.",
-    "sentimentScore": 0.2,
-    "investmentRating": "Hold"
   }
 ]
