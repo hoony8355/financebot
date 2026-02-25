@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772002945016",
+    "title": "Opendoor Technologies (OPEN): 주택 시장의 역풍 속 AI 기반 혁신과 수익성 전환 분석",
+    "ticker": "OPEN",
+    "market": "US",
+    "timestamp": "2026-02-25T07:02:25.016Z",
+    "summary": "Opendoor Technologies (OPEN)는 주거용 부동산 거래를 위한 디지털 플랫폼으로, AI 기반의 기술 중심 마켓플레이스로의 전환을 가속화하고 있습니다. 최근 2025년 4분기 실적 발표에서 시장 예상치를 뛰어넘는 주택 인수량 증가와 운영 효율성 개선을 보여주며 긍정적인 투자 심리를 이끌었습니다. 회사는 2026년 말까지 조정된 순이익 손익분기점 달성을 목표로 하고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1771995175287",
     "title": "한화갤러리아: 턴어라운드와 성장 모멘텀, 그러나 과열 신호 속 밸류에이션 재점검",
     "ticker": "452260",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-05T06:59:23.945Z",
     "summary": "코리아써키트는 영풍그룹 계열의 PCB(인쇄회로기판) 전문 생산업체입니다. AI 인프라 및 반도체 산업 성장에 따른 고밀도 인터커넥트(HDI) 및 FC-BGA 기판 수요 증가의 수혜가 기대되며, 2026년 대규모 시설 투자를 통한 생산 능력 확대를 발표했습니다. 최근 주가가 52주 최고치를 경신하며 강한 상승 모멘텀을 보이고 있습니다.",
     "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1770240812155",
-    "title": "Eli Lilly (LLY): 비만 및 당뇨 시장 지배와 파이프라인 혁신을 통한 성장 동력 분석",
-    "ticker": "LLY",
-    "market": "US",
-    "timestamp": "2026-02-04T21:33:32.155Z",
-    "summary": "Eli Lilly (LLY)는 최근 강력한 2025년 4분기 실적과 긍정적인 2026년 가이던스를 발표하며 주가가 급등했습니다. 이는 주로 비만 및 당뇨병 치료제인 Mounjaro와 Zepbound의 견조한 판매에 힘입은 것입니다. [2, 18, 23, 25]",
-    "sentimentScore": 0.82,
     "investmentRating": "Strong Buy"
   }
 ]
