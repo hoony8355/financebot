@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772035398087",
+    "title": "BigBear.ai (BBAI): AI 국방 솔루션 기업의 기회와 위협, 심층 분석",
+    "ticker": "BBAI",
+    "market": "US",
+    "timestamp": "2026-02-25T16:03:18.087Z",
+    "summary": "BigBear.ai (BBAI)는 정부 및 국방 부문에 AI 기반 의사 결정 지능 솔루션을 제공하는 기업입니다. 최근 Hunterbrook 보고서에 의한 Ask Sage 인수 의혹, 미 국방부의 경쟁 무료 AI 도구 배포로 인한 경쟁 심화, 그리고 3월 2일 예정된 Q4 2025 실적 발표를 앞두고 매출 감소 우려에 직면하며 높은 변동성을 보이고 있습니다. Pomerantz 법무법인의 증권 사기 및 전환사채 관련 조사 착수 소식도 투자 심리에 영향을 미치고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772024655090",
     "title": "Core Scientific (CORZ)의 AI 데이터 센터 전환 전략 분석: 고변동성 속 기회와 위험",
     "ticker": "CORZ",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-06T02:00:37.432Z",
     "summary": "아이로보틱스(066430)는 주로 폴리에틸렌 필름 및 관련 제품의 제조 및 판매 사업을 영위하며, 로봇 구동에 필수적인 하모닉 드라이브 및 RV 드라이브를 설계, 제조, 검증하는 회사입니다. 최근 주식 시장에서 높은 변동성과 거래량을 보이고 있습니다.",
     "sentimentScore": 0.5,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1770317208377",
-    "title": "퀄컴(QCOM) 심층 분석: 실적 가이던스 하향 조정과 스마트폰 시장 역풍 속 투자 전략",
-    "ticker": "QCOM",
-    "market": "US",
-    "timestamp": "2026-02-05T18:46:48.377Z",
-    "summary": "퀄컴(QCOM) 주가는 2026년 2월 5일, 1분기 실적 발표에도 불구하고 실망스러운 2분기 가이던스 발표로 인해 급락했습니다. 글로벌 메모리 칩 부족과 스마트폰 생산에 대한 우려가 주요 원인이며, 여러 애널리스트들이 목표가를 하향 조정했습니다.",
-    "sentimentScore": -70,
     "investmentRating": "Hold"
   }
 ]
