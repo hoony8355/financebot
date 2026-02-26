@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772111093149",
+    "title": "Arcellx (ACLX) 인수 딜 심층 분석: 길리어드의 전략적 베팅과 다발성 골수종 CAR-T 시장의 재편",
+    "ticker": "ACLX",
+    "market": "US",
+    "timestamp": "2026-02-26T13:04:53.149Z",
+    "summary": "Arcellx (ACLX)는 길리어드 사이언스(Gilead Sciences)에 인수된다는 소식에 주가가 급등한 임상 단계 바이오 기술 기업입니다. 길리어드는 주당 115달러 현금과 향후 anito-cel 판매 마일스톤에 연동된 주당 5달러의 조건부 가치권(CVR)을 포함해 약 78억 달러에 Arcellx를 인수하기로 합의했습니다. 주요 파이프라인인 다발성 골수종 CAR-T 치료제 anito-cel은 현재 미국 FDA의 심사 중이며 2026년 12월 23일 결정이 예정되어 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772089200891",
     "title": "현대차, 미래 모빌리티 혁신과 밸류업 시너지를 통한 성장 가속화 분석",
     "ticker": "005380",
@@ -988,15 +998,5 @@
     "summary": "IREN Limited는 재생에너지를 활용하여 비트코인 채굴 및 AI 데이터 센터를 운영하는 기업으로, 최근 실적 발표 후 주가 변동성이 확대되었지만, AI/HPC 인프라 전환에 대한 기대감이 상존합니다.",
     "sentimentScore": 4.5,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1770403861118",
-    "title": "NVIDIA (NVDA): AI 혁명을 주도하는 거인의 미래 성장 잠재력 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-02-06T18:51:01.118Z",
-    "summary": "NVIDIA는 AI 컴퓨팅 및 반도체 분야의 글로벌 리더로, GPU와 데이터센터 사업을 통해 AI 혁명을 주도하고 있습니다. 주가는 높은 변동성을 보이지만, AI 수요 증가와 Blackwell 아키텍처와 같은 신제품 사이클에 힘입어 2026년에도 상당한 성장 잠재력을 가질 것으로 예상됩니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Strong Buy"
   }
 ]
