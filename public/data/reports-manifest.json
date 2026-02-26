@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772132001851",
+    "title": "XWEL Inc. 심층 분석: 전략적 전환, 재무 구조 재편 그리고 극심한 희석 위험 평가",
+    "ticker": "XWEL",
+    "market": "US",
+    "timestamp": "2026-02-26T18:53:21.851Z",
+    "summary": "XWELL Inc. (XWEL)는 XpresSpa (공항 스파 서비스), XpresTest (CDC 바이오감시 프로그램과 연계된 진단 테스트), Naples Wax Center, Treat (여행 건강 및 웰니스 브랜드)를 운영하는 건강 및 웰니스 지주회사입니다. 최근 3,130만 달러 규모의 사모 발행 발표로 주가가 급등했으며, 이는 재무 구조 강화 및 간소화를 목표로 합니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1772111093149",
     "title": "Arcellx (ACLX) 인수 딜 심층 분석: 길리어드의 전략적 베팅과 다발성 골수종 CAR-T 시장의 재편",
     "ticker": "ACLX",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-07T01:56:38.584Z",
     "summary": "한화솔루션은 화학, 태양광(한화큐셀), 첨단소재 사업을 영위하는 기업으로, 2026년 실적 턴어라운드가 기대되는 핵심 이슈 종목입니다. 미국 IRA AMPC 수혜와 태양광 모듈 판매량 증가가 주요 성장 동력으로 꼽힙니다.",
     "sentimentScore": 75,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1770413445942",
-    "title": "재생에너지 기반 AI 인프라의 선구자: IREN Limited, 변곡점에 선 투자 기회 분석",
-    "ticker": "IREN",
-    "market": "US",
-    "timestamp": "2026-02-06T21:30:45.942Z",
-    "summary": "IREN Limited는 재생에너지를 활용하여 비트코인 채굴 및 AI 데이터 센터를 운영하는 기업으로, 최근 실적 발표 후 주가 변동성이 확대되었지만, AI/HPC 인프라 전환에 대한 기대감이 상존합니다.",
-    "sentimentScore": 4.5,
     "investmentRating": "Buy"
   }
 ]
