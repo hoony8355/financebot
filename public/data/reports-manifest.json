@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772227801709",
+    "title": "Vanda Pharmaceuticals (VNDA): 중추신경계 및 희귀질환 시장의 새로운 도전과 기회 분석",
+    "ticker": "VNDA",
+    "market": "US",
+    "timestamp": "2026-02-27T21:30:01.709Z",
+    "summary": "Vanda Pharmaceuticals Inc. (VNDA)는 중추신경계 질환 치료제를 개발 및 상용화하는 바이오 제약 회사입니다. 최근 Bipolar I Disorder 및 Schizophrenia 치료제 'Bysanti'의 FDA 승인(2026년 2월 20일)과 Generalized Pustular Psoriasis 치료제 'Imsidolimab'의 BLA 접수(2026년 2월 25일) 소식으로 투자자들의 큰 관심을 받고 있으며, 이는 높은 변동성과 거래량으로 이어졌습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1772217740997",
     "title": "OneMedNet Corporation (ONMD): 급등 후 냉철한 분석 - Palantir 파트너십과 구독 전환, 그 이면의 투자 위험성 평가",
     "ticker": "ONMD",
@@ -986,16 +996,6 @@
     "market": "US",
     "timestamp": "2026-02-08T09:29:58.065Z",
     "summary": "SoFi Technologies는 최근 강력한 2025년 4분기 실적과 긍정적인 2026년 전망을 발표했음에도 불구하고 주가 변동성이 높은 핀테크 핵심 종목입니다. 회원 수 증가와 상품 다각화가 강점이나, 최근 주가 하락 및 시장 경쟁 심화는 위험 요인으로 작용합니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1770526986409",
-    "title": "비엘팜텍(065170) 심층 분석: 분자접착제 기술수출 기대감과 극심한 변동성, 그 투자 가치는?",
-    "ticker": "065170",
-    "market": "KR",
-    "timestamp": "2026-02-08T05:03:06.409Z",
-    "summary": "비엘팜텍(065170)은 헬스케어 유통 전문기업으로, 최근 자회사 비엘멜라니스의 '분자접착제 플랫폼 기술'에 대한 기술수출 기대감으로 주가가 급등락하며 높은 시장 변동성을 보였습니다. 단기간 내 10연속 상한가를 기록하는 등 폭발적인 상승세를 연출했으나, 이후 급격한 조정이 나타나 투자자들의 관심이 집중되고 있습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
   }
