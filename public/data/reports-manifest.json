@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772217740997",
+    "title": "OneMedNet Corporation (ONMD): 급등 후 냉철한 분석 - Palantir 파트너십과 구독 전환, 그 이면의 투자 위험성 평가",
+    "ticker": "ONMD",
+    "market": "US",
+    "timestamp": "2026-02-27T18:42:20.997Z",
+    "summary": "OneMedNet Corporation (ONMD)는 AI 기반 Real-World Data(RWD) 플랫폼을 통해 의료 영상 및 임상 데이터 솔루션을 제공하는 헬스케어 소프트웨어 기업입니다. 2026년 2월 27일, Palantir Foundry 기반 RWD 플랫폼의 상업 출시 다음 단계 발표와 전략적 파트너십 소식에 힘입어 주가가 80% 이상 급등했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1772197087181",
     "title": "델 테크놀로지스: AI 인프라 혁명의 선두주자, 구조적 성장 궤도 진입 분석",
     "ticker": "DELL",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-08T05:03:06.409Z",
     "summary": "비엘팜텍(065170)은 헬스케어 유통 전문기업으로, 최근 자회사 비엘멜라니스의 '분자접착제 플랫폼 기술'에 대한 기술수출 기대감으로 주가가 급등락하며 높은 시장 변동성을 보였습니다. 단기간 내 10연속 상한가를 기록하는 등 폭발적인 상승세를 연출했으나, 이후 급격한 조정이 나타나 투자자들의 관심이 집중되고 있습니다.",
     "sentimentScore": 0.6,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1770517794843",
-    "title": "조비(001550) 주가 급등 배경 분석 및 거시경제 연동 투자 전략 심층 보고서",
-    "ticker": "001550",
-    "market": "KR",
-    "timestamp": "2026-02-08T02:29:54.843Z",
-    "summary": "비료 제조 및 판매 전문 기업 조비(001550)는 최근 농업 테마 강세 및 시장의 투기적 관심 속에 2026년 2월 6일 하루 동안 23.14% 급등하며 코스피 시장의 주요 변동성 및 거래량 상위 종목으로 부각되었습니다.",
-    "sentimentScore": 0.8,
     "investmentRating": "Hold"
   }
 ]
