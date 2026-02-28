@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772292098728",
+    "title": "AMC 엔터테인먼트: 재정적 난관 속 위기 관리 및 투자 전망 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-02-28T15:21:38.728Z",
+    "summary": "AMC Entertainment는 높은 부채, 지속적인 주식 희석, 그리고 엇갈린 실적 발표로 인해 상당한 재정적 어려움에 직면해 있는 미국 영화관 체인입니다. 최근 52주 신저가를 기록했으며, 단기적인 변동성이 예상됩니다.",
+    "sentimentScore": -0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772282644948",
     "title": "Antelope Enterprise Holdings (AEHL): 초고위험 투기적 디지털 자산 전략, 근본적 재무 취약성 심화 분석",
     "ticker": "AEHL",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA Corporation (NVDA)는 AI, 고성능 컴퓨팅 및 자율 주행 차량 분야에 중점을 둔 GPU, 칩셋 및 멀티미디어 소프트웨어의 선도적인 설계 및 제조업체입니다. 최근 주요 기술 기업들의 강력한 AI 인프라 투자 계획에 대한 시장의 낙관적인 반응으로 주가가 급등하며 5일 연속 하락세를 마감했습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1770564394044",
-    "title": "아마존(AMZN)의 AI 인프라 투자 심층 분석: 단기 현금 흐름 압박과 장기 성장 잠재력 평가",
-    "ticker": "AMZN",
-    "market": "US",
-    "timestamp": "2026-02-08T15:26:34.044Z",
-    "summary": "Amazon (AMZN)는 2026년 2월 8일 현재 대규모 AI 인프라 투자 계획 발표 및 분기 실적 발표 이후 주가 변동성이 확대되고 있습니다. 특히, 2026년에 2천억 달러에 달하는 대규모 자본 지출 계획이 발표되면서 투자자들의 단기 수익성 및 잉여 현금 흐름에 대한 우려가 커져 최근 주가가 크게 하락했습니다. 그럼에도 불구하고, 애널리스트들은 AWS와 AI 분야에서의 장기적인 성장 잠재력을 긍정적으로 평가하며 대체로 '매수' 의견을 유지하고 있습니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Buy"
   }
 ]
