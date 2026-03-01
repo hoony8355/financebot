@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772369208740",
+    "title": "NVIDIA (NVDA): AI 리더십과 시장 변동성 속 투자 전략 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-03-01T12:46:48.740Z",
+    "summary": "AI 및 데이터 센터 GPU 시장의 선두주자인 NVIDIA는 강력한 실적 발표에도 불구하고 AI 지출 지속 가능성에 대한 시장의 회의감과 전반적인 시장 하락으로 인해 최근 주가가 하락했습니다. 애널리스트들은 여전히 '강력 매수' 의견을 유지하고 있습니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772357392471",
     "title": "CoreWeave (CRWV): AI GPU 클라우드 시장의 선두 주자, 성장통을 넘어설 수 있을까?",
     "ticker": "CRWV",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-09T23:06:06.964Z",
     "summary": "CoreWeave는 NVIDIA GPU 기반의 고성능 컴퓨팅 자원을 제공하는 클라우드 인프라 기업으로, AI 및 머신러닝 워크로드에 특화되어 있습니다. 2025년 3월 주당 40달러로 상장된 이후 급격한 성장세를 보였으며, AI 수요 증가와 Microsoft, OpenAI 등 주요 기술 기업과의 파트너십을 통해 매출이 크게 증대될 것으로 예상됩니다.",
     "sentimentScore": 62,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1770642489739",
-    "title": "PLSE (Pulse Biosciences): 심방세동 치료 시장의 패러다임 전환을 이끄는 nsPFA 기술의 잠재력 분석",
-    "ticker": "PLSE",
-    "market": "US",
-    "timestamp": "2026-02-09T13:08:09.739Z",
-    "summary": "Pulse Biosciences는 독점적인 Nanosecond Pulsed Field Ablation(nsPFA) 기술을 활용한 의료 기기를 개발하는 임상 단계 바이오 전기 의료 회사입니다. 최근 심방세동(AF) 치료를 위한 nPulse 심장 카테터 시스템의 첫 인체 적용 타당성 연구에서 매우 긍정적인 데이터를 발표하며 주가가 크게 상승했습니다.",
-    "sentimentScore": 0.88,
     "investmentRating": "Buy"
   }
 ]
