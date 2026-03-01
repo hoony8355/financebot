@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772378621266",
+    "title": "Rivian Automotive (RIVN): R2 모델과 폭스바겐 제휴가 이끄는 변곡점 분석",
+    "ticker": "RIVN",
+    "market": "US",
+    "timestamp": "2026-03-01T15:23:41.266Z",
+    "summary": "Rivian Automotive (RIVN)는 전기 픽업트럭 R1T, SUV R1S 및 Amazon용 전기 배달 밴을 생산하는 미국의 전기차 제조업체입니다. 2025년 4분기 실적 발표 이후 주가는 높은 변동성을 보였으며, 소프트웨어 및 서비스 매출 성장과 Volkswagen과의 전략적 제휴를 통해 2025년 첫 연간 총 이익 흑자를 달성했습니다. 하지만 생산 확대, 현금 소진 관리, 치열한 전기차 시장 경쟁이라는 도전에 직면해 있으며, 2026년 하반기 출시될 R2 차량이 핵심 촉매제가 될 것으로 기대됩니다.",
+    "sentimentScore": -0.2,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772369208740",
     "title": "NVIDIA (NVDA): AI 리더십과 시장 변동성 속 투자 전략 심층 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 인공지능(AI) 시대의 핵심 부품인 고대역폭 메모리(HBM) 시장을 선도하며 강력한 성장 모멘텀을 확보하고 있습니다. 특히 엔비디아의 차세대 AI 가속기에 HBM4를 공급하며 기술 리더십을 입증했으며, HBM의 폭발적인 수요 증가로 인해 높은 수익성과 역대급 실적을 기록 중입니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1770678366964",
-    "title": "CoreWeave: AI 인프라 시장의 급부상하는 강자, 성장 잠재력과 리스크 분석",
-    "ticker": "CRWV",
-    "market": "US",
-    "timestamp": "2026-02-09T23:06:06.964Z",
-    "summary": "CoreWeave는 NVIDIA GPU 기반의 고성능 컴퓨팅 자원을 제공하는 클라우드 인프라 기업으로, AI 및 머신러닝 워크로드에 특화되어 있습니다. 2025년 3월 주당 40달러로 상장된 이후 급격한 성장세를 보였으며, AI 수요 증가와 Microsoft, OpenAI 등 주요 기술 기업과의 파트너십을 통해 매출이 크게 증대될 것으로 예상됩니다.",
-    "sentimentScore": 62,
-    "investmentRating": "Buy"
   }
 ]
