@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772426882857",
+    "title": "티엘비(356860): AI 시대, 고부가 PCB로 날아오르는 데이터센터 인프라 핵심 수혜주 심층 분석",
+    "ticker": "356860",
+    "market": "KR",
+    "timestamp": "2026-03-02T04:48:02.857Z",
+    "summary": "티엘비(TLB)는 메모리 모듈 및 SSD용 고부가 인쇄회로기판(PCB) 전문 기업으로, AI 서버 및 데이터센터 성장의 핵심 수혜주로 부각되고 있습니다. DDR5, SoCAMM2, CXL 기술을 통해 실적 고성장이 기대됩니다.",
+    "sentimentScore": 8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772417002603",
     "title": "HD현대에너지솔루션, 메가 프로젝트와 정책 수혜로 인한 비상: 과열 속 지속 가능한 성장을 위한 심층 분석",
     "ticker": "322000",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 AI 주도 메모리 반도체 슈퍼사이클의 핵심 동력으로, DRAM 및 NAND 수요 증가가 2026년 실적에 긍정적인 영향을 미칠 것으로 기대됩니다. 최근 시가총액 1,000조 원을 돌파하며 시장 리더십을 공고히 했으나, 국내 증시의 높은 변동성과 지정학적 위험에 민감하게 반응할 수 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1770750293264",
-    "title": "Borealis Foods Inc. (BRLS): 파산 위기에 직면한 푸드 테크 기업의 심층 분석",
-    "ticker": "BRLS",
-    "market": "US",
-    "timestamp": "2026-02-10T19:04:53.264Z",
-    "summary": "Borealis Foods Inc. (NASDAQ: BRLS)는 식물성 즉석식품(Chef Woo 고단백 라면 등)을 전문으로 하는 푸드 테크 기업입니다. 글로벌 식량 안보 및 영양 문제를 해결하는 것을 목표로 하지만, 최근 신용 계약 불이행으로 인해 대출 기관으로부터 최후 통첩을 받는 등 심각한 재정적 어려움에 직면해 있습니다.",
-    "sentimentScore": -0.6,
-    "investmentRating": "Sell"
   }
 ]
