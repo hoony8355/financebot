@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772660089376",
+    "title": "NVIDIA (NVDA) 심층 분석: AI 시대의 리더, 밸류에이션과 경쟁 구도의 교차점",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-03-04T21:34:49.376Z",
+    "summary": "NVIDIA는 AI 및 가속 컴퓨팅 분야의 선두 주자로, 최근 견조한 실적을 발표했음에도 불구하고 시장은 높은 기대치와 밸류에이션 우려로 인해 변동성을 보였습니다. AI 인프라 투자 및 전략적 파트너십은 긍정적이나, 단기적인 기술적 지표와 경쟁 심화는 주의가 필요합니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772638859109",
     "title": "Apple Inc. (AAPL): 혁신과 밸류에이션의 교차로, 서비스 수익과 AI 전략 심층 분석",
     "ticker": "AAPL",
@@ -988,15 +998,5 @@
     "summary": "Neo-Concept International Group Holdings Limited (NCI)는 홍콩에 본사를 둔 종합 의류 솔루션 제공업체로, 시장 트렌드 분석부터 물류 관리까지 다양한 서비스를 제공하며 'les 100 ciels' 브랜드로 제품을 판매합니다. 최근 2026년 2월 11일 약 810만 달러 규모의 보통주 공모가 마감된 후 주가가 급락하며 높은 변동성을 보이고 있습니다.",
     "sentimentScore": 15,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1770879694592",
-    "title": "NVIDIA: AI 시대의 선봉장, 초고속 성장 궤도와 잠재적 리스크 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-02-12T07:01:34.592Z",
-    "summary": "AI 및 GPU 시장의 선두 주자인 NVIDIA는 2월 11일 기준 $190.00에 마감했으며, 2월 25일로 예정된 강력한 4분기 실적 발표에 대한 기대감과 하이퍼스케일러들의 AI 투자 확대에 힘입어 긍정적인 전망이 지배적입니다. 높은 변동성과 경쟁 심화는 주요 리스크 요인입니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Strong Buy"
   }
 ]
