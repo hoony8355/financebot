@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772676120466",
+    "title": "삼성전자(005930): 중동 리스크 발 과매도 이후 반도체 슈퍼 사이클과 AI 모멘텀에 기반한 기업가치 재평가 분석",
+    "ticker": "005930",
+    "market": "KR",
+    "timestamp": "2026-03-05T02:02:00.466Z",
+    "summary": "삼성전자(005930)는 반도체, 스마트폰, 가전제품을 아우르는 글로벌 IT 기업입니다. 2026년 3월 초 중동 지정학적 리스크 확대로 한국 증시 전반의 '패닉 셀링'에 휩쓸려 주가가 급락했으나, 메모리 반도체 업황 회복 기대감과 AI 관련 성장 모멘텀, 저평가 매력 등으로 빠른 기술적 반등을 보이며 시장의 주목을 받고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772660089376",
     "title": "NVIDIA (NVDA) 심층 분석: AI 시대의 리더, 밸류에이션과 경쟁 구도의 교차점",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Decent Holding Inc. (DXST)는 중국에서 산업 폐수 처리, 생태 강 복원 및 강 생태계 관리 서비스를 제공하는 소형주 기업입니다. 최근 높은 변동성과 거래량으로 주목받았으며, 기술적 분석은 강한 하락 추세를 시사합니다.",
     "sentimentScore": 20,
     "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1770889838469",
-    "title": "Neo-Concept International (NCI): 유상증자발 하방 압력 및 재무 리스크 심화 분석",
-    "ticker": "NCI",
-    "market": "US",
-    "timestamp": "2026-02-12T09:50:38.469Z",
-    "summary": "Neo-Concept International Group Holdings Limited (NCI)는 홍콩에 본사를 둔 종합 의류 솔루션 제공업체로, 시장 트렌드 분석부터 물류 관리까지 다양한 서비스를 제공하며 'les 100 ciels' 브랜드로 제품을 판매합니다. 최근 2026년 2월 11일 약 810만 달러 규모의 보통주 공모가 마감된 후 주가가 급락하며 높은 변동성을 보이고 있습니다.",
-    "sentimentScore": 15,
-    "investmentRating": "Sell"
   }
 ]
