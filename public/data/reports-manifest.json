@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772738161828",
+    "title": "Actelis Networks (ASNS): Caltrans 계약발 투기적 급등과 근본적 재무 취약성 심층 분석",
+    "ticker": "ASNS",
+    "market": "US",
+    "timestamp": "2026-03-05T19:16:01.828Z",
+    "summary": "Actelis Networks (ASNS)는 사물 인터넷(IoT) 및 통신 프로젝트를 위한 사이버 강화 하이브리드 광섬유-구리 네트워킹 솔루션을 설계, 개발, 제조 및 판매하는 소형 기술 기업입니다. 최근 Caltrans와의 주요 계약 체결로 주가가 급등하며 엄청난 변동성과 거래량을 보였으나, 장기적인 재무 상태는 취약합니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772725863065",
     "title": "GameStop (GME): 밈 주식 현상 속 전략적 전환과 본질 가치 평가",
     "ticker": "GME",
@@ -988,15 +998,5 @@
     "summary": "Health Catalyst (HCAT)는 의료 데이터 및 분석 기술 서비스 기업으로, 최근 상당한 주가 변동성을 보이며 하락 추세를 나타내고 있습니다. 애널리스트 컨센서스는 '보유'이지만, 목표 주가에 비해 상당한 상승 잠재력을 가지고 있습니다. 회사는 매출 성장 둔화 및 현금 소진 문제에 직면해 있으나, 잠재적인 인수 대상이 될 수 있다는 시각도 존재합니다.",
     "sentimentScore": 0,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1770965946391",
-    "title": "SK증권: 국내 증시 활황과 STO 테마의 교차점에서 재평가되는 투자 매력 분석",
-    "ticker": "001510",
-    "market": "KR",
-    "timestamp": "2026-02-13T06:59:06.391Z",
-    "summary": "SK증권은 최근 한국 증시 활황과 증권업종 호실적 기대감에 힘입어 주가가 급등하며 52주 신고가를 경신했습니다. 특히 STO 관련 테마로도 주목받고 있으며, 외국인 및 기관의 순매수세가 유입되고 있습니다.",
-    "sentimentScore": 9,
-    "investmentRating": "Strong Buy"
   }
 ]
