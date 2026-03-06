@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772832566962",
+    "title": "팔란티어(PLTR): '서방 AI 운영체제'로서의 지위 강화와 미래 성장 전망 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-03-06T21:29:26.962Z",
+    "summary": "Palantir Technologies (PLTR)는 인공지능 기반 소프트웨어 플랫폼을 구축하고 배포하는 회사로, 정부 및 상업 부문에서 플랫폼에 대한 수요 증가로 강력한 성장을 경험하고 있습니다. 최근 대규모 국방 계약 수주와 성공적인 'AIP 부트캠프' 전략이 주가 상승을 견인하며 '서방 AI 운영체제'의 핵심 플레이어로 자리매김하고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1772822652290",
     "title": "Marvell Technology (MRVL): AI 데이터 인프라 혁신을 통한 성장 동력 심층 분석",
     "ticker": "MRVL",
@@ -988,15 +998,5 @@
     "summary": "삼성전자 주가는 최근 HBM4(고대역폭 메모리) 양산 출하와 인공지능(AI) 반도체 시장의 강력한 수요에 힘입어 사상 최고가를 경신하며 급등했습니다. 메모리 반도체 업황의 구조적 상승 국면 초입이라는 분석과 함께 외국인 매수세가 유입되며 긍정적인 투자 심리가 형성되고 있습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1771018516965",
-    "title": "Corsair Gaming (CRSR): 반도체 공급 우려 속 견조한 실적과 주가 모멘텀 분석",
-    "ticker": "CRSR",
-    "market": "US",
-    "timestamp": "2026-02-13T21:35:16.965Z",
-    "summary": "Corsair Gaming (CRSR)는 게이머 및 콘텐츠 크리에이터를 위한 고성능 PC 부품, 게이밍 주변기기 및 스트리밍 장비를 제공하는 기업입니다. 최근 발표된 2025년 4분기 실적이 시장 예상치를 크게 상회하며 주가가 급등했으나, 2026년 반도체 공급 부족에 대한 신중한 가이던스를 제시하여 향후 변동성이 예상됩니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Hold"
   }
 ]
