@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772822652290",
+    "title": "Marvell Technology (MRVL): AI 데이터 인프라 혁신을 통한 성장 동력 심층 분석",
+    "ticker": "MRVL",
+    "market": "US",
+    "timestamp": "2026-03-06T18:44:12.290Z",
+    "summary": "Marvell Technology (MRVL)는 데이터 인프라 반도체 솔루션 제공업체로, AI, 클라우드 및 5G 인프라와 같은 고마진 시장 부문에 집중하고 있습니다. 최근 강력한 4분기 실적과 시장 기대치를 뛰어넘는 낙관적인 미래 가이던스를 발표하며 주가가 크게 상승했습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772811429147",
     "title": "마이크론 테크놀로지 (MU): AI 메모리 슈퍼사이클의 핵심 수혜주 심층 분석 및 투자 전략",
     "ticker": "MU",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-13T21:35:16.965Z",
     "summary": "Corsair Gaming (CRSR)는 게이머 및 콘텐츠 크리에이터를 위한 고성능 PC 부품, 게이밍 주변기기 및 스트리밍 장비를 제공하는 기업입니다. 최근 발표된 2025년 4분기 실적이 시장 예상치를 크게 상회하며 주가가 급등했으나, 2026년 반도체 공급 부족에 대한 신중한 가이던스를 제시하여 향후 변동성이 예상됩니다.",
     "sentimentScore": 65,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1771008509375",
-    "title": "Rivian Automotive (RIVN): R2 SUV 기반 성장 모멘텀과 수익성 전환 경로 분석",
-    "ticker": "RIVN",
-    "market": "US",
-    "timestamp": "2026-02-13T18:48:29.375Z",
-    "summary": "Rivian Automotive (RIVN)는 4분기 실적 예상치를 상회하고 R2 SUV 출시 기대감에 힘입어 2026년 차량 인도량 전망치를 강하게 제시하며 주가가 급등했습니다. 이 상승은 연초 대비 상당한 하락세를 겪었던 주식에 긍정적인 전환점이 될 수 있습니다.",
-    "sentimentScore": 0.65,
     "investmentRating": "Hold"
   }
 ]
