@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772897004876",
+    "title": "Day One Biopharmaceuticals (DAWN): Servier 인수 계약 분석 및 투자 전략",
+    "ticker": "DAWN",
+    "market": "US",
+    "timestamp": "2026-03-07T15:23:24.876Z",
+    "summary": "Day One Biopharmaceuticals는 소아 환자를 포함한 유전적으로 정의된 암 환자를 위한 표적 치료법 개발 및 상업화에 주력하는 임상 단계 바이오제약 회사입니다. 최근 Servier가 주당 21.50달러에 Day One을 인수하는 계약을 발표하면서 주가가 급등했습니다.",
+    "sentimentScore": 0.9,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1772887504149",
     "title": "SoFi Technologies, Inc. 심층 분석: 성장 동력과 거시경제적 역풍 속 밸류에이션 점검",
     "ticker": "SOFI",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-15T06:52:08.973Z",
     "summary": "SK증권은 최근 한국 증시의 활황과 증권주 강세, 토큰증권(STO) 테마에 힘입어 2026년 2월 13일 상한가를 기록하며 급등했습니다. 그러나 과거 비상장주식 담보 대출 부실 논란과 높은 시장 변동성, 그리고 한 AI 모델의 낮은 목표 주가 제시 등 잠재적 위험 요소를 안고 있습니다. 현재 코스피 시장은 '극도의 탐욕' 상태를 보이고 있습니다.",
     "sentimentScore": 0.7,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1771131264203",
-    "title": "제주반도체(080220): 온디바이스 AI 시대의 첨병인가, 과열된 기대감인가?",
-    "ticker": "080220",
-    "market": "KR",
-    "timestamp": "2026-02-15T04:54:24.203Z",
-    "summary": "제주반도체는 모바일 및 IoT 기기용 저전력 메모리 반도체를 개발하는 팹리스 기업으로, 온디바이스 AI 시장 성장에 대한 기대로 최근 높은 변동성과 급등세를 보였습니다.",
-    "sentimentScore": 60,
     "investmentRating": "Hold"
   }
 ]
