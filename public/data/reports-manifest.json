@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1772875715388",
+    "title": "NVIDIA (NVDA): AI 시대의 핵심 인프라 공급자, 성장과 리스크의 이중주",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-03-07T09:28:35.388Z",
+    "summary": "AI 컴퓨팅 및 GPU 시장의 독보적인 선두주자인 NVIDIA는 데이터센터 부문의 폭발적인 성장과 AI 기술 발전의 최대 수혜주입니다. 최근 시장 변동성에도 불구하고 강력한 실적과 애널리스트들의 긍정적인 전망이 이어지고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1772865620570",
     "title": "테크윙(089030): HBM 검사 시장의 핵심 플레이어, SK하이닉스 퀄 통과로 재평가 국면 진입",
     "ticker": "089030",
@@ -988,15 +998,5 @@
     "summary": "플러그 파워(Plug Power)는 수소 연료 전지 시스템의 선두 주자로, 최근 주주총회 안건 가결, 유럽 프로젝트의 긍정적 진전, 그리고 다수의 집단 소송이라는 복합적인 이슈 속에서 높은 시장 변동성을 보이고 있습니다.",
     "sentimentScore": 40,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1771073198585",
-    "title": "Algorhythm Holdings (RIME): AI 물류 혁명의 첨단인가, 투기적 과열의 정점인가? 심층 분석",
-    "ticker": "RIME",
-    "market": "US",
-    "timestamp": "2026-02-14T12:46:38.585Z",
-    "summary": "Algorhythm Holdings (RIME)는 AI 기술 및 가전제품 지주 회사입니다. 자회사인 SemiCab을 통해 AI 기반 물류 플랫폼을 운영하며, 최근 이 플랫폼이 인력 증원 없이 화물 운송량을 300~400% 늘릴 수 있다는 소식에 주가가 200% 이상 급등했습니다. 이는 물류 산업 전반에 'AI 혁명'에 대한 우려를 불러일으키며 높은 변동성을 보였습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Strong Buy"
   }
 ]
