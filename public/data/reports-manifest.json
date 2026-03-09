@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773049926205",
+    "title": "Palantir Technologies (PLTR): AI 기반 데이터 인텔리전스 시장 선두 주자의 성장 잠재력 및 밸류에이션 리스크 심층 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-03-09T09:52:06.205Z",
+    "summary": "Palantir Technologies는 정부 및 상업 부문에 데이터 통합 및 분석 소프트웨어 플랫폼을 개발하고 배포하는 회사입니다. 2025년 4분기 견조한 실적, 미국 상업 부문 매출 가속화, AI 플랫폼(AIP)에 대한 수요 증가가 최근 주가 움직임을 견인했습니다. 지정학적 긴장 역시 국방 및 정보 분야에서의 관련성을 높이고 있습니다.",
+    "sentimentScore": 72,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1773039704352",
     "title": "마이크론 테크놀로지(MU): AI 메모리 혁신과 HBM 시장 선점 전략 분석",
     "ticker": "MU",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-17T02:02:49.421Z",
     "summary": "SGC에너지는 집단에너지, 신재생에너지, 건설 및 유리 사업을 영위하는 기업으로, 최근 글로벌 전력 수요 증가 기대감과 데이터센터 및 신규 발전소 관련 PPA(전력 구매 계약) 전망으로 인해 KRX 시장에서 지난 2주간 80% 이상 급등하며 주목받고 있습니다. 다만, 발전 부문의 수익성 변동성과 낮은 영업이익은 단기적 리스크 요인으로 작용할 수 있습니다.",
     "sentimentScore": 75,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1771277360925",
-    "title": "MicroStrategy(MSTR) 심층 분석: 비트코인 레버리지와 소프트웨어 사업의 교차점",
-    "ticker": "MSTR",
-    "market": "US",
-    "timestamp": "2026-02-16T21:29:20.925Z",
-    "summary": "MicroStrategy, Inc.는 엔터프라이즈 소프트웨어 플랫폼 제공업체에서 비트코인 기반의 레버리지 투자 기업으로 변모했습니다. 주가는 비트코인 가격 변동과 밀접하게 연동되며, 2026년 1월 기준으로 712,647 BTC 이상을 보유하고 있으며 지속적으로 비트코인을 매입할 계획입니다. 또한, MicroStrategy One 및 MicroStrategy Mosaic과 같은 비즈니스 인텔리전스 소프트웨어 솔루션도 제공합니다.",
-    "sentimentScore": 0.6,
     "investmentRating": "Buy"
   }
 ]
