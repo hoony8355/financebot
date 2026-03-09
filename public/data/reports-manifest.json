@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773039704352",
+    "title": "마이크론 테크놀로지(MU): AI 메모리 혁신과 HBM 시장 선점 전략 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-03-09T07:01:44.352Z",
+    "summary": "마이크론 테크놀로지(MU)는 DRAM 및 NAND 플래시 메모리 솔루션 분야의 선두 주자로, 특히 AI 애플리케이션에 필수적인 고대역폭 메모리(HBM) 시장에서 핵심적인 역할을 하고 있습니다. AI 메모리 수요 급증과 공급 부족으로 인해 지난 1년간 주가가 크게 상승했습니다. 최근 단기적인 하락세에도 불구하고, 전문가들은 장기적인 AI 관련 성장 잠재력에 주목하며 긍정적인 전망을 유지하고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1773031855644",
     "title": "HPSP (403870): 고압 수소 어닐링 기술 선도, 반도체 업황 회복기 성장 잠재력 분석",
     "ticker": "403870",
@@ -988,15 +998,5 @@
     "summary": "MicroStrategy, Inc.는 엔터프라이즈 소프트웨어 플랫폼 제공업체에서 비트코인 기반의 레버리지 투자 기업으로 변모했습니다. 주가는 비트코인 가격 변동과 밀접하게 연동되며, 2026년 1월 기준으로 712,647 BTC 이상을 보유하고 있으며 지속적으로 비트코인을 매입할 계획입니다. 또한, MicroStrategy One 및 MicroStrategy Mosaic과 같은 비즈니스 인텔리전스 소프트웨어 솔루션도 제공합니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1771246959912",
-    "title": "BigBear.ai Holdings (BBAI) 심층 분석: AI 기반 국방 기술 기업의 도전과 전망",
-    "ticker": "BBAI",
-    "market": "US",
-    "timestamp": "2026-02-16T13:02:39.912Z",
-    "summary": "BigBear.ai Holdings, Inc. (BBAI)는 정부 부문에 AI 기반 의사결정 인텔리전스 솔루션을 제공하는 기업으로, 최근 매출 감소와 수익성 악화, 증권 사기 조사 등으로 인해 주가 변동성이 매우 높습니다. 50일 이동평균선이 200일 이동평균선 아래로 내려가는 데드 크로스 등 기술적 지표는 약세를 보이며, 애널리스트 컨센서스는 '보유'입니다.",
-    "sentimentScore": -0.6,
-    "investmentRating": "Hold"
   }
 ]
