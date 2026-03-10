@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773147597862",
+    "title": "Hims & Hers Health (HIMS) 심층 분석: GLP-1 파트너십과 시장 재편 속 성장 동력 및 리스크 평가",
+    "ticker": "HIMS",
+    "market": "US",
+    "timestamp": "2026-03-10T12:59:57.862Z",
+    "summary": "Hims & Hers Health (HIMS)는 성 건강, 정신 건강, 피부과, 체중 감량을 포함한 다양한 질환에 대해 소비자를 의료 전문가와 연결하는 원격 의료 플랫폼입니다. 이 주식은 최근 Novo Nordisk와의 새로운 파트너십을 통해 FDA 승인 GLP-1 체중 감량 약물(Ozempic, Wegovy)을 제공하고 특허 침해 소송이 기각되면서 40% 이상 급등했습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773125388443",
     "title": "대한광통신: AI 데이터센터 및 6G 시대, 독점적 수직계열화 기반 고성장 기회 분석",
     "ticker": "010170",
@@ -988,15 +998,5 @@
     "summary": "Rivian Automotive (RIVN)는 2025년 4분기 실적 호조와 2026년 신형 R2 SUV의 긍정적인 인도량 가이던스에 힘입어 최근 강력한 상승 모멘텀을 보였습니다. 이는 전반적인 기술주 매도세와 도전적인 전기차 시장 속에서 나타난 성과입니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1771311556257",
-    "title": "뉴인텍(012340): 친환경차 핵심 부품사의 '동전주' 리스크와 성장 잠재력 분석",
-    "ticker": "012340",
-    "market": "KR",
-    "timestamp": "2026-02-17T06:59:16.257Z",
-    "summary": "뉴인텍은 친환경차량(전기차, 수소차, 하이브리드) 및 태양광 인버터용 핵심 부품인 전자 커패시터와 금속증착필름을 제조하는 기업입니다. 현대·기아차에 대한 높은 점유율을 바탕으로 성장 잠재력을 지니고 있으나, 최근 '동전주' 상장폐지 기준 강화 이슈로 인해 극심한 주가 변동성을 겪고 있습니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Hold"
   }
 ]
