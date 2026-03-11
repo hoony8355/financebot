@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773222146292",
+    "title": "테슬라(TSLA)의 AI 및 로보틱스 전환: 미래 성장 잠재력과 단기적 도전 과제 심층 분석",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-03-11T09:42:26.292Z",
+    "summary": "Tesla는 최근 Model S 및 X 생산 중단, 로보택시 및 AI에 대한 전략적 전환으로 큰 변화를 겪고 있습니다. FSD(Full Self-Driving) 소프트웨어 관련 규제 조사 및 판매량 감소와 같은 도전 과제에도 불구하고, Robotaxi와 Optimus 로봇 프로그램에 대한 강력한 장기적 성장 기대감을 받고 있습니다. Bank of America는 FSD 기술을 긍정적으로 평가하며 목표주가를 상향 조정했습니다.",
+    "sentimentScore": 50,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773212026944",
     "title": "HD현대에너지솔루션: 재생에너지 대전환 시대, 고효율 태양광 솔루션의 성장 동력과 미래 가치 분석",
     "ticker": "322000",
@@ -988,15 +998,5 @@
     "summary": "QuantumScape Corporation은 전기차용 차세대 전고체 리튬-금속 배터리 개발 및 상용화에 주력하는 개발 단계 기업입니다. 최근 QSE-5 샘플 출하 및 파트너십 확대를 통해 기술적 이정표를 달성했으나, 생산 규모 확대 및 시장 채택에 대한 도전에 직면해 있습니다. 현재 하락 추세에 있으며 높은 변동성을 보입니다.",
     "sentimentScore": 20,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1771398075473",
-    "title": "NVIDIA (NVDA): AI 리더십 공고화와 퀀텀 점프를 위한 핵심 변수 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-02-18T07:01:15.473Z",
-    "summary": "NVIDIA (NVDA)는 AI 칩 시장의 선두 주자이며, 데이터 센터 GPU 수요와 Blackwell 아키텍처의 강한 판매로 견고한 성장세를 보이고 있습니다. 최근 단기적인 시장의 변동성과 내부자 매도에도 불구하고, 애널리스트들은 다가오는 4분기 실적 발표와 GTC 컨퍼런스를 주요 상승 동력으로 보고 있으며, 장기적인 AI 성장 잠재력을 긍정적으로 평가하고 있습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Buy"
   }
 ]
