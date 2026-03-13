@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773406668689",
+    "title": "AMC Entertainment Holdings Inc.: 재무 위기와 시장 역풍 속 복합적 투자 전망 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-03-13T12:57:48.689Z",
+    "summary": "AMC Entertainment Holdings Inc. (AMC)는 지속적인 재무적 어려움과 높은 공매도 비율에 직면해 있는 주요 영화 상영 기업입니다. 최근에는 부채 재융자 노력을 기울이고 있으며, 2026년 블록버스터 영화 라인업에 대한 기대감이 있지만, 박스오피스 점유율 감소와 상당한 부채는 여전히 주요 우려 사항입니다. 애널리스트들은 대부분 '유지' 의견을 제시하고 있으며, 기술적 지표는 하락 추세를 나타내고 있습니다. 또한, 최근 APE 전환과 관련된 증권 사기 집단 소송에 휘말려 있습니다.",
+    "sentimentScore": -0.2,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773394729090",
     "title": "EON Resources Inc. (EONR): 퍼미안 분지 내 공격적인 성장 전략과 리스크 헤지 분석",
     "ticker": "EONR",
@@ -988,15 +998,5 @@
     "summary": "Knorex Ltd.는 AI 기반의 프로그래매틱 광고 솔루션을 제공하는 B2B 기술 기업입니다. Knorex XPO 클라우드 플랫폼을 통해 Meta, Google, LinkedIn, TikTok 등 다양한 채널에서 광고 워크플로우를 자동화합니다. 싱가포르에 본사를 두고 있으며 미국, 베트남, 인도, 말레이시아 등에서 사업을 운영하고 있습니다. 2025년 9월 NYSE American에 IPO를 진행했습니다. 최근 'agentic AI-ready Ads API' 출시로 주가가 폭등하며 시장의 주목을 받았습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1771552868487",
-    "title": "SK증권: 시장 활황과 STO 기대감 속 급등세, 지속 가능성 및 리스크 점검",
-    "ticker": "001510",
-    "market": "KR",
-    "timestamp": "2026-02-20T02:01:08.487Z",
-    "summary": "SK증권은 국내 자본시장의 주요 금융투자회사로, 최근 코스피 시장의 활황과 사상 최대 거래대금 경신에 힘입어 주가가 급등하며 시장의 주목을 받고 있습니다. 특히 개인 투자자 유입 증가와 증권형 토큰(STO) 시장 개화 기대감이 주가 상승을 견인하고 있으며, 자기매매 및 IB 부문의 실적 개선도 긍정적인 요인으로 작용하고 있습니다.",
-    "sentimentScore": 90,
-    "investmentRating": "Buy"
   }
 ]
