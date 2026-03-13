@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773377057150",
+    "title": "SK이터닉스: KKR 투자 유치와 재생에너지 메가트렌드 속 성장 전략 심층 분석",
+    "ticker": "174820",
+    "market": "KR",
+    "timestamp": "2026-03-13T04:44:17.150Z",
+    "summary": "SK이터닉스는 신재생에너지 사업 전문 기업으로, ESS 및 풍력 발전 분야에서 독보적인 경쟁력을 보유하고 있습니다. 최근 글로벌 사모펀드 KKR의 지분 인수 추진과 정부의 재생에너지 확대 정책에 대한 기대로 주가가 급등하며 시장의 주목을 받고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1773351170584",
     "title": "NVIDIA: AI 혁명을 이끄는 거인, 지정학적 리스크와 밸류에이션 점검",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Rackspace Technology (RXT)는 최근 Palantir와의 전략적 파트너십 발표로 인해 주가가 급등하며 높은 변동성을 보였습니다. 이 파트너십은 Palantir의 AI 플랫폼을 기업 환경에 배포하고 운영하여, 특히 규제 산업에서 AI 도입 가치를 가속화하는 것을 목표로 합니다. [4, 9, 13, 14] 파트너십 발표 전 RXT 주가는 52주 최저치 부근에서 거래되며 하락세를 겪었으나, 해당 뉴스로 인해 200% 이상 폭등했습니다. [1, 2, 6, 13] 시장에서는 회사의 재정적 어려움과 수익성 감소에 대한 우려가 지속되고 있지만, AI 부문의 성장 잠재력에 대한 기대감도 존재합니다. [1, 14, 15]",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1771494318192",
-    "title": "ImmunityBio (IBRX): Anktiva 유럽 승인發 혁신 모멘텀과 재무적 도전 심층 분석",
-    "ticker": "IBRX",
-    "market": "US",
-    "timestamp": "2026-02-19T09:45:18.192Z",
-    "summary": "ImmunityBio는 암 및 감염성 질병에 대한 차세대 면역 및 세포 치료제 개발에 주력하는 임상 단계 생명공학 기업입니다. 최근 방광암 치료제 'Anktiva'가 유럽에서 조건부 판매 승인을 받으며 주가가 급등했습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
