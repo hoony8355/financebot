@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773513492511",
+    "title": "Palantir Technologies (PLTR): AI 패권 경쟁 속 전략적 포지셔닝 및 밸류에이션 심층 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-03-14T18:38:12.511Z",
+    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객에게 데이터 통합 및 AI 기반 분석 플랫폼을 제공하는 소프트웨어 회사입니다. 최근 GE Aerospace와의 협력 확대, NVIDIA와의 Sovereign AI 운영 체제 아키텍처 공개 등 주요 계약 및 전략적 파트너십을 통해 AI 및 방위 부문에서 성장 동력을 확보하고 있습니다. 주가는 최근 높은 변동성을 보이며 단기적인 조정을 겪고 있으나, 장기적인 성장 잠재력에 대한 애널리스트들의 긍정적인 전망이 유지되고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1773502115618",
     "title": "어도비(ADBE) 실적 분석: AI 시대 전환기, CEO 교체와 성장 둔화 우려 속 주가 급락 심층 보고서",
     "ticker": "ADBE",
@@ -988,15 +998,5 @@
     "summary": "Mangoceuticals, Inc. (MGRX)는 남성 건강 제품 및 서비스를 제공하는 댈러스 기반의 헬스케어 기술 기업입니다. 최근 월별 매출 336% 성장 및 고객 확보 비용 54% 감소를 기록한 99달러 정액 주사형 테스토스테론 대체 요법(TRT) 프로그램의 성공으로 주가가 급등했습니다. 소규모 시가총액의 페니 주식으로, 높은 변동성을 보입니다. [1, 2, 10, 13, 19]",
     "sentimentScore": 70,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1771742817777",
-    "title": "광동제약, '유베지' FDA 승인 획득에 따른 혁신 성장 모멘텀 분석: Valuation 및 투자 전략",
-    "ticker": "009290",
-    "market": "KR",
-    "timestamp": "2026-02-22T06:46:57.777Z",
-    "summary": "광동제약은 노안 치료제 '유베지'의 미국 FDA 승인 및 국내 독점 판매권 확보 소식에 힘입어 주가가 연이틀 상한가를 기록하며 52주 신고가를 경신했습니다. 전통 제약사에서 혁신 신약 기업으로의 체질 변화 기대감이 반영되고 있습니다.",
-    "sentimentScore": 92,
-    "investmentRating": "Strong Buy"
   }
 ]
