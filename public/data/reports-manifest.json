@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773655622178",
+    "title": "Marathon Digital Holdings: 비트코인 채굴과 AI 다각화, 고위험-고수익 투자 기회 분석",
+    "ticker": "MARA",
+    "market": "US",
+    "timestamp": "2026-03-16T10:07:02.178Z",
+    "summary": "Marathon Digital Holdings는 미국의 주요 비트코인 채굴 기업으로, 최근 비트코인 가격 변동성과 함께 AI 및 고성능 컴퓨팅(HPC) 데이터 센터 사업으로의 다각화를 추진하고 있습니다. Q4 2025 실적은 예상치를 하회하며 상당한 순손실을 기록했으나, AI 인프라 구축 파트너십 발표로 시장의 주목을 받았습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1773645400627",
     "title": "NVIDIA (NVDA): AI 산업 핵심 인프라 선두주자, GTC 2026을 앞둔 심층 분석 및 밸류에이션 점검",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA Corporation은 GPU, 칩셋 및 관련 멀티미디어 소프트웨어의 선도적인 설계 및 제조업체로, AI 하드웨어 및 소프트웨어, 게임, 전문 시각화, 데이터 센터 시장에서 지배적인 위치를 차지하고 있습니다. 최근 'Magnificent Seven' 기술 대기업 중 하나로 부상하며 AI 칩 수요 급증에 힘입어 알파벳을 능가하는 시가총액을 기록했습니다.",
     "sentimentScore": 85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1771926789450",
-    "title": "Arcellx (ACLX) 인수 분석: Gilead의 전략적 베팅과 Anito-cel의 미래 가치 평가",
-    "ticker": "ACLX",
-    "market": "US",
-    "timestamp": "2026-02-24T09:53:09.450Z",
-    "summary": "Arcellx, Inc.는 암 및 기타 난치병 환자를 위한 혁신적인 면역치료제 개발에 주력하는 임상 단계 생명공학 회사입니다. 길리어드 사이언스(Gilead Sciences)는 아셀엑스(Arcellx)를 약 78억 달러에 인수하기로 최종 합의했다고 발표했습니다. 이 인수는 거래 종결 시 주당 115달러의 현금과 주당 5달러의 조건부 가치권(CVR)을 포함하며, 다발성 골수종 치료제인 핵심 CAR T-세포 치료제 '아니토셀(anito-cel)'의 잠재력을 극대화하는 것을 목표로 합니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Hold"
   }
 ]
