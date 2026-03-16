@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773666699552",
+    "title": "테슬라 (TSLA): 전기차 시장 변동성 속 AI 및 자율주행 기술의 미래 가치 평가",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-03-16T13:11:39.552Z",
+    "summary": "테슬라는 전기차 및 에너지 저장 시스템 분야의 선두 기업입니다. 최근 CEO 일론 머스크가 테라팹 AI 칩 생산이 7일 내 시작될 것이라고 밝히며 주가에 긍정적인 영향을 미쳤습니다. 그러나 동시에 시라(Syrah)와의 양극재 공급 기한 연장 소식도 있습니다. 전반적인 애널리스트 의견은 혼재되어 있으며, 일부는 밸류에이션 우려와 중국 시장 수요 약화를 지적하고, 다른 이들은 로보택시 및 자율주행 기술 리더십에 주목하고 있습니다. 전기차 시장의 경쟁 심화는 테슬라의 주요 도전 과제 중 하나입니다.",
+    "sentimentScore": 58,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773655622178",
     "title": "Marathon Digital Holdings: 비트코인 채굴과 AI 다각화, 고위험-고수익 투자 기회 분석",
     "ticker": "MARA",
@@ -988,15 +998,5 @@
     "summary": "IBM은 2026년 2월 23일 Anthropic의 AI COBOL 현대화 툴 출시로 주가가 13% 이상 급락하며 25년 만에 최악의 하루를 기록했으나, 24일 애널리스트들의 긍정적 분석과 Deepgram과의 협력 소식에 힘입어 반등했습니다. 회사는 하이브리드 클라우드 및 AI 리더로 변모 중이며 watsonx AI 플랫폼을 통해 상당한 성장을 보이고 있지만, 레거시 비즈니스에 대한 AI의 잠재적 영향에 대한 우려가 상존합니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1771938276562",
-    "title": "NVIDIA: AI 혁명 시대의 선도자, 심층 투자 분석 보고서",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-02-24T13:04:36.562Z",
-    "summary": "NVIDIA Corporation은 GPU, 칩셋 및 관련 멀티미디어 소프트웨어의 선도적인 설계 및 제조업체로, AI 하드웨어 및 소프트웨어, 게임, 전문 시각화, 데이터 센터 시장에서 지배적인 위치를 차지하고 있습니다. 최근 'Magnificent Seven' 기술 대기업 중 하나로 부상하며 AI 칩 수요 급증에 힘입어 알파벳을 능가하는 시가총액을 기록했습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
