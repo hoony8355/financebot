@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773774081955",
+    "title": "AMC Entertainment Holdings: 재무 리스크와 시장 회복 기대감 속 투자 매력도 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-03-17T19:01:21.955Z",
+    "summary": "AMC Entertainment Holdings는 미국과 해외 시장에서 영화 상영 사업을 운영하는 회사입니다. '밈 주식'으로 알려져 높은 변동성을 보였으며, 최근 부채 재융자 노력과 박스오피스 회복에 대한 분석가들의 엇갈린 전망 속에 재정적 어려움을 겪고 있습니다.",
+    "sentimentScore": 0.4,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773753086257",
     "title": "GameStop (GME) 투자 분석: 밈 주식 변동성과 사업 혁신의 기로",
     "ticker": "GME",
@@ -987,16 +997,6 @@
     "timestamp": "2026-02-25T21:35:23.182Z",
     "summary": "Vanda Pharmaceuticals (VNDA)는 최근 양극성 I형 장애 및 조현병 치료제 BYSANTI™의 미국 FDA 승인(2026년 2월 20일)과 광범위 농포성 건선(GPP) 치료제 imsidolimab에 대한 생물학적 제제 허가 신청서(BLA) 수락(2026년 2월 25일)이라는 주요 호재를 발표하며 변동성이 확대되고 있습니다. [13, 23, 24] 이는 동사의 파이프라인 확장과 상업화 노력을 강조하며, 2026년 3분기에 BYSANTI™의 상업적 출시가 예상됩니다. [13, 24] 다만, 2025년 4분기 실적은 시장 예상치를 하회하며 상당한 순손실을 기록하는 등 재무적 어려움이 지속되고 있습니다. [1, 4, 6, 7]",
     "sentimentScore": 0.75,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772046373453",
-    "title": "AMD, Meta Platforms와의 AI 동맹: 반도체 지형 변화와 투자 기회 심층 분석",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-02-25T19:06:13.453Z",
-    "summary": "AMD는 Meta Platforms와의 600억 달러 규모 AI 칩 공급 계약 발표로 AI 인프라 시장에서 입지를 강화하며 투자자들의 낙관적인 기대를 받고 있습니다.",
-    "sentimentScore": 0.85,
     "investmentRating": "Buy"
   }
 ]
