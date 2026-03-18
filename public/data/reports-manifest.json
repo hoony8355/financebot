@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773860382316",
+    "title": "Swarmer Inc. (SWMR): 전장 자동화 시대의 첨병인가, 고위험 투기적 자산인가?",
+    "ticker": "SWMR",
+    "market": "US",
+    "timestamp": "2026-03-18T18:59:42.316Z",
+    "summary": "Swarmer Inc.는 최근 NASDAQ에 상장된 드론 자율 소프트웨어 기업으로, 드론 스웜(drone swarm) 기술을 전문으로 합니다. 우크라이나 분쟁에서 기술의 효과가 입증되며 전장 자동화 수요 증가에 힘입어 상장 초기 극심한 변동성과 급등락을 보였습니다. 초기 단계 회사로 매출은 적고 손실이 크지만, 방위 기술 부문의 뜨거운 관심을 받고 있습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773817318334",
     "title": "엔비디아(NVDA) 심층 분석: AI 지배력과 도전 과제 속 투자 전략",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "XWELL Inc. (XWEL)는 XpresSpa (공항 스파 서비스), XpresTest (CDC 바이오감시 프로그램과 연계된 진단 테스트), Naples Wax Center, Treat (여행 건강 및 웰니스 브랜드)를 운영하는 건강 및 웰니스 지주회사입니다. 최근 3,130만 달러 규모의 사모 발행 발표로 주가가 급등했으며, 이는 재무 구조 강화 및 간소화를 목표로 합니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1772111093149",
-    "title": "Arcellx (ACLX) 인수 딜 심층 분석: 길리어드의 전략적 베팅과 다발성 골수종 CAR-T 시장의 재편",
-    "ticker": "ACLX",
-    "market": "US",
-    "timestamp": "2026-02-26T13:04:53.149Z",
-    "summary": "Arcellx (ACLX)는 길리어드 사이언스(Gilead Sciences)에 인수된다는 소식에 주가가 급등한 임상 단계 바이오 기술 기업입니다. 길리어드는 주당 115달러 현금과 향후 anito-cel 판매 마일스톤에 연동된 주당 5달러의 조건부 가치권(CVR)을 포함해 약 78억 달러에 Arcellx를 인수하기로 합의했습니다. 주요 파이프라인인 다발성 골수종 CAR-T 치료제 anito-cel은 현재 미국 FDA의 심사 중이며 2026년 12월 23일 결정이 예정되어 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Hold"
   }
 ]
