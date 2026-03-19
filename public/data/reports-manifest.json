@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773925450713",
+    "title": "레비바 파마슈티컬스 (RVPH) 심층 분석: 희석성 공모와 임상 리스크에 따른 '극심한 공포' 지수 속 투자 경고",
+    "ticker": "RVPH",
+    "market": "US",
+    "timestamp": "2026-03-19T13:04:10.713Z",
+    "summary": "Reviva Pharmaceuticals (RVPH)는 중추신경계 질환 치료제를 개발하는 임상 단계 바이오 제약사로, 최근 희석성 공모와 조현병 약물 3상 임상시험 자금 조달 발표 후 극심한 주가 변동성을 겪으며 급락했습니다. 전반적인 시장의 '극심한 공포' 심리가 투자 심리를 더욱 위축시키고 있습니다.",
+    "sentimentScore": -0.8,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1773913390082",
     "title": "SoFi Technologies (SOFI): 성장 잠재력과 회계 리스크의 교차점 분석",
     "ticker": "SOFI",
@@ -988,15 +998,5 @@
     "summary": "엔켐은 2차전지 전해액 전문 기업으로, 최근 CATL과의 대규모 공급 계약과 고전압 전해액 첨가제 기술의 국가전략기술 인정으로 주목받고 있습니다. 하지만 2차전지 시장의 전반적인 불황과 수익성 악화에 대한 우려도 공존하여 주가 변동성이 높은 상황입니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772141539365",
-    "title": "NVIDIA (NVDA) 심층 분석: AI 시대의 선두 주자, 지속 가능한 성장을 위한 통찰",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-02-26T21:32:19.365Z",
-    "summary": "NVIDIA는 AI 및 GPU 시장의 선두 주자로서 강력한 성장세를 보이며 높은 시장 관심과 애널리스트의 긍정적인 평가를 받고 있습니다. 기술적 지표는 혼합된 신호를 보이나, 장기적인 AI 시장 성장 잠재력에 힘입어 긍정적인 전망이 우세합니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
