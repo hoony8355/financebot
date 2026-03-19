@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1773913390082",
+    "title": "SoFi Technologies (SOFI): 성장 잠재력과 회계 리스크의 교차점 분석",
+    "ticker": "SOFI",
+    "market": "US",
+    "timestamp": "2026-03-19T09:43:10.082Z",
+    "summary": "SoFi Technologies (SOFI)는 대출, 투자, 뱅킹, 기술 플랫폼 등 다양한 금융 서비스를 제공하는 핀테크 기업입니다. 최근 강한 고객 및 매출 성장을 기록했지만, 공매도 보고서로 인해 회계 관행에 대한 의혹이 제기되며 주가가 압박을 받고 있습니다. CEO의 자사주 매입은 내부자 신뢰를 나타내지만, 기술적 지표는 단기 하락 추세를 시사합니다.",
+    "sentimentScore": -0.4,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773860382316",
     "title": "Swarmer Inc. (SWMR): 전장 자동화 시대의 첨병인가, 고위험 투기적 자산인가?",
     "ticker": "SWMR",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 AI 및 GPU 시장의 선두 주자로서 강력한 성장세를 보이며 높은 시장 관심과 애널리스트의 긍정적인 평가를 받고 있습니다. 기술적 지표는 혼합된 신호를 보이나, 장기적인 AI 시장 성장 잠재력에 힘입어 긍정적인 전망이 우세합니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1772132001851",
-    "title": "XWEL Inc. 심층 분석: 전략적 전환, 재무 구조 재편 그리고 극심한 희석 위험 평가",
-    "ticker": "XWEL",
-    "market": "US",
-    "timestamp": "2026-02-26T18:53:21.851Z",
-    "summary": "XWELL Inc. (XWEL)는 XpresSpa (공항 스파 서비스), XpresTest (CDC 바이오감시 프로그램과 연계된 진단 테스트), Naples Wax Center, Treat (여행 건강 및 웰니스 브랜드)를 운영하는 건강 및 웰니스 지주회사입니다. 최근 3,130만 달러 규모의 사모 발행 발표로 주가가 급등했으며, 이는 재무 구조 강화 및 간소화를 목표로 합니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Sell"
   }
 ]
