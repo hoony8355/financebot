@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774011548388",
+    "title": "Super Micro Computer (SMCI): 법적 불확실성 속 AI 인프라 성장 잠재력 분석 및 투자 전망",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-03-20T12:59:08.388Z",
+    "summary": "Super Micro Computer (SMCI)는 고성능 서버 및 스토리지 솔루션 제공업체로, AI 인프라 시장에서 핵심적인 역할을 합니다. 최근 공동 창립자 및 직원들이 대중국 AI 기술 불법 수출 혐의로 미 법무부의 기소를 받으면서 주가가 급락하는 등 상당한 변동성을 겪고 있습니다. 이로 인해 긍정적인 실적 발표와 매출 전망에도 불구하고 시장의 경계심이 커지고 있습니다.",
+    "sentimentScore": 35,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1773999741202",
     "title": "세리나 테라퓨틱스 (SER): 신경질환 혁신 플랫폼과 극심한 재정 리스크의 공존",
     "ticker": "SER",
@@ -988,15 +998,5 @@
     "summary": "Vanda Pharmaceuticals Inc. (VNDA)는 중추신경계 질환 치료제를 개발 및 상용화하는 바이오 제약 회사입니다. 최근 Bipolar I Disorder 및 Schizophrenia 치료제 'Bysanti'의 FDA 승인(2026년 2월 20일)과 Generalized Pustular Psoriasis 치료제 'Imsidolimab'의 BLA 접수(2026년 2월 25일) 소식으로 투자자들의 큰 관심을 받고 있으며, 이는 높은 변동성과 거래량으로 이어졌습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772217740997",
-    "title": "OneMedNet Corporation (ONMD): 급등 후 냉철한 분석 - Palantir 파트너십과 구독 전환, 그 이면의 투자 위험성 평가",
-    "ticker": "ONMD",
-    "market": "US",
-    "timestamp": "2026-02-27T18:42:20.997Z",
-    "summary": "OneMedNet Corporation (ONMD)는 AI 기반 Real-World Data(RWD) 플랫폼을 통해 의료 영상 및 임상 데이터 솔루션을 제공하는 헬스케어 소프트웨어 기업입니다. 2026년 2월 27일, Palantir Foundry 기반 RWD 플랫폼의 상업 출시 다음 단계 발표와 전략적 파트너십 소식에 힘입어 주가가 80% 이상 급등했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Sell"
   }
 ]
