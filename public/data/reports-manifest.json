@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774214825569",
+    "title": "Azitra Inc. (AZTR): 극심한 변동성 속 재정 전환과 임상 잠재력 분석",
+    "ticker": "AZTR",
+    "market": "US",
+    "timestamp": "2026-03-22T21:27:05.569Z",
+    "summary": "Azitra Inc. (AZTR)는 임상 단계의 바이오 제약 회사로, 유전 공학 박테리아 및 단백질을 사용하여 피부 질환 치료제를 개발합니다. 최근 최대 3,140만 달러의 사모 파이낸싱을 확보하여 화장품 단백질 및 펩타이드 프로그램 개발을 가속화할 예정입니다. 이 자금 조달은 NYSE American의 최소 주주 지분 요건 미달로 인한 상장 규정 미준수 통지 상황에서 이루어졌으며, 회사는 2027년 4월 1일까지 준수 상태를 회복해야 합니다. 애널리스트들은 AZTR에 대해 상당한 상승 잠재력을 가진 '매수' 등급을 부여하고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1774204626257",
     "title": "테슬라 (TSLA): 규제 압력, 경쟁 심화 속 미래 성장 동력 재평가 보고서",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "HD현대에너지솔루션은 태양광 모듈 사업을 주력으로 하며, 현대차그룹의 새만금 태양광 투자 수혜 및 글로벌 시장 성장 기대감에 힘입어 주가 급등 및 신고가를 기록했습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1772400160574",
-    "title": "Bloom Energy: AI 데이터센터 전력 수요와 고밸류에이션의 교차점 분석",
-    "ticker": "BE",
-    "market": "US",
-    "timestamp": "2026-03-01T21:22:40.574Z",
-    "summary": "Bloom Energy는 AI 데이터 센터 수요에 힘입어 2025년 4분기에 강력한 실적을 발표하며 전력 생산 솔루션 분야에서 견고한 성장을 보이고 있는 청정 에너지 기업입니다. 최근 Brookfield와의 50억 달러 규모 파트너십을 통해 AI 인프라 시장에서의 입지를 강화하고 있습니다.",
-    "sentimentScore": 0.4,
-    "investmentRating": "Hold"
   }
 ]
