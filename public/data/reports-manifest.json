@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774171939716",
+    "title": "SolarEdge Technologies (SEDG): 태양광 시장 변화 속 상승 모멘텀과 밸류에이션 점검",
+    "ticker": "SEDG",
+    "market": "US",
+    "timestamp": "2026-03-22T09:32:19.716Z",
+    "summary": "SolarEdge Technologies는 최근 강력한 4분기 실적 발표와 애널리스트들의 긍정적인 전망, 독일 시장에서의 신제품 출시 등에 힘입어 주가가 급등하며 투자자들의 관심이 집중되고 있는 태양광 인버터 시스템 기업입니다. 2025년 매출이 크게 증가하고 운영 현금 흐름이 흑자로 전환되는 등 재무 상태 개선의 조짐을 보이고 있으나, 전반적인 수익성은 여전히 부정적이며 높은 변동성과 미국 주거용 태양광 시장의 잠재적 수요 감소 우려가 상존합니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774145312552",
     "title": "두산에너빌리티(034020): 글로벌 에너지 전환 및 AI 시대의 핵심 수혜주 분석",
     "ticker": "034020",
@@ -988,15 +998,5 @@
     "summary": "AI 및 데이터 센터 GPU 시장의 선두주자인 NVIDIA는 강력한 실적 발표에도 불구하고 AI 지출 지속 가능성에 대한 시장의 회의감과 전반적인 시장 하락으로 인해 최근 주가가 하락했습니다. 애널리스트들은 여전히 '강력 매수' 의견을 유지하고 있습니다.",
     "sentimentScore": 60,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1772357392471",
-    "title": "CoreWeave (CRWV): AI GPU 클라우드 시장의 선두 주자, 성장통을 넘어설 수 있을까?",
-    "ticker": "CRWV",
-    "market": "US",
-    "timestamp": "2026-03-01T09:29:52.471Z",
-    "summary": "CoreWeave, Inc.는 AI/ML 워크로드를 위한 GPU 가속 클라우드 컴퓨팅에 특화된 클라우드 인프라 기술 회사입니다. 고성능 NVIDIA GPU를 탑재한 데이터 센터를 구축 및 운영하고 있으며, 최근 견조한 매출 성장을 보였으나 4분기 실적 발표 후 마진에 대한 투자자 우려로 주가가 급락했습니다.",
-    "sentimentScore": -0.3,
-    "investmentRating": "Buy"
   }
 ]
