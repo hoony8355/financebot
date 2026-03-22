@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774183851881",
+    "title": "AI 시대의 핵심 동력: 마이크론 테크놀로지, HBM 주도 슈퍼사이클 진입 및 전략적 성장 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-03-22T12:50:51.881Z",
+    "summary": "Micron Technology는 AI 기반 고대역폭 메모리(HBM) 및 데이터 센터 메모리 수요 급증에 힘입어 2026년 2분기 실적이 매출, 총 마진, 주당순이익(EPS) 모두 예상치를 크게 상회하며 강력한 성장을 기록했습니다. 회사는 현재 메모리 시장의 '슈퍼사이클'에 진입했으며, 뉴욕에 새로운 대규모 생산 시설을 건설하고 대만에 생산 기지를 인수하는 등 제조 역량을 확장하고 있습니다.",
+    "sentimentScore": 74,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1774171939716",
     "title": "SolarEdge Technologies (SEDG): 태양광 시장 변화 속 상승 모멘텀과 밸류에이션 점검",
     "ticker": "SEDG",
@@ -988,15 +998,5 @@
     "summary": "Rivian Automotive (RIVN)는 전기 픽업트럭 R1T, SUV R1S 및 Amazon용 전기 배달 밴을 생산하는 미국의 전기차 제조업체입니다. 2025년 4분기 실적 발표 이후 주가는 높은 변동성을 보였으며, 소프트웨어 및 서비스 매출 성장과 Volkswagen과의 전략적 제휴를 통해 2025년 첫 연간 총 이익 흑자를 달성했습니다. 하지만 생산 확대, 현금 소진 관리, 치열한 전기차 시장 경쟁이라는 도전에 직면해 있으며, 2026년 하반기 출시될 R2 차량이 핵심 촉매제가 될 것으로 기대됩니다.",
     "sentimentScore": -0.2,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1772369208740",
-    "title": "NVIDIA (NVDA): AI 리더십과 시장 변동성 속 투자 전략 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-03-01T12:46:48.740Z",
-    "summary": "AI 및 데이터 센터 GPU 시장의 선두주자인 NVIDIA는 강력한 실적 발표에도 불구하고 AI 지출 지속 가능성에 대한 시장의 회의감과 전반적인 시장 하락으로 인해 최근 주가가 하락했습니다. 애널리스트들은 여전히 '강력 매수' 의견을 유지하고 있습니다.",
-    "sentimentScore": 60,
-    "investmentRating": "Strong Buy"
   }
 ]
