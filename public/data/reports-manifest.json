@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774292071745",
+    "title": "NVIDIA: AI 혁명의 선두주자, 거시적 성장 동력과 밸류에이션 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-03-23T18:54:31.745Z",
+    "summary": "NVIDIA (NVDA)는 인공지능(AI) 컴퓨팅 및 그래픽 처리 장치(GPU) 분야의 선두 기업으로, 데이터 센터, 게이밍, 전문 시각화, 자율주행차 등 다양한 시장에 걸쳐 혁신적인 기술을 제공하고 있습니다. 최근 GTC 2026 컨퍼런스에서 AI 칩에 대한 1조 달러 이상의 주문 가시성을 발표하며 강력한 성장 동력을 입증했습니다.",
+    "sentimentScore": 68,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1774249798510",
     "title": "Palantir Technologies (PLTR): 국방부 AI 계약에 따른 성장 전망과 고평가 리스크 심층 분석",
     "ticker": "PLTR",
@@ -988,15 +998,5 @@
     "summary": "한화시스템(272210)은 방산, 우주, ICT 사업을 영위하는 기업으로, 최근 중동 지역 지정학적 리스크 고조로 인한 방산주 강세의 대표적인 수혜주로 부각되었습니다. 주가는 2026년 3월 3일 하루 만에 20% 이상 급등하며 52주 최고가를 경신했습니다. 특히 방산전자 분야의 핵심 기술력과 글로벌 수출 확대, 그리고 우주 및 조선 사업 확장 기대감이 주가 상승을 견인하고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772456245368",
-    "title": "ARM Holdings: AI 시대의 핵심 인프라, 성장 동력과 밸류에이션 심층 분석",
-    "ticker": "ARM",
-    "market": "US",
-    "timestamp": "2026-03-02T12:57:25.368Z",
-    "summary": "ARM Holdings (ARM)는 모바일 기기 프로세서 시장을 지배하며 인공지능(AI) 및 데이터 센터로 확장하고 있는 영국의 반도체 설계 지적 재산권(IP) 기업입니다. 에너지 효율적인 칩 설계로 유명하며, AI 인프라 프로젝트 참여 등 전략적 성장을 추구하고 있습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Strong Buy"
   }
 ]
