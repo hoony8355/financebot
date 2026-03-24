@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774357864562",
+    "title": "GameStop (GME) 전환기 진단: 미미한 펀더멘털 속 높은 변동성과 투자 위험 분석",
+    "ticker": "GME",
+    "market": "US",
+    "timestamp": "2026-03-24T13:11:04.562Z",
+    "summary": "GameStop (GME)은 비디오 게임, 콘솔 및 액세서리 전문 유통업체로, 전자상거래, 수집품, 전략적 인수에 중점을 둔 '기술 중심 지주회사'로 변모 중입니다. 2026년 3월 24일 현재, 회사는 상당한 현금 보유액을 바탕으로 전환기를 맞고 있으며, 4분기 실적 발표에 대한 시장의 관심이 집중되고 있습니다.",
+    "sentimentScore": 72,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1774346161310",
     "title": "Arm Holdings: AI 시대를 선도하는 반도체 IP 핵심 기업 분석",
     "ticker": "ARM",
@@ -988,15 +998,5 @@
     "summary": "Apple Inc. (AAPL)는 강력한 iPhone 판매와 서비스 수익 성장에 힘입어 견조한 재무 성과를 보였으나, 옵션 트레이더들 사이에서는 다소 약세 심리가 관측됩니다. 높은 밸류에이션과 AI 분야의 경쟁사 대비 느린 발전 속도에 대한 우려가 존재하지만, 애널리스트들은 전반적으로 'Moderate Buy' 의견을 유지하며 향후 매출 성장과 마진 개선을 기대하고 있습니다.",
     "sentimentScore": 0.83,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1772617286577",
-    "title": "Plug Power (PLUG): 턴어라운드 시그널과 구조적 리스크 공존 - 심층 분석",
-    "ticker": "PLUG",
-    "market": "US",
-    "timestamp": "2026-03-04T09:41:26.577Z",
-    "summary": "Plug Power는 수소 경제를 위한 포괄적인 수소 솔루션의 글로벌 리더입니다. 최근 2025년 4분기 재무 실적 발표에서 예상치를 뛰어넘는 매출과 주당순이익을 기록하며 긍정적인 매출총이익을 달성했습니다. 2026년 3월 2일부로 Jose Luis Crespo가 신임 CEO로 취임하며, 회사는 규율 있는 성장과 실행에 집중할 것임을 시사했습니다. 자산 매각을 통한 유동성 개선과 2026년 4분기까지 긍정적인 EBITDAS, 2028년 말까지 완전한 수익성 달성을 목표로 하는 전략적 이니셔티브를 추진 중입니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
