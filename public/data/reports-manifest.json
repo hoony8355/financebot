@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774560711458",
+    "title": "슈퍼 마이크로 컴퓨터(SMCI): AI 인프라 선두주자의 위기와 기회 공존 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-03-26T21:31:51.458Z",
+    "summary": "AI 서버 및 스토리지 솔루션 전문 기업인 슈퍼 마이크로 컴퓨터(SMCI)는 AI 인프라 수요 증가로 급격한 성장세를 보였으나, 최근 공동 창립자의 중국 수출 규제 위반 혐의 및 관련 주주 집단 소송으로 인해 주가에 상당한 하방 압력을 받고 있습니다. 현재 시장은 극심한 공포(Extreme Fear) 상태이며, 주가는 7일간 23% 이상 하락하여 과매도 영역에 진입했습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774551910649",
     "title": "BioAffinity Technologies (BIAF) 심층 분석: 폐암 진단의 성장 동력과 재무적 도전",
     "ticker": "BIAF",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-06T12:54:49.196Z",
     "summary": "Mobix Labs (MOBX)는 항공우주, 방위 산업 및 상업 시장을 위한 5G mmWave, RF 및 EMI 필터링 솔루션에 중점을 둔 반도체 회사입니다. 최근 Gulfstream 항공기 부품에 대한 신규 구매 주문과 미 해군 Tomahawk 미사일 부품 수요 증가로 인해 주가가 크게 변동했습니다.",
     "sentimentScore": 45,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1772772122992",
-    "title": "HLB (028300) 심층 분석: 리보세라닙 FDA 승인 기대감과 블랙록 투자, 격동하는 시장 속 전략적 접근",
-    "ticker": "028300",
-    "market": "KR",
-    "timestamp": "2026-03-06T04:42:02.992Z",
-    "summary": "HLB는 간암 신약 '리보세라닙'의 FDA 승인 기대감과 블랙록 투자 소식으로 주목받는 바이오 기업입니다. 높은 변동성과 공매도 비중이 특징이며, 중동발 지정학적 리스크로 인한 시장 전반의 극심한 변동성 속에서 움직이고 있습니다. 현재 실적은 적자이며 PBR이 높습니다.",
-    "sentimentScore": 0.3,
     "investmentRating": "Hold"
   }
 ]
