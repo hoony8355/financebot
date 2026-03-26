@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774551910649",
+    "title": "BioAffinity Technologies (BIAF) 심층 분석: 폐암 진단의 성장 동력과 재무적 도전",
+    "ticker": "BIAF",
+    "market": "US",
+    "timestamp": "2026-03-26T19:05:10.649Z",
+    "summary": "BioAffinity Technologies (BIAF)는 폐암 및 기타 폐 질환에 대한 비침습 진단 기술을 개발하는 생명공학 기업입니다. 주력 제품인 CyPath® Lung 테스트의 2025년 매출 및 테스트 건수가 크게 증가했으며, 2026년에도 추가적인 성장이 예상됩니다. 하지만 회사는 여전히 통합 매출 감소와 손실 증가라는 재정적 과제에 직면해 있어 CyPath® Lung의 수익성 확보와 지속적인 자금 유입이 중요합니다.",
+    "sentimentScore": 0,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774519299909",
     "title": "NVIDIA: AI 패권과 거시적 역풍 사이의 변동성 분석",
     "ticker": "NVDA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-06T04:42:02.992Z",
     "summary": "HLB는 간암 신약 '리보세라닙'의 FDA 승인 기대감과 블랙록 투자 소식으로 주목받는 바이오 기업입니다. 높은 변동성과 공매도 비중이 특징이며, 중동발 지정학적 리스크로 인한 시장 전반의 극심한 변동성 속에서 움직이고 있습니다. 현재 실적은 적자이며 PBR이 높습니다.",
     "sentimentScore": 0.3,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1772738161828",
-    "title": "Actelis Networks (ASNS): Caltrans 계약발 투기적 급등과 근본적 재무 취약성 심층 분석",
-    "ticker": "ASNS",
-    "market": "US",
-    "timestamp": "2026-03-05T19:16:01.828Z",
-    "summary": "Actelis Networks (ASNS)는 사물 인터넷(IoT) 및 통신 프로젝트를 위한 사이버 강화 하이브리드 광섬유-구리 네트워킹 솔루션을 설계, 개발, 제조 및 판매하는 소형 기술 기업입니다. 최근 Caltrans와의 주요 계약 체결로 주가가 급등하며 엄청난 변동성과 거래량을 보였으나, 장기적인 재무 상태는 취약합니다.",
-    "sentimentScore": 0.65,
     "investmentRating": "Hold"
   }
 ]
