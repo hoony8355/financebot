@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774616715821",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 경쟁력과 고밸류에이션의 투자 딜레마",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-03-27T13:05:15.821Z",
+    "summary": "Palantir Technologies는 미국 정부 및 상업 부문에 AI 및 데이터 분석 소프트웨어를 제공하는 기업으로, 최근 미사일 방어 시스템 소프트웨어 개발 참여와 영국 금융감독청과의 계약 확대로 긍정적인 모멘텀을 얻고 있습니다. 높은 성장 잠재력과 견고한 재무 상태를 보이지만, 높은 밸류에이션과 변동성은 투자 위험 요인으로 작용합니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1774595211595",
     "title": "테슬라(TSLA)의 변곡점: 단기 역풍 속 장기 성장 잠재력 재평가",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies (PLTR)는 인공지능 기반 소프트웨어 플랫폼을 구축하고 배포하는 회사로, 정부 및 상업 부문에서 플랫폼에 대한 수요 증가로 강력한 성장을 경험하고 있습니다. 최근 대규모 국방 계약 수주와 성공적인 'AIP 부트캠프' 전략이 주가 상승을 견인하며 '서방 AI 운영체제'의 핵심 플레이어로 자리매김하고 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772822652290",
-    "title": "Marvell Technology (MRVL): AI 데이터 인프라 혁신을 통한 성장 동력 심층 분석",
-    "ticker": "MRVL",
-    "market": "US",
-    "timestamp": "2026-03-06T18:44:12.290Z",
-    "summary": "Marvell Technology (MRVL)는 데이터 인프라 반도체 솔루션 제공업체로, AI, 클라우드 및 5G 인프라와 같은 고마진 시장 부문에 집중하고 있습니다. 최근 강력한 4분기 실적과 시장 기대치를 뛰어넘는 낙관적인 미래 가이던스를 발표하며 주가가 크게 상승했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
