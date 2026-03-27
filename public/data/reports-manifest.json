@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774637762149",
+    "title": "Artelo Biosciences (ARTL): 녹내장 시장 진출과 $1,100만 사모 발행 이후의 급등세 분석",
+    "ticker": "ARTL",
+    "market": "US",
+    "timestamp": "2026-03-27T18:56:02.149Z",
+    "summary": "Artelo Biosciences는 암 관련 식욕부진, 불안, 통증 등 미충족 의료 수요를 해결하기 위한 치료제 개발에 주력하는 임상 단계 바이오 제약 회사입니다. 최근 1,100만 달러 규모의 사모 발행 및 163억 달러 규모의 녹내장 시장 진출 발표로 주가가 급등했습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774616715821",
     "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 경쟁력과 고밸류에이션의 투자 딜레마",
     "ticker": "PLTR",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-07T01:53:48.595Z",
     "summary": "대성에너지(117580)는 도시가스 제조 및 공급을 주력으로 하는 기업으로, 최근 중동 지정학적 긴장 고조에 따른 국제 유가 및 천연가스 가격 급등으로 인해 2026년 3월 초 주가가 크게 요동쳤습니다. 단기적인 급등락을 보였으나, 안정적인 사업 모델과 저평가된 밸류에이션이 부각되며 투자자들의 관심이 집중되고 있습니다.",
     "sentimentScore": 0.6,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1772832566962",
-    "title": "팔란티어(PLTR): '서방 AI 운영체제'로서의 지위 강화와 미래 성장 전망 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-03-06T21:29:26.962Z",
-    "summary": "Palantir Technologies (PLTR)는 인공지능 기반 소프트웨어 플랫폼을 구축하고 배포하는 회사로, 정부 및 상업 부문에서 플랫폼에 대한 수요 증가로 강력한 성장을 경험하고 있습니다. 최근 대규모 국방 계약 수주와 성공적인 'AIP 부트캠프' 전략이 주가 상승을 견인하며 '서방 AI 운영체제'의 핵심 플레이어로 자리매김하고 있습니다.",
-    "sentimentScore": 0.75,
     "investmentRating": "Buy"
   }
 ]
