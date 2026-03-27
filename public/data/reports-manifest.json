@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774588033282",
+    "title": "골판지 포장재 시장의 변동성과 대영포장(014160) 투자 심층 분석: 나프타 이슈와 이커머스 성장의 교차점",
+    "ticker": "014160",
+    "market": "KR",
+    "timestamp": "2026-03-27T05:07:13.282Z",
+    "summary": "대영포장은 1979년에 설립되어 골판지 원단 및 상자를 제조, 판매하는 한국 기반 기업으로, 국내 골판지 시장에서 입지를 다지고 있습니다. 최근 나프타 수급 차질에 따른 포장재 대체재 관심으로 주가가 급등하며 시장의 주목을 받고 있습니다.",
+    "sentimentScore": 7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774560711458",
     "title": "슈퍼 마이크로 컴퓨터(SMCI): AI 인프라 선두주자의 위기와 기회 공존 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "Micron Technology (MU)는 인공지능(AI) 메모리 슈퍼사이클의 핵심 수혜주로, DRAM 및 NAND 플래시 메모리 솔루션을 제공하는 선도적인 반도체 기업입니다. 고대역폭 메모리(HBM) 제품에 대한 강력한 수요와 2026년 HBM 공급 전량 매진으로 높은 매출 성장과 마진 확대를 기대하고 있습니다.",
     "sentimentScore": 0.99,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1772801689196",
-    "title": "Mobix Labs (MOBX) 심층 분석: 국방 계약 랠리 이후의 지속 가능성 및 밸류에이션 리스크 점검",
-    "ticker": "MOBX",
-    "market": "US",
-    "timestamp": "2026-03-06T12:54:49.196Z",
-    "summary": "Mobix Labs (MOBX)는 항공우주, 방위 산업 및 상업 시장을 위한 5G mmWave, RF 및 EMI 필터링 솔루션에 중점을 둔 반도체 회사입니다. 최근 Gulfstream 항공기 부품에 대한 신규 구매 주문과 미 해군 Tomahawk 미사일 부품 수요 증가로 인해 주가가 크게 변동했습니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Hold"
   }
 ]
