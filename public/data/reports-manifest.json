@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774865821580",
+    "title": "Unity Software (U) 심층 분석: 전략적 재편과 AI 기반 성장을 통한 턴어라운드 가능성 평가",
+    "ticker": "U",
+    "market": "US",
+    "timestamp": "2026-03-30T10:17:01.580Z",
+    "summary": "Unity Software는 모바일, 콘솔, AR/VR 등 다양한 플랫폼을 위한 인터랙티브 2D 및 3D 콘텐츠 제작 및 수익화 소프트웨어 솔루션을 개발합니다. 최근 2026년 1분기 잠정 실적이 예상치를 크게 상회하며 주가가 급등했습니다. 이는 AI 기반 광고 플랫폼인 Unity Vector의 강력한 성장에 힘입은 것으로, 회사는 핵심 사업에 집중하기 위해 비핵심 광고 사업부(ironSource Ads Network, Supersonic 게임 퍼블리싱)를 매각할 계획이라고 발표했습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1774855622013",
     "title": "Artelo Biosciences (ARTL) 심층 분석: 임상 파이프라인 가치와 극심한 변동성 속 투자 전략",
     "ticker": "ARTL",
@@ -988,15 +998,5 @@
     "summary": "엔비디아는 인공지능(AI) 칩 시장의 선두 주자로, 데이터센터 부문에서 강력한 성장세를 보이고 있습니다. 최근 미국 AI 칩 수출 규제 강화와 잠재적인 AI 버블 우려 속에서도, 새로운 제품 출시와 전략적 파트너십을 통해 시장 지배력을 유지하려 하고 있습니다. 주가는 단기적인 변동성을 보이지만, 장기적인 AI 시장 성장 기대감은 여전합니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1773049926205",
-    "title": "Palantir Technologies (PLTR): AI 기반 데이터 인텔리전스 시장 선두 주자의 성장 잠재력 및 밸류에이션 리스크 심층 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-03-09T09:52:06.205Z",
-    "summary": "Palantir Technologies는 정부 및 상업 부문에 데이터 통합 및 분석 소프트웨어 플랫폼을 개발하고 배포하는 회사입니다. 2025년 4분기 견조한 실적, 미국 상업 부문 매출 가속화, AI 플랫폼(AIP)에 대한 수요 증가가 최근 주가 움직임을 견인했습니다. 지정학적 긴장 역시 국방 및 정보 분야에서의 관련성을 높이고 있습니다.",
-    "sentimentScore": 72,
-    "investmentRating": "Buy"
   }
 ]
