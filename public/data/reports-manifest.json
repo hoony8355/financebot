@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774993141725",
+    "title": "아펠리스 제약, 바이오젠 인수로 본 기업 가치 재평가와 투자 전략 분석",
+    "ticker": "APLS",
+    "market": "US",
+    "timestamp": "2026-03-31T21:39:01.725Z",
+    "summary": "Apellis Pharmaceuticals (APLS)는 보체 관련 희귀 질환 치료제 개발에 주력하는 상업 단계의 바이오 제약 회사로, 야간 혈색소뇨증(PNH) 치료제 EMPAVELI와 지도상 위축(GA) 치료제 SYFOVRE를 핵심 제품으로 보유하고 있습니다. 2026년 3월 31일, 바이오젠(Biogen)이 주당 41달러에 아펠리스를 인수하겠다는 발표가 나오면서 주가는 135% 이상 급등했으며, 이는 기존의 재정 및 가치 평가 우려를 크게 해소했습니다.",
+    "sentimentScore": 0.9,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1774983711863",
     "title": "Marvell Technology (MRVL): 엔비디아(NVIDIA) 파트너십이 이끄는 AI 인프라 성장 동력 심층 분석",
     "ticker": "MRVL",
@@ -988,15 +998,5 @@
     "summary": "Tesla는 최근 Model S 및 X 생산 중단, 로보택시 및 AI에 대한 전략적 전환으로 큰 변화를 겪고 있습니다. FSD(Full Self-Driving) 소프트웨어 관련 규제 조사 및 판매량 감소와 같은 도전 과제에도 불구하고, Robotaxi와 Optimus 로봇 프로그램에 대한 강력한 장기적 성장 기대감을 받고 있습니다. Bank of America는 FSD 기술을 긍정적으로 평가하며 목표주가를 상향 조정했습니다.",
     "sentimentScore": 50,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773212026944",
-    "title": "HD현대에너지솔루션: 재생에너지 대전환 시대, 고효율 태양광 솔루션의 성장 동력과 미래 가치 분석",
-    "ticker": "322000",
-    "market": "KR",
-    "timestamp": "2026-03-11T06:53:46.944Z",
-    "summary": "HD현대에너지솔루션은 HD현대그룹의 태양광 전문 계열사로, 태양광 셀 및 모듈 제조, 발전소 설계·조달·시공(EPC) 및 운영·유지보수(O&M) 서비스를 제공하는 토털 에너지 솔루션 기업입니다. 최근 중동 지정학적 긴장 고조에 따른 국제유가 변동성 확대와 AI 시대의 전력 수요 증가로 재생에너지 부문이 주목받으며 강세를 보였습니다. 특히 N타입 TOPCon, HJT 모듈 등 고효율 제품 라인업을 통해 국내외 시장 경쟁력을 강화하고 있으며, 2026년 연 매출 6천억 원 달성을 목표로 하고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Buy"
   }
 ]
