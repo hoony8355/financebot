@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774983711863",
+    "title": "Marvell Technology (MRVL): 엔비디아(NVIDIA) 파트너십이 이끄는 AI 인프라 성장 동력 심층 분석",
+    "ticker": "MRVL",
+    "market": "US",
+    "timestamp": "2026-03-31T19:01:51.863Z",
+    "summary": "Marvell Technology (MRVL)는 2026년 3월 31일 엔비디아(NVIDIA)의 20억 달러 투자 및 전략적 AI 파트너십 발표로 주가가 급등했습니다. 이 파트너십은 Marvell의 제품을 엔비디아의 AI 시스템에 통합하고, NVLink Fusion을 통해 맞춤형 AI 가속기 및 실리콘 포토닉스를 개발하여 AI 인프라 생태계 내 Marvell의 입지를 강화할 것입니다. 또한, 견조한 4분기 실적 발표와 2027 회계연도 데이터센터 부문의 강력한 성장 전망도 긍정적인 투자 심리에 기여했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1774963061950",
     "title": "Palantir Technologies (PLTR): AI 기반 성장과 밸류에이션 부담 사이의 전략적 고찰",
     "ticker": "PLTR",
@@ -988,15 +998,5 @@
     "summary": "HD현대에너지솔루션은 HD현대그룹의 태양광 전문 계열사로, 태양광 셀 및 모듈 제조, 발전소 설계·조달·시공(EPC) 및 운영·유지보수(O&M) 서비스를 제공하는 토털 에너지 솔루션 기업입니다. 최근 중동 지정학적 긴장 고조에 따른 국제유가 변동성 확대와 AI 시대의 전력 수요 증가로 재생에너지 부문이 주목받으며 강세를 보였습니다. 특히 N타입 TOPCon, HJT 모듈 등 고효율 제품 라인업을 통해 국내외 시장 경쟁력을 강화하고 있으며, 2026년 연 매출 6천억 원 달성을 목표로 하고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773178148362",
-    "title": "Super Micro Computer (SMCI): AI 인프라 혁명의 핵심 플레이어, 성장과 위험의 교차점 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-03-10T21:29:08.362Z",
-    "summary": "Super Micro Computer (SMCI)는 AI 서버 및 스토리지 솔루션 수요에 힘입어 강력한 매출 성장을 보이고 있는 AI 인프라 핵심 기업입니다. 하지만 급증하는 경쟁과 하락하는 총 마진, 그리고 고객 집중도 문제로 인해 투자 심리가 엇갈리고 있으며, 높은 변동성을 특징으로 합니다.",
-    "sentimentScore": 0.3,
-    "investmentRating": "Hold"
   }
 ]
