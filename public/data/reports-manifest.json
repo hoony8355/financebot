@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1774963061950",
+    "title": "Palantir Technologies (PLTR): AI 기반 성장과 밸류에이션 부담 사이의 전략적 고찰",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-03-31T13:17:41.950Z",
+    "summary": "Palantir Technologies Inc.는 미국 소프트웨어 기업으로, 정부 및 국방 부문(Gotham)과 상업 및 민간 부문(Foundry)을 위한 데이터 통합 및 분석 플랫폼을 개발합니다. AI 기술을 활용하여 서방 동맹국 고객들의 데이터 기반 운영 및 의사 결정을 지원하는 데 주력합니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1774923286397",
     "title": "펄어비스(263750) 심층 분석: '붉은사막' 초기 흥행 기반의 밸류에이션 재평가와 중장기 성장 전망",
     "ticker": "263750",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-10T21:29:08.362Z",
     "summary": "Super Micro Computer (SMCI)는 AI 서버 및 스토리지 솔루션 수요에 힘입어 강력한 매출 성장을 보이고 있는 AI 인프라 핵심 기업입니다. 하지만 급증하는 경쟁과 하락하는 총 마진, 그리고 고객 집중도 문제로 인해 투자 심리가 엇갈리고 있으며, 높은 변동성을 특징으로 합니다.",
     "sentimentScore": 0.3,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773168395449",
-    "title": "NIO: 변곡점에 선 프리미엄 EV 기업, 멀티 브랜드 전략과 수익성 전환 분석",
-    "ticker": "NIO",
-    "market": "US",
-    "timestamp": "2026-03-10T18:46:35.449Z",
-    "summary": "NIO는 2025년 4분기에 사상 첫 조정 영업이익을 달성하며 예상치를 뛰어넘는 실적과 2026년 1분기에 대한 낙관적인 가이던스를 발표했습니다. 이는 견고한 차량 인도량 증가와 마진 확장에 힘입은 것입니다. 회사는 멀티 브랜드 전략(Nio, Onvo, Firefly)을 통해 시장 점유율을 확대하고 있으며, 자율주행, 디지털 기술, 파워트레인 및 배터리 분야의 핵심 기술과 배터리 교환 네트워크에 지속적으로 투자하고 있습니다.",
-    "sentimentScore": 0.7,
     "investmentRating": "Hold"
   }
 ]
