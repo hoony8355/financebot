@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775010717500",
+    "title": "한국첨단소재(062970) 심층 분석: 테마성 급등락과 투자 리스크 점검",
+    "ticker": "062970",
+    "market": "KR",
+    "timestamp": "2026-04-01T02:31:57.500Z",
+    "summary": "한국첨단소재(062970)는 최근 광통신 및 양자컴퓨팅 테마로 주목받았으나, 단기 급등에 따른 차익 실현 및 수급 불안정으로 인해 높은 변동성을 보이며 급락세를 나타냈습니다. 특히 3월 31일과 4월 1일 장중 변동성 완화장치(VI)가 반복적으로 발동되는 등 하방 압력이 강합니다.",
+    "sentimentScore": 25,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1774993141725",
     "title": "아펠리스 제약, 바이오젠 인수로 본 기업 가치 재평가와 투자 전략 분석",
     "ticker": "APLS",
@@ -988,15 +998,5 @@
     "summary": "Cloudflare (NET)는 AI 인프라 부문의 강력한 성장과 최근 견조한 실적 발표에 힘입어 주목받는 종목입니다. 최근 주가는 상승세를 보였으나, 높은 밸류에이션과 마진 압박에 대한 우려도 존재하며 시장의 '공포' 심리 속에서 변동성이 높을 것으로 예상됩니다.",
     "sentimentScore": 68,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773222146292",
-    "title": "테슬라(TSLA)의 AI 및 로보틱스 전환: 미래 성장 잠재력과 단기적 도전 과제 심층 분석",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-03-11T09:42:26.292Z",
-    "summary": "Tesla는 최근 Model S 및 X 생산 중단, 로보택시 및 AI에 대한 전략적 전환으로 큰 변화를 겪고 있습니다. FSD(Full Self-Driving) 소프트웨어 관련 규제 조사 및 판매량 감소와 같은 도전 과제에도 불구하고, Robotaxi와 Optimus 로봇 프로그램에 대한 강력한 장기적 성장 기대감을 받고 있습니다. Bank of America는 FSD 기술을 긍정적으로 평가하며 목표주가를 상향 조정했습니다.",
-    "sentimentScore": 50,
-    "investmentRating": "Hold"
   }
 ]
