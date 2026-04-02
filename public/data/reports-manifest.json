@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775156230840",
+    "title": "테슬라(TSLA): 수요 둔화와 경쟁 심화 속 미래 성장 동력의 재평가",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-04-02T18:57:10.840Z",
+    "summary": "테슬라(TSLA)는 2026년 1분기 차량 인도량 실적 부진과 EV 수요 둔화 우려로 주가가 하락했으며, 경쟁 심화와 부정적인 기술적 지표로 인해 추가적인 변동성이 예상됩니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1775145694753",
     "title": "오릭 파마슈티컬스(ORIC): 임상 3상 급락, 시장 오해인가 기회인가? 혁신 항암제 파이프라인의 잠재력 분석",
     "ticker": "ORIC",
@@ -988,15 +998,5 @@
     "summary": "AMC Entertainment Holdings Inc. (AMC)는 지속적인 재무적 어려움과 높은 공매도 비율에 직면해 있는 주요 영화 상영 기업입니다. 최근에는 부채 재융자 노력을 기울이고 있으며, 2026년 블록버스터 영화 라인업에 대한 기대감이 있지만, 박스오피스 점유율 감소와 상당한 부채는 여전히 주요 우려 사항입니다. 애널리스트들은 대부분 '유지' 의견을 제시하고 있으며, 기술적 지표는 하락 추세를 나타내고 있습니다. 또한, 최근 APE 전환과 관련된 증권 사기 집단 소송에 휘말려 있습니다.",
     "sentimentScore": -0.2,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773394729090",
-    "title": "EON Resources Inc. (EONR): 퍼미안 분지 내 공격적인 성장 전략과 리스크 헤지 분석",
-    "ticker": "EONR",
-    "market": "US",
-    "timestamp": "2026-03-13T09:38:49.090Z",
-    "summary": "EON Resources Inc.는 미국 퍼미안 분지에서 석유 및 천연가스 자산의 인수, 개발, 탐사 및 생산에 주력하는 독립 에너지 기업입니다. 최근 유가 헷지 프로그램 확대와 생산량 증대 전망에 힘입어 주가가 크게 상승했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
