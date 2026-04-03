@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775252008876",
+    "title": "Super Micro Computer (SMCI): AI 서버 시장의 성장통과 법적 리스크 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-04-03T21:33:28.876Z",
+    "summary": "AI 서버 시장의 주요 플레이어인 Super Micro Computer는 최근 28.9%의 급격한 주가 하락과 미국 사법부의 수출 통제 위반 혐의 기소, 이사회 개편 등으로 높은 변동성을 보이며 투자자들의 주의를 끌고 있습니다. 강력한 매출 성장 전망에도 불구하고 마진 압박과 법적 리스크가 공존합니다.",
+    "sentimentScore": -0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1775230734715",
     "title": "NVIDIA (NVDA): 인공지능 시대의 지배자, 성장과 위험 사이의 전략적 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객에게 데이터 통합 및 AI 기반 분석 플랫폼을 제공하는 소프트웨어 회사입니다. 최근 GE Aerospace와의 협력 확대, NVIDIA와의 Sovereign AI 운영 체제 아키텍처 공개 등 주요 계약 및 전략적 파트너십을 통해 AI 및 방위 부문에서 성장 동력을 확보하고 있습니다. 주가는 최근 높은 변동성을 보이며 단기적인 조정을 겪고 있으나, 장기적인 성장 잠재력에 대한 애널리스트들의 긍정적인 전망이 유지되고 있습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773502115618",
-    "title": "어도비(ADBE) 실적 분석: AI 시대 전환기, CEO 교체와 성장 둔화 우려 속 주가 급락 심층 보고서",
-    "ticker": "ADBE",
-    "market": "US",
-    "timestamp": "2026-03-14T15:28:35.618Z",
-    "summary": "어도비(ADBE)는 2026년 3월 13일, 예상치를 상회하는 1분기 FY26 실적 발표에도 불구하고 주가가 8% 이상 급락하여 249.32달러에 마감했습니다. 이러한 하락은 주로 신중한 2분기 수익 전망, AI 도구에 의한 기존 스톡 포토그래피 사업의 잠식으로 인한 신규 연간반복매출(ARR) 성장 둔화 우려, 그리고 오랜 기간 재직했던 CEO 샨타누 나라옌의 사임 발표가 복합적으로 작용한 결과입니다. 이는 AI 경쟁 심화와 잠재적인 마진 압박 속에서 투자자들의 불확실성을 가중시켰습니다.",
-    "sentimentScore": 3,
-    "investmentRating": "Hold"
   }
 ]
