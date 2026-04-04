@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775268304638",
+    "title": "삼성전자: AI 반도체 주도권 확보와 메모리 업황 회복이 이끄는 초고도 성장기 진입 분석",
+    "ticker": "005930",
+    "market": "KR",
+    "timestamp": "2026-04-04T02:05:04.638Z",
+    "summary": "삼성전자는 인공지능(AI) 메모리 수요 증가와 D램 및 낸드 가격 상승에 힘입어 2026년 1분기 사상 최고 실적을 기록할 것으로 예상되는 한국의 대표적인 기술 기업입니다. 강력한 펀더멘털에도 불구하고, 중동 지정학적 리스크와 같은 외부 요인으로 인해 단기적인 주가 변동성이 높은 상황입니다. 다수의 증권사들은 삼성전자의 목표주가를 상향 조정하며 긍정적인 투자 의견을 제시하고 있습니다.",
+    "sentimentScore": 7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1775252008876",
     "title": "Super Micro Computer (SMCI): AI 서버 시장의 성장통과 법적 리스크 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "두산에너빌리티(034020)는 AI 데이터센터발 전력 수요 증가와 글로벌 원전 및 SMR(소형모듈원전), 가스터빈 수주 기대감으로 인해 증권사들의 목표주가 상향과 함께 주가가 급등하고 있는 한국의 대표적인 에너지 솔루션 기업입니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1773513492511",
-    "title": "Palantir Technologies (PLTR): AI 패권 경쟁 속 전략적 포지셔닝 및 밸류에이션 심층 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-03-14T18:38:12.511Z",
-    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객에게 데이터 통합 및 AI 기반 분석 플랫폼을 제공하는 소프트웨어 회사입니다. 최근 GE Aerospace와의 협력 확대, NVIDIA와의 Sovereign AI 운영 체제 아키텍처 공개 등 주요 계약 및 전략적 파트너십을 통해 AI 및 방위 부문에서 성장 동력을 확보하고 있습니다. 주가는 최근 높은 변동성을 보이며 단기적인 조정을 겪고 있으나, 장기적인 성장 잠재력에 대한 애널리스트들의 긍정적인 전망이 유지되고 있습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Buy"
   }
 ]
