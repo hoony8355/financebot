@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775414644548",
+    "title": "Applied Optoelectronics Inc. (AAOI): AI 데이터센터 광통신 시장의 핵심 리더십과 투자 전망",
+    "ticker": "AAOI",
+    "market": "US",
+    "timestamp": "2026-04-05T18:44:04.548Z",
+    "summary": "Applied Optoelectronics Inc. (AAOI)는 AI 데이터센터 및 광통신 시장의 핵심 플레이어로, 최근 주요 하이퍼스케일 고객사로부터 800G 및 1.6T 데이터센터 트랜시버에 대한 대규모 수주를 확보하며 강한 성장 모멘텀을 보이고 있습니다. 회사의 Linear Pluggable Optics (LPO) 기술은 AI 인프라에 필수적인 전력 효율성과 낮은 지연 시간을 제공합니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1775403283398",
     "title": "AI 시대, SanDisk의 부활: 고대역폭 플래시 기술과 데이터센터 혁신을 통한 선도적 위치 재확립 분석",
     "ticker": "SNDK",
@@ -988,15 +998,5 @@
     "summary": "Marathon Digital Holdings는 미국의 주요 비트코인 채굴 기업으로, 최근 비트코인 가격 변동성과 함께 AI 및 고성능 컴퓨팅(HPC) 데이터 센터 사업으로의 다각화를 추진하고 있습니다. Q4 2025 실적은 예상치를 하회하며 상당한 순손실을 기록했으나, AI 인프라 구축 파트너십 발표로 시장의 주목을 받았습니다.",
     "sentimentScore": 65,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773645400627",
-    "title": "NVIDIA (NVDA): AI 산업 핵심 인프라 선두주자, GTC 2026을 앞둔 심층 분석 및 밸류에이션 점검",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-03-16T07:16:40.627Z",
-    "summary": "NVIDIA (NVDA)는 AI 산업의 핵심 인프라 제공업체로, 강력한 GPU를 통해 인공지능 개발 및 데이터센터 시장을 선도하고 있습니다. 지난 3년간 1,100% 이상 급등한 주가는 3월 16일부터 19일까지 진행되는 GTC 2026 컨퍼런스를 앞두고 더욱 주목받고 있습니다. 이 컨퍼런스에서는 AI, 포토닉스, 루빈 아키텍처 등 차세대 기술 발전이 발표될 것으로 예상됩니다. 최근 주가 조정에도 불구하고, 압도적인 애널리스트들의 '강력 매수' 의견과 견고한 실적, AI 가속기에 대한 높은 수요가 주가 상승을 지지하고 있습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
