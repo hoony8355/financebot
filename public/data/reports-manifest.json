@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775511482603",
+    "title": "엔비디아(NVDA) 투자 심층 분석: AI 패권과 지정학적 리스크의 교차점",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-04-06T21:38:02.603Z",
+    "summary": "엔비디아(NVDA)는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, GPU 및 AI 기반 플랫폼으로 잘 알려져 있습니다. AI 칩 시장에서 지배적인 점유율을 차지하고 있으며, 강력한 AI 프로세서 수요와 신제품 출시에 대한 기대감으로 주목받고 있습니다. 그러나 미국의 대중국 수출 규제, 중동 지정학적 리스크, 경쟁 심화 등 여러 요인이 주가에 영향을 미치고 있어 변동성이 높은 상황입니다.",
+    "sentimentScore": 0.78,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1775480916975",
     "title": "Sky Quarry Inc. (SKYQ): 전략적 가치 부각 속 재무 불안정성과 과매수 리스크 심층 분석",
     "ticker": "SKYQ",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-16T19:01:05.656Z",
     "summary": "Intel Corporation은 CPU, GPU 및 관련 제품을 PC, 데이터 센터 및 AI 시장에 설계, 제조, 판매하는 선도적인 반도체 기업입니다. 2024년 기준 세계 3위의 반도체 칩 제조업체이며, Intel Foundry 사업을 통해 기술적 우위 회복에 주력하고 있습니다.",
     "sentimentScore": 0.6,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773677136898",
-    "title": "Urgent.ly Inc. (ULY): Agero 인수에 따른 투자 가치 분석 및 전략 제언",
-    "ticker": "ULY",
-    "market": "US",
-    "timestamp": "2026-03-16T16:05:36.898Z",
-    "summary": "Urgent.ly Inc. (ULY)는 디지털 길가 지원 및 모빌리티 지원 소프트웨어 플랫폼 기업으로, 2026년 3월 16일 Agero에 주당 5.50달러 현금으로 인수된다는 소식과 예상치를 상회하는 2025년 4분기 실적 발표에 힘입어 개장 전 거래에서 주가가 급등했습니다.",
-    "sentimentScore": 0.8,
     "investmentRating": "Hold"
   }
 ]
