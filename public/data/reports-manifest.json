@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775460568331",
+    "title": "Sidus Space (SIDU): 우주 인프라 시장의 기회와 재무적 도전, 그리고 투자 전략 심층 분석",
+    "ticker": "SIDU",
+    "market": "US",
+    "timestamp": "2026-04-06T07:29:28.331Z",
+    "summary": "Sidus Space (SIDU)는 우주 인프라 서비스 기업으로, 최근 LizzieSat-3 위성 발사 및 AI 기반 데이터 솔루션 개발로 주목받고 있습니다. 하지만 재무적 손실과 주주 희석 문제가 존재하며, 높은 변동성 속에서 기술적 지표는 긍정적인 신호를 보입니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1775414644548",
     "title": "Applied Optoelectronics Inc. (AAOI): AI 데이터센터 광통신 시장의 핵심 리더십과 투자 전망",
     "ticker": "AAOI",
@@ -988,15 +998,5 @@
     "summary": "테슬라는 전기차 및 에너지 저장 시스템 분야의 선두 기업입니다. 최근 CEO 일론 머스크가 테라팹 AI 칩 생산이 7일 내 시작될 것이라고 밝히며 주가에 긍정적인 영향을 미쳤습니다. 그러나 동시에 시라(Syrah)와의 양극재 공급 기한 연장 소식도 있습니다. 전반적인 애널리스트 의견은 혼재되어 있으며, 일부는 밸류에이션 우려와 중국 시장 수요 약화를 지적하고, 다른 이들은 로보택시 및 자율주행 기술 리더십에 주목하고 있습니다. 전기차 시장의 경쟁 심화는 테슬라의 주요 도전 과제 중 하나입니다.",
     "sentimentScore": 58,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773655622178",
-    "title": "Marathon Digital Holdings: 비트코인 채굴과 AI 다각화, 고위험-고수익 투자 기회 분석",
-    "ticker": "MARA",
-    "market": "US",
-    "timestamp": "2026-03-16T10:07:02.178Z",
-    "summary": "Marathon Digital Holdings는 미국의 주요 비트코인 채굴 기업으로, 최근 비트코인 가격 변동성과 함께 AI 및 고성능 컴퓨팅(HPC) 데이터 센터 사업으로의 다각화를 추진하고 있습니다. Q4 2025 실적은 예상치를 하회하며 상당한 순손실을 기록했으나, AI 인프라 구축 파트너십 발표로 시장의 주목을 받았습니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Buy"
   }
 ]
