@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775729764171",
+    "title": "UCAR: AI 통합 EV 배터리 솔루션 기업의 극단적 변동성과 투자 기회 분석",
+    "ticker": "UCAR",
+    "market": "US",
+    "timestamp": "2026-04-09T10:16:04.171Z",
+    "summary": "U Power Limited는 중국, 태국 및 기타 동남아시아 시장에서 AI 통합 EV 배터리 교환 및 에너지 솔루션을 개발, 제조 및 판매하는 회사입니다. 최근 319만 달러 규모의 사모 발행으로 주가가 단기적으로 크게 급등하여 투자자들의 주목을 받고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1775598111180",
     "title": "유나이티드헬스 그룹(UNH), CMS 결정으로 촉발된 매니지드 케어 섹터의 재평가와 투자 전망 심층 분석",
     "ticker": "UNH",
@@ -988,15 +998,5 @@
     "summary": "AMC Entertainment Holdings는 미국과 해외 시장에서 영화 상영 사업을 운영하는 회사입니다. '밈 주식'으로 알려져 높은 변동성을 보였으며, 최근 부채 재융자 노력과 박스오피스 회복에 대한 분석가들의 엇갈린 전망 속에 재정적 어려움을 겪고 있습니다.",
     "sentimentScore": 0.4,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1773753086257",
-    "title": "GameStop (GME) 투자 분석: 밈 주식 변동성과 사업 혁신의 기로",
-    "ticker": "GME",
-    "market": "US",
-    "timestamp": "2026-03-17T13:11:26.257Z",
-    "summary": "GameStop (GME)은 미국의 비디오 게임, 가전제품 및 서비스 소매업체로, '밈 주식'으로 인한 높은 변동성과 CEO 라이언 코헨 주도의 사업 혁신 노력으로 주목받고 있습니다. 비용 절감, 고마진 수집품 판매 강화, 그리고 잠재적 인수를 통해 핵심 사업의 디지털 전환에 대응하고 있습니다.",
-    "sentimentScore": 57.54,
-    "investmentRating": "Sell"
   }
 ]
