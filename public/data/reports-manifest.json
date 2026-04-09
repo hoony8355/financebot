@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775771138665",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 혁신과 밸류에이션 도전 사이의 투자 기회",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-04-09T21:45:38.665Z",
+    "summary": "Palantir Technologies는 정부 및 상업 고객을 위한 데이터 통합, 분석 및 운영 의사 결정 플랫폼을 개발하는 소프트웨어 회사입니다. AI 기술에 중점을 둡니다.",
+    "sentimentScore": 1.14,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1775729764171",
     "title": "UCAR: AI 통합 EV 배터리 솔루션 기업의 극단적 변동성과 투자 기회 분석",
     "ticker": "UCAR",
@@ -988,15 +998,5 @@
     "summary": "CF Industries Holdings, Inc. (CF)는 북미 선도적인 질소 비료 및 청정 에너지(블루 암모니아) 생산 및 유통 기업입니다. 2026년 3월 현재 S&P 500에서 가장 뛰어난 성과를 보이는 종목 중 하나로, 주가 급등은 주로 미국-이란 분쟁으로 인한 호르무즈 해협의 공급 차질로 질소 및 암모니아 가격이 급등한 지정학적 긴장에 기인합니다. 또한, 북미의 저렴한 천연가스를 활용한 질소 생산의 경쟁 우위와 청정 에너지 솔루션으로의 전략적 전환도 주가 상승에 기여하고 있습니다. 2025년 4분기 견조한 실적을 발표하며 애널리스트 예상치를 상회했습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773774081955",
-    "title": "AMC Entertainment Holdings: 재무 리스크와 시장 회복 기대감 속 투자 매력도 심층 분석",
-    "ticker": "AMC",
-    "market": "US",
-    "timestamp": "2026-03-17T19:01:21.955Z",
-    "summary": "AMC Entertainment Holdings는 미국과 해외 시장에서 영화 상영 사업을 운영하는 회사입니다. '밈 주식'으로 알려져 높은 변동성을 보였으며, 최근 부채 재융자 노력과 박스오피스 회복에 대한 분석가들의 엇갈린 전망 속에 재정적 어려움을 겪고 있습니다.",
-    "sentimentScore": 0.4,
-    "investmentRating": "Hold"
   }
 ]
