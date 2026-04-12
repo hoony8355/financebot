@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1776029703437",
+    "title": "Maxeon Solar Technologies (MAXN): 심각한 재정난과 운영 리스크에 직면한 태양광 기업의 심층 분석 및 투자 경고",
+    "ticker": "MAXN",
+    "market": "US",
+    "timestamp": "2026-04-12T21:35:03.437Z",
+    "summary": "Maxeon Solar Technologies (MAXN)는 싱가포르에 본사를 둔 태양광 기술 기업으로, Maxeon 및 Performance 라인 태양광 패널을 설계, 제조 및 판매합니다. 최근 미국 시장에 집중하기 위한 구조조정을 단행했으나, 미국 세관의 패널 압류 및 재정적 문제로 인해 심각한 순손실과 매출 감소를 겪고 있습니다. 2026년 4월 10일 싱가포르에서 임시 사법 관리를 받게 되어 재무 건전성에 대한 우려가 커지고 있습니다. 이러한 어려움에도 불구하고 최근 주가는 높은 변동성과 단기적인 반등을 보였습니다.",
+    "sentimentScore": 27,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1776019755935",
     "title": "엔비디아: AI 시대의 지배자, 혁신과 밸류에이션 딜레마 속 성장 잠재력 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 고대역폭메모리(HBM) 시장의 핵심 리더로, 인공지능(AI) 수요 급증에 따른 메모리 반도체 공급 부족 상황에서 강력한 성장세를 보이고 있습니다. 엔비디아향 매출 비중이 확대되며 실적 개선 기대감이 높지만, 글로벌 경쟁 심화와 지정학적 리스크는 변동성을 야기할 수 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1773946792170",
-    "title": "LanzaTech Global (LNZA): 탄소 정제 시장의 고변동성 성장 기회 분석",
-    "ticker": "LNZA",
-    "market": "US",
-    "timestamp": "2026-03-19T18:59:52.170Z",
-    "summary": "LanzaTech Global, Inc. (LNZA)는 폐탄소를 지속 가능한 연료, 직물 및 포장재와 같은 소비재로 전환하는 자연 기반 탄소 정제 기업입니다. 미국 스코키에 본사를 두고 있으며 전 세계적으로 운영됩니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Hold"
   }
 ]
