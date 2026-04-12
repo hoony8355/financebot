@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1775978034391",
+    "title": "파라데이 퓨처(FFIE)의 전략적 전환과 극심한 변동성: 고위험 고수익 기회인가?",
+    "ticker": "FFIE",
+    "market": "US",
+    "timestamp": "2026-04-12T07:13:54.391Z",
+    "summary": "Faraday Future Intelligent Electric Inc. (FFIE)는 럭셔리 및 매스마켓 AI 기반 모빌리티 솔루션에 중점을 둔 지능형 전기차(EV) 및 기술 회사입니다. 그러나 심각한 재정적 어려움과 높은 변동성에 직면해 있습니다. (참고: 2025년 3월 10일부로 티커가 'FFAI'로 변경될 예정이었으나, 현재 많은 플랫폼에서 'FFIE'를 사용하고 있습니다.)",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1775921636749",
     "title": "테슬라(TSLA): 혁신과 현실 사이의 균형점 탐색 - 2026년 1분기 실적과 미래 비전 심층 분석",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "Reviva Pharmaceuticals (RVPH)는 중추신경계 질환 치료제를 개발하는 임상 단계 바이오 제약사로, 최근 희석성 공모와 조현병 약물 3상 임상시험 자금 조달 발표 후 극심한 주가 변동성을 겪으며 급락했습니다. 전반적인 시장의 '극심한 공포' 심리가 투자 심리를 더욱 위축시키고 있습니다.",
     "sentimentScore": -0.8,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1773913390082",
-    "title": "SoFi Technologies (SOFI): 성장 잠재력과 회계 리스크의 교차점 분석",
-    "ticker": "SOFI",
-    "market": "US",
-    "timestamp": "2026-03-19T09:43:10.082Z",
-    "summary": "SoFi Technologies (SOFI)는 대출, 투자, 뱅킹, 기술 플랫폼 등 다양한 금융 서비스를 제공하는 핀테크 기업입니다. 최근 강한 고객 및 매출 성장을 기록했지만, 공매도 보고서로 인해 회계 관행에 대한 의혹이 제기되며 주가가 압박을 받고 있습니다. CEO의 자사주 매입은 내부자 신뢰를 나타내지만, 기술적 지표는 단기 하락 추세를 시사합니다.",
-    "sentimentScore": -0.4,
-    "investmentRating": "Hold"
   }
 ]
