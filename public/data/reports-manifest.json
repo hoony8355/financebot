@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1776894681761",
+    "title": "FFAI (Faraday Future): AI 모빌리티 전환과 극심한 변동성 속 투자 위험 분석",
+    "ticker": "FFAI",
+    "market": "US",
+    "timestamp": "2026-04-22T21:51:21.761Z",
+    "summary": "Faraday Future Intelligent Electric Inc. (FFAI)는 럭셔리 및 고성능 전기차(EV)를 설계, 개발, 제조 및 판매하는 미국 기업입니다. 최근 AI 중심의 모빌리티 생태계로의 전환을 가속화하며 새로운 자금 조달에 성공했으나, 여전히 높은 현금 소모율과 경쟁 심화로 인해 재정적 어려움에 직면해 있습니다. 2025년 3월 10일부로 AI 혁신 전략을 반영하여 티커를 FFIE에서 FFAI로 변경했습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1776885211461",
     "title": "GE Vernova (GEV): 전력산업 대변혁의 선두주자, AI 및 탈탄소화 메가트렌드에 편승한 투자 분석",
     "ticker": "GEV",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-25T04:53:59.761Z",
     "summary": "흥아해운(003280)은 아시아 지역 내 액체석유화학제품 해상운송을 주력으로 하는 해운기업입니다. 최근 최대주주 장금상선의 유조선 사업 계열사 지분 매각 추진 소식과 중동 지정학적 리스크 심화에 따른 해상 운임 상승 기대감으로 인해 주가가 급등하며 높은 거래량을 기록하는 등 시장의 큰 관심을 받고 있습니다.",
     "sentimentScore": 75,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1774378982318",
-    "title": "Ridgetech, Inc. (RDGT): 전략적 사업 전환과 시장 변동성 분석 - 지속 가능한 성장을 위한 통찰",
-    "ticker": "RDGT",
-    "market": "US",
-    "timestamp": "2026-03-24T19:03:02.318Z",
-    "summary": "Ridgetech, Inc. (NASDAQ: RDGT)는 중국 내 의약품 및 기타 헬스케어 제품의 도매 유통업체입니다. 과거 소매 약국 사업에서 도매 및 온라인 유통 플랫폼(Allright) 중심으로 전략적 전환을 추진하고 있습니다. 최근 주가는 급등세를 보이며 높은 변동성을 나타내고 있으나, 재무 성과는 혼재되어 있으며 분석가 커버리지는 제한적입니다.",
-    "sentimentScore": 0.2,
     "investmentRating": "Hold"
   }
 ]
