@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1776844211947",
+    "title": "Avis Budget Group (CAR): 펀더멘털 괴리 속 투기적 랠리 리스크 분석",
+    "ticker": "CAR",
+    "market": "US",
+    "timestamp": "2026-04-22T07:50:11.947Z",
+    "summary": "Avis Budget Group (CAR) has recently become a core issue stock in the US market, experiencing extreme price volatility and a parabolic rally driven by an intense short squeeze and strong retail investor momentum. Shares have quadrupled in April, leading to multiple trading halts. Despite this surge, fundamental analysts maintain a 'Strong Sell' or 'Hold' consensus with price targets significantly below current levels, indicating a disconnect between market price and underlying valuation.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1776835567637",
     "title": "에이팩트 (200470): 최대주주 변경과 고평가 논란 속, 성장 잠재력과 리스크 심층 분석",
     "ticker": "200470",
@@ -988,15 +998,5 @@
     "summary": "GameStop (GME)은 비디오 게임, 콘솔 및 액세서리 전문 유통업체로, 전자상거래, 수집품, 전략적 인수에 중점을 둔 '기술 중심 지주회사'로 변모 중입니다. 2026년 3월 24일 현재, 회사는 상당한 현금 보유액을 바탕으로 전환기를 맞고 있으며, 4분기 실적 발표에 대한 시장의 관심이 집중되고 있습니다.",
     "sentimentScore": 72,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1774346161310",
-    "title": "Arm Holdings: AI 시대를 선도하는 반도체 IP 핵심 기업 분석",
-    "ticker": "ARM",
-    "market": "US",
-    "timestamp": "2026-03-24T09:56:01.310Z",
-    "summary": "Arm Holdings plc는 마이크로프로세서, 시스템 IP, 그래픽 처리 장치(GPU), 물리적 IP 및 관련 시스템 IP의 라이선싱, 마케팅, 연구 및 개발을 전문으로 하는 영국의 반도체 설계 회사입니다. 인공지능(AI) 및 데이터 센터 시장으로 사업을 확장하며 모바일 칩 전문 기업에서 변화를 모색하고 있습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Strong Buy"
   }
 ]
