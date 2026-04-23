@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1776971313471",
+    "title": "Auddia Inc. (AUUD) 심층 투자 분석: AI 인프라 전환과 극단적 변동성 속 위험 평가",
+    "ticker": "AUUD",
+    "market": "US",
+    "timestamp": "2026-04-23T19:08:33.471Z",
+    "summary": "Auddia Inc.는 인공지능(AI) 기술 회사로, 광고 없는 라디오 및 맞춤형 팟캐스트를 제공하는 faidr 앱 개발에서 출발했습니다. 최근에는 AI 인프라 확장을 목표로 주차장 상공에 분산형 AI 데이터센터(LT350)를 구축하는 사업에 주력하고 있습니다. 최근 LT350 관련 14번째 특허 승인 소식과 숏 스퀴즈로 인해 주가가 급등했지만, 장기적인 하락세와 낮은 시가총액, 불확실한 수익성 등 높은 투자 위험을 안고 있습니다.",
+    "sentimentScore": 2,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1776930907495",
     "title": "Theriva Biologics (TOVX) VCN-01: 전이성 췌장암 임상 진전과 투자 매력도 심층 분석",
     "ticker": "TOVX",
@@ -988,15 +998,5 @@
     "summary": "마이크론 테크놀로지(MU)는 선도적인 메모리 및 스토리지 칩(DRAM 및 NAND 플래시) 전문 반도체 기업입니다. 최근 2026년 2분기 실적 발표에서 AI 기반 메모리 수요에 힘입어 매출이 약 3배, 주당순이익(EPS)이 약 8배 증가하는 등 강력한 성장을 기록했습니다. 그러나 실적 발표 이후 주가는 대규모 자본 지출 계획과 HBM(고대역폭 메모리) 시장 내 경쟁 심화에 대한 투자자 우려로 인해 '뉴스에 팔아라' 반응을 보이며 하락했습니다.",
     "sentimentScore": 74,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1774444155598",
-    "title": "ASML Holdings N.V. (ASML): AI 시대의 핵심 인프라, 독점적 지위와 밸류에이션 리스크 분석",
-    "ticker": "ASML",
-    "market": "US",
-    "timestamp": "2026-03-25T13:09:15.598Z",
-    "summary": "ASML Holding N.V.는 첨단 반도체 칩 생산에 필수적인 포토리소그래피 시스템 개발 및 제조 분야의 선두 주자입니다. 특히 AI, 자율 주행, 차세대 전자기기용 칩 생산에 필요한 EUV(Extreme Ultraviolet) 리소그래피 시장에서 독점적 지위를 누리고 있습니다. 최근 SK하이닉스로부터 80억 달러 규모의 EUV 장비 수주와 분기 배당금 인상 소식이 있었으며, 이는 AI 반도체 수요 증가의 핵심 수혜주로 평가됩니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
