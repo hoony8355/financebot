@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777101329659",
+    "title": "엔비디아 (NVDA): AI 혁명의 핵심 동력, 독점적 지위를 넘어선 미래 가치 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-04-25T07:15:29.659Z",
+    "summary": "NVIDIA (NVDA)는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, GPU, 칩셋 및 관련 소프트웨어 설계 및 제조를 통해 AI 칩 시장에서 약 85%의 시장 점유율을 차지하고 있습니다. 데이터 센터, 게이밍, 전문 시각화, 자동차 등 다양한 시장에 플랫폼을 제공하며, 최근 OpenAI의 GPT-5.5 및 Google Cloud와의 협력을 통해 AI 인프라 및 에이전트 AI 분야에서 혁신을 주도하고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1777093935026",
     "title": "한화갤러리아: 그룹 지배구조 재편 기대감과 프리미엄 전략, 그러나 밸류에이션 과열 우려 공존",
     "ticker": "452260",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-26T21:31:51.458Z",
     "summary": "AI 서버 및 스토리지 솔루션 전문 기업인 슈퍼 마이크로 컴퓨터(SMCI)는 AI 인프라 수요 증가로 급격한 성장세를 보였으나, 최근 공동 창립자의 중국 수출 규제 위반 혐의 및 관련 주주 집단 소송으로 인해 주가에 상당한 하방 압력을 받고 있습니다. 현재 시장은 극심한 공포(Extreme Fear) 상태이며, 주가는 7일간 23% 이상 하락하여 과매도 영역에 진입했습니다.",
     "sentimentScore": 30,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1774551910649",
-    "title": "BioAffinity Technologies (BIAF) 심층 분석: 폐암 진단의 성장 동력과 재무적 도전",
-    "ticker": "BIAF",
-    "market": "US",
-    "timestamp": "2026-03-26T19:05:10.649Z",
-    "summary": "BioAffinity Technologies (BIAF)는 폐암 및 기타 폐 질환에 대한 비침습 진단 기술을 개발하는 생명공학 기업입니다. 주력 제품인 CyPath® Lung 테스트의 2025년 매출 및 테스트 건수가 크게 증가했으며, 2026년에도 추가적인 성장이 예상됩니다. 하지만 회사는 여전히 통합 매출 감소와 손실 증가라는 재정적 과제에 직면해 있어 CyPath® Lung의 수익성 확보와 지속적인 자금 유입이 중요합니다.",
-    "sentimentScore": 0,
     "investmentRating": "Hold"
   }
 ]
