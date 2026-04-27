@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777326803158",
+    "title": "POET Technologies, 주요 고객 계약 파기 심층 분석: 위기 속 기회, 혹은 추락의 시작?",
+    "ticker": "POET",
+    "market": "US",
+    "timestamp": "2026-04-27T21:53:23.158Z",
+    "summary": "POET Technologies는 2026년 4월 27일, Celestial AI (Marvell Semiconductor Inc.에 인수됨)로부터의 모든 구매 주문이 기밀 유지 의무 위반으로 취소되었다고 발표한 후 주가가 거의 50% 급락했습니다. 이는 POET의 주요 고객 계약 손실을 의미하며, 투자 손실 복구에 대한 법적 조사도 시작되었습니다.",
+    "sentimentScore": -8,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1777317770940",
     "title": "테리바 바이오로직스 (TOVX): 전이성 췌장암 치료제 VCN-01의 임상 진전과 시장 잠재력 심층 분석",
     "ticker": "TOVX",
@@ -987,16 +997,6 @@
     "timestamp": "2026-03-29T09:36:46.691Z",
     "summary": "Argan Inc. (AGX)는 2026년 3월 27일 강력한 4분기 실적 발표와 에너지 인프라 수요 급증에 힘입어 주가가 35% 이상 급등하며 새로운 52주 신고가를 기록했습니다. EPS와 매출이 시장 예상치를 크게 웃돌았으며, 29억 달러에 육박하는 견고한 프로젝트 수주잔고가 미래 성장을 뒷받침할 것으로 예상됩니다.",
     "sentimentScore": 80,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1774767785037",
-    "title": "Robinhood Markets (HOOD): 규제 불확실성과 성장 동력 탐색 속 투자 전략 분석",
-    "ticker": "HOOD",
-    "market": "US",
-    "timestamp": "2026-03-29T07:03:05.037Z",
-    "summary": "Robinhood Markets, Inc. (HOOD)는 미국 기반의 금융 서비스 플랫폼으로, 주식, ETF, 옵션, 암호화폐 거래를 수수료 없이 제공하며 소매 투자자들 사이에서 인기를 얻고 있습니다. 최근 15억 달러 규모의 자사주 매입 프로그램을 승인하고 'Robinhood Social' 기능 출시 및 예측 시장 확장을 통해 새로운 성장 동력을 모색하고 있습니다. 하지만 최근 주가는 하락세를 보였으며, 규제 불확실성과 거래량 변동성에 대한 우려가 상존합니다.",
-    "sentimentScore": 0.72,
     "investmentRating": "Buy"
   }
 ]
