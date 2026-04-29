@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777499955547",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 성장성과 밸류에이션 리스크의 균형점 탐색",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-04-29T21:59:15.547Z",
+    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 AI 기반 데이터 분석 플랫폼 전문 기업입니다. 강력한 매출 성장세를 보이고 있으며, 특히 정부 부문에서 두각을 나타내고 있습니다. 높은 P/E 비율로 인해 밸류에이션에 대한 우려도 있으나, 2026년 5월 4일로 예정된 1분기 실적 발표를 앞두고 있습니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1777490699086",
     "title": "Akanda Corp. (AKAN) 심층 분석: 극심한 변동성과 높은 파산 위험에 노출된 의료용 대마초 기업",
     "ticker": "AKAN",
@@ -988,15 +998,5 @@
     "summary": "Unity Software는 모바일, 콘솔, AR/VR 등 다양한 플랫폼을 위한 인터랙티브 2D 및 3D 콘텐츠 제작 및 수익화 소프트웨어 솔루션을 개발합니다. 최근 2026년 1분기 잠정 실적이 예상치를 크게 상회하며 주가가 급등했습니다. 이는 AI 기반 광고 플랫폼인 Unity Vector의 강력한 성장에 힘입은 것으로, 회사는 핵심 사업에 집중하기 위해 비핵심 광고 사업부(ironSource Ads Network, Supersonic 게임 퍼블리싱)를 매각할 계획이라고 발표했습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1774855622013",
-    "title": "Artelo Biosciences (ARTL) 심층 분석: 임상 파이프라인 가치와 극심한 변동성 속 투자 전략",
-    "ticker": "ARTL",
-    "market": "US",
-    "timestamp": "2026-03-30T07:27:02.013Z",
-    "summary": "Artelo Biosciences (ARTL)는 지질 신호 전달 경로를 조절하는 치료제 개발에 주력하는 임상 단계 바이오 제약 회사입니다. 최근 1,100만 달러 규모의 사모 발행 및 ART27.13 프로그램의 녹내장 및 GLP-1 치료제 동반 요법으로의 확장 발표에 따라 주가가 크게 상승하는 등 높은 변동성을 보였습니다. 이 회사는 3월 10일, 2026년에 3대 1 역주식 분할을 단행했습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Hold"
   }
 ]
