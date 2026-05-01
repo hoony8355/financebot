@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777631006158",
+    "title": "OSR Holdings, Inc. (OSRH): 혁신적 헬스케어 기술과 고위험-고수익 잠재력 분석",
+    "ticker": "OSRH",
+    "market": "US",
+    "timestamp": "2026-05-01T10:23:26.158Z",
+    "summary": "OSR Holdings, Inc. (NASDAQ: OSRH)는 면역항암제, 재생 생물의약품, 의료기기 기술을 통해 혁신적인 헬스케어 솔루션을 개발하는 글로벌 헬스케어 지주회사입니다. 최근에는 3상 임상 준비 중인 경구용 암 면역치료제 VXM01에 대해 BCM Europe AG와 8억 1,500만 달러 규모의 글로벌 독점 라이선스 계약을 체결했으며, 비침습적 혈당 모니터링 기술을 보유한 Woori IO Co., Ltd. 인수를 완료하고 중국 시장 진출을 위해 Sinopharm과 NDA를 체결했습니다. 현재 나스닥 최소 입찰가 규정 준수 문제를 해결하기 위해 연장 기한을 받은 상태입니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1777604203866",
     "title": "채비 (457330): 전기차 충전 인프라 선도 기업의 IPO 이후 성과 및 투자 전략 분석",
     "ticker": "457330",
@@ -988,15 +998,5 @@
     "summary": "Marvell Technology (MRVL)는 2026년 3월 31일 엔비디아(NVIDIA)의 20억 달러 투자 및 전략적 AI 파트너십 발표로 주가가 급등했습니다. 이 파트너십은 Marvell의 제품을 엔비디아의 AI 시스템에 통합하고, NVLink Fusion을 통해 맞춤형 AI 가속기 및 실리콘 포토닉스를 개발하여 AI 인프라 생태계 내 Marvell의 입지를 강화할 것입니다. 또한, 견조한 4분기 실적 발표와 2027 회계연도 데이터센터 부문의 강력한 성장 전망도 긍정적인 투자 심리에 기여했습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1774963061950",
-    "title": "Palantir Technologies (PLTR): AI 기반 성장과 밸류에이션 부담 사이의 전략적 고찰",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-03-31T13:17:41.950Z",
-    "summary": "Palantir Technologies Inc.는 미국 소프트웨어 기업으로, 정부 및 국방 부문(Gotham)과 상업 및 민간 부문(Foundry)을 위한 데이터 통합 및 분석 플랫폼을 개발합니다. AI 기술을 활용하여 서방 동맹국 고객들의 데이터 기반 운영 및 의사 결정을 지원하는 데 주력합니다.",
-    "sentimentScore": 60,
-    "investmentRating": "Buy"
   }
 ]
