@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777641452725",
+    "title": "인텔 (INTC)의 부활과 과열 경고: 심층 투자 분석",
+    "ticker": "INTC",
+    "market": "US",
+    "timestamp": "2026-05-01T13:17:32.725Z",
+    "summary": "Intel Corporation (INTC)은 최근 2026년 1분기 예상치를 뛰어넘는 실적을 발표하며 강력한 성장세를 보였습니다. 특히 파운드리 사업 및 AI 기술 협력에 대한 전략적 움직임이 긍정적인 평가를 받고 있습니다. 지난 1년 동안 주가가 370% 이상 급등하며 투자자들의 높은 관심을 받고 있으나, 일부 지표는 과매수 상태를 나타내고 있습니다.",
+    "sentimentScore": 25,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1777631006158",
     "title": "OSR Holdings, Inc. (OSRH): 혁신적 헬스케어 기술과 고위험-고수익 잠재력 분석",
     "ticker": "OSRH",
@@ -988,15 +998,5 @@
     "summary": "Apellis Pharmaceuticals (APLS)는 보체 관련 희귀 질환 치료제 개발에 주력하는 상업 단계의 바이오 제약 회사로, 야간 혈색소뇨증(PNH) 치료제 EMPAVELI와 지도상 위축(GA) 치료제 SYFOVRE를 핵심 제품으로 보유하고 있습니다. 2026년 3월 31일, 바이오젠(Biogen)이 주당 41달러에 아펠리스를 인수하겠다는 발표가 나오면서 주가는 135% 이상 급등했으며, 이는 기존의 재정 및 가치 평가 우려를 크게 해소했습니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1774983711863",
-    "title": "Marvell Technology (MRVL): 엔비디아(NVIDIA) 파트너십이 이끄는 AI 인프라 성장 동력 심층 분석",
-    "ticker": "MRVL",
-    "market": "US",
-    "timestamp": "2026-03-31T19:01:51.863Z",
-    "summary": "Marvell Technology (MRVL)는 2026년 3월 31일 엔비디아(NVIDIA)의 20억 달러 투자 및 전략적 AI 파트너십 발표로 주가가 급등했습니다. 이 파트너십은 Marvell의 제품을 엔비디아의 AI 시스템에 통합하고, NVLink Fusion을 통해 맞춤형 AI 가속기 및 실리콘 포토닉스를 개발하여 AI 인프라 생태계 내 Marvell의 입지를 강화할 것입니다. 또한, 견조한 4분기 실적 발표와 2027 회계연도 데이터센터 부문의 강력한 성장 전망도 긍정적인 투자 심리에 기여했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
