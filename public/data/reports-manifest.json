@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777707822825",
+    "title": "테슬라 (TSLA) 투자 심층 분석: 혁신과 도전의 교차로에서 미래를 그리다",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-05-02T07:43:42.825Z",
+    "summary": "Tesla, Inc.는 전기차(EV), 에너지 생성 및 저장 시스템을 설계, 개발, 제조 및 판매하는 미국 기업입니다. 자율 주행 및 휴머노이드 로봇 등 '물리적 AI' 분야로 사업을 확장하며 기술 혁신을 추구하고 있습니다. 현재 EV 시장에서 선도적인 위치를 차지하고 있으나, 높은 자본 지출과 경쟁 심화로 인해 시장의 주목을 받고 있습니다.",
+    "sentimentScore": 55,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1777689463843",
     "title": "SK하이닉스, AI 시대 HBM 선두주자: 퀀텀 점프를 향한 심층 분석",
     "ticker": "000660",
@@ -987,16 +997,6 @@
     "timestamp": "2026-04-01T13:20:56.770Z",
     "summary": "BigBear.ai Holdings Inc.는 국방 및 국가 안보 고객을 대상으로 하는 미션 준비 인공지능(AI) 기술 솔루션 제공업체입니다. Edge AI 기반 의사 결정 인텔리전스 솔루션을 제공하며, 최근 Ask Sage를 인수했습니다. 2025년 4분기 매출은 감소했지만, 2026년에는 성장을 예상하고 있습니다. 최근 승인된 보통주 발행량 두 배 증대 계획으로 인한 희석 우려가 있습니다.",
     "sentimentScore": -0.4,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775037981759",
-    "title": "AMC 엔터테인먼트: 부채와 희석의 늪, 재도약의 가능성 탐색",
-    "ticker": "AMC",
-    "market": "US",
-    "timestamp": "2026-04-01T10:06:21.759Z",
-    "summary": "AMC 엔터테인먼트는 미국의 주요 영화 상영 체인으로, 최근 'Project Hail Mary'의 흥행으로 긍정적인 사회적 분위기(Social Sentiment)를 기록했음에도 불구하고, 높은 부채와 희석 우려로 인해 주가가 52주 최저치 근처에서 거래되며 상당한 변동성을 보이고 있습니다. 다수의 애널리스트는 '보유(Hold)' 또는 '매도(Reduce)' 의견을 제시하고 있습니다.",
-    "sentimentScore": 88,
     "investmentRating": "Hold"
   }
 ]
