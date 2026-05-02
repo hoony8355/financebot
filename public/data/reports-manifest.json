@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777689463843",
+    "title": "SK하이닉스, AI 시대 HBM 선두주자: 퀀텀 점프를 향한 심층 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-05-02T02:37:43.843Z",
+    "summary": "SK하이닉스는 인공지능(AI) 수요 급증에 따른 고대역폭 메모리(HBM) 시장의 선두 주자로, 2026년 1분기 사상 최대 실적을 기록하며 강력한 성장세를 보이고 있습니다. 견조한 매출과 영업이익을 바탕으로 메모리 반도체 슈퍼사이클의 최대 수혜주로 평가받고 있으며, AI 인프라 투자 확대에 힘입어 긍정적인 전망이 지배적입니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1777672431312",
     "title": "Beyond Meat (BYND): 식물성 육류 시장의 선구자에서 생존의 기로에 선 기업 - 심층 분석 및 2024년 1분기 전망",
     "ticker": "BYND",
@@ -988,15 +998,5 @@
     "summary": "AMC 엔터테인먼트는 미국의 주요 영화 상영 체인으로, 최근 'Project Hail Mary'의 흥행으로 긍정적인 사회적 분위기(Social Sentiment)를 기록했음에도 불구하고, 높은 부채와 희석 우려로 인해 주가가 52주 최저치 근처에서 거래되며 상당한 변동성을 보이고 있습니다. 다수의 애널리스트는 '보유(Hold)' 또는 '매도(Reduce)' 의견을 제시하고 있습니다.",
     "sentimentScore": 88,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775028072626",
-    "title": "NVIDIA: AI 시대의 핵심 인프라, 성장과 위험 요인 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-04-01T07:21:12.626Z",
-    "summary": "NVIDIA는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, GPU 및 AI 하드웨어 시장을 지배하고 있습니다. 데이터 센터 매출의 지속적인 성장이 주요 동력이며, AI 모델 개발 및 학습을 위한 CUDA 소프트웨어 플랫폼도 제공합니다. 최근 마블 테크놀로지(MRVL)에 대한 20억 달러 투자 등 전략적 행보를 보이고 있습니다.",
-    "sentimentScore": 71,
-    "investmentRating": "Strong Buy"
   }
 ]
