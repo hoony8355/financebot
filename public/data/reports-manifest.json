@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777813731546",
+    "title": "Palantir Technologies (PLTR): AI 리더십과 밸류에이션 프리미엄, 다가오는 실적 발표의 변곡점 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-05-03T13:08:51.546Z",
+    "summary": "Palantir Technologies는 정부 및 상업 고객을 위한 데이터 분석 및 AI 플랫폼을 제공하는 기업입니다. 강력한 매출 성장을 보이고 있으나, 높은 밸류에이션에 대한 우려와 다가오는 실적 발표가 주요 이슈입니다. 인공지능 분야에서의 선도적 위치와 국방 계약에 대한 의존도가 주목됩니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1777795736894",
     "title": "에스페리온 테라퓨틱스(ESPR): ARCHIMED 인수 발표, 심혈관 치료제 시장 재편과 투자 전략 심층 분석",
     "ticker": "ESPR",
@@ -988,15 +998,5 @@
     "summary": "GameStop (GME)은 비디오 게임, 엔터테인먼트 제품 및 기술을 전자상거래 플랫폼과 매장을 통해 판매하는 기업입니다. 최근 발표된 2026년 4분기 실적에서는 매출이 14% 감소했지만, 비용 절감과 고마진 품목(수집품) 판매 증가에 힘입어 연간 순이익은 증가했습니다. 그러나 디지털 전환 가속화와 온라인 경쟁 심화는 핵심 사업 부문의 지속적인 도전을 야기하고 있습니다.",
     "sentimentScore": 0.3,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1775156230840",
-    "title": "테슬라(TSLA): 수요 둔화와 경쟁 심화 속 미래 성장 동력의 재평가",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-04-02T18:57:10.840Z",
-    "summary": "테슬라(TSLA)는 2026년 1분기 차량 인도량 실적 부진과 EV 수요 둔화 우려로 주가가 하락했으며, 경쟁 심화와 부정적인 기술적 지표로 인해 추가적인 변동성이 예상됩니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Hold"
   }
 ]
