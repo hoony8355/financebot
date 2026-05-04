@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777903222322",
+    "title": "Clearmind Medicine Inc. (CMND) 투자 심층 분석: 환각제 신약 개발의 기회와 극단적 위험 평가",
+    "ticker": "CMND",
+    "market": "US",
+    "timestamp": "2026-05-04T14:00:22.322Z",
+    "summary": "Clearmind Medicine Inc.는 알코올 사용 장애를 포함한 정신 건강 및 중독 치료를 위한 신규 환각제 유래 치료법 개발에 중점을 둔 바이오 제약 회사입니다. 최근 알코올 사용 장애(AUD)에 대한 FDA 승인 1/2a상 임상 시험에서 CMND-100이 주요 안전성 및 내약성 평가 변수를 충족했다고 발표하며 주가가 급등했습니다.",
+    "sentimentScore": 55,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1777892751349",
     "title": "Theriva Biologics (TOVX): VCN-01 임상 3상 전환점과 투자 위험 분석 보고서",
     "ticker": "TOVX",
@@ -988,15 +998,5 @@
     "summary": "Globalstar (GSAT)는 위성 통신 및 위성 IoT 솔루션을 제공하는 기업으로, 최근 Amazon의 90억 달러 규모 인수 논의 소식에 주가가 급등했습니다. Amazon은 Project Kuiper 확장을 통해 SpaceX의 Starlink에 대항하기 위해 Globalstar의 위성 및 스펙트럼 자산에 관심을 보이고 있습니다. 다만, Apple의 지분 및 네트워크 사용 계약이 인수 협상의 주요 변수로 작용하고 있으며, 높은 부채 수준과 수익성 문제가 잠재적 리스크로 남아있습니다.",
     "sentimentScore": 8,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775192735058",
-    "title": "에코플라스틱: 현대차 조지아 동반 진출 및 미래차 테마의 중심에서",
-    "ticker": "038110",
-    "market": "KR",
-    "timestamp": "2026-04-03T05:05:35.058Z",
-    "summary": "에코플라스틱은 자동차 내외장 플라스틱 부품(범퍼, 콘솔, 트림 등)을 제조 및 판매하는 한국 기업으로, 현대차·기아차·현대모비스가 주요 고객입니다. 최근 현대차 조지아 신공장 동반 진출 기대감 및 탈플라스틱 테마로 높은 시장 변동성과 거래량을 보이며 주목받고 있습니다.",
-    "sentimentScore": 7.5,
-    "investmentRating": "Strong Buy"
   }
 ]
