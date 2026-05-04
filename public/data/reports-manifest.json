@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1777913144657",
+    "title": "비욘드 미트(BYND): 위기의 식물성 대체육 선구자, 재정난과 전략적 전환의 기로",
+    "ticker": "BYND",
+    "market": "US",
+    "timestamp": "2026-05-04T16:45:44.657Z",
+    "summary": "비욘드 미트(BYND)는 높은 거래량과 주가 변동성을 보이는 식물성 대체육 기업입니다. 최근 미국 육군이 식물성 전투식량 도입을 검토한다는 소식에 주가가 급등했으며, 5월 6일 2026년 1분기 실적 발표를 앞두고 있습니다. 회사는 'Beyond The Plant Protein Company™'로 브랜드 재편을 추진 중이나, 매출 감소, 현금 소진, 애널리스트들의 부정적인 전망 등 심각한 재정적 어려움에 직면해 있습니다.",
+    "sentimentScore": -5,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1777903222322",
     "title": "Clearmind Medicine Inc. (CMND) 투자 심층 분석: 환각제 신약 개발의 기회와 극단적 위험 평가",
     "ticker": "CMND",
@@ -988,15 +998,5 @@
     "summary": "Franklin Covey Co. (NYSE: FC)는 조직 및 개인의 리더십, 실행, 생산성 향상을 위한 교육 및 컨설팅 서비스를 제공하는 글로벌 기업입니다. '7가지 습관'으로 대표되는 독자적인 콘텐츠와 방법론을 바탕으로 전 세계 유수의 기업과 교육 기관에 솔루션을 제공하며, 최근 구독 기반 모델의 성장과 함께 수익성 개선세를 보이고 있습니다.",
     "sentimentScore": 65,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1775200059837",
-    "title": "Globalstar (GSAT): Amazon 인수 논의의 기대와 내재된 리스크 분석",
-    "ticker": "GSAT",
-    "market": "US",
-    "timestamp": "2026-04-03T07:07:39.837Z",
-    "summary": "Globalstar (GSAT)는 위성 통신 및 위성 IoT 솔루션을 제공하는 기업으로, 최근 Amazon의 90억 달러 규모 인수 논의 소식에 주가가 급등했습니다. Amazon은 Project Kuiper 확장을 통해 SpaceX의 Starlink에 대항하기 위해 Globalstar의 위성 및 스펙트럼 자산에 관심을 보이고 있습니다. 다만, Apple의 지분 및 네트워크 사용 계약이 인수 협상의 주요 변수로 작용하고 있으며, 높은 부채 수준과 수익성 문제가 잠재적 리스크로 남아있습니다.",
-    "sentimentScore": 8,
-    "investmentRating": "Hold"
   }
 ]
