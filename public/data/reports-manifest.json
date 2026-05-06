@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778076556807",
+    "title": "NVIDIA (NVDA): AI 시대의 지배자, 성장과 리스크의 이중주 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-05-06T14:09:16.807Z",
+    "summary": "NVIDIA (NVDA)는 AI 가속기 및 데이터센터 GPU 시장을 지배하는 주요 기술 기업입니다. 혁신적인 하드웨어와 CUDA 소프트웨어 생태계를 바탕으로 강력한 성장세를 보이고 있으나, 높은 밸류에이션, 경쟁 심화, 지정학적 리스크가 잠재적 하방 요인으로 작용할 수 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1778047076964",
     "title": "삼성증권(016360): 코스피 랠리와 외국인 자금 유입 기대로 도약하는 증권업 선도주",
     "ticker": "016360",
@@ -987,16 +997,6 @@
     "timestamp": "2026-04-05T02:26:55.712Z",
     "summary": "HD현대에너지솔루션은 HD현대 계열의 태양광 모듈 및 솔루션 기업으로, 최근 AI 시대 전력 수요 증가 기대감, 중국 태양광 정책 변화 가능성, 정부의 신재생에너지 지원 정책 등에 힘입어 주가가 급등하며 시장의 주목을 받고 있습니다. 단기 급등에 따른 과열 우려도 존재합니다.",
     "sentimentScore": 90,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1775338261433",
-    "title": "Palantir Technologies (PLTR): AI 패권 경쟁 속 데이터 분석 플랫폼의 미래 성장 동력 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-04-04T21:31:01.433Z",
-    "summary": "AI 기반 데이터 분석 플랫폼 기업으로, 정부 및 상업 부문에서 견고한 성장세를 보이며 높은 시장 관심과 변동성을 나타내고 있습니다.",
-    "sentimentScore": 0.7,
     "investmentRating": "Buy"
   }
 ]
