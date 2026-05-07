@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778152280710",
+    "title": "엔트라비전 커뮤니케이션즈 (EVC) 심층 분석: ATS 성장 동력과 투자 리스크 점검",
+    "ticker": "EVC",
+    "market": "US",
+    "timestamp": "2026-05-07T11:11:20.710Z",
+    "summary": "엔트라비전 커뮤니케이션즈 (EVC)는 최근 2026년 1분기 실적 발표에서 광고 기술 및 서비스(ATS) 부문의 강력한 성장세에 힘입어 매출이 크게 증가하며 주가가 급등했습니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1778134219967",
     "title": "드림시큐리티: 양자내성암호(PQC) 시대의 선두주자인가, 단기 과열인가?",
     "ticker": "203650",
@@ -988,15 +998,5 @@
     "summary": "Applied Optoelectronics Inc. (AAOI)는 AI 데이터센터 및 광통신 시장의 핵심 플레이어로, 최근 주요 하이퍼스케일 고객사로부터 800G 및 1.6T 데이터센터 트랜시버에 대한 대규모 수주를 확보하며 강한 성장 모멘텀을 보이고 있습니다. 회사의 Linear Pluggable Optics (LPO) 기술은 AI 인프라에 필수적인 전력 효율성과 낮은 지연 시간을 제공합니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1775403283398",
-    "title": "AI 시대, SanDisk의 부활: 고대역폭 플래시 기술과 데이터센터 혁신을 통한 선도적 위치 재확립 분석",
-    "ticker": "SNDK",
-    "market": "US",
-    "timestamp": "2026-04-05T15:34:43.398Z",
-    "summary": "SanDisk (SNDK)는 2025년 초 Western Digital에서 분사된 이후 AI 스토리지 분야의 핵심 주자로 부상하며 '위대한 재탄생'을 겪었습니다. 고속 데이터센터 수요, NAND 플래시 부족, AI 추론용 엔터프라이즈 SSD 및 HBF(High-Bandwidth Flash) 기술에 대한 집중이 주가 급등의 주요 동력이 되었습니다. 최근 Google의 TurboQuant AI 메모리 압축 알고리즘에 대한 우려로 인해 주가에 단기적인 압박이 있었으나, 애널리스트들은 강력한 수익 성장과 AI 인프라 시장에서의 전략적 위치를 이유로 여전히 낙관적인 전망을 유지하고 있습니다.",
-    "sentimentScore": 82,
-    "investmentRating": "Strong Buy"
   }
 ]
