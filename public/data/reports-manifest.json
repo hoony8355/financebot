@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778162888626",
+    "title": "SoFi Technologies (SOFI): 성장통 속 핀테크 혁신가의 현재와 미래 전망 심층 분석",
+    "ticker": "SOFI",
+    "market": "US",
+    "timestamp": "2026-05-07T14:08:08.626Z",
+    "summary": "온라인 금융 서비스 플랫폼 SoFi Technologies (SOFI)는 최근 견조한 매출 성장을 기록했으나, 기술 플랫폼 및 대출 부문의 실망스러운 실적 가이던스, 공매도 보고서 및 증권 사기 조사 등으로 인해 높은 변동성을 보이며 투자자들의 주목을 받고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1778152280710",
     "title": "엔트라비전 커뮤니케이션즈 (EVC) 심층 분석: ATS 성장 동력과 투자 리스크 점검",
     "ticker": "EVC",
@@ -988,15 +998,5 @@
     "summary": "Sidus Space (SIDU)는 우주 인프라 서비스 기업으로, 최근 LizzieSat-3 위성 발사 및 AI 기반 데이터 솔루션 개발로 주목받고 있습니다. 하지만 재무적 손실과 주주 희석 문제가 존재하며, 높은 변동성 속에서 기술적 지표는 긍정적인 신호를 보입니다.",
     "sentimentScore": 0.3,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775414644548",
-    "title": "Applied Optoelectronics Inc. (AAOI): AI 데이터센터 광통신 시장의 핵심 리더십과 투자 전망",
-    "ticker": "AAOI",
-    "market": "US",
-    "timestamp": "2026-04-05T18:44:04.548Z",
-    "summary": "Applied Optoelectronics Inc. (AAOI)는 AI 데이터센터 및 광통신 시장의 핵심 플레이어로, 최근 주요 하이퍼스케일 고객사로부터 800G 및 1.6T 데이터센터 트랜시버에 대한 대규모 수주를 확보하며 강한 성장 모멘텀을 보이고 있습니다. 회사의 Linear Pluggable Optics (LPO) 기술은 AI 인프라에 필수적인 전력 효율성과 낮은 지연 시간을 제공합니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
