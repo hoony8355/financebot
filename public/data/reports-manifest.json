@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778247922117",
+    "title": "NVIDIA: AI 패권의 선봉장, 성장 모멘텀과 밸류에이션 재평가 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-05-08T13:45:22.117Z",
+    "summary": "NVIDIA는 인공지능(AI) 칩 시장의 선두 주자로, 데이터센터 사업의 강력한 성장, 신규 플랫폼(Blackwell, Vera Rubin) 출시 예정, 그리고 높은 애널리스트 기대치를 바탕으로 시장의 주목을 받고 있습니다. 최근 주가는 변동성을 보이며 통합 구간에 진입했지만, 장기적인 성장 동력은 여전히 견고하다는 평가입니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1778235899686",
     "title": "EZGO Technologies Ltd. (NASDAQ: EZGO) 심층 분석: 극심한 변동성 속 존속 가능성 검토",
     "ticker": "EZGO",
@@ -988,15 +998,5 @@
     "summary": "브로드컴(AVGO)은 AI 가속기 및 네트워킹 솔루션 부문에서 구글, Anthropic과의 장기 계약을 통해 AI 성장 수혜를 입고 있는 글로벌 반도체 및 인프라 소프트웨어 기업입니다. 최근 강력한 1분기 실적과 긍정적인 AI 매출 전망으로 애널리스트들의 '강력 매수' 의견을 받고 있습니다.",
     "sentimentScore": 70,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1775556497095",
-    "title": "아메리칸 항공 그룹(AAL) 심층 분석: 도전과 기회 속 밸류에이션 및 투자 전략",
-    "ticker": "AAL",
-    "market": "US",
-    "timestamp": "2026-04-07T10:08:17.095Z",
-    "summary": "아메리칸 항공 그룹(AAL)은 최근 변동성이 높은 미국 항공 업계의 주요 종목입니다. 3월 말 저점 대비 반등했으나, 높은 부채 비율과 연료비 변동성 등의 위험 요소를 안고 있습니다. 애널리스트들은 '보유' 의견과 함께 현재가 대비 상승 여력을 제시하고 있습니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Hold"
   }
 ]
