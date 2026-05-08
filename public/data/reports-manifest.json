@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778235899686",
+    "title": "EZGO Technologies Ltd. (NASDAQ: EZGO) 심층 분석: 극심한 변동성 속 존속 가능성 검토",
+    "ticker": "EZGO",
+    "market": "US",
+    "timestamp": "2026-05-08T10:24:59.686Z",
+    "summary": "EZGO Technologies Ltd. (NASDAQ: EZGO)는 전동 자전거 및 배터리 셀을 판매하는 중국 기반 지주회사로, 극심한 주가 변동성을 겪고 있습니다. 최근 신규 창저우 제조 단지 소식에도 불구하고, 회사는 지속적인 손실과 현금 소진, 나스닥 상장 유지 문제 (주식 역분할 포함) 등으로 인해 상당한 하락세를 보였습니다. 2026년 5월 7일 종가는 $0.0689를 기록하며 하루 만에 56.94% 급락했습니다.",
+    "sentimentScore": 15,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1778225402872",
     "title": "Datadog (DDOG): 클라우드 관측 시장 리더의 가속화되는 성장과 AI 모멘텀 심층 분석",
     "ticker": "DDOG",
@@ -988,15 +998,5 @@
     "summary": "아메리칸 항공 그룹(AAL)은 최근 변동성이 높은 미국 항공 업계의 주요 종목입니다. 3월 말 저점 대비 반등했으나, 높은 부채 비율과 연료비 변동성 등의 위험 요소를 안고 있습니다. 애널리스트들은 '보유' 의견과 함께 현재가 대비 상승 여력을 제시하고 있습니다.",
     "sentimentScore": 45,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775546177952",
-    "title": "마이크론 테크놀로지(MU): AI HBM 성장 주도, 그러나 CapEx와 사이클 변동성 리스크 공존",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-04-07T07:16:17.952Z",
-    "summary": "마이크론 테크놀로지(MU)는 인공지능(AI) 관련 고대역폭 메모리(HBM) 수요 증가에 힘입어 견조한 실적을 기록했으나, 대규모 설비투자 계획과 메모리 시장의 주기적 변동성에 대한 우려로 최근 주가 변동성이 확대되었습니다. 대부분의 애널리스트들은 '강력 매수' 의견을 유지하고 있습니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Strong Buy"
   }
 ]
