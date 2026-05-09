@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778332597601",
+    "title": "Rackspace Technology (RXT): AI 기대감과 펀더멘털 괴리 속 전략적 변곡점 분석",
+    "ticker": "RXT",
+    "market": "US",
+    "timestamp": "2026-05-09T13:16:37.601Z",
+    "summary": "Rackspace Technology (RXT)는 하이브리드 클라우드 및 AI 솔루션을 제공하는 기업으로, 최근 1분기 예상치를 상회하는 매출과 AMD와의 AI 인프라 파트너십 발표로 인해 주가가 급등하며 시장의 주요 이슈로 부상했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1778305725125",
     "title": "대덕전자: AI 시대 고부가 기판 수요 폭증과 밸류에이션 재평가 - 지속 가능한 성장 동력과 투자 리스크 분석",
     "ticker": "353200",
@@ -987,16 +997,6 @@
     "timestamp": "2026-04-11T04:55:14.336Z",
     "summary": "신성이엔지는 클린룸 및 공조시스템, 드라이룸 제조·설치, 태양광 제품 생산 및 발전시스템 구축을 주요 사업으로 영위하는 기업입니다. 최근 AI 반도체 클러스터 투자 확대와 재생에너지 사업 성장에 대한 기대감으로 주가가 강한 상승세를 보였습니다.",
     "sentimentScore": 0.75,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1775771138665",
-    "title": "Palantir Technologies (PLTR) 심층 분석: AI 혁신과 밸류에이션 도전 사이의 투자 기회",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-04-09T21:45:38.665Z",
-    "summary": "Palantir Technologies는 정부 및 상업 고객을 위한 데이터 통합, 분석 및 운영 의사 결정 플랫폼을 개발하는 소프트웨어 회사입니다. AI 기술에 중점을 둡니다.",
-    "sentimentScore": 1.14,
     "investmentRating": "Buy"
   }
 ]
