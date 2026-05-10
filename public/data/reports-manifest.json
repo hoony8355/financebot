@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778439794505",
+    "title": "Rocket Lab USA, Inc. (RKLB): 우주 경제 선도자로서의 성장 잠재력 및 투자 분석",
+    "ticker": "RKLB",
+    "market": "US",
+    "timestamp": "2026-05-10T19:03:14.505Z",
+    "summary": "Rocket Lab USA, Inc. (RKLB)는 소형 및 중형 로켓 발사 서비스(Electron 및 Neutron)와 우주 시스템 솔루션(Photon 위성 플랫폼)을 전문으로 하는 선도적인 항공우주 및 방위 회사입니다. 최근 2026년 1분기 2억 350만 달러의 사상 최고 매출을 기록했으며, 가이던스를 상향 조정하고 22억 달러 이상의 수주 잔고를 달성하는 등 최대 규모의 다년 발사 계약을 확보했습니다. 또한 로봇 공학 및 정밀 메커니즘 역량 강화를 위해 Motiv Space Systems 인수를 발표했습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1778419013981",
     "title": "Innodata (INOD): 생성형 AI 시대의 핵심 인프라 제공자, 고성장 가치와 위험 분석",
     "ticker": "INOD",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 2026년 1분기 예상치를 하회하는 차량 인도량과 재고 증가, 그리고 전기차 시장 경쟁 심화로 인해 주가가 하락 압력을 받고 있습니다. 반면 로보택시 및 AI 기술에 대한 장기적인 비전은 여전히 투자자들의 기대를 모으고 있습니다. 현재 애널리스트들은 '보유' 의견을 제시하고 있으며, 기술적 지표는 과매도 상태임을 나타내지만 하락 추세는 지속되고 있습니다.",
     "sentimentScore": -2,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775912223203",
-    "title": "Fusemachines Inc. (FUSE): AI 민주화 전략의 양면성, 고성장 잠재력과 고위험 요인 심층 분석",
-    "ticker": "FUSE",
-    "market": "US",
-    "timestamp": "2026-04-11T12:57:03.203Z",
-    "summary": "Fusemachines Inc. (NASDAQ: FUSE)는 AI 민주화를 목표로 하는 글로벌 기업 AI 제품 및 서비스 제공업체입니다. 독점적인 AI Studio 및 AI 엔진을 활용하여 소매, 부동산, 헬스케어, 금융 및 정부와 같은 다양한 산업 분야에서 AI 솔루션 구현 및 확장을 지원합니다. 최근 'agentic AI'에 초점을 맞추고 2026년 다각적인 성장 전략을 발표했습니다.",
-    "sentimentScore": 0.1,
-    "investmentRating": "Sell"
   }
 ]
