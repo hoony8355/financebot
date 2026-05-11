@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778510916785",
+    "title": "코인베이스 글로벌 (COIN): 전략적 재편과 암호화폐 시장 리더십 강화를 통한 성장 잠재력 분석",
+    "ticker": "COIN",
+    "market": "US",
+    "timestamp": "2026-05-11T14:48:36.785Z",
+    "summary": "Coinbase Global (COIN) is a leading cryptocurrency exchange platform. The company recently announced a workforce reduction of approximately 14% (around 700 workers) as part of a strategic shift to become 'lean, fast, and AI-native' after missing Q1 2026 revenue estimates. Despite these operational challenges, Coinbase reported resilient financial performance in Q1 2026, driven by a new all-time high in crypto trading volume market share, particularly in derivatives. The company also demonstrated growth in decentralized exchange (DEX) trading volume and stablecoin adoption, reinforcing its position as a key player in the evolving cryptoeconomy.",
+    "sentimentScore": 6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1778439794505",
     "title": "Rocket Lab USA, Inc. (RKLB): 우주 경제 선도자로서의 성장 잠재력 및 투자 분석",
     "ticker": "RKLB",
@@ -987,16 +997,6 @@
     "timestamp": "2026-04-12T07:13:54.391Z",
     "summary": "Faraday Future Intelligent Electric Inc. (FFIE)는 럭셔리 및 매스마켓 AI 기반 모빌리티 솔루션에 중점을 둔 지능형 전기차(EV) 및 기술 회사입니다. 그러나 심각한 재정적 어려움과 높은 변동성에 직면해 있습니다. (참고: 2025년 3월 10일부로 티커가 'FFAI'로 변경될 예정이었으나, 현재 많은 플랫폼에서 'FFIE'를 사용하고 있습니다.)",
     "sentimentScore": 0.3,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1775921636749",
-    "title": "테슬라(TSLA): 혁신과 현실 사이의 균형점 탐색 - 2026년 1분기 실적과 미래 비전 심층 분석",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-04-11T15:33:56.749Z",
-    "summary": "테슬라(TSLA)는 2026년 1분기 예상치를 하회하는 차량 인도량과 재고 증가, 그리고 전기차 시장 경쟁 심화로 인해 주가가 하락 압력을 받고 있습니다. 반면 로보택시 및 AI 기술에 대한 장기적인 비전은 여전히 투자자들의 기대를 모으고 있습니다. 현재 애널리스트들은 '보유' 의견을 제시하고 있으며, 기술적 지표는 과매도 상태임을 나타내지만 하락 추세는 지속되고 있습니다.",
-    "sentimentScore": -2,
     "investmentRating": "Hold"
   }
 ]
