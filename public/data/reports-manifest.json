@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778584922042",
+    "title": "NVIDIA (NVDA): AI 반도체 패권과 데이터센터 혁신을 통한 지속 가능한 성장 동력 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-05-12T11:22:02.042Z",
+    "summary": "NVIDIA (NVDA)는 AI 반도체 및 GPU 시장의 선두주자로, 대규모 AI 인프라 투자와 데이터센터 수요 증가에 힘입어 강력한 상승세를 보이고 있습니다. 오는 5월 20일 발표될 1분기 실적 발표는 Blackwell 칩 출하량 및 Vera Rubin 플랫폼 로드맵에 대한 투자자들의 기대감을 충족시킬 주요 촉매가 될 것입니다. 기업은 AI 인프라 및 데이터센터 네트워킹 솔루션으로 사업 영역을 확장하며 장기적인 성장 잠재력을 강화하고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1778566531503",
     "title": "주성엔지니어링(036930): AI 반도체 장비 시장의 핵심 플레이어, ALD 기술 기반 성장 동력 분석",
     "ticker": "036930",
@@ -988,15 +998,5 @@
     "summary": "Advanced Micro Devices (AMD)는 고성능 컴퓨팅, 그래픽 및 AI 반도체 분야의 선두 기업으로, 데이터 센터 및 AI 가속기 시장에서 강력한 성장세를 보이고 있습니다. 'Fabless' 비즈니스 모델을 통해 CPU(Ryzen, EPYC), GPU(Radeon, Instinct) 및 적응형 SoC를 설계하며, AI 인프라 구축 수요 증가의 주요 수혜주로 꼽힙니다.",
     "sentimentScore": 4,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1776029703437",
-    "title": "Maxeon Solar Technologies (MAXN): 심각한 재정난과 운영 리스크에 직면한 태양광 기업의 심층 분석 및 투자 경고",
-    "ticker": "MAXN",
-    "market": "US",
-    "timestamp": "2026-04-12T21:35:03.437Z",
-    "summary": "Maxeon Solar Technologies (MAXN)는 싱가포르에 본사를 둔 태양광 기술 기업으로, Maxeon 및 Performance 라인 태양광 패널을 설계, 제조 및 판매합니다. 최근 미국 시장에 집중하기 위한 구조조정을 단행했으나, 미국 세관의 패널 압류 및 재정적 문제로 인해 심각한 순손실과 매출 감소를 겪고 있습니다. 2026년 4월 10일 싱가포르에서 임시 사법 관리를 받게 되어 재무 건전성에 대한 우려가 커지고 있습니다. 이러한 어려움에도 불구하고 최근 주가는 높은 변동성과 단기적인 반등을 보였습니다.",
-    "sentimentScore": 27,
-    "investmentRating": "Sell"
   }
 ]
