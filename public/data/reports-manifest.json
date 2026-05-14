@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778778149508",
+    "title": "Palo Alto Networks (PANW): AI 시대 사이버 보안 리더십과 투자 전망 심층 분석",
+    "ticker": "PANW",
+    "market": "US",
+    "timestamp": "2026-05-14T17:02:29.508Z",
+    "summary": "Palo Alto Networks는 캘리포니아 산타클라라에 본사를 둔 글로벌 사이버 보안 기업으로, 차세대 방화벽과 클라우드 기반 솔루션을 포함한 통합 플랫폼을 제공합니다. 네트워크, 클라우드 및 보안 운영 전반에 걸쳐 AI 기반 솔루션과 플랫폼 통합에 집중하며, 포춘 100대 기업 중 85개사를 포함해 150개국 이상에서 7만 개 이상의 조직에 서비스를 제공합니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1778767787446",
     "title": "마이크론 테크놀로지: AI 시대, HBM이 이끄는 메모리 혁명과 투자 전략 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "Snap Inc. (SNAP)는 최근 인공지능(AI) 기술 발전과 수익성 확보를 목표로 약 1,000명의 직원을 해고했습니다. 이 소식은 단기적으로 주가 상승으로 이어졌으나, 회사는 여전히 치열한 경쟁 환경과 수익성 문제에 직면해 있습니다. 최근 Perplexity와의 예상 거래 불발 또한 투자 심리에 부정적인 영향을 미쳤습니다.",
     "sentimentScore": 60,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1776325576554",
-    "title": "Allied Gaming & Entertainment Inc. (AGAE): 전략적 전환기의 고변동성 리스크 분석",
-    "ticker": "AGAE",
-    "market": "US",
-    "timestamp": "2026-04-16T07:46:16.554Z",
-    "summary": "Allied Gaming & Entertainment Inc. (AGAE)는 글로벌 경험형 엔터테인먼트 회사로, e스포츠 경기장, 라이브 이벤트, 캐주얼 모바일 게임 및 디지털 콘텐츠 제공에 주력하고 있습니다. 최근 법적 분쟁을 해결하고 AI 및 토큰 이니셔티브를 가속화하는 전략적 전환 계획을 발표하며 시장의 주목을 받고 있습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Sell"
   }
 ]
