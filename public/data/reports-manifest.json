@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778787879324",
+    "title": "Rivian Automotive (RIVN): 혁신과 도전의 교차로 – 신모델 및 로봇공학 투자, 그리고 EV 시장의 역풍",
+    "ticker": "RIVN",
+    "market": "US",
+    "timestamp": "2026-05-14T19:44:39.324Z",
+    "summary": "Rivian Automotive는 전기 픽업트럭(R1T), SUV(R1S), 상업용 밴을 개발 및 제조하는 미국 전기차(EV) 제조업체입니다. 최근 Mind Robotics의 성공적인 자금 조달과 R2, R3 모델 개발 소식으로 긍정적인 투자 심리가 일부 보였으나, 전반적인 EV 수요 둔화와 경쟁 심화로 인해 주가는 연초 대비 하락세를 보였습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1778778149508",
     "title": "Palo Alto Networks (PANW): AI 시대 사이버 보안 리더십과 투자 전망 심층 분석",
     "ticker": "PANW",
@@ -988,15 +998,5 @@
     "summary": "Cheetah Net Supply Chain Service Inc. (CTNT)는 물류 및 창고 서비스를 제공하는 미국의 마이크로캡 기업으로, 최근 전략적 인수합병 발표, 2025년 연간 실적 공개, 그리고 시장 희석 위험을 내포한 지분 매각 프로그램 발표 등으로 인해 극심한 변동성과 높은 거래량을 보이고 있습니다.",
     "sentimentScore": -0.8,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1776411992996",
-    "title": "Snap Inc. (SNAP): AI 효율성 추구와 수익성 전환의 기로",
-    "ticker": "SNAP",
-    "market": "US",
-    "timestamp": "2026-04-17T07:46:32.996Z",
-    "summary": "Snap Inc. (SNAP)는 최근 인공지능(AI) 기술 발전과 수익성 확보를 목표로 약 1,000명의 직원을 해고했습니다. 이 소식은 단기적으로 주가 상승으로 이어졌으나, 회사는 여전히 치열한 경쟁 환경과 수익성 문제에 직면해 있습니다. 최근 Perplexity와의 예상 거래 불발 또한 투자 심리에 부정적인 영향을 미쳤습니다.",
-    "sentimentScore": 60,
-    "investmentRating": "Hold"
   }
 ]
