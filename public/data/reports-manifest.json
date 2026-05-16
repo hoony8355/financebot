@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1778968124625",
+    "title": "GCT Semiconductor: 5G 및 위성 통신 시장을 선도할 잠재력과 투자 매력도 분석",
+    "ticker": "GCTS",
+    "market": "US",
+    "timestamp": "2026-05-16T21:48:44.625Z",
+    "summary": "GCT Semiconductor Holding, Inc.는 4G LTE 및 5G 솔루션을 설계, 개발 및 판매하는 팹리스 반도체 회사입니다. 무선 통신 및 사물 인터넷(IoT) 시장의 성장하는 수요에 집중하고 있으며, 특히 위성 연결 분야에서 잠재력을 보이고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1778958192970",
     "title": "코인베이스(COIN) 심층 분석: 암호화폐 시장 변동성 속 'Everything Exchange' 비전과 투자 전망",
     "ticker": "COIN",
@@ -988,15 +998,5 @@
     "summary": "기가레인(049080)은 RF 통신 부품 및 반도체 장비 제조업체로, 최근 미국 통신장비 기업과의 대규모 공급 계약과 5G/6G, AI 서버용 반도체 장비 시장의 성장 기대감에 힘입어 주가가 급등했습니다. 현재 시장은 '극도의 탐욕' 상태이며, 주가 변동성이 매우 높은 상황입니다.",
     "sentimentScore": 75,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1776624673830",
-    "title": "iSpecimen Inc. (ISPC): 극심한 재정 압박과 상장 리스크에 직면한 바이오 검체 마켓플레이스",
-    "ticker": "ISPC",
-    "market": "US",
-    "timestamp": "2026-04-19T18:51:13.830Z",
-    "summary": "iSpecimen Inc.는 생명 과학 연구자들이 인체 검체를 활용하여 의학 연구 및 신약 개발을 수행할 수 있도록 지원하는 온라인 마켓플레이스를 운영하는 기술 기반 기업입니다. 최근 배송 시간 단축 및 AI 기반 검체 매칭 에이전트 출시와 같은 운영 개선을 발표했지만, 주가는 상당한 변동성을 보이며 지난 1년간 크게 하락했습니다. 현재 NASDAQ 상장 규정 준수 문제와 재정적 어려움에 직면해 있습니다.",
-    "sentimentScore": -2,
-    "investmentRating": "Sell"
   }
 ]
