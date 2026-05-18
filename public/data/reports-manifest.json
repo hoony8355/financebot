@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779133460511",
+    "title": "마이크론 테크놀로지(MU): AI發 메모리 수요와 밸류에이션 리스크 심층 분석 보고서",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-05-18T19:44:20.511Z",
+    "summary": "Micron Technology (MU)는 DRAM, NAND 등 메모리 및 스토리지 솔루션 분야의 글로벌 리더입니다. AI 관련 메모리(HBM) 수요 급증으로 최근 주가가 큰 폭으로 상승했으나, 5월 18일에는 밸류에이션 우려와 반도체 섹터 약세로 인해 급격한 조정을 겪으며 52주 최고가 대비 하락했습니다. 애널리스트들은 장기적인 AI 수요에 긍정적이지만, 주가 과열에 대한 경고도 나오고 있습니다.",
+    "sentimentScore": 87,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1779118260981",
     "title": "선샤인 바이오파마(SBFM): 고위험 고수익 항암제-제네릭 이중 전략 기업의 투자 매력도 분석",
     "ticker": "SBFM",
@@ -988,15 +998,5 @@
     "summary": "비에이치는 애플의 아이폰 생산량 확대, 폴더블폰 시장 진출 기대감, 그리고 전장 및 로봇 사업으로의 성공적인 다각화에 힘입어 주가가 급등하고 있는 첨단 IT 부품 전문 기업입니다. 2026년 1분기 깜짝 실적 전망과 함께 긍정적인 투자 심리가 형성되어 있습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1776798738100",
-    "title": "FuelCell Energy (FCEL): 성장 동력과 밸류에이션 리스크의 교차점 분석",
-    "ticker": "FCEL",
-    "market": "US",
-    "timestamp": "2026-04-21T19:12:18.100Z",
-    "summary": "FuelCell Energy (FCEL)는 청정 전력 생산을 위한 고온 연료 전지를 개발, 설계, 생산, 건설 및 서비스하는 회사입니다. 최근 데이터 센터 시장을 위한 12.5MW 전력 블록 솔루션과 제조 확장 계획을 발표하며 주목받고 있습니다.",
-    "sentimentScore": 0.5,
-    "investmentRating": "Hold"
   }
 ]
