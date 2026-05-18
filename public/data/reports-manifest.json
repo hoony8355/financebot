@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779118260981",
+    "title": "선샤인 바이오파마(SBFM): 고위험 고수익 항암제-제네릭 이중 전략 기업의 투자 매력도 분석",
+    "ticker": "SBFM",
+    "market": "US",
+    "timestamp": "2026-05-18T15:31:00.981Z",
+    "summary": "선샤인 바이오파마(Sunshine Biopharma Inc.)는 항암제 및 항바이러스제 연구 개발과 캐나다 자회사 Nora Pharma를 통한 제네릭 의약품 및 바이오시밀러 상업화에 주력하는 제약 회사입니다. 이 회사는 혁신적인 치료법과 기존 제네릭 시장 확장을 동시에 추구하며, 생명 과학 분야에서 성장 잠재력을 모색하고 있습니다.",
+    "sentimentScore": 61,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1779044896737",
     "title": "P3 Health Partners (PIII): 가치 기반 의료 혁신과 극심한 변동성 속 투자 기회 분석",
     "ticker": "PIII",
@@ -988,15 +998,5 @@
     "summary": "FuelCell Energy (FCEL)는 청정 전력 생산을 위한 고온 연료 전지를 개발, 설계, 생산, 건설 및 서비스하는 회사입니다. 최근 데이터 센터 시장을 위한 12.5MW 전력 블록 솔루션과 제조 확장 계획을 발표하며 주목받고 있습니다.",
     "sentimentScore": 0.5,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1776777972341",
-    "title": "NVIDIA: AI 시대의 심장, 독보적 리더십과 밸류에이션 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-04-21T13:26:12.341Z",
-    "summary": "NVIDIA는 그래픽 처리 장치(GPU)의 설계 및 제조 분야를 선도하며, 인공지능(AI) 모델 개발 및 훈련을 위한 하드웨어 및 소프트웨어 솔루션을 제공하는 핵심 기업입니다. 데이터 센터 네트워킹 솔루션도 적극적으로 확장하고 있습니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Strong Buy"
   }
 ]
