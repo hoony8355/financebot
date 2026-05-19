@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779183784505",
+    "title": "아메리칸 항공 그룹(AAL) 2024년 2분기 투자 심층 분석: 부채 감축과 성장 모멘텀의 교차로",
+    "ticker": "AAL",
+    "market": "US",
+    "timestamp": "2026-05-19T09:43:04.505Z",
+    "summary": "아메리칸 항공 그룹(AAL)은 항공기 및 수송 능력 기준 세계 최대 항공사로, 여객 및 화물 서비스를 제공합니다. 2026년 창립 100주년을 맞이하며, 미국 주요 도시 및 국제 관문을 연결하는 광범위한 허브-스포크 네트워크를 운영하고 있습니다. 최근 보고서에 따르면 강력한 여행 수요 회복과 부채 감축 및 프리미엄 좌석 확대를 위한 노력이 진행 중입니다. 하지만 주가는 하락세를 보이며, 유류 비용 상승과 치열한 시장 경쟁이라는 도전에 직면해 있습니다.",
+    "sentimentScore": 0.55,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1779141744665",
     "title": "엔비디아(NVDA): AI 리더십 기반 성장 모멘텀과 투자 전략 심층 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Avis Budget Group (CAR) has recently become a core issue stock in the US market, experiencing extreme price volatility and a parabolic rally driven by an intense short squeeze and strong retail investor momentum. Shares have quadrupled in April, leading to multiple trading halts. Despite this surge, fundamental analysts maintain a 'Strong Sell' or 'Hold' consensus with price targets significantly below current levels, indicating a disconnect between market price and underlying valuation.",
     "sentimentScore": 0.7,
     "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1776835567637",
-    "title": "에이팩트 (200470): 최대주주 변경과 고평가 논란 속, 성장 잠재력과 리스크 심층 분석",
-    "ticker": "200470",
-    "market": "KR",
-    "timestamp": "2026-04-22T05:26:07.637Z",
-    "summary": "반도체 후공정 전문기업 에이팩트는 최근 최대주주 변경 이슈와 함께 주가 변동성이 확대되고 있습니다. 2026년 4월 22일 현재 주가는 8,090원으로, 최근 7거래일간 견조한 상승세를 보였습니다. 하지만 헐값 매각 논란, 높은 PBR, 지속적인 적자와 유동성 리스크 등 재무적 우려도 상존하여 투자에 주의가 요구됩니다. DDR5 전환 가속화와 차량용 반도체 시장 진입을 통한 성장 동력은 긍정적이나, 고평가 논란 속에서 신중한 접근이 필요합니다.",
-    "sentimentScore": 0.3,
-    "investmentRating": "Hold"
   }
 ]
