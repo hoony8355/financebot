@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779308048878",
+    "title": "Rackspace Technology (RXT): AI 기대감과 재무 리스크의 교차로 분석",
+    "ticker": "RXT",
+    "market": "US",
+    "timestamp": "2026-05-20T20:14:08.878Z",
+    "summary": "Rackspace Technology는 하이브리드 및 멀티 클라우드 기술 서비스 전문 기업으로, AWS, Microsoft Azure, Google Cloud 등 다양한 플랫폼에서 고객의 클라우드 환경을 설계, 구축 및 운영합니다. 매니지드 서비스, 애플리케이션, 보안 및 데이터 서비스를 제공하며, 최근 AI 솔루션 분야로 확장을 모색하고 있습니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1779269598880",
     "title": "GIPR (Generation Income Properties Inc.) 심층 분석: 극단적 변동성과 상장 리스크를 안은 소규모 REIT 투자 판단",
     "ticker": "GIPR",
@@ -988,15 +998,5 @@
     "summary": "Auddia Inc.는 인공지능(AI) 기술 회사로, 광고 없는 라디오 및 맞춤형 팟캐스트를 제공하는 faidr 앱 개발에서 출발했습니다. 최근에는 AI 인프라 확장을 목표로 주차장 상공에 분산형 AI 데이터센터(LT350)를 구축하는 사업에 주력하고 있습니다. 최근 LT350 관련 14번째 특허 승인 소식과 숏 스퀴즈로 인해 주가가 급등했지만, 장기적인 하락세와 낮은 시가총액, 불확실한 수익성 등 높은 투자 위험을 안고 있습니다.",
     "sentimentScore": 2,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1776930907495",
-    "title": "Theriva Biologics (TOVX) VCN-01: 전이성 췌장암 임상 진전과 투자 매력도 심층 분석",
-    "ticker": "TOVX",
-    "market": "US",
-    "timestamp": "2026-04-23T07:55:07.495Z",
-    "summary": "Theriva Biologics는 암 및 관련 질병 치료제를 개발하는 임상 단계 제약 회사로, VCN-01 온콜리틱 아데노바이러스 플랫폼에 중점을 두고 있습니다. 최근 전이성 췌장암에 대한 VCN-01의 2b상 임상 시험의 긍정적인 데이터와 FDA와의 3상 시험 설계 합의 발표로 인해 주가 변동성이 커지고 투자자들의 관심이 집중되고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Strong Buy"
   }
 ]
