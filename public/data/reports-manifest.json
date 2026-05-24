@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779659789118",
+    "title": "AMD(Advanced Micro Devices): AI 시대의 선봉, 고성장과 밸류에이션의 딜레마",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-05-24T21:56:29.118Z",
+    "summary": "Advanced Micro Devices (AMD)는 인공지능(AI) 인프라 수요와 데이터센터 매출 호조에 힘입어 강력한 성장을 보이는 선도적인 반도체 기업입니다. 최근 애널리스트들의 목표주가 상향과 대만 내 첨단 제조 기술에 대한 상당한 투자에 힘입어 사상 최고가를 기록했습니다. 높은 밸류에이션에 대한 우려에도 불구하고 기술적으로 강세 신호를 보이고 있습니다.",
+    "sentimentScore": 78,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1779629078415",
     "title": "D-Wave Quantum (QBTS): CHIPS Act 훈풍 속 양자 컴퓨팅 선두주자의 성장 잠재력 분석",
     "ticker": "QBTS",
@@ -988,15 +998,5 @@
     "summary": "POET Technologies는 2026년 4월 27일, Celestial AI (Marvell Semiconductor Inc.에 인수됨)로부터의 모든 구매 주문이 기밀 유지 의무 위반으로 취소되었다고 발표한 후 주가가 거의 50% 급락했습니다. 이는 POET의 주요 고객 계약 손실을 의미하며, 투자 손실 복구에 대한 법적 조사도 시작되었습니다.",
     "sentimentScore": -8,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1777317770940",
-    "title": "테리바 바이오로직스 (TOVX): 전이성 췌장암 치료제 VCN-01의 임상 진전과 시장 잠재력 심층 분석",
-    "ticker": "TOVX",
-    "market": "US",
-    "timestamp": "2026-04-27T19:22:50.940Z",
-    "summary": "테리바 바이오로직스(Theriva Biologics, TOVX)는 암 및 관련 질병 치료제를 개발하는 임상 단계 제약 회사입니다. 주요 후보 물질인 VCN-01은 전이성 췌장암에 대한 2b상 임상 시험 중인 항암 아데노바이러스이며, 미국 FDA 및 유럽 EMA와 협력하여 중추적인 3상 시험을 계획하고 있습니다. 낮은 현재 주가와 작은 시가총액에도 불구하고, 최근 높은 변동성과 분석가들의 상당한 상승 잠재력을 보여주며 시장의 주목을 받고 있습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
