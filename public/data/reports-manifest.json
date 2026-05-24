@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779619313418",
+    "title": "Dell Technologies: AI 인프라 혁신을 통한 성장 동력 및 밸류에이션 심층 분석",
+    "ticker": "DELL",
+    "market": "US",
+    "timestamp": "2026-05-24T10:41:53.418Z",
+    "summary": "Dell Technologies는 AI 인프라 솔루션에 대한 강력한 수요와 AI 서버 백로그 증가에 힘입어 주가가 급등하며 시장의 주목을 받고 있는 기술 기업입니다. 최근 신제품 출시와 OpenAI와의 파트너십 발표로 AI 시장에서의 리더십을 강화하고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1779611352772",
     "title": "Rigetti Computing (RGTI): CHIPS Act 촉진 양자 컴퓨팅 랠리와 성장 잠재력 심층 분석",
     "ticker": "RGTI",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 2026년 1분기 사상 최대 실적을 달성하며 AI 반도체 수요 폭증에 힘입어 주가가 연일 신고가를 경신하고 있는 핵심 종목입니다. 특히 고대역폭메모리(HBM) 시장에서의 선도적 리더십이 부각되며 증권가 목표주가 상향이 이어지고 있습니다.",
     "sentimentScore": 0.88,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1777239469141",
-    "title": "MaxLinear (MXL): AI 인프라 재평가와 고성장 잠재력 분석",
-    "ticker": "MXL",
-    "market": "US",
-    "timestamp": "2026-04-26T21:37:49.141Z",
-    "summary": "MaxLinear (MXL)는 2026년 1분기 실적 호조와 AI 인프라 부문에 대한 긍정적인 전망에 힘입어 주가가 75% 이상 급등했습니다. 이 회사는 차세대 네트워킹 제품에 대한 하이퍼스케일 고객의 대규모 주문을 확보했습니다.",
-    "sentimentScore": 0.9,
-    "investmentRating": "Buy"
   }
 ]
