@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779611352772",
+    "title": "Rigetti Computing (RGTI): CHIPS Act 촉진 양자 컴퓨팅 랠리와 성장 잠재력 심층 분석",
+    "ticker": "RGTI",
+    "market": "US",
+    "timestamp": "2026-05-24T08:29:12.772Z",
+    "summary": "Rigetti Computing (RGTI)는 미국 상무부로부터 최대 1억 달러의 CHIPS Act 연구 자금 지원 의향서와 광범위한 양자 컴퓨팅 부문 랠리에 힘입어 주가가 크게 상승했습니다. 최근 분기 매출도 큰 폭으로 성장하며 긍정적인 시장 심리를 강화하고 있습니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1779563325841",
     "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 수요 급증과 밸류에이션 딜레마",
     "ticker": "PLTR",
@@ -988,15 +998,5 @@
     "summary": "MaxLinear (MXL)는 2026년 1분기 실적 호조와 AI 인프라 부문에 대한 긍정적인 전망에 힘입어 주가가 75% 이상 급등했습니다. 이 회사는 차세대 네트워킹 제품에 대한 하이퍼스케일 고객의 대규모 주문을 확보했습니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1777229632533",
-    "title": "SMCI: AI 서버 시장의 빛과 그림자 – 오라클 계약 손실과 거버넌스 리스크가 드리운 그림자 속 투자 전략 심층 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-04-26T18:53:52.533Z",
-    "summary": "AI 서버 솔루션 공급업체 Super Micro Computer (SMCI)는 강력한 AI 수요로 긍정적인 실적을 발표했으나, 최근 Oracle과의 대규모 계약 손실 소식과 거버넌스 관련 우려로 인해 주가 변동성이 확대되고 있습니다. 전반적인 시장 심리는 'Greed' 수준이나, SMCI에 대한 분석가들의 의견은 '보유'에 집중되어 있으며, 기술적 분석은 중장기 하락 추세 속 단기 반등 가능성을 시사합니다.",
-    "sentimentScore": -0.2,
-    "investmentRating": "Hold"
   }
 ]
