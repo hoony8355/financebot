@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779703421277",
+    "title": "Hyliion Holdings (HYLN): KARNO 모듈을 통한 국방 및 지속가능 에너지 시장 지배 전략 분석",
+    "ticker": "HYLN",
+    "market": "US",
+    "timestamp": "2026-05-25T10:03:41.277Z",
+    "summary": "Hyliion Holdings Corp.는 KARNO 전력 모듈을 이용한 지속 가능한 전력 생산 기술을 개발하는 기업입니다. 최근 다중 연료 전환 성공 및 미국 해군/DARPA의 해상 시험용 선정 소식으로 주가가 크게 상승했습니다.",
+    "sentimentScore": 80,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1779659789118",
     "title": "AMD(Advanced Micro Devices): AI 시대의 선봉, 고성장과 밸류에이션의 딜레마",
     "ticker": "AMD",
@@ -988,15 +998,5 @@
     "summary": "에이비엘바이오(ABL Bio)는 이중항체 기반의 혁신 신약 개발 전문 바이오 기업으로, 면역항암제 및 퇴행성 뇌질환 치료제 파이프라인에 주력하고 있습니다. 경쟁력 있는 플랫폼 기술을 바탕으로 기술 이전을 통해 성장을 추구합니다.",
     "sentimentScore": -0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1777326803158",
-    "title": "POET Technologies, 주요 고객 계약 파기 심층 분석: 위기 속 기회, 혹은 추락의 시작?",
-    "ticker": "POET",
-    "market": "US",
-    "timestamp": "2026-04-27T21:53:23.158Z",
-    "summary": "POET Technologies는 2026년 4월 27일, Celestial AI (Marvell Semiconductor Inc.에 인수됨)로부터의 모든 구매 주문이 기밀 유지 의무 위반으로 취소되었다고 발표한 후 주가가 거의 50% 급락했습니다. 이는 POET의 주요 고객 계약 손실을 의미하며, 투자 손실 복구에 대한 법적 조사도 시작되었습니다.",
-    "sentimentScore": -8,
-    "investmentRating": "Sell"
   }
 ]
