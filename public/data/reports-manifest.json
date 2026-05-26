@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779833985157",
+    "title": "Braiin Limited: AI 혁신과 Switchcraft 파트너십, 고변동성 시장에서의 투자 전략 심층 분석",
+    "ticker": "BRAI",
+    "market": "US",
+    "timestamp": "2026-05-26T22:19:45.157Z",
+    "summary": "Braiin Limited는 농업, 프롭테크, 고객 경험 서비스(CXaaS) 분야에 인공지능(AI) 및 머신러닝(ML) 기술을 활용하는 호주 기술 기업입니다. 최근 영국 Switchcraft와의 전략적 파트너십 발표로 주가가 크게 상승하며 시장의 주목을 받고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1779826165088",
     "title": "Momentus Inc. (MNTS): 신흥 우주 인프라 시장의 고성장 잠재력과 극심한 변동성 분석",
     "ticker": "MNTS",
@@ -988,15 +998,5 @@
     "summary": "Akanda Corp.는 의료용 대마초 제품을 환자에게 제공하는 대마초 재배, 제조 및 유통 회사입니다. 주로 영국과 레소토에서 사업을 운영하고 있습니다.",
     "sentimentScore": 2,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1777480136189",
-    "title": "테슬라 (TSLA) 심층 분석: 혁신과 경쟁 속 전략적 전환기 평가",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-04-29T16:28:56.189Z",
-    "summary": "테슬라는 전기차 및 청정에너지 분야의 선두 기업으로, 혁신적인 기술과 제품 라인업을 보유하고 있으나, 치열해지는 경쟁과 높은 지출로 인해 시장의 평가와 성장 전략에 대한 관심이 집중되고 있습니다.",
-    "sentimentScore": 0.2,
-    "investmentRating": "Hold"
   }
 ]
