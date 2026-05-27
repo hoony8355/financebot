@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779921652131",
+    "title": "Hoth Therapeutics (RKTO)의 사업 모델 대전환: 우주 경제 AI 칩 기술의 기회와 도전 분석",
+    "ticker": "HOTH",
+    "market": "US",
+    "timestamp": "2026-05-27T22:40:52.131Z",
+    "summary": "Hoth Therapeutics (HOTH)는 2026년 5월 28일부터 Rocket One Inc. (RKTO)로 사명을 변경하고 티커를 변경하며 바이오테크 기업에서 우주 경제, 특히 인공지능(AI) 칩 기술 개발로 사업 모델을 대대적으로 전환했습니다. 이러한 전략적 변화는 시장에서 큰 관심과 변동성을 유발하고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1779853304729",
     "title": "HLB, 간암 신약 FDA 승인 초읽기: 리보세라닙 병용요법의 가치 평가 및 투자 전략 심층 분석",
     "ticker": "028300",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, 데이터센터, 게이밍, 전문 시각화용 GPU 시장을 지배하고 있습니다. AI 붐에 힘입어 강력한 재무 성과와 데이터센터 및 지능형 로봇 공학과 같은 신시장으로의 전략적 확장을 통해 주가가 최근 사상 최고치를 기록하는 등 상당한 상승세를 보였습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1777499955547",
-    "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 성장성과 밸류에이션 리스크의 균형점 탐색",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-04-29T21:59:15.547Z",
-    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 AI 기반 데이터 분석 플랫폼 전문 기업입니다. 강력한 매출 성장세를 보이고 있으며, 특히 정부 부문에서 두각을 나타내고 있습니다. 높은 P/E 비율로 인해 밸류에이션에 대한 우려도 있으나, 2026년 5월 4일로 예정된 1분기 실적 발표를 앞두고 있습니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Moderate Buy"
   }
 ]
