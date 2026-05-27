@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779853304729",
+    "title": "HLB, 간암 신약 FDA 승인 초읽기: 리보세라닙 병용요법의 가치 평가 및 투자 전략 심층 분석",
+    "ticker": "028300",
+    "market": "KR",
+    "timestamp": "2026-05-27T03:41:44.729Z",
+    "summary": "HLB는 간암 1차 치료제 '리보세라닙+캄렐리주맙' 병용요법의 미국 식품의약국(FDA) 품목허가 심사 막바지 단계에 대한 기대감과 과거 제조품질관리(CMC) 실사 관련 지연으로 인해 높은 변동성을 보이는 핵심 바이오 종목입니다. 최근 긍정적인 시장 심리와 기술적 반등 흐름을 보이고 있습니다.",
+    "sentimentScore": 61,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1779833985157",
     "title": "Braiin Limited: AI 혁신과 Switchcraft 파트너십, 고변동성 시장에서의 투자 전략 심층 분석",
     "ticker": "BRAI",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 AI 기반 데이터 분석 플랫폼 전문 기업입니다. 강력한 매출 성장세를 보이고 있으며, 특히 정부 부문에서 두각을 나타내고 있습니다. 높은 P/E 비율로 인해 밸류에이션에 대한 우려도 있으나, 2026년 5월 4일로 예정된 1분기 실적 발표를 앞두고 있습니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1777490699086",
-    "title": "Akanda Corp. (AKAN) 심층 분석: 극심한 변동성과 높은 파산 위험에 노출된 의료용 대마초 기업",
-    "ticker": "AKAN",
-    "market": "US",
-    "timestamp": "2026-04-29T19:24:59.086Z",
-    "summary": "Akanda Corp.는 의료용 대마초 제품을 환자에게 제공하는 대마초 재배, 제조 및 유통 회사입니다. 주로 영국과 레소토에서 사업을 운영하고 있습니다.",
-    "sentimentScore": 2,
-    "investmentRating": "Sell"
   }
 ]
