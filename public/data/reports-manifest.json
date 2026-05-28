@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1779962418016",
+    "title": "Snowflake (SNOW): AI Data Cloud 모멘텀과 AWS 파트너십으로 재조명되는 성장 가치 분석",
+    "ticker": "SNOW",
+    "market": "US",
+    "timestamp": "2026-05-28T10:00:18.016Z",
+    "summary": "Snowflake (SNOW)는 클라우드 기반 데이터 플랫폼 기업으로, 최근 2027년 1분기 실적 발표에서 시장 예상치를 상회하는 매출과 수익을 기록했습니다. 특히 Amazon Web Services (AWS)와의 60억 달러 규모의 다년간 파트너십 계약을 발표하며 시장의 강력한 주목을 받았습니다. 이러한 긍정적인 소식들은 광범위한 소프트웨어 부문의 둔화 우려를 완화하고 주가 급등을 견인했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1779921652131",
     "title": "Hoth Therapeutics (RKTO)의 사업 모델 대전환: 우주 경제 AI 칩 기술의 기회와 도전 분석",
     "ticker": "HOTH",
@@ -988,15 +998,5 @@
     "summary": "리비안 오토모티브는 전기 픽업트럭(R1T), SUV(R1S) 및 아마존용 상업용 배달 밴(EDV)을 전문으로 하는 미국 전기차 제조업체입니다. 2026년형 R2 중형 SUV 출시와 폭스바겐과의 파트너십을 통해 소프트웨어 및 자율주행 기술 분야로 확장하고 있습니다. 최근 2026년 1분기 차량 인도량이 예상치를 상회하고 연간 가이던스를 재확인했으나, 여전히 수익성 문제와 치열한 경쟁에 직면해 있습니다.",
     "sentimentScore": 0,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1777546524611",
-    "title": "NVIDIA: AI 시대의 절대 강자, 성장 잠재력과 잠재적 리스크 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-04-30T10:55:24.611Z",
-    "summary": "NVIDIA는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, 데이터센터, 게이밍, 전문 시각화용 GPU 시장을 지배하고 있습니다. AI 붐에 힘입어 강력한 재무 성과와 데이터센터 및 지능형 로봇 공학과 같은 신시장으로의 전략적 확장을 통해 주가가 최근 사상 최고치를 기록하는 등 상당한 상승세를 보였습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
