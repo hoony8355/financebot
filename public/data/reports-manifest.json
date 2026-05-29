@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780086291133",
+    "title": "팔란티어 테크놀로지스: AI 시대의 데이터 거버넌스 리더, 고성장과 고위험의 교차점 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-05-29T20:24:51.133Z",
+    "summary": "Palantir Technologies Inc.는 미국, 영국 및 국제적으로 대테러 조사 및 작전을 지원하기 위해 인텔리전스 커뮤니티용 소프트웨어 플랫폼을 구축하고 배포하는 기업입니다. Palantir Gotham, Palantir Foundry, Palantir Apollo 및 Palantir Artificial Intelligence Platform (AIP)을 포함한 다양한 데이터 분석 및 AI 소프트웨어 플랫폼을 제공합니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1780068403247",
     "title": "플러그 파워(PLUG): AI 시대의 수소 에너지 잠재력과 재정적 도전, 심층 분석",
     "ticker": "PLUG",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-01T19:11:48.573Z",
     "summary": "Peloton Interactive (PTON)는 최근 Spotify와의 파트너십, 미국 수입 피트니스 장비 관세 변화, 그리고 예상치를 상회하는 2026년 1분기 실적 발표로 투자자들의 주목을 받고 있는 연결형 피트니스 플랫폼 기업입니다. 최근 주가 변동성이 크며, 단기적으로 기관 투자자의 지분 확보와 긍정적인 뉴스 흐름으로 인해 상승 모멘텀을 보이고 있습니다. 회사는 수익성 개선과 비용 절감에 집중하며 턴어라운드를 모색하고 있습니다.",
     "sentimentScore": 0.65,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1777641452725",
-    "title": "인텔 (INTC)의 부활과 과열 경고: 심층 투자 분석",
-    "ticker": "INTC",
-    "market": "US",
-    "timestamp": "2026-05-01T13:17:32.725Z",
-    "summary": "Intel Corporation (INTC)은 최근 2026년 1분기 예상치를 뛰어넘는 실적을 발표하며 강력한 성장세를 보였습니다. 특히 파운드리 사업 및 AI 기술 협력에 대한 전략적 움직임이 긍정적인 평가를 받고 있습니다. 지난 1년 동안 주가가 370% 이상 급등하며 투자자들의 높은 관심을 받고 있으나, 일부 지표는 과매수 상태를 나타내고 있습니다.",
-    "sentimentScore": 25,
     "investmentRating": "Hold"
   }
 ]
