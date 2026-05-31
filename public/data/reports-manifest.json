@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780217058820",
+    "title": "Astrotech Corporation (ASTC): 투기적 모멘텀과 구조적 기회의 교차점 분석",
+    "ticker": "ASTC",
+    "market": "US",
+    "timestamp": "2026-05-31T08:44:18.820Z",
+    "summary": "Astrotech Corporation은 보안, 농업, 산업 공정 제어 및 헬스케어 분야의 질량 분석 기술을 상용화하는 기술 인큐베이터입니다. 최근 TRACER 1000 시스템의 유럽 연합 승인과 달 자원 개발 및 인프라 구축을 위한 새로운 전략적 이니셔티브 발표로 주가가 급등했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1780198961715",
     "title": "카카오(035720): AI 대전환의 기로, 본업 성장과 신사업 리스크의 공존",
     "ticker": "035720",
@@ -988,15 +998,5 @@
     "summary": "SOBR Safe, Inc.는 비침습성 음주 감지 시스템을 개발하는 기술 기업입니다. 최근 Clean World Ventures, Inc.와의 합병 계약을 발표했으며, 이로 인해 합병 후 Clean World Ventures가 통합 회사의 약 98%를 소유하게 됩니다. 이 소식은 주가에 상당한 변동성을 야기했으며, 최근 애프터마켓에서 급등했지만 기존 주주들에게는 상당한 희석이 예상됩니다. 재무 건전성은 '약함'으로 평가되며, 지난 1년간 주가는 크게 하락했습니다.",
     "sentimentScore": -0.7,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1777715895983",
-    "title": "Five9(FIVN) 2026년 1분기 실적 호조 및 AI 기반 성장 잠재력 분석: 내재가치 대비 저평가 매력 심층 진단",
-    "ticker": "FIVN",
-    "market": "US",
-    "timestamp": "2026-05-02T09:58:15.983Z",
-    "summary": "Five9(FIVN)는 클라우드 기반 컨택 센터 소프트웨어 제공업체로, 2026년 1분기 예상치를 상회하는 실적을 발표하고 연간 가이던스를 상향 조정했습니다. 특히 AI 관련 제품의 발전이 긍정적인 투자 심리를 이끌었습니다. 최근 6일 연속 상승하며 주가가 크게 올랐음에도 불구하고, 내재가치 대비 여전히 저평가되어 있다는 분석이 많습니다.",
-    "sentimentScore": 80,
-    "investmentRating": "Buy"
   }
 ]
