@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780286281308",
+    "title": "LG전자 (066570): 신성장 동력으로 도약하는 스마트 라이프 솔루션 기업의 미래 가치 재평가",
+    "ticker": "066570",
+    "market": "KR",
+    "timestamp": "2026-06-01T03:58:01.308Z",
+    "summary": "LG전자는 대한민국의 다국적 가전 및 소비자 전자제품 기업으로, LG그룹의 핵심 계열사입니다. 홈 어플라이언스 & 에어 솔루션, 홈 엔터테인먼트, VS(Vehicle Component Solutions), 비즈니스 솔루션, LG이노텍 등 5개 핵심 사업 부문을 운영합니다. OLED TV 기술을 선도하며 webOS 및 LG ThinQ 스마트 홈 생태계를 통해 시장을 이끌고 있습니다. 최근 인공지능(AI), 로봇 공학, 전기차 부품 등 미래 성장 동력에 대한 투자와 B2B 및 구독형 서비스로의 사업 구조 전환을 가속화하고 있습니다.",
+    "sentimentScore": 90,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1780264778926",
     "title": "P3 Health Partners (PIII) 심층 분석: 급변하는 헬스케어 시장 속 가치 기반 진료 모델의 기회와 도전",
     "ticker": "PIII",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-03T08:08:56.894Z",
     "summary": "Esperion Therapeutics (ESPR)는 콜레스테롤 및 심혈관 질환 치료제 개발 및 상업화에 주력하는 바이오제약 회사입니다. 최근 ARCHIMED에 의해 최대 11억 달러에 인수될 것이라는 소식이 발표되어 주가가 급등했습니다.",
     "sentimentScore": 0.6,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1777776539223",
-    "title": "나우로보틱스(459510): 로봇 산업 성장 모멘텀과 펀더멘털 개선 과제 심층 분석",
-    "ticker": "459510",
-    "market": "KR",
-    "timestamp": "2026-05-03T02:48:59.223Z",
-    "summary": "나우로보틱스(Nau Robotics)는 인공지능(AI) 로봇 전문기업으로, 최근 한양로보틱스 인수 및 미국 법인 설립을 통한 북미 시장 확장이 기대된다. 엔비디아 협력 기대감과 로봇 산업 성장 모멘텀에 힘입어 4월 말 주가가 급등했으나, 아직 적자 기업으로 펀더멘털 개선이 관건이다.",
-    "sentimentScore": 65,
     "investmentRating": "Hold"
   }
 ]
