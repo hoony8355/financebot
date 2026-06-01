@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780313580307",
+    "title": "팔란티어(PLTR) 투자 심층 분석: AI 혁신과 고평가 사이의 균형점",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-06-01T11:33:00.307Z",
+    "summary": "AI 및 데이터 분석 소프트웨어 기업 팔란티어(PLTR)는 최근 AI 성장 및 정부 계약 호조에 힘입어 높은 변동성과 거래량을 보이며 시장의 주목을 받고 있습니다. 강력한 실적과 긍정적인 애널리스트 전망에도 불구하고 높은 밸류에이션은 잠재적 위험으로 작용합니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1780286281308",
     "title": "LG전자 (066570): 신성장 동력으로 도약하는 스마트 라이프 솔루션 기업의 미래 가치 재평가",
     "ticker": "066570",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies는 정부 및 상업 고객을 위한 데이터 분석 및 AI 플랫폼을 제공하는 기업입니다. 강력한 매출 성장을 보이고 있으나, 높은 밸류에이션에 대한 우려와 다가오는 실적 발표가 주요 이슈입니다. 인공지능 분야에서의 선도적 위치와 국방 계약에 대한 의존도가 주목됩니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1777795736894",
-    "title": "에스페리온 테라퓨틱스(ESPR): ARCHIMED 인수 발표, 심혈관 치료제 시장 재편과 투자 전략 심층 분석",
-    "ticker": "ESPR",
-    "market": "US",
-    "timestamp": "2026-05-03T08:08:56.894Z",
-    "summary": "Esperion Therapeutics (ESPR)는 콜레스테롤 및 심혈관 질환 치료제 개발 및 상업화에 주력하는 바이오제약 회사입니다. 최근 ARCHIMED에 의해 최대 11억 달러에 인수될 것이라는 소식이 발표되어 주가가 급등했습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
