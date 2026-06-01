@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780335412044",
+    "title": "Virgin Galactic (SPCE): 델타 클래스 기대감과 과매수 위험이 교차하는 우주 관광 기업 분석",
+    "ticker": "SPCE",
+    "market": "US",
+    "timestamp": "2026-06-01T17:36:52.044Z",
+    "summary": "Virgin Galactic (SPCE)는 최근 Delta-class 우주선 테스트 진행 상황 및 SpaceX IPO에 대한 시장의 높은 기대감으로 인해 주가가 급등하며 높은 변동성을 보이고 있는 미국 우주 관광 기업입니다. 최근 52주 최고가인 8.90달러를 기록했으며, 기관 투자자의 지분 확대 소식과 경쟁사 Blue Origin의 차질이 긍정적으로 작용했습니다. 다만, 상당수 애널리스트들은 '보유(Hold)' 의견을 제시하며 현재 주가보다 낮은 목표 가격을 설정하고 있어 주의가 필요합니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1780313580307",
     "title": "팔란티어(PLTR) 투자 심층 분석: AI 혁신과 고평가 사이의 균형점",
     "ticker": "PLTR",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-03T21:41:13.796Z",
     "summary": "Enveric Biosciences는 정신 건강 및 신경 정신 질환을 위한 차세대 환각제 기반 치료법을 개발하는 생명 공학 회사입니다. 최근 규제 개발 및 최대 1,390만 달러의 성공적인 사모 발행 자금 조달에 힘입어 주가가 급등했습니다. 주요 후보 물질은 EB-003입니다.",
     "sentimentScore": 72,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1777813731546",
-    "title": "Palantir Technologies (PLTR): AI 리더십과 밸류에이션 프리미엄, 다가오는 실적 발표의 변곡점 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-05-03T13:08:51.546Z",
-    "summary": "Palantir Technologies는 정부 및 상업 고객을 위한 데이터 분석 및 AI 플랫폼을 제공하는 기업입니다. 강력한 매출 성장을 보이고 있으나, 높은 밸류에이션에 대한 우려와 다가오는 실적 발표가 주요 이슈입니다. 인공지능 분야에서의 선도적 위치와 국방 계약에 대한 의존도가 주목됩니다.",
-    "sentimentScore": 0.65,
     "investmentRating": "Buy"
   }
 ]
