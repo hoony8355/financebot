@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780441396104",
+    "title": "Marvell Technology (MRVL): AI 인프라의 핵심 주역인가, 과열된 시장의 허상인가? 심층 분석 리포트",
+    "ticker": "MRVL",
+    "market": "US",
+    "timestamp": "2026-06-02T23:03:16.104Z",
+    "summary": "Marvell Technology (MRVL)는 데이터 센터, 통신사, 기업 및 소비자 시장을 위한 데이터 인프라 솔루션에 특화된 팹리스 반도체 회사입니다. AI 수요 증가와 전략적 파트너십에 대한 최근 긍정적인 소식으로 주가가 크게 상승했지만, 현재 밸류에이션 우려와 과매수 기술적 지표는 잠재적 변동성을 시사합니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1780349545323",
     "title": "마이크론 테크놀로지: AI 메모리 슈퍼사이클 정점과 밸류에이션 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "Clearmind Medicine Inc.는 알코올 사용 장애를 포함한 정신 건강 및 중독 치료를 위한 신규 환각제 유래 치료법 개발에 중점을 둔 바이오 제약 회사입니다. 최근 알코올 사용 장애(AUD)에 대한 FDA 승인 1/2a상 임상 시험에서 CMND-100이 주요 안전성 및 내약성 평가 변수를 충족했다고 발표하며 주가가 급등했습니다.",
     "sentimentScore": 55,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1777892751349",
-    "title": "Theriva Biologics (TOVX): VCN-01 임상 3상 전환점과 투자 위험 분석 보고서",
-    "ticker": "TOVX",
-    "market": "US",
-    "timestamp": "2026-05-04T11:05:51.349Z",
-    "summary": "Theriva Biologics (TOVX)는 항암제 개발에 주력하는 임상 단계 제약 회사입니다. 최근 전이성 췌장암 치료를 위한 VCN-01의 3상 임상 시험 설계에 대한 미국 FDA의 긍정적인 의견 일치와 AACR 2026 연례 회의에서의 추가 2b상 데이터 발표 예정 등 긍정적인 소식이 있었습니다. 이는 주식의 높은 변동성과 최근 가격 상승의 주요 동력이 되었습니다. 다만, 회사는 여전히 약한 펀더멘털과 제한된 현금 보유량이라는 과제를 안고 있습니다.",
-    "sentimentScore": 0,
-    "investmentRating": "Buy"
   }
 ]
