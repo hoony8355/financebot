@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780520113775",
+    "title": "테슬라(TSLA) 종합 분석: 혁신과 경쟁 속에서의 투자 전략 탐색",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-06-03T20:55:13.775Z",
+    "summary": "테슬라(TSLA)는 전기차 및 에너지 저장 시스템 분야의 선도 기업입니다. 최근 Cybertruck 리콜 및 FSD 시스템에 대한 규제 조사 등의 이슈에도 불구하고, 로보택시, Optimus 로봇, Supercharger 네트워크 확장 등 혁신적인 프로젝트를 지속하며 높은 변동성을 보이고 있습니다. 애널리스트 컨센서스는 '보유(Hold)' 의견이 지배적이며, 목표 주가는 현재가 대비 하향을 제시하는 경우가 많습니다.",
+    "sentimentScore": 58,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1780484278339",
     "title": "NVIDIA: 인공지능 시대의 핵심 인프라 지배자, 압도적 시장 점유율과 미래 성장 동력 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 AI 반도체 수요 급증과 HBM(고대역폭 메모리) 기술의 독보적인 경쟁력을 바탕으로 2026년 1분기 사상 최대 실적을 달성하며 주가 강세를 이어가고 있는 한국 증시의 핵심 종목입니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1777932007307",
-    "title": "AMC Entertainment Holdings: '밈 주식'의 변동성 속 재무 건전성 및 박스오피스 회복 전망 분석",
-    "ticker": "AMC",
-    "market": "US",
-    "timestamp": "2026-05-04T22:00:07.307Z",
-    "summary": "AMC Entertainment Holdings, Inc.는 세계적인 영화 상영 기업으로, '밈 주식'으로 인한 높은 변동성과 개인 투자자들의 관심이 특징입니다. 회사는 대차대조표를 강화하고 부채를 줄이며, 회복 중인 박스오피스 시장 속에서 수익 흐름 다변화에 주력하고 있습니다. 최근에는 신작 영화들의 높은 관람객 수가 긍정적인 신호로 작용하고 있습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
