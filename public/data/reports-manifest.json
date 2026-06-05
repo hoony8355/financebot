@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780679692729",
+    "title": "HUB Cyber Security (HUBC): 재무 불안정 및 상장 위기에 따른 '강력 매도' 심층 분석",
+    "ticker": "HUBC",
+    "market": "US",
+    "timestamp": "2026-06-05T17:14:52.729Z",
+    "summary": "HUB Cyber Security Ltd. (HUBC)는 이스라엘, 미주, 유럽에서 사이버 보안 솔루션 및 기밀 컴퓨팅 기술을 제공하는 기업입니다. 최근 극심한 변동성과 상당한 주가 하락을 겪었으며, 나스닥 상장 요건 유지를 위해 2026년 6월 5일부로 1:20 역주식 분할이 발표되었습니다. 이 회사는 재정적 어려움과 연례 보고서 제출 지연으로 인한 나스닥의 통지를 받았습니다.",
+    "sentimentScore": -0.8,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1780670971271",
     "title": "Solidion Technology (STI): 혁신 기술과 높은 변동성 속 투자 전략 심층 분석",
     "ticker": "STI",
@@ -988,15 +998,5 @@
     "summary": "엔트라비전 커뮤니케이션즈 (EVC)는 최근 2026년 1분기 실적 발표에서 광고 기술 및 서비스(ATS) 부문의 강력한 성장세에 힘입어 매출이 크게 증가하며 주가가 급등했습니다.",
     "sentimentScore": 60,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778134219967",
-    "title": "드림시큐리티: 양자내성암호(PQC) 시대의 선두주자인가, 단기 과열인가?",
-    "ticker": "203650",
-    "market": "KR",
-    "timestamp": "2026-05-07T06:10:19.967Z",
-    "summary": "드림시큐리티는 정보보호 및 인증 솔루션을 제공하는 코스닥 상장 기업으로, 최근 정부의 양자내성암호(PQC) 기술 개발 및 국가 핵심 인프라 적용 확대 정책에 대한 직접적인 수혜 기대로 인해 주가가 급등세를 보이고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
