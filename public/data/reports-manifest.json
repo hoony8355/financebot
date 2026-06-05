@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780697699415",
+    "title": "NVIDIA: AI 혁명 선두주자, 단기 변동성 속 장기 성장 잠재력 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-06-05T22:14:59.415Z",
+    "summary": "NVIDIA는 AI 칩 시장의 선두주자이며, 강력한 AI 제품 수요와 데이터 센터, 네트워킹, 소프트웨어 등 다양한 분야로의 확장을 통해 높은 성장세를 보이고 있습니다. 최근 기록적인 실적 발표와 대규모 자사주 매입, 배당금 인상으로 시장의 기대를 모았으나, 최근 기술주 전반의 매도세와 거시 경제적 요인, 경쟁 심화 우려로 인해 주가가 단기적으로 하락했습니다. 장기적인 AI 시장 성장 잠재력은 여전히 높게 평가받고 있습니다.",
+    "sentimentScore": 0.45,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1780689244479",
     "title": "Cisco Systems (CSCO): AI 성장 동력과 보안 리스크의 이중주 분석",
     "ticker": "CSCO",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-07T19:42:51.823Z",
     "summary": "Atara Biotherapeutics (ATRA)는 암 및 자가면역 질환을 위한 동종 T-세포 면역치료제를 개발하는 바이오 제약 회사입니다. 최근 FDA로부터 파트너사인 Pierre Fabre Pharmaceuticals와 함께 tabelecleucel(tab-cel)에 대한 생물학적 제제 허가 신청(BLA) 재제출에 대한 긍정적인 규제 지침을 받으면서 주가가 급등했습니다. 이는 시장에 긍정적인 모멘텀을 제공했지만, 회사는 여전히 마이너스 잉여 현금 흐름과 낮은 유동성 비율을 보이는 등 재정적 어려움에 직면해 있습니다.",
     "sentimentScore": 0.75,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778162888626",
-    "title": "SoFi Technologies (SOFI): 성장통 속 핀테크 혁신가의 현재와 미래 전망 심층 분석",
-    "ticker": "SOFI",
-    "market": "US",
-    "timestamp": "2026-05-07T14:08:08.626Z",
-    "summary": "온라인 금융 서비스 플랫폼 SoFi Technologies (SOFI)는 최근 견조한 매출 성장을 기록했으나, 기술 플랫폼 및 대출 부문의 실망스러운 실적 가이던스, 공매도 보고서 및 증권 사기 조사 등으로 인해 높은 변동성을 보이며 투자자들의 주목을 받고 있습니다.",
-    "sentimentScore": 0.3,
     "investmentRating": "Hold"
   }
 ]
