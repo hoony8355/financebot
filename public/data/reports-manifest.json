@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780689244479",
+    "title": "Cisco Systems (CSCO): AI 성장 동력과 보안 리스크의 이중주 분석",
+    "ticker": "CSCO",
+    "market": "US",
+    "timestamp": "2026-06-05T19:54:04.479Z",
+    "summary": "Cisco Systems (CSCO)는 AI 인프라 수요 증가에 힘입어 긍정적인 실적 전망과 2026년 및 2027년 AI 관련 주문 목표를 상향 조정하며 성장 기대를 받고 있는 기술 기업입니다. 하지만 최근 제품의 주요 보안 취약점 공개로 인해 주가가 하락했으며, 이는 잠재적인 복구 비용과 고객 신뢰에 대한 우려를 불러일으켰습니다. 이러한 상황에도 불구하고, 애널리스트들의 전반적인 평가는 'Moderate Buy'로 비교적 긍정적인 편입니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1780679692729",
     "title": "HUB Cyber Security (HUBC): 재무 불안정 및 상장 위기에 따른 '강력 매도' 심층 분석",
     "ticker": "HUBC",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-07T14:08:08.626Z",
     "summary": "온라인 금융 서비스 플랫폼 SoFi Technologies (SOFI)는 최근 견조한 매출 성장을 기록했으나, 기술 플랫폼 및 대출 부문의 실망스러운 실적 가이던스, 공매도 보고서 및 증권 사기 조사 등으로 인해 높은 변동성을 보이며 투자자들의 주목을 받고 있습니다.",
     "sentimentScore": 0.3,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778152280710",
-    "title": "엔트라비전 커뮤니케이션즈 (EVC) 심층 분석: ATS 성장 동력과 투자 리스크 점검",
-    "ticker": "EVC",
-    "market": "US",
-    "timestamp": "2026-05-07T11:11:20.710Z",
-    "summary": "엔트라비전 커뮤니케이션즈 (EVC)는 최근 2026년 1분기 실적 발표에서 광고 기술 및 서비스(ATS) 부문의 강력한 성장세에 힘입어 매출이 크게 증가하며 주가가 급등했습니다.",
-    "sentimentScore": 60,
     "investmentRating": "Hold"
   }
 ]
