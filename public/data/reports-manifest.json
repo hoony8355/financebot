@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780630772515",
+    "title": "HLB, 리보세라닙 FDA 승인 기대감 속 중장기 성장 전략 분석: 밸류에이션 및 투자 심리 점검",
+    "ticker": "028300",
+    "market": "KR",
+    "timestamp": "2026-06-05T03:39:32.515Z",
+    "summary": "HLB는 간암 신약 리보세라닙의 미국 FDA 승인 기대감과 경영진의 책임 경영 강화로 주목받는 한국 바이오 기업입니다. 최근 ASCO 학회에서의 파이프라인 공개와 계열사 합병 등을 통해 중장기 성장 동력을 확보하려는 노력이 이어지고 있으며, 높은 변동성 속에서 시장의 관심이 집중되고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1780611656440",
     "title": "GameStop(GME) 심층 분석: 전략적 전환과 시장의 불확실성 속 밸류에이션 점검",
     "ticker": "GME",
@@ -988,15 +998,5 @@
     "summary": "Roblox Corporation은 가상 세계 플랫폼 Roblox를 운영하는 미국의 비디오 게임 개발사입니다. 최근 사용자 안전 조치 강화와 예약 가이던스 하향 조정으로 인해 주가 변동성이 확대되었습니다.",
     "sentimentScore": 54,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778076556807",
-    "title": "NVIDIA (NVDA): AI 시대의 지배자, 성장과 리스크의 이중주 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-05-06T14:09:16.807Z",
-    "summary": "NVIDIA (NVDA)는 AI 가속기 및 데이터센터 GPU 시장을 지배하는 주요 기술 기업입니다. 혁신적인 하드웨어와 CUDA 소프트웨어 생태계를 바탕으로 강력한 성장세를 보이고 있으나, 높은 밸류에이션, 경쟁 심화, 지정학적 리스크가 잠재적 하방 요인으로 작용할 수 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
