@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780848901635",
+    "title": "AMD(Advanced Micro Devices): AI 시대의 변동성 속 성장 잠재력 분석 및 투자 전략",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-06-07T16:15:01.635Z",
+    "summary": "AMD (Advanced Micro Devices)는 마이크로프로세서, 그래픽 처리 장치 및 기타 집적 회로를 설계 및 생산하는 반도체 회사입니다. 최근 광범위한 반도체 섹터의 약세와 AI 칩 가이던스에 대한 우려로 인해 주가가 급락하며 높은 변동성을 보였습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1780840337534",
     "title": "PLUG: 그린 수소 선두주자의 험난한 여정 – 2026년 흑자 전환의 가능성과 위험 분석",
     "ticker": "PLUG",
@@ -988,15 +998,5 @@
     "summary": "EZGO Technologies Ltd. (NASDAQ: EZGO)는 전동 자전거 및 배터리 셀을 판매하는 중국 기반 지주회사로, 극심한 주가 변동성을 겪고 있습니다. 최근 신규 창저우 제조 단지 소식에도 불구하고, 회사는 지속적인 손실과 현금 소진, 나스닥 상장 유지 문제 (주식 역분할 포함) 등으로 인해 상당한 하락세를 보였습니다. 2026년 5월 7일 종가는 $0.0689를 기록하며 하루 만에 56.94% 급락했습니다.",
     "sentimentScore": 15,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1778225402872",
-    "title": "Datadog (DDOG): 클라우드 관측 시장 리더의 가속화되는 성장과 AI 모멘텀 심층 분석",
-    "ticker": "DDOG",
-    "market": "US",
-    "timestamp": "2026-05-08T07:30:02.872Z",
-    "summary": "Datadog (DDOG)은 클라우드 기반 애플리케이션 모니터링 및 분석 플랫폼 제공업체로, 최근 강력한 1분기 실적 발표와 AI 관련 성장 기대감으로 주가가 급등했습니다.",
-    "sentimentScore": 0.9,
-    "investmentRating": "Buy"
   }
 ]
