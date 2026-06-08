@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1780890932751",
+    "title": "SK하이닉스, AI 시대 HBM 리더십 강화와 변동성 속 투자 전략 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-06-08T03:55:32.751Z",
+    "summary": "SK하이닉스(000660)는 세계 2위 메모리 반도체 제조업체로, DRAM 및 NAND 플래시 메모리 생산에 주력하고 있습니다. 특히 AI 데이터센터의 핵심 부품인 고대역폭 메모리(HBM) 시장의 선두 주자이며, NVIDIA와의 기술 파트너십을 통해 차세대 AI 메모리 개발 및 공급을 강화하고 있습니다. 2026년 1분기에는 AI 및 데이터센터 수요 강세에 힘입어 기록적인 영업이익과 수익성 개선을 달성했습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1780848901635",
     "title": "AMD(Advanced Micro Devices): AI 시대의 변동성 속 성장 잠재력 분석 및 투자 전략",
     "ticker": "AMD",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 인공지능(AI) 칩 시장의 선두 주자로, 데이터센터 사업의 강력한 성장, 신규 플랫폼(Blackwell, Vera Rubin) 출시 예정, 그리고 높은 애널리스트 기대치를 바탕으로 시장의 주목을 받고 있습니다. 최근 주가는 변동성을 보이며 통합 구간에 진입했지만, 장기적인 성장 동력은 여전히 견고하다는 평가입니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1778235899686",
-    "title": "EZGO Technologies Ltd. (NASDAQ: EZGO) 심층 분석: 극심한 변동성 속 존속 가능성 검토",
-    "ticker": "EZGO",
-    "market": "US",
-    "timestamp": "2026-05-08T10:24:59.686Z",
-    "summary": "EZGO Technologies Ltd. (NASDAQ: EZGO)는 전동 자전거 및 배터리 셀을 판매하는 중국 기반 지주회사로, 극심한 주가 변동성을 겪고 있습니다. 최근 신규 창저우 제조 단지 소식에도 불구하고, 회사는 지속적인 손실과 현금 소진, 나스닥 상장 유지 문제 (주식 역분할 포함) 등으로 인해 상당한 하락세를 보였습니다. 2026년 5월 7일 종가는 $0.0689를 기록하며 하루 만에 56.94% 급락했습니다.",
-    "sentimentScore": 15,
-    "investmentRating": "Sell"
   }
 ]
