@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781018482162",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 혁신과 성장 잠재력 평가",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-06-09T15:21:22.162Z",
+    "summary": "AI 기반 데이터 통합 및 운영 소프트웨어 분야의 선두 주자인 Palantir Technologies는 강력한 1분기 실적과 AI 관련 파트너십 확장으로 주목받고 있습니다. 주가는 최근 주간 -15.13% 하락했으나, 애널리스트들은 '매수' 의견과 높은 목표 주가를 제시하며 장기적인 성장 잠재력을 긍정적으로 평가하고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1780890932751",
     "title": "SK하이닉스, AI 시대 HBM 리더십 강화와 변동성 속 투자 전략 분석",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 전기차, 자율주행, 에너지 저장 분야의 선두 기업으로, 최근 로보택시 및 세미트럭 생산 진전과 중국 판매량 회복 소식에 힘입어 주가가 상승세를 보이고 있습니다. 시장의 높은 관심과 변동성이 특징이며, 애널리스트 의견은 엇갈리지만 기술적 지표는 단기적인 강세 신호를 보이고 있습니다.",
     "sentimentScore": 61,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778247922117",
-    "title": "NVIDIA: AI 패권의 선봉장, 성장 모멘텀과 밸류에이션 재평가 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-05-08T13:45:22.117Z",
-    "summary": "NVIDIA는 인공지능(AI) 칩 시장의 선두 주자로, 데이터센터 사업의 강력한 성장, 신규 플랫폼(Blackwell, Vera Rubin) 출시 예정, 그리고 높은 애널리스트 기대치를 바탕으로 시장의 주목을 받고 있습니다. 최근 주가는 변동성을 보이며 통합 구간에 진입했지만, 장기적인 성장 동력은 여전히 견고하다는 평가입니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
