@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781193616612",
+    "title": "EverCommerce (EVCM) 심층 분석: 시장 변동성 속 성장 모멘텀과 법적 리스크 평가",
+    "ticker": "EVCM",
+    "market": "US",
+    "timestamp": "2026-06-11T16:00:16.612Z",
+    "summary": "EverCommerce는 주택 서비스, 건강 서비스 및 웰빙 서비스를 위한 서비스 기반 중소기업(SMB)을 위한 맞춤형 SaaS 솔루션을 제공하는 기업입니다. 최근 시장의 전반적인 하락세와 함께 주가가 상당한 변동성을 보이며 하락했습니다. Q1 2026 실적은 예상치를 상회했지만, 성장 및 결제 부문에서의 압박과 법적 조사 가능성 등의 우려도 존재합니다.",
+    "sentimentScore": -20,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1781149968672",
     "title": "삼성전자, AI 반도체 시대의 격변 속 투자 전략 분석: 밸류에이션 점검 및 리스크 진단",
     "ticker": "005930",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-10T19:03:14.505Z",
     "summary": "Rocket Lab USA, Inc. (RKLB)는 소형 및 중형 로켓 발사 서비스(Electron 및 Neutron)와 우주 시스템 솔루션(Photon 위성 플랫폼)을 전문으로 하는 선도적인 항공우주 및 방위 회사입니다. 최근 2026년 1분기 2억 350만 달러의 사상 최고 매출을 기록했으며, 가이던스를 상향 조정하고 22억 달러 이상의 수주 잔고를 달성하는 등 최대 규모의 다년 발사 계약을 확보했습니다. 또한 로봇 공학 및 정밀 메커니즘 역량 강화를 위해 Motiv Space Systems 인수를 발표했습니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1778419013981",
-    "title": "Innodata (INOD): 생성형 AI 시대의 핵심 인프라 제공자, 고성장 가치와 위험 분석",
-    "ticker": "INOD",
-    "market": "US",
-    "timestamp": "2026-05-10T13:16:53.981Z",
-    "summary": "AI 데이터 엔지니어링 기업 Innodata (INOD)는 강력한 1분기 실적 발표와 빅테크 고객과의 대규모 계약 체결 소식에 힘입어 주가가 90% 이상 급등하며 투자자들의 주목을 받았습니다. 동사는 생성형 AI 및 LLM(대규모 언어 모델) 구축에 필수적인 '삽과 곡괭이' 역할을 하는 핵심 AI 인프라 서비스 제공업체로 평가됩니다.",
-    "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
   }
 ]
