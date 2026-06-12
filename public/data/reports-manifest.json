@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781285856921",
+    "title": "엔비디아 (NVDA) 심층 분석: AI 시대의 핵심 동력, 단기 변동성 속 장기 성장 잠재력 평가",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-06-12T17:37:36.921Z",
+    "summary": "엔비디아는 AI 반도체 및 GPU 시장의 선두 주자로서 데이터센터 및 AI 인프라 구축의 핵심적인 역할을 수행하며 강력한 성장 잠재력을 보유하고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1781193616612",
     "title": "EverCommerce (EVCM) 심층 분석: 시장 변동성 속 성장 모멘텀과 법적 리스크 평가",
     "ticker": "EVCM",
@@ -988,15 +998,5 @@
     "summary": "Coinbase Global (COIN) is a leading cryptocurrency exchange platform. The company recently announced a workforce reduction of approximately 14% (around 700 workers) as part of a strategic shift to become 'lean, fast, and AI-native' after missing Q1 2026 revenue estimates. Despite these operational challenges, Coinbase reported resilient financial performance in Q1 2026, driven by a new all-time high in crypto trading volume market share, particularly in derivatives. The company also demonstrated growth in decentralized exchange (DEX) trading volume and stablecoin adoption, reinforcing its position as a key player in the evolving cryptoeconomy.",
     "sentimentScore": 6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1778439794505",
-    "title": "Rocket Lab USA, Inc. (RKLB): 우주 경제 선도자로서의 성장 잠재력 및 투자 분석",
-    "ticker": "RKLB",
-    "market": "US",
-    "timestamp": "2026-05-10T19:03:14.505Z",
-    "summary": "Rocket Lab USA, Inc. (RKLB)는 소형 및 중형 로켓 발사 서비스(Electron 및 Neutron)와 우주 시스템 솔루션(Photon 위성 플랫폼)을 전문으로 하는 선도적인 항공우주 및 방위 회사입니다. 최근 2026년 1분기 2억 350만 달러의 사상 최고 매출을 기록했으며, 가이던스를 상향 조정하고 22억 달러 이상의 수주 잔고를 달성하는 등 최대 규모의 다년 발사 계약을 확보했습니다. 또한 로봇 공학 및 정밀 메커니즘 역량 강화를 위해 Motiv Space Systems 인수를 발표했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
