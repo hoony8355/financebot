@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781429585095",
+    "title": "Super Micro Computer (SMCI): AI 성장 잠재력과 대규모 증자 리스크의 교차 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-06-14T09:33:05.095Z",
+    "summary": "Super Micro Computer (SMCI)는 AI 서버 시장의 핵심 기업으로, 최근 대규모 신규 수주에도 불구하고 대규모 증자 발표로 인해 주가가 급락하며 투자자들의 관심이 집중되고 있습니다. AI 인프라 수요 증가와 주식 희석 우려가 공존하는 상황입니다.",
+    "sentimentScore": 0.4,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1781409507912",
     "title": "삼성바이오로직스: CDMO 리더의 변곡점, 노사 갈등을 넘어 지속 가능한 성장을 위한 심층 분석",
     "ticker": "207940",
@@ -988,15 +998,5 @@
     "summary": "Rivian Automotive는 전기 픽업트럭(R1T), SUV(R1S), 상업용 밴을 개발 및 제조하는 미국 전기차(EV) 제조업체입니다. 최근 Mind Robotics의 성공적인 자금 조달과 R2, R3 모델 개발 소식으로 긍정적인 투자 심리가 일부 보였으나, 전반적인 EV 수요 둔화와 경쟁 심화로 인해 주가는 연초 대비 하락세를 보였습니다.",
     "sentimentScore": 65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778778149508",
-    "title": "Palo Alto Networks (PANW): AI 시대 사이버 보안 리더십과 투자 전망 심층 분석",
-    "ticker": "PANW",
-    "market": "US",
-    "timestamp": "2026-05-14T17:02:29.508Z",
-    "summary": "Palo Alto Networks는 캘리포니아 산타클라라에 본사를 둔 글로벌 사이버 보안 기업으로, 차세대 방화벽과 클라우드 기반 솔루션을 포함한 통합 플랫폼을 제공합니다. 네트워크, 클라우드 및 보안 운영 전반에 걸쳐 AI 기반 솔루션과 플랫폼 통합에 집중하며, 포춘 100대 기업 중 85개사를 포함해 150개국 이상에서 7만 개 이상의 조직에 서비스를 제공합니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
