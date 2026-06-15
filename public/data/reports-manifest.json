@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781496674947",
+    "title": "SK하이닉스: HBM 리더십과 ADR 상장 추진을 통한 AI 시대 밸류에이션 재평가 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-06-15T04:11:14.947Z",
+    "summary": "SK하이닉스는 고대역폭 메모리(HBM) 기술을 선도하는 글로벌 메모리 반도체 기업으로, AI 시장의 폭발적인 성장에 힘입어 견조한 실적을 기록 중입니다. 미국 ADR 상장 추진으로 글로벌 투자 접근성 및 기업 가치 재평가 기대감이 높습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1781454065104",
     "title": "엔비디아(NVDA) 심층 분석: AI 시대의 지배자, 변동성 속 성장 잠재력과 리스크 평가",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "랙스페이스 테크놀로지(Rackspace Technology, RXT)는 최근 AMD와의 AI 클라우드 파트너십 및 예상을 뛰어넘는 1분기 실적 발표에 힘입어 주가가 급등하며 높은 변동성을 보인 하이브리드 클라우드 및 AI 솔루션 기업입니다. 단기적인 기술적 강세와는 달리, 애널리스트들은 낮은 목표 주가를 제시하며 기업의 기초 체력에 대한 우려를 표하고 있습니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1778834920284",
-    "title": "Palantir Technologies (PLTR): AI 플랫폼 리더십과 밸류에이션 재평가 속 성장 잠재력 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-05-15T08:48:40.284Z",
-    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 인공지능(AI) 플랫폼을 전문으로 하는 선도적인 데이터 통합 및 분석 기업입니다. Gotham, Foundry, Apollo 및 AIP(Artificial Intelligence Platform)를 통해 국방, 정보, 헬스케어, 금융, 제조 등 다양한 부문에서 복잡하고 파편화된 데이터를 실행 가능한 통찰력으로 전환합니다. 2026년 1분기에는 미국 상업 부문 매출이 전년 대비 133% 증가하고 전체 매출이 85% 증가하여 16.3억 달러를 기록하는 등 견조한 실적을 보였습니다. 그러나 견고한 재무 성과에도 불구하고, 높은 밸류에이션에 대한 우려와 시장의 '묻지마 성장주' 회피 심리로 인해 2026년 들어 주가 변동성이 커지고 연초 대비 상당한 하락세를 보였습니다.",
-    "sentimentScore": 6,
-    "investmentRating": "Buy"
   }
 ]
