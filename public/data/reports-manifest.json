@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781727121326",
+    "title": "Palladyne AI (PDYN): 국방 AI 시장의 고위험-고수익 투자 기회 분석",
+    "ticker": "PDYN",
+    "market": "US",
+    "timestamp": "2026-06-17T20:12:01.326Z",
+    "summary": "Palladyne AI (PDYN)는 AI 기반 자율 솔루션을 제공하는 미국의 방위 및 산업 기술 기업입니다. 최근 미 육군과 SwarmOS 및 Gremlin-X 기술 관련 계약을 확보하며 주가가 급등했습니다. 애널리스트들은 상당한 상승 잠재력을 가진 '매수' 의견을 제시하지만, 회사의 낮은 수익성과 높은 밸류에이션은 높은 위험을 내포하고 있어 고위험-고수익 투자로 평가됩니다.",
+    "sentimentScore": 70,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1781650390872",
     "title": "테슬라(TSLA) 심층 분석: 전기차 시장의 도전과 미래 기술 플랫폼으로의 전환 가능성",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "GCT Semiconductor Holding, Inc.는 4G LTE 및 5G 솔루션을 설계, 개발 및 판매하는 팹리스 반도체 회사입니다. 무선 통신 및 사물 인터넷(IoT) 시장의 성장하는 수요에 집중하고 있으며, 특히 위성 연결 분야에서 잠재력을 보이고 있습니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1778958192970",
-    "title": "코인베이스(COIN) 심층 분석: 암호화폐 시장 변동성 속 'Everything Exchange' 비전과 투자 전망",
-    "ticker": "COIN",
-    "market": "US",
-    "timestamp": "2026-05-16T19:03:12.970Z",
-    "summary": "코인베이스는 주요 암호화폐 거래소 플랫폼으로, 비트코인 등 암호화폐 시장의 변동성과 밀접하게 연동되어 높은 변동성을 특징으로 합니다. 2026년 1분기 실적은 암호화폐 시장 시가총액 및 거래량 감소의 영향으로 순손실을 기록했으나, 'Everything Exchange' 비전 아래 디지털 금융 서비스 확장을 추진 중입니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Hold"
   }
 ]
