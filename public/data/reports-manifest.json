@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781796096055",
+    "title": "올버즈(BIRD)의 스마트버드(Smartbird)로의 AI 사업 전환: 극단적 변동성과 미지의 시장 도전 분석",
+    "ticker": "BIRD",
+    "market": "US",
+    "timestamp": "2026-06-18T15:21:36.055Z",
+    "summary": "지속 가능한 신발 브랜드 '올버즈(Allbirds)'에서 AI 인프라 제공업체 '스마트버드(Smartbird)'로의 파격적인 사업 전환으로 인해 주가가 급등하며 투자자들의 큰 관심을 받고 있습니다. 기존 신발 사업 자산을 매각하고 새로운 AI 전문가를 CEO로 영입하는 등 공격적인 변화를 추진 중이지만, 동시에 높은 변동성과 신규 시장 진입에 따른 상당한 위험을 내포하고 있습니다.",
+    "sentimentScore": 0,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1781754727168",
     "title": "SK스퀘어, AI 딥테크 반도체 투자의 핵심 지주회사: SK하이닉스 지분 가치 재평가와 미래 성장 동력 분석",
     "ticker": "402340",
@@ -988,15 +998,5 @@
     "summary": "Cerebras Systems Inc.는 인공지능(AI) 인프라 기업으로, GPU를 능가하는 성능을 목표로 하는 독점적인 웨이퍼 스케일 엔진(WSE) 칩을 포함한 AI 컴퓨팅 플랫폼을 설계 및 제조합니다. 최근 성공적인 IPO를 통해 주목받았으며, AI 훈련 및 추론 분야에서 혁신적인 솔루션을 제공합니다.",
     "sentimentScore": 0.3,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779013385791",
-    "title": "Lumentum Holdings Inc. (LITE): AI 인프라 확장의 핵심 광학 솔루션 리더, 심층 투자 분석",
-    "ticker": "LITE",
-    "market": "US",
-    "timestamp": "2026-05-17T10:23:05.791Z",
-    "summary": "Lumentum Holdings Inc. (LITE)는 광학 및 포토닉 제품을 제조하는 미국의 주요 기업으로, 클라우드 및 네트워킹, 산업 기술 분야에 서비스를 제공합니다. 특히 100G 및 200G 속도의 EML 출하량이 2026년 말까지 50% 이상 성장할 것으로 예상되는 등 레이저 칩에 대한 강력한 수요에 힘입어 실적이 호조를 보이고 있습니다. 최근 견조한 회계 3분기 실적과 4분기 매출 가이던스 발표, 나스닥 100 지수 편입, 엔비디아의 전략적 투자 등으로 상당한 상승 모멘텀을 받고 있습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Buy"
   }
 ]
