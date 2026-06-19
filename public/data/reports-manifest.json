@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781864679482",
+    "title": "Butterfly Network (BFLY): 혁신과 변동성 교차점에서의 투자 분석",
+    "ticker": "BFLY",
+    "market": "US",
+    "timestamp": "2026-06-19T10:24:39.482Z",
+    "summary": "Butterfly Network (BFLY)는 최근 긍정적인 실적, FDA 승인 및 Midjourney Medical과의 파트너십 발표로 인해 주가가 급등한 디지털 헬스케어 기업입니다. 그러나 현재 주가는 애널리스트들의 목표가를 상회하며, 내부자 매도 활동이 관찰되어 높은 변동성을 보이고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1781823354663",
     "title": "Aditxt (ADTX) 심층 분석: 극심한 재정 위험과 투자 가치 훼손에 대한 보고서",
     "ticker": "ADTX",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-18T15:31:00.981Z",
     "summary": "선샤인 바이오파마(Sunshine Biopharma Inc.)는 항암제 및 항바이러스제 연구 개발과 캐나다 자회사 Nora Pharma를 통한 제네릭 의약품 및 바이오시밀러 상업화에 주력하는 제약 회사입니다. 이 회사는 혁신적인 치료법과 기존 제네릭 시장 확장을 동시에 추구하며, 생명 과학 분야에서 성장 잠재력을 모색하고 있습니다.",
     "sentimentScore": 61,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1779044896737",
-    "title": "P3 Health Partners (PIII): 가치 기반 의료 혁신과 극심한 변동성 속 투자 기회 분석",
-    "ticker": "PIII",
-    "market": "US",
-    "timestamp": "2026-05-17T19:08:16.737Z",
-    "summary": "P3 Health Partners Inc.는 의사 주도의 인구 건강 관리 회사로, 가치 기반 메디케어 서비스를 제공합니다. 최근 2026년 1분기 실적에서 3억 8,600만 달러의 매출과 2,580만 달러의 조정 EBITDA를 기록하며, 연간 EBITDA 가이던스를 상향 조정했습니다. 또한, 나스닥 상장 유지 요건 충족을 위해 부채 교환 및 지분 증자를 성공적으로 완료했다고 발표했습니다. 이러한 긍정적인 소식으로 인해 주가는 최근 거래에서 크게 급등했습니다.",
-    "sentimentScore": 0.6,
     "investmentRating": "Buy"
   }
 ]
