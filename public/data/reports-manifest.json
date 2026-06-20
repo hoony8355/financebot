@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1781993154855",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 성장 가속화 속 밸류에이션과 기술적 리스크 평가",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-06-20T22:05:54.855Z",
+    "summary": "Palantir Technologies (PLTR)는 데이터 분석 및 AI 소프트웨어 분야의 핵심 기업으로, 상업 및 정부 부문 모두에서 AI 비즈니스 성장이 가속화되고 있습니다. 최근 주가는 하락세를 보였으나, 장기적인 성장 잠재력과 견고한 기술적 우위로 Moderate Buy 등급을 유지하고 있습니다. 높은 밸류에이션이 리스크 요인으로 작용합니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1781983513600",
     "title": "테슬라 (TSLA): 혁신과 현실 사이, 복합적 시장 환경 속 투자 전략 분석",
     "ticker": "TSLA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-20T20:14:08.878Z",
     "summary": "Rackspace Technology는 하이브리드 및 멀티 클라우드 기술 서비스 전문 기업으로, AWS, Microsoft Azure, Google Cloud 등 다양한 플랫폼에서 고객의 클라우드 환경을 설계, 구축 및 운영합니다. 매니지드 서비스, 애플리케이션, 보안 및 데이터 서비스를 제공하며, 최근 AI 솔루션 분야로 확장을 모색하고 있습니다.",
     "sentimentScore": 60,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779269598880",
-    "title": "GIPR (Generation Income Properties Inc.) 심층 분석: 극단적 변동성과 상장 리스크를 안은 소규모 REIT 투자 판단",
-    "ticker": "GIPR",
-    "market": "US",
-    "timestamp": "2026-05-20T09:33:18.880Z",
-    "summary": "Generation Income Properties Inc. (GIPR)는 미국 전역에 단일 세입자 순 임대 소매, 사무실 및 산업 자산을 인수하고 관리하는 소규모 부동산 투자 신탁(REIT)입니다. [2, 9, 14] 2026년 5월 19일, 이 주식은 이사회 개편과 재융자 조건 변경을 포함한 최근 기업 업데이트와 관련된 고도로 투기적인 거래로 인해 75% 이상 급등했습니다. [6, 8] 현재 나스닥 상장 유지 요건(최소 주주 지분) 미준수 문제에 직면해 있습니다. [6, 14]",
-    "sentimentScore": 40,
     "investmentRating": "Hold"
   }
 ]
