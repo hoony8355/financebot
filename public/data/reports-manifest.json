@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782070115991",
+    "title": "마이크론 테크놀로지 (MU): AI 시대의 메모리 리더십과 밸류에이션 논쟁 심층 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-06-21T19:28:35.991Z",
+    "summary": "마이크론 테크놀로지는 DRAM 및 NAND 플래시 칩을 주로 생산하는 글로벌 반도체 메모리 및 스토리지 솔루션 선두 기업입니다. 데이터 센터, 모바일, 가전 및 자동차 시장에 서비스를 제공하며, AI 시장의 강력한 수요에 힘입어 올해 주가가 약 300% 급등했습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782050958715",
     "title": "GPUS: 비트코인 채굴에서 AI 데이터 센터로의 전환, 고변동성 속 기회와 위험 분석",
     "ticker": "GPUS",
@@ -988,15 +998,5 @@
     "summary": "Reddit (RDDT)는 AI 데이터 라이선싱 계약과 강력한 사용자 및 매출 성장에 힘입어 장기적인 성장 잠재력을 가진 소셜 미디어 플랫폼입니다. 하지만 높은 밸류에이션, 거시 경제 역풍, 내부자 매도 및 규제 우려로 인해 단기적인 변동성과 하방 압력을 받고 있습니다.",
     "sentimentScore": 72,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1779356336374",
-    "title": "Arm Holdings (ARM): AI 시대의 핵심 IP 지배자와 밸류에이션 딜레마 심층 분석",
-    "ticker": "ARM",
-    "market": "US",
-    "timestamp": "2026-05-21T09:38:56.374Z",
-    "summary": "Arm Holdings (ARM)는 AI 기반 반도체 설계 수요 급증으로 인해 높은 거래량과 상당한 주가 변동성을 보이며 52주 신고가를 경신했습니다. 강력한 시장 포지션과 데이터센터 확장 전략이 긍정적인 평가를 받지만, 높은 밸류에이션과 잠재적인 규제 조사는 리스크 요인입니다.",
-    "sentimentScore": 0.78,
-    "investmentRating": "Strong Buy"
   }
 ]
