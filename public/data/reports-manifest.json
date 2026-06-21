@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782014840806",
+    "title": "SK하이닉스: AI 메모리 시대의 절대 강자, HBM 리더십 기반 심층 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-06-21T04:07:20.806Z",
+    "summary": "SK하이닉스는 인공지능(AI) 메모리(HBM) 시장의 독보적인 리더십과 차세대 HBM4E 샘플 공급으로 높은 주가 상승세를 기록하며 국내 증시의 핵심 종목으로 부상했습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1781993154855",
     "title": "Palantir Technologies (PLTR) 심층 분석: AI 성장 가속화 속 밸류에이션과 기술적 리스크 평가",
     "ticker": "PLTR",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-20T22:24:23.374Z",
     "summary": "NextNRG (NASDAQ: NXXT)는 AI 기반 시스템을 활용하여 차량 및 유틸리티의 에너지 관리, 연료 공급 및 충전을 최적화하는 기술 중심 에너지 기업입니다. 모바일 연료 공급, 무선 EV 충전, 스마트 마이크로그리드 및 독점적인 Next UOS® 플랫폼을 포함하는 통합 생태계를 통해 가동 시간 개선, 비용 절감 및 지속 가능성을 목표로 합니다.",
     "sentimentScore": 0.7,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779308048878",
-    "title": "Rackspace Technology (RXT): AI 기대감과 재무 리스크의 교차로 분석",
-    "ticker": "RXT",
-    "market": "US",
-    "timestamp": "2026-05-20T20:14:08.878Z",
-    "summary": "Rackspace Technology는 하이브리드 및 멀티 클라우드 기술 서비스 전문 기업으로, AWS, Microsoft Azure, Google Cloud 등 다양한 플랫폼에서 고객의 클라우드 환경을 설계, 구축 및 운영합니다. 매니지드 서비스, 애플리케이션, 보안 및 데이터 서비스를 제공하며, 최근 AI 솔루션 분야로 확장을 모색하고 있습니다.",
-    "sentimentScore": 60,
     "investmentRating": "Hold"
   }
 ]
