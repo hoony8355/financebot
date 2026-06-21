@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782080064301",
+    "title": "NVIDIA (NVDA): AI 패권의 핵심 동력, 심층 투자 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-06-21T22:14:24.301Z",
+    "summary": "NVIDIA (NVDA)는 AI 칩 시장의 선두 주자이며, 데이터 센터 및 게이밍 GPU 분야에서 강력한 성장세를 보이고 있습니다. 최근 단기적인 가격 조정이 있었으나, 분석가들은 AI 수요 증가와 Blackwell 및 Rubin 칩 출시 기대로 'Strong Buy' 의견을 유지하며 높은 목표 주가를 제시하고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782070115991",
     "title": "마이크론 테크놀로지 (MU): AI 시대의 메모리 리더십과 밸류에이션 논쟁 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "AMC Entertainment Holdings Inc.는 세계 최대 영화관 체인으로, '밈 주식'으로 알려져 있으며 높은 변동성과 개인 투자자들의 관심이 특징입니다. 최근 경영진의 자사주 매입과 박스오피스 회복에 대한 긍정적인 신호가 있지만, 상당한 부채와 마이너스 현금 흐름으로 인해 재무적 어려움에 직면해 있습니다.",
     "sentimentScore": 0.79,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779376969232",
-    "title": "레딧(RDDT) 심층 분석: AI 수익화와 성장 잠재력, 그리고 밸류에이션 리스크",
-    "ticker": "RDDT",
-    "market": "US",
-    "timestamp": "2026-05-21T15:22:49.232Z",
-    "summary": "Reddit (RDDT)는 AI 데이터 라이선싱 계약과 강력한 사용자 및 매출 성장에 힘입어 장기적인 성장 잠재력을 가진 소셜 미디어 플랫폼입니다. 하지만 높은 밸류에이션, 거시 경제 역풍, 내부자 매도 및 규제 우려로 인해 단기적인 변동성과 하방 압력을 받고 있습니다.",
-    "sentimentScore": 72,
-    "investmentRating": "Moderate Buy"
   }
 ]
