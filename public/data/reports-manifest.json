@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782035348275",
+    "title": "FreeCast, Inc. (CAST): 파트너십 기대와 극단적 재무 불안정성 간의 기로 분석",
+    "ticker": "CAST",
+    "market": "US",
+    "timestamp": "2026-06-21T09:49:08.275Z",
+    "summary": "FreeCast, Inc. (CAST)는 TV 및 디지털 비디오 배포를 위한 Platform-as-a-Service (PaaS) 솔루션을 제공하는 스트리밍 기술 회사입니다. 최근 DIRECTV 및 Starlink Business와의 파트너십 확장 소식으로 인해 주가가 급등하며 상당한 변동성을 보였습니다. 하지만 회사는 최소한의 매출, 확대되는 손실, 마이너스 현금 흐름, 그리고 극도로 투기적인 밸류에이션 등 심각한 재정적 어려움에 직면해 있습니다.",
+    "sentimentScore": 0.4,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1782014840806",
     "title": "SK하이닉스: AI 메모리 시대의 절대 강자, HBM 리더십 기반 심층 분석",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 한국의 주요 반도체 기업으로, DRAM과 NAND 플래시 메모리 시장의 '빅 3' 제조사 중 하나입니다. 특히 AI 핵심 부품인 고대역폭 메모리(HBM) 분야에서 선도적인 위치를 차지하며, 엔비디아(NVIDIA)에 HBM3E 칩을 공급하는 주요 기업으로서 AI 산업 성장의 핵심 수혜주로 주목받고 있습니다.",
     "sentimentScore": 8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1779315863374",
-    "title": "NXXT: AI 기반 에너지 솔루션 기업의 고성장과 극심한 변동성 분석",
-    "ticker": "NXXT",
-    "market": "US",
-    "timestamp": "2026-05-20T22:24:23.374Z",
-    "summary": "NextNRG (NASDAQ: NXXT)는 AI 기반 시스템을 활용하여 차량 및 유틸리티의 에너지 관리, 연료 공급 및 충전을 최적화하는 기술 중심 에너지 기업입니다. 모바일 연료 공급, 무선 EV 충전, 스마트 마이크로그리드 및 독점적인 Next UOS® 플랫폼을 포함하는 통합 생태계를 통해 가동 시간 개선, 비용 절감 및 지속 가능성을 목표로 합니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Hold"
   }
 ]
