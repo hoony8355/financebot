@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782417592875",
+    "title": "Triller Group (ILLR): SpaceX 지분 인수 발표가 촉발한 극심한 변동성 속 재무 위험성 심층 분석",
+    "ticker": "ILLR",
+    "market": "US",
+    "timestamp": "2026-06-25T19:59:52.875Z",
+    "summary": "Triller Group (ILLR)는 최근 1대10 역주식 분할을 시행했으며, SpaceX에 대한 경제적 노출 지분을 인수한다는 발표에 힘입어 주가가 400% 이상 급등하며 극심한 변동성을 보였습니다. 그러나 회사는 여전히 부진한 재무 상태와 높은 파산 위험에 직면해 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1782398053490",
     "title": "웬디스(WEN) 주가 급등 분석: 밈 주식 열풍, 숏 스퀴즈, 그리고 턴어라운드 기대감이 교차하는 투자 딜레마",
     "ticker": "WEN",
@@ -988,15 +998,5 @@
     "summary": "Rigetti Computing (RGTI)는 미국 상무부로부터 최대 1억 달러의 CHIPS Act 연구 자금 지원 의향서와 광범위한 양자 컴퓨팅 부문 랠리에 힘입어 주가가 크게 상승했습니다. 최근 분기 매출도 큰 폭으로 성장하며 긍정적인 시장 심리를 강화하고 있습니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1779563325841",
-    "title": "Palantir Technologies (PLTR) 심층 분석: AI 플랫폼 수요 급증과 밸류에이션 딜레마",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-05-23T19:08:45.841Z",
-    "summary": "Palantir Technologies (PLTR)는 정부 기관 및 상업 고객에게 데이터 분석 소프트웨어를 제공하는 회사입니다. AI 기반 플랫폼 수요 증가에 힘입어 2026년 1분기 매출이 전년 대비 85% 성장하고 연간 가이던스를 상향 조정하는 등 강력한 실적을 발표했습니다. 하지만 높은 밸류에이션과 경쟁 심화는 지속적인 우려 사항입니다.",
-    "sentimentScore": 81,
-    "investmentRating": "Buy"
   }
 ]
