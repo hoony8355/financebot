@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782493273023",
+    "title": "SpaceX (SPCX): 혁신과 변동성 속 초고도 성장 기업의 밸류에이션 딜레마 분석",
+    "ticker": "SPCX",
+    "market": "US",
+    "timestamp": "2026-06-26T17:01:13.023Z",
+    "summary": "SpaceX (SPCX)는 2026년 6월 12일 상장 이후 극심한 변동성을 겪고 있는 미국 주식입니다. 상장 직후 최고 225.64달러까지 치솟았으나, 6월 26일 현재 약 153.19달러까지 하락했습니다. 이러한 하락은 광범위한 기술주 매도세, AI 기업 가치에 대한 우려, 그리고 250억 달러 규모의 채권 발행 시장의 약세에 기인합니다. 하지만 Starlink의 확장, 국방 계약, 그리고 xAI 인공지능 사업을 통한 장기적인 성장 동력은 여전히 유효한 것으로 평가됩니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1782483793297",
     "title": "마이크론 테크놀로지(MU): AI 메모리 시대의 선두주자, 기회와 위험 분석",
     "ticker": "MU",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-25T10:03:41.277Z",
     "summary": "Hyliion Holdings Corp.는 KARNO 전력 모듈을 이용한 지속 가능한 전력 생산 기술을 개발하는 기업입니다. 최근 다중 연료 전환 성공 및 미국 해군/DARPA의 해상 시험용 선정 소식으로 주가가 크게 상승했습니다.",
     "sentimentScore": 80,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1779659789118",
-    "title": "AMD(Advanced Micro Devices): AI 시대의 선봉, 고성장과 밸류에이션의 딜레마",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-05-24T21:56:29.118Z",
-    "summary": "Advanced Micro Devices (AMD)는 인공지능(AI) 인프라 수요와 데이터센터 매출 호조에 힘입어 강력한 성장을 보이는 선도적인 반도체 기업입니다. 최근 애널리스트들의 목표주가 상향과 대만 내 첨단 제조 기술에 대한 상당한 투자에 힘입어 사상 최고가를 기록했습니다. 높은 밸류에이션에 대한 우려에도 불구하고 기술적으로 강세 신호를 보이고 있습니다.",
-    "sentimentScore": 78,
     "investmentRating": "Strong Buy"
   }
 ]
