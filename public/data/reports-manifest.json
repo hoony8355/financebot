@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782503159703",
+    "title": "엔비디아(NVDA): AI 시장 지배력과 단기 역풍 속 투자 전략 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-06-26T19:45:59.703Z",
+    "summary": "엔비디아(NVDA)는 AI 칩 시장의 선두주자이지만, 최근 AI 투자 지속 가능성에 대한 우려와 경쟁 심화로 인해 주가가 하락세를 보이며 기술주 전반의 매도세에 영향을 받고 있습니다.",
+    "sentimentScore": -0.7,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782493273023",
     "title": "SpaceX (SPCX): 혁신과 변동성 속 초고도 성장 기업의 밸류에이션 딜레마 분석",
     "ticker": "SPCX",
@@ -988,15 +998,5 @@
     "summary": "Super Micro Computer (SMCI)는 클라우드 컴퓨팅, 데이터 센터, 고성능 컴퓨팅 및 AI/IoT 시장을 위한 고성능 서버 기술 서비스를 제공하는 기업입니다. 최근 2026년 3분기 재무 실적 발표에서 강력한 AI 기반 수요에 힘입어 전년 대비 두 배 이상 증가한 순매출을 기록하며 시장 기대치를 상회하는 긍정적인 결과를 발표했습니다. 이로 인해 애널리스트들의 목표주가 상향 조정 및 투자심리 개선 기대가 나타나고 있습니다.",
     "sentimentScore": 6.5,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779703421277",
-    "title": "Hyliion Holdings (HYLN): KARNO 모듈을 통한 국방 및 지속가능 에너지 시장 지배 전략 분석",
-    "ticker": "HYLN",
-    "market": "US",
-    "timestamp": "2026-05-25T10:03:41.277Z",
-    "summary": "Hyliion Holdings Corp.는 KARNO 전력 모듈을 이용한 지속 가능한 전력 생산 기술을 개발하는 기업입니다. 최근 다중 연료 전환 성공 및 미국 해군/DARPA의 해상 시험용 선정 소식으로 주가가 크게 상승했습니다.",
-    "sentimentScore": 80,
-    "investmentRating": "Strong Buy"
   }
 ]
