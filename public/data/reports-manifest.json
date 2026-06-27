@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782557870681",
+    "title": "모더나(MRNA)의 팬데믹 이후 성장 전략: 백신 다각화와 mRNA 플랫폼의 미래 가치 평가",
+    "ticker": "MRNA",
+    "market": "US",
+    "timestamp": "2026-06-27T10:57:50.681Z",
+    "summary": "Moderna (MRNA)는 최근 FDA 자문 위원회의 독감 백신 만장일치 승인 권고와 과학의 날 업데이트에 대한 긍정적인 반응으로 주가가 급등하며 투자자들의 관심을 받고 있습니다. COVID-19 백신 의존도를 넘어 다양한 파이프라인(암 예방, 자가면역 질환, 차세대 mRNA 의약품)으로 확장하려는 노력이 긍정적인 투자 심리를 이끌고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1782503159703",
     "title": "엔비디아(NVDA): AI 시장 지배력과 단기 역풍 속 투자 전략 심층 분석",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "HPSP는 반도체 전공정 고압 수소 어닐링 장비 전문 기업으로, 2나노 이하 첨단 공정 필수 기술을 보유하며 글로벌 반도체 시장의 AI 및 HBM 수요 증가에 힘입어 높은 성장 잠재력을 보이고 있습니다. 최근 주가 변동성이 확대되며 투자자들의 주목을 받고 있습니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1779720745810",
-    "title": "Super Micro Computer (SMCI): AI 인프라 확장의 핵심 플레이어, 성장과 위험 요인 심층 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-05-25T14:52:25.810Z",
-    "summary": "Super Micro Computer (SMCI)는 클라우드 컴퓨팅, 데이터 센터, 고성능 컴퓨팅 및 AI/IoT 시장을 위한 고성능 서버 기술 서비스를 제공하는 기업입니다. 최근 2026년 3분기 재무 실적 발표에서 강력한 AI 기반 수요에 힘입어 전년 대비 두 배 이상 증가한 순매출을 기록하며 시장 기대치를 상회하는 긍정적인 결과를 발표했습니다. 이로 인해 애널리스트들의 목표주가 상향 조정 및 투자심리 개선 기대가 나타나고 있습니다.",
-    "sentimentScore": 6.5,
-    "investmentRating": "Hold"
   }
 ]
