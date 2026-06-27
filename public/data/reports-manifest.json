@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782576313907",
+    "title": "Curis, Inc. (CRIS) 심층 분석: 임상적 잠재력과 극심한 재정적 위험의 교차점",
+    "ticker": "CRIS",
+    "market": "US",
+    "timestamp": "2026-06-27T16:05:13.907Z",
+    "summary": "Curis, Inc.는 암 치료를 위한 혁신적인 의약품 후보 물질 개발에 주력하는 임상 단계의 바이오테크 기업입니다. 주요 파이프라인은 혈액암(만성 림프구성 백혈병 포함) 치료를 위한 에마부설팁(emavusertib)으로, 현재 임상 2상 연구가 진행 중이며 2026년 12월 데이터 발표가 예정되어 있습니다. 최근 나스닥 상장 유지 요건 충족을 위해 역주식 분할이 승인되었으나, 주가는 급격한 하락세를 보이고 있습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782567660564",
     "title": "Inno Holdings Inc. (INHD): 극단적 변동성과 투기적 과열에 대한 심층 분석 보고서",
     "ticker": "INHD",
@@ -988,15 +998,5 @@
     "summary": "Momentus Inc. (MNTS)는 위성 운송 및 궤도 내 서비스 등 우주 인프라 서비스를 제공하는 미국의 상업 우주 기업입니다. 독자적인 수성 플라즈마 추진 시스템인 Vigoride 플랫폼을 활용합니다. 최근 2026년 5월 한 달 동안 200% 이상 급등하는 등 높은 변동성을 보였으며, 2026년 1분기 매출이 전년 대비 10배 증가하고 새로운 정부 계약을 확보하면서 주가 상승을 견인했습니다.",
     "sentimentScore": 6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1779789319549",
-    "title": "NVIDIA (NVDA): AI 혁명의 핵심 동력, 고성장 지속 가능성과 밸류에이션 딜레마 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-05-26T09:55:19.549Z",
-    "summary": "NVIDIA는 GPU 시장의 선두주자이자 인공지능(AI) 및 데이터 센터 솔루션 분야의 핵심 기업입니다. 최근 시장 기대치를 뛰어넘는 강력한 1분기 실적을 발표했으며, AI 인프라 지출 증가가 성장을 견인하고 있습니다. 하지만 AI 지출의 지속 가능성과 경쟁 심화에 대한 우려도 존재합니다.",
-    "sentimentScore": 80,
-    "investmentRating": "Strong Buy"
   }
 ]
