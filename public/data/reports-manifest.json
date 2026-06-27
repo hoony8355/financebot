@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782587981088",
+    "title": "Sadot Group Inc. (SDOT): 극심한 변동성 속 사업 전환과 재무 리스크 심층 분석",
+    "ticker": "SDOT",
+    "market": "US",
+    "timestamp": "2026-06-27T19:19:41.088Z",
+    "summary": "Sadot Group Inc. (SDOT)는 농업 식품 사업에 집중하기 위해 레스토랑 자산을 매각하고 있는 하이퍼 변동성 마이크로캡 기업입니다. 최근 Anira Consulting 인수 및 LA 주택 포트폴리오 옵션 확보와 같은 소식에 힘입어 주가가 급등했지만, 심각한 재무적 약점을 안고 있습니다.",
+    "sentimentScore": 55,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1782576313907",
     "title": "Curis, Inc. (CRIS) 심층 분석: 임상적 잠재력과 극심한 재정적 위험의 교차점",
     "ticker": "CRIS",
@@ -988,15 +998,5 @@
     "summary": "Braiin Limited는 농업, 프롭테크, 고객 경험 서비스(CXaaS) 분야에 인공지능(AI) 및 머신러닝(ML) 기술을 활용하는 호주 기술 기업입니다. 최근 영국 Switchcraft와의 전략적 파트너십 발표로 주가가 크게 상승하며 시장의 주목을 받고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1779826165088",
-    "title": "Momentus Inc. (MNTS): 신흥 우주 인프라 시장의 고성장 잠재력과 극심한 변동성 분석",
-    "ticker": "MNTS",
-    "market": "US",
-    "timestamp": "2026-05-26T20:09:25.088Z",
-    "summary": "Momentus Inc. (MNTS)는 위성 운송 및 궤도 내 서비스 등 우주 인프라 서비스를 제공하는 미국의 상업 우주 기업입니다. 독자적인 수성 플라즈마 추진 시스템인 Vigoride 플랫폼을 활용합니다. 최근 2026년 5월 한 달 동안 200% 이상 급등하는 등 높은 변동성을 보였으며, 2026년 1분기 매출이 전년 대비 10배 증가하고 새로운 정부 계약을 확보하면서 주가 상승을 견인했습니다.",
-    "sentimentScore": 6,
-    "investmentRating": "Buy"
   }
 ]
