@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782567660564",
+    "title": "Inno Holdings Inc. (INHD): 극단적 변동성과 투기적 과열에 대한 심층 분석 보고서",
+    "ticker": "INHD",
+    "market": "US",
+    "timestamp": "2026-06-27T13:41:00.564Z",
+    "summary": "Inno Holdings Inc.는 AI 개발 계약 발표 이후 주가가 3,600% 이상 급등하며 극심한 변동성을 보였으나, 나스닥 거래 중단 및 연이은 역분할 이력이 있는 고위험 종목입니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1782557870681",
     "title": "모더나(MRNA)의 팬데믹 이후 성장 전략: 백신 다각화와 mRNA 플랫폼의 미래 가치 평가",
     "ticker": "MRNA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-26T09:55:19.549Z",
     "summary": "NVIDIA는 GPU 시장의 선두주자이자 인공지능(AI) 및 데이터 센터 솔루션 분야의 핵심 기업입니다. 최근 시장 기대치를 뛰어넘는 강력한 1분기 실적을 발표했으며, AI 인프라 지출 증가가 성장을 견인하고 있습니다. 하지만 AI 지출의 지속 가능성과 경쟁 심화에 대한 우려도 존재합니다.",
     "sentimentScore": 80,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1779766052759",
-    "title": "HPSP, 2나노 초미세 공정 시대를 이끌 독점적 고압 수소 어닐링 기술의 가치 평가 및 투자 전략 분석",
-    "ticker": "403870",
-    "market": "KR",
-    "timestamp": "2026-05-26T03:27:32.759Z",
-    "summary": "HPSP는 반도체 전공정 고압 수소 어닐링 장비 전문 기업으로, 2나노 이하 첨단 공정 필수 기술을 보유하며 글로벌 반도체 시장의 AI 및 HBM 수요 증가에 힘입어 높은 성장 잠재력을 보이고 있습니다. 최근 주가 변동성이 확대되며 투자자들의 주목을 받고 있습니다.",
-    "sentimentScore": 75,
     "investmentRating": "Strong Buy"
   }
 ]
