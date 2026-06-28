@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782663027528",
+    "title": "INVO Fertility, Inc. (IVF): 고성장 잠재력과 극심한 리스크의 공존, 'Strong Sell' 신호에 대한 심층 분석",
+    "ticker": "IVF",
+    "market": "US",
+    "timestamp": "2026-06-28T16:10:27.528Z",
+    "summary": "INVO Fertility, Inc.는 2026년 1분기에 23%의 매출 성장과 재무구조 개선을 보고했으나, 지속적인 손실, NASDAQ 규정 준수 문제, 높은 변동성에 직면해 있습니다. AI 기반 분석은 'Strong Sell' 신호를, 기술적 지표는 전반적인 하락 추세를 가리키고 있습니다.",
+    "sentimentScore": 20,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1782636623453",
     "title": "America's Car-Mart (CRMT): 심각한 재무 압박과 불확실성 속 투자 위험 분석",
     "ticker": "CRMT",
@@ -988,15 +998,5 @@
     "summary": "Sadot Group Inc. (SDOT)는 최근 1대 20 역주식 분할을 단행했으며, 이는 주로 Nasdaq의 $1.00 최소 입찰가 요건을 충족하기 위함입니다. 회사는 심각한 재정적 약세, 매출 감소, 막대한 손실, 마이너스 자기자본 및 지속적인 현금 소진에 직면해 있습니다. 기술적 분석은 하락 추세를 시사하며, 전반적인 시장 심리는 탐욕(Greed) 수준이지만, SDOT에 대한 투자 심리는 부정적입니다.",
     "sentimentScore": -0.8,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1779962418016",
-    "title": "Snowflake (SNOW): AI Data Cloud 모멘텀과 AWS 파트너십으로 재조명되는 성장 가치 분석",
-    "ticker": "SNOW",
-    "market": "US",
-    "timestamp": "2026-05-28T10:00:18.016Z",
-    "summary": "Snowflake (SNOW)는 클라우드 기반 데이터 플랫폼 기업으로, 최근 2027년 1분기 실적 발표에서 시장 예상치를 상회하는 매출과 수익을 기록했습니다. 특히 Amazon Web Services (AWS)와의 60억 달러 규모의 다년간 파트너십 계약을 발표하며 시장의 강력한 주목을 받았습니다. 이러한 긍정적인 소식들은 광범위한 소프트웨어 부문의 둔화 우려를 완화하고 주가 급등을 견인했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
