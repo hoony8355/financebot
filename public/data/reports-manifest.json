@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782770946820",
+    "title": "Decoy Therapeutics (DCOY): AI 혁신과 임상 모멘텀, 그러나 극심한 변동성 경고",
+    "ticker": "DCOY",
+    "market": "US",
+    "timestamp": "2026-06-29T22:09:06.820Z",
+    "summary": "Decoy Therapeutics Inc.는 AI 및 머신러닝 기반의 IMP3ACT 플랫폼을 활용하여 호흡기 바이러스 및 위장암을 포함한 감염병 및 종양학 분야의 펩타이드 접합 치료제를 개발하는 전임상 단계 바이오텍 기업입니다. 최근 최대 2,100만 달러 규모의 자금 조달 소식과 함께 임상 시험 진행 계획을 발표하며 주가가 급등했습니다.",
+    "sentimentScore": 0.49,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1782762978989",
     "title": "엔비디아(NVDA) 심층 분석: AI 시대의 핵심 인프라와 독보적 해자를 갖춘 리더 기업",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies Inc.는 미국, 영국 및 국제적으로 대테러 조사 및 작전을 지원하기 위해 인텔리전스 커뮤니티용 소프트웨어 플랫폼을 구축하고 배포하는 기업입니다. Palantir Gotham, Palantir Foundry, Palantir Apollo 및 Palantir Artificial Intelligence Platform (AIP)을 포함한 다양한 데이터 분석 및 AI 소프트웨어 플랫폼을 제공합니다.",
     "sentimentScore": 75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1780068403247",
-    "title": "플러그 파워(PLUG): AI 시대의 수소 에너지 잠재력과 재정적 도전, 심층 분석",
-    "ticker": "PLUG",
-    "market": "US",
-    "timestamp": "2026-05-29T15:26:43.247Z",
-    "summary": "Plug Power는 수소 연료 전지 및 전해조 솔루션을 제공하는 글로벌 선두 기업으로, 물류, 전기차 및 고정 전력 시장에 서비스를 제공합니다. 최근 2026년 1분기 실적에서 매출이 예상치를 상회하고 손실이 줄어들며 총 마진이 개선되는 긍정적인 신호를 보였습니다. 인공지능(AI) 데이터 센터의 수요 증가와 녹색 수소 프로젝트에 대한 기대감이 주가를 견인하고 있으나, 상당한 현금 소진, 부채, 잠재적 주식 희석 위험 등 재정적 어려움에 직면해 있으며 2027~2028년에야 수익성 달성을 목표로 하고 있습니다.",
-    "sentimentScore": 69,
-    "investmentRating": "Hold"
   }
 ]
