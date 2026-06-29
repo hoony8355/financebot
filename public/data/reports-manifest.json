@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782730617436",
+    "title": "PS International Group Ltd. (PSIG): 극심한 재무 위기와 시장 신뢰 상실에 따른 '강력 매도' 리포트",
+    "ticker": "PSIG",
+    "market": "US",
+    "timestamp": "2026-06-29T10:56:57.436Z",
+    "summary": "PS International Group Ltd. (PSIG)는 홍콩 기반의 물류 및 공급망 솔루션 기업으로, 최근 극심한 주가 변동성을 겪으며 87% 이상의 급락을 기록했습니다. 재무 건전성 악화와 부정적인 시장 전망이 주요 이슈입니다.",
+    "sentimentScore": 2,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1782704805245",
     "title": "삼성전자: HBM4 선봉, 격랑 속 투자 매력도 심층 분석 리포트",
     "ticker": "005930",
@@ -988,15 +998,5 @@
     "summary": "QTREX Quantum Ltd. (QTEX)는 이스라엘 기반의 의료기기 전문 기업으로, 최근 양자 컴퓨팅 하드웨어 분야로 전략적 전환을 선언했습니다. 이 회사는 양자 컴퓨팅 스케일링을 위한 극저온 상호 연결 시스템에 집중하며, 동시에 기존 의료기기 포트폴리오(호흡 지원 및 혈액 모니터링 시스템)도 유지하고 있습니다. 최근 '상위 5위 글로벌 양자 컴퓨팅 회사'와의 전략적 협력 논의 소식으로 인해 주가가 매우 높은 변동성을 보이며 급등락했습니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1780008104355",
-    "title": "테슬라(TSLA): 혁신과 도전의 교차로, 심층 금융 분석 리포트",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-05-28T22:41:44.355Z",
-    "summary": "테슬라(Tesla Inc.)는 미국 오스틴에 본사를 둔 다국적 자동차 및 청정에너지 기업입니다. 전기차(BEV) 설계, 제조, 판매뿐만 아니라 가정용부터 전력망 규모에 이르는 배터리 에너지 저장 장치, 태양광 패널 및 태양광 루프 타일 등 관련 제품 및 서비스를 제공합니다. 일론 머스크가 CEO를 맡고 있으며, AI 및 로봇 공학 분야에서도 선두적인 역할을 추구하고 있습니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Hold"
   }
 ]
