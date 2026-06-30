@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782828999079",
+    "title": "FreeCast (CAST): 고변동성 속 파트너십 기대와 심화되는 재무 리스크 분석",
+    "ticker": "CAST",
+    "market": "US",
+    "timestamp": "2026-06-30T14:16:39.079Z",
+    "summary": "FreeCast (CAST)는 최근 DIRECTV 및 Starlink 파트너십 확장 소식으로 급등했으나, 이후 급격한 변동성과 함께 최근 7일간 큰 폭으로 하락했습니다. 회사는 재정적 어려움과 치열한 스트리밍 시장 경쟁에 직면해 있습니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1782770946820",
     "title": "Decoy Therapeutics (DCOY): AI 혁신과 임상 모멘텀, 그러나 극심한 변동성 경고",
     "ticker": "DCOY",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 고대역폭메모리(HBM) 기술 리더십과 AI 및 데이터센터 투자 확대에 따른 메모리 반도체 수요 급증으로 사상 최고가를 경신하며 시가총액 1조 달러를 달성한 한국의 대표적인 반도체 기업입니다. D램 및 낸드플래시 시장의 슈퍼 사이클 기대감과 함께 강력한 성장세를 보이고 있습니다.",
     "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1780086291133",
-    "title": "팔란티어 테크놀로지스: AI 시대의 데이터 거버넌스 리더, 고성장과 고위험의 교차점 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-05-29T20:24:51.133Z",
-    "summary": "Palantir Technologies Inc.는 미국, 영국 및 국제적으로 대테러 조사 및 작전을 지원하기 위해 인텔리전스 커뮤니티용 소프트웨어 플랫폼을 구축하고 배포하는 기업입니다. Palantir Gotham, Palantir Foundry, Palantir Apollo 및 Palantir Artificial Intelligence Platform (AIP)을 포함한 다양한 데이터 분석 및 AI 소프트웨어 플랫폼을 제공합니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Buy"
   }
 ]
