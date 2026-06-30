@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782849345880",
+    "title": "AMD(Advanced Micro Devices) 심층 분석: AI 시대의 선두 주자, 밸류에이션과 성장 잠재력",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-06-30T19:55:45.880Z",
+    "summary": "Advanced Micro Devices (AMD)는 AI 및 서버 시장에서 강력한 성과를 보이며 반도체 업계를 선도하고 있는 핵심 종목입니다. EPYC 서버 CPU와 데이터센터 GPU에 대한 수요 증가, 파트너십을 통한 AI 인프라 확장이 주가 상승의 주요 동력으로 작용하고 있습니다. 최근 애널리스트들의 목표 주가 상향 조정과 함께 전반적으로 낙관적인 시장 전망이 이어지고 있습니다.",
+    "sentimentScore": 60.68,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782828999079",
     "title": "FreeCast (CAST): 고변동성 속 파트너십 기대와 심화되는 재무 리스크 분석",
     "ticker": "CAST",
@@ -987,16 +997,6 @@
     "timestamp": "2026-05-30T16:04:11.341Z",
     "summary": "NVIDIA는 컴퓨터 그래픽 처리 장치(GPU), 칩셋 및 관련 멀티미디어 소프트웨어의 설계 및 제조를 주력으로 하는 미국의 기술 기업입니다. 특히 데이터 센터 및 AI 시장에서 강력한 입지를 구축하고 있으며, 최근 AI 기술 혁신을 주도하며 높은 성장세를 보이고 있습니다. 게임, 전문가용 시각화, 데이터 센터, 자동차 등 다양한 시장에 제품을 공급합니다.",
     "sentimentScore": 0.88,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1780122262211",
-    "title": "SK하이닉스: AI 반도체 혁명을 주도하는 HBM 리더십 분석 및 심층 밸류에이션 점검",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2026-05-30T06:24:22.211Z",
-    "summary": "SK하이닉스는 고대역폭메모리(HBM) 기술 리더십과 AI 및 데이터센터 투자 확대에 따른 메모리 반도체 수요 급증으로 사상 최고가를 경신하며 시가총액 1조 달러를 달성한 한국의 대표적인 반도체 기업입니다. D램 및 낸드플래시 시장의 슈퍼 사이클 기대감과 함께 강력한 성장세를 보이고 있습니다.",
-    "sentimentScore": 0.9,
     "investmentRating": "Strong Buy"
   }
 ]
