@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782944235596",
+    "title": "아마존(AMZN) 심층 분석: AI 시대의 성장 동력과 잠재 리스크",
+    "ticker": "AMZN",
+    "market": "US",
+    "timestamp": "2026-07-01T22:17:15.596Z",
+    "summary": "Amazon은 전자상거래, 클라우드 컴퓨팅(AWS), 온라인 광고, 디지털 스트리밍, AI 분야를 아우르는 다국적 기술 기업입니다. 최근 성공적인 프라임 데이와 AWS의 강력한 성장이 긍정적인 촉매로 작용했으나, 대규모 AI 투자 관련 자본 지출 및 규제 강화 가능성은 주가에 잠재적 부담 요인으로 작용하고 있습니다.",
+    "sentimentScore": 71,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1782935616335",
     "title": "American Airlines Group (AAL): 모멘텀 주도 랠리 속 밸류에이션 리스크와 거시경제적 순풍의 이중주 분석",
     "ticker": "AAL",
@@ -988,15 +998,5 @@
     "summary": "UnitedHealth Group (UNH)는 미국 최대의 건강 보험 및 의료 서비스 제공업체 중 하나입니다. Optum 부문의 성장과 함께 안정적인 매출을 유지하고 있으나, 최근 규제 당국의 조사와 소송, 그리고 과거 CEO 교체 이슈 등으로 인해 높은 시장 변동성을 보였습니다. 그럼에도 불구하고, 견고한 1분기 실적과 애널리스트들의 긍정적인 전망이 주가를 지지하고 있습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1780217058820",
-    "title": "Astrotech Corporation (ASTC): 투기적 모멘텀과 구조적 기회의 교차점 분석",
-    "ticker": "ASTC",
-    "market": "US",
-    "timestamp": "2026-05-31T08:44:18.820Z",
-    "summary": "Astrotech Corporation은 보안, 농업, 산업 공정 제어 및 헬스케어 분야의 질량 분석 기술을 상용화하는 기술 인큐베이터입니다. 최근 TRACER 1000 시스템의 유럽 연합 승인과 달 자원 개발 및 인프라 구축을 위한 새로운 전략적 이니셔티브 발표로 주가가 급등했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Hold"
   }
 ]
