@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1782982501224",
+    "title": "Shutterstock (SSTK): 합병 무산과 AI 전환기 속 투자 심리 분석 및 향후 전망",
+    "ticker": "SSTK",
+    "market": "US",
+    "timestamp": "2026-07-02T08:55:01.224Z",
+    "summary": "Shutterstock, Inc. (SSTK)는 전 세계 크리에이티브 전문가와 기업에 고품질 라이선스 이미지, 동영상, 음악, 편집 도구 및 생성형 AI 콘텐츠를 제공하는 글로벌 플랫폼입니다. 최근 Getty Images와의 37억 달러 규모의 합병 계약이 영국 경쟁시장청(CMA)의 조건(Shutterstock의 편집 사업부 매각)으로 인해 해지되면서 주가가 급락하며 높은 변동성을 보였습니다. 이는 1분기 실적 부진과 함께 투자 심리를 크게 위축시켰습니다.",
+    "sentimentScore": 2,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1782944235596",
     "title": "아마존(AMZN) 심층 분석: AI 시대의 성장 동력과 잠재 리스크",
     "ticker": "AMZN",
@@ -988,15 +998,5 @@
     "summary": "P3 Health Partners(PIII)는 2026년 5월 강력한 1분기 실적, Nasdaq 상장 규정 재준수, 성공적인 부채 구조조정에 힘입어 주가가 크게 급등했습니다. 그러나 최근 대규모 급등 이후 차익 실현으로 인해 상당한 조정을 겪었습니다. 회사는 2026년 연간 매출 및 조정 EBITDA 가이던스를 상향 조정하여 긍정적인 전망을 제시했지만, 과거 재무 건전성 및 1회성 이익의 지속 가능성에 대한 우려도 존재합니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1780254968581",
-    "title": "UnitedHealth Group (UNH): 규제 리스크 속 지속 가능한 성장 동력과 헬스케어 시장 리더십 심층 분석",
-    "ticker": "UNH",
-    "market": "US",
-    "timestamp": "2026-05-31T19:16:08.581Z",
-    "summary": "UnitedHealth Group (UNH)는 미국 최대의 건강 보험 및 의료 서비스 제공업체 중 하나입니다. Optum 부문의 성장과 함께 안정적인 매출을 유지하고 있으나, 최근 규제 당국의 조사와 소송, 그리고 과거 CEO 교체 이슈 등으로 인해 높은 시장 변동성을 보였습니다. 그럼에도 불구하고, 견고한 1분기 실적과 애널리스트들의 긍정적인 전망이 주가를 지지하고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Buy"
   }
 ]
