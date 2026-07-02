@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783010945564",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 온톨로지 기반 성장 동력과 밸류에이션 리스크",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-07-02T16:49:05.564Z",
+    "summary": "Palantir Technologies는 정부 및 상업 고객에게 Foundry 및 Gotham 플랫폼을 제공하는 AI, 분석 및 자동 의사 결정 회사입니다. 최근 미국 육군과 100억 달러 규모의 계약을 체결했으며, 강력한 AI 플랫폼 채택에 힘입어 2026년 1분기 사상 최대 매출을 기록했습니다. 주가는 연초 대비 약 31.1% 하락하는 등 상당한 변동성을 보였으며, 높은 밸류에이션과 경쟁 심화가 주요 요인으로 작용하고 있습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1782992025952",
     "title": "Reddit (RDDT): AI 데이터 라이선싱과 광고 매출의 시너지, 강력한 성장 모멘텀 심층 분석",
     "ticker": "RDDT",
@@ -988,15 +998,5 @@
     "summary": "AI 및 데이터 분석 소프트웨어 기업 팔란티어(PLTR)는 최근 AI 성장 및 정부 계약 호조에 힘입어 높은 변동성과 거래량을 보이며 시장의 주목을 받고 있습니다. 강력한 실적과 긍정적인 애널리스트 전망에도 불구하고 높은 밸류에이션은 잠재적 위험으로 작용합니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1780286281308",
-    "title": "LG전자 (066570): 신성장 동력으로 도약하는 스마트 라이프 솔루션 기업의 미래 가치 재평가",
-    "ticker": "066570",
-    "market": "KR",
-    "timestamp": "2026-06-01T03:58:01.308Z",
-    "summary": "LG전자는 대한민국의 다국적 가전 및 소비자 전자제품 기업으로, LG그룹의 핵심 계열사입니다. 홈 어플라이언스 & 에어 솔루션, 홈 엔터테인먼트, VS(Vehicle Component Solutions), 비즈니스 솔루션, LG이노텍 등 5개 핵심 사업 부문을 운영합니다. OLED TV 기술을 선도하며 webOS 및 LG ThinQ 스마트 홈 생태계를 통해 시장을 이끌고 있습니다. 최근 인공지능(AI), 로봇 공학, 전기차 부품 등 미래 성장 동력에 대한 투자와 B2B 및 구독형 서비스로의 사업 구조 전환을 가속화하고 있습니다.",
-    "sentimentScore": 90,
-    "investmentRating": "Buy"
   }
 ]
