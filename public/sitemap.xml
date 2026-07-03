@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://financebot-omega.vercel.app/</loc>
-    <lastmod>2026-07-03T06:32:49.705Z</lastmod>
+    <lastmod>2026-07-03T16:24:09.121Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
+  <url>
+    <loc>https://financebot-omega.vercel.app/report/report-1783095848863</loc>
+    <lastmod>2026-07-03T16:24:08.863Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://financebot-omega.vercel.app/report/report-1783060369453</loc>
     <lastmod>2026-07-03T06:32:49.453Z</lastmod>
@@ -598,12 +604,6 @@
   <url>
     <loc>https://financebot-omega.vercel.app/report/report-1780441396104</loc>
     <lastmod>2026-06-02T23:03:16.104Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://financebot-omega.vercel.app/report/report-1780349545323</loc>
-    <lastmod>2026-06-01T21:32:25.323Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
