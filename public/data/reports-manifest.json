@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783202328013",
+    "title": "SoFi Technologies (SOFI): 다각화된 핀테크 플랫폼의 성장 잠재력과 리스크 분석",
+    "ticker": "SOFI",
+    "market": "US",
+    "timestamp": "2026-07-04T21:58:48.013Z",
+    "summary": "SoFi Technologies (SOFI)는 대출, 투자, 은행 업무 및 기술 솔루션을 포함한 광범위한 디지털 금융 서비스를 제공하는 미국의 핀테크 기업입니다. 주로 젊은 소비자를 대상으로 원스톱 금융 서비스를 목표로 합니다.",
+    "sentimentScore": 81,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1783192269258",
     "title": "Micron Technology: AI 시대 고대역폭 메모리 리더십과 최근 시장 조정 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 글로벌 인공지능(AI) 반도체 수요 급증에 따른 고대역폭메모리(HBM) 및 범용 메모리 가격 상승으로 견고한 실적 성장세를 보이고 있습니다. 2026년 2분기 메모리 사업부문의 기록적인 영업이익이 기대되며, 다수의 증권사에서 목표주가를 상향 조정하고 있습니다. 다만, 스마트폰 및 가전 등 비메모리 부문의 실적 부진 우려가 상존하며, 시장 전반의 '극단적 공포' 심리 속에서 변동성이 커질 수 있습니다.",
     "sentimentScore": 10,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1780520113775",
-    "title": "테슬라(TSLA) 종합 분석: 혁신과 경쟁 속에서의 투자 전략 탐색",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-06-03T20:55:13.775Z",
-    "summary": "테슬라(TSLA)는 전기차 및 에너지 저장 시스템 분야의 선도 기업입니다. 최근 Cybertruck 리콜 및 FSD 시스템에 대한 규제 조사 등의 이슈에도 불구하고, 로보택시, Optimus 로봇, Supercharger 네트워크 확장 등 혁신적인 프로젝트를 지속하며 높은 변동성을 보이고 있습니다. 애널리스트 컨센서스는 '보유(Hold)' 의견이 지배적이며, 목표 주가는 현재가 대비 하향을 제시하는 경우가 많습니다.",
-    "sentimentScore": 58,
-    "investmentRating": "Hold"
   }
 ]
