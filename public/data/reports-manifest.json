@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783192269258",
+    "title": "Micron Technology: AI 시대 고대역폭 메모리 리더십과 최근 시장 조정 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-07-04T19:11:09.258Z",
+    "summary": "Micron Technology는 DRAM, NAND, HBM을 포함한 메모리 및 스토리지 칩을 제조하는 선도적인 반도체 기업입니다. 최근 AI 기반 고대역폭 메모리(HBM) 수요 급증에 힘입어 2026년 회계연도 3분기에 견조한 실적을 발표했으나, 7월 초 광범위한 반도체 섹터의 매도세와 유명 투자자의 약세 베팅으로 인해 주가가 상당한 조정을 받았습니다. 장기적인 전략적 고객 계약을 통해 안정적인 매출을 확보하고 있습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1783162455926",
     "title": "테슬라(TSLA) 2분기 인도량 호조에도 불구, 시장 변동성 속 미래 성장 동력과 밸류에이션 리스크 분석",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 전기차 및 에너지 저장 시스템 분야의 선도 기업입니다. 최근 Cybertruck 리콜 및 FSD 시스템에 대한 규제 조사 등의 이슈에도 불구하고, 로보택시, Optimus 로봇, Supercharger 네트워크 확장 등 혁신적인 프로젝트를 지속하며 높은 변동성을 보이고 있습니다. 애널리스트 컨센서스는 '보유(Hold)' 의견이 지배적이며, 목표 주가는 현재가 대비 하향을 제시하는 경우가 많습니다.",
     "sentimentScore": 58,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1780484278339",
-    "title": "NVIDIA: 인공지능 시대의 핵심 인프라 지배자, 압도적 시장 점유율과 미래 성장 동력 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-06-03T10:57:58.339Z",
-    "summary": "NVIDIA Corporation (NVDA)는 인공지능 컴퓨팅 분야의 선두 주자로, GPU를 통해 AI, 고성능 컴퓨팅 및 전문 시각화 시장을 주도하고 있습니다. 최근 FY2027 1분기 실적은 기록적인 매출 성장과 상당한 배당금 인상을 발표하며 경영진의 강력한 자신감을 나타냈습니다. NVIDIA는 AI 칩 시장에서 85%에 달하는 압도적인 점유율을 유지하고 있습니다.",
-    "sentimentScore": 0.87,
-    "investmentRating": "Strong Buy"
   }
 ]
