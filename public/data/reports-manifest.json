@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783351807113",
+    "title": "ClearOne (CLRO): 역합병을 통한 사업 대전환과 극심한 위험성 분석 리포트",
+    "ticker": "CLRO",
+    "market": "US",
+    "timestamp": "2026-07-06T15:30:07.113Z",
+    "summary": "ClearOne (CLRO)는 최근 Vivani Medical의 자회사인 Cortigent와의 역합병을 발표하며 기존 오디오/비디오 회의 솔루션 사업에서 뇌 자극 및 뇌-컴퓨터 인터페이스(BCI) 의료 기술 분야로의 주요 사업 전환을 시도하고 있습니다. 이러한 소식은 기업의 취약한 재무 상태와 기존 주주들의 상당한 지분 희석에도 불구하고 극심한 주가 변동성과 단기적인 가격 급등을 유발했습니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1783308292896",
     "title": "삼성전자: AI 메모리 선도 기업의 변동성 속 성장 잠재력 심층 분석",
     "ticker": "005930",
@@ -988,15 +998,5 @@
     "summary": "Solidion Technology Inc. (NASDAQ: STI)는 우주 및 AI 데이터 센터용 차세대 극한 환경 배터리 기술을 개발하는 고급 배터리 기술 솔루션 제공업체입니다. 최근 리튬 금속 배터리 기술 및 Gen-ECB 플랫폼의 특허 혁신 발표로 주가가 급등했으나, 이후 큰 폭의 변동성을 보였습니다.",
     "sentimentScore": 70,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1780652855045",
-    "title": "VERU Inc.: 노보 노디스크 협력으로 재점화된 비만 치료제 파이프라인과 투자 전망 심층 분석",
-    "ticker": "VERU",
-    "market": "US",
-    "timestamp": "2026-06-05T09:47:35.045Z",
-    "summary": "Veru Inc.는 심혈관 대사 및 염증성 질환 치료제 개발에 중점을 둔 후기 임상 단계 바이오 제약 회사입니다. 최근 Novo Nordisk와의 임상 공급 계약 체결로 비만 치료를 위한 에노보살름(enobosarm)의 2b상 임상 연구가 가속화될 것이라는 소식에 주가가 급등했습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
