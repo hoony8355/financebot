@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783376027969",
+    "title": "NVIDIA: AI 혁명 시대의 초고속 성장 동력과 투자 리스크 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-07-06T22:13:47.969Z",
+    "summary": "NVIDIA는 AI 반도체 시장의 선두 주자로, 강력한 재무 성과와 혁신적인 AI 및 데이터 센터 솔루션을 바탕으로 장기적인 성장이 기대됩니다. 최근 시장 전반의 반도체 약세와 경쟁 심화에도 불구하고, 대부분의 분석가들은 'Strong Buy' 의견을 유지하고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1783367676454",
     "title": "AMC 엔터테인먼트, 재무 개선 노력과 '밈 주식' 변동성 사이의 투자 분석",
     "ticker": "AMC",
@@ -988,15 +998,5 @@
     "summary": "Cisco Systems (CSCO)는 AI 인프라 수요 증가에 힘입어 긍정적인 실적 전망과 2026년 및 2027년 AI 관련 주문 목표를 상향 조정하며 성장 기대를 받고 있는 기술 기업입니다. 하지만 최근 제품의 주요 보안 취약점 공개로 인해 주가가 하락했으며, 이는 잠재적인 복구 비용과 고객 신뢰에 대한 우려를 불러일으켰습니다. 이러한 상황에도 불구하고, 애널리스트들의 전반적인 평가는 'Moderate Buy'로 비교적 긍정적인 편입니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1780679692729",
-    "title": "HUB Cyber Security (HUBC): 재무 불안정 및 상장 위기에 따른 '강력 매도' 심층 분석",
-    "ticker": "HUBC",
-    "market": "US",
-    "timestamp": "2026-06-05T17:14:52.729Z",
-    "summary": "HUB Cyber Security Ltd. (HUBC)는 이스라엘, 미주, 유럽에서 사이버 보안 솔루션 및 기밀 컴퓨팅 기술을 제공하는 기업입니다. 최근 극심한 변동성과 상당한 주가 하락을 겪었으며, 나스닥 상장 요건 유지를 위해 2026년 6월 5일부로 1:20 역주식 분할이 발표되었습니다. 이 회사는 재정적 어려움과 연례 보고서 제출 지연으로 인한 나스닥의 통지를 받았습니다.",
-    "sentimentScore": -0.8,
-    "investmentRating": "Strong Sell"
   }
 ]
