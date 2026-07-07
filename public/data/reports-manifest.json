@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783454055619",
+    "title": "Lianhe Sowell (LHSW): 펀더멘털과 괴리된 극단적 변동성 속 고위험 투자 분석",
+    "ticker": "LHSW",
+    "market": "US",
+    "timestamp": "2026-07-07T19:54:15.619Z",
+    "summary": "Lianhe Sowell International Group Ltd (NASDAQ: LHSW)는 중국에 기반을 둔 기술 회사로, 산업용 비전, AI 기반 검사 및 로봇 공학 솔루션을 제공합니다. 주요 제품으로는 AI 기반 3D 자동 광학 검사(AOI) 시스템과 9축 연동 스프레이 도장 로봇이 있으며, 스마트 교통, 산업 자동화, 인공지능 및 머신 비전 분야에 중점을 둡니다. 최근 아프리카 및 동남아시아 지역에서 AI 기반 자동차 도장 로봇 공급 계약을 체결했습니다. 회사는 최근 1대 16 주식 병합을 단행하여 나스닥 상장 요건을 유지했습니다. 현재 주가는 분석가들의 목표가와 현저한 괴리를 보이며, 낮은 유동성(low-float)으로 인해 극심한 단기 변동성을 겪고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1783444413159",
     "title": "SpaceX (SPCX): 혁신적 우주 경제의 선두주자, 성장 잠재력과 위험 요인 심층 분석",
     "ticker": "SPCX",
@@ -988,15 +998,5 @@
     "summary": "AMD (Advanced Micro Devices)는 마이크로프로세서, 그래픽 처리 장치 및 기타 집적 회로를 설계 및 생산하는 반도체 회사입니다. 최근 광범위한 반도체 섹터의 약세와 AI 칩 가이던스에 대한 우려로 인해 주가가 급락하며 높은 변동성을 보였습니다.",
     "sentimentScore": 30,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1780840337534",
-    "title": "PLUG: 그린 수소 선두주자의 험난한 여정 – 2026년 흑자 전환의 가능성과 위험 분석",
-    "ticker": "PLUG",
-    "market": "US",
-    "timestamp": "2026-06-07T13:52:17.534Z",
-    "summary": "Plug Power는 수소 연료전지 및 전해조 기술에 중점을 둔 친환경 수소 생태계의 핵심 기업입니다. 2026년 1분기 매출 성장 및 손실 축소를 기록했으며, 2026년 4분기까지 긍정적인 EBITDA 달성을 목표로 하고 있습니다. 그러나 유동성 문제와 분석가들의 엇갈린 평가에 직면해 있습니다.",
-    "sentimentScore": 0.43,
-    "investmentRating": "Hold"
   }
 ]
