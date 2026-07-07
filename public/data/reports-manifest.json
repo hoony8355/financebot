@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783444413159",
+    "title": "SpaceX (SPCX): 혁신적 우주 경제의 선두주자, 성장 잠재력과 위험 요인 심층 분석",
+    "ticker": "SPCX",
+    "market": "US",
+    "timestamp": "2026-07-07T17:13:33.159Z",
+    "summary": "SpaceX(SPCX)는 최근 상장된 종목으로, 우주 발사 서비스, 스타링크 위성 인터넷, 인공지능(xAI) 사업을 영위하고 있습니다. 최근 Nasdaq-100 지수 편입 소식과 함께 주요 애널리스트들의 긍정적인 초기 커버리지 평가가 이어지고 있으나, 아직 인공지능 사업 부문의 수익성 증명과 엘론 머스크 의존도, 그리고 잠재적인 보호예수 해제 물량 등 리스크 요인도 존재합니다.",
+    "sentimentScore": 65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1783434700991",
     "title": "IREN Limited: AI 클라우드 전환 가속화와 전략적 포지셔닝 분석",
     "ticker": "IREN",
@@ -988,15 +998,5 @@
     "summary": "Plug Power는 수소 연료전지 및 전해조 기술에 중점을 둔 친환경 수소 생태계의 핵심 기업입니다. 2026년 1분기 매출 성장 및 손실 축소를 기록했으며, 2026년 4분기까지 긍정적인 EBITDA 달성을 목표로 하고 있습니다. 그러나 유동성 문제와 분석가들의 엇갈린 평가에 직면해 있습니다.",
     "sentimentScore": 0.43,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1780773791413",
-    "title": "Springview Holdings (SPHL): 극심한 변동성과 투기적 관심에 대한 심층 분석 리포트",
-    "ticker": "SPHL",
-    "market": "US",
-    "timestamp": "2026-06-06T19:23:11.413Z",
-    "summary": "Springview Holdings Ltd. (SPHL)는 싱가포르에 본사를 둔 주택 및 상업용 건물 설계 및 건설 회사로, 최근 주가가 $2대에서 $10 이상으로 급등했다가 $5대로 하락하는 극심한 변동성을 보이며 단기 투기적 관심을 받고 있습니다.",
-    "sentimentScore": 60,
-    "investmentRating": "Sell"
   }
 ]
