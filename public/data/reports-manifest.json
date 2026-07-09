@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783617874465",
+    "title": "Wrap Technologies (WRAP): 비살상 치안 기술 시장의 변곡점과 투자 전망 심층 분석",
+    "ticker": "WRAP",
+    "market": "US",
+    "timestamp": "2026-07-09T17:24:34.465Z",
+    "summary": "Wrap Technologies, Inc. (WRAP)는 전 세계 법 집행 및 보안 담당자를 위한 비살상 치안 솔루션을 개발하는 공공 안전 기술 및 서비스 기업입니다. 주요 제품으로는 비살상 구속 장치인 BolaWrap Remote Restraint Device, VR 훈련 시스템인 Wrap Reality, 신체 착용 카메라 WrapVision, 그리고 무인 항공기 시스템(C-UAS) 대응 솔루션이 있습니다. 최근 BolaWrap 150이 총기가 아닌 구속 장치로 분류되었다는 미 연방 주류·담배·총기류 단속국(ATF)의 역사적인 판결과 자율 방어 및 공공 안전 플랫폼인 WrapShield의 출시로 긍정적인 모멘텀을 얻고 있습니다. 주가는 지난 한 주와 한 달 동안 상당한 상승세를 보였으나, 당일에는 소폭 하락했습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1783609146378",
     "title": "알리바바 그룹 홀딩스(BABA): 미 국방부 블랙리스트 제외 기대감과 실적 모멘텀에 기반한 밸류에이션 재평가 분석",
     "ticker": "BABA",
@@ -988,15 +998,5 @@
     "summary": "AI 서버 및 스토리지 솔루션 기업 슈퍼마이크로컴퓨터(SMCI)가 70억 달러 규모의 신주 발행 계획을 발표하며 주가가 급락했으나, AI 수요 성장 기대감과 기업의 장기적인 확장 계획이 주목받고 있습니다.",
     "sentimentScore": -0.4,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1781085603435",
-    "title": "Avis Budget Group (CAR): 거시 경제 역풍과 내부적 도전 속 '매도' 의견 유지 - 심층 금융 분석",
-    "ticker": "CAR",
-    "market": "US",
-    "timestamp": "2026-06-10T10:00:03.435Z",
-    "summary": "Avis Budget Group (CAR)는 최근 주가 상승에도 불구하고, 애널리스트들의 부정적인 전망과 높은 부채 부담, 기술적 약세 신호로 인해 중기적인 투자 위험이 높습니다. 단기적인 변동성에 유의하며 '매도' 의견이 지배적입니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Sell"
   }
 ]
