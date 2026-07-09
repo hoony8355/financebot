@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783635730042",
+    "title": "Sadot Group (SDOT): 극심한 재정 압박과 가치 파괴의 심층 분석",
+    "ticker": "SDOT",
+    "market": "US",
+    "timestamp": "2026-07-09T22:22:10.042Z",
+    "summary": "Sadot Group Inc. (SDOT)는 최근 부채를 주식으로 전환하며 상당한 주주 희석이 발생했음에도 불구하고 유동성을 확보했습니다. 이 농산물 상품 거래 및 식품 공급망 솔루션 기업은 Fugazi Research의 강력한 공매도 보고서 이후 주가가 72% 폭락하는 등 극심한 변동성을 보였습니다. 이 보고서는 회사의 기초 가치가 거의 없으며 계속기업으로서의 존속 능력에 대한 심각한 의문을 제기하고 있습니다.",
+    "sentimentScore": 20,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1783617874465",
     "title": "Wrap Technologies (WRAP): 비살상 치안 기술 시장의 변곡점과 투자 전망 심층 분석",
     "ticker": "WRAP",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 글로벌 전자 기업으로, DX(TV, 가전, 스마트폰), DS(메모리 반도체, 파운드리), SDC(OLED 패널), Harman(전장부품 및 오디오) 부문으로 구성되어 있습니다. AI 기술 확대, 선단 공정 개발, 고부가 솔루션 포트폴리오를 통해 제품 차별화 및 원가 경쟁력 제고에 주력하고 있으며, 특히 AI 시대의 핵심인 고대역폭메모리(HBM) 기술 리더십 강화에 집중하고 있습니다.",
     "sentimentScore": 0.4,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1781123376898",
-    "title": "슈퍼마이크로컴퓨터(SMCI)의 AI 성장 모멘텀과 희석 우려 분석: 고변동성 시대의 투자 전략",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-06-10T20:29:36.898Z",
-    "summary": "AI 서버 및 스토리지 솔루션 기업 슈퍼마이크로컴퓨터(SMCI)가 70억 달러 규모의 신주 발행 계획을 발표하며 주가가 급락했으나, AI 수요 성장 기대감과 기업의 장기적인 확장 계획이 주목받고 있습니다.",
-    "sentimentScore": -0.4,
-    "investmentRating": "Hold"
   }
 ]
