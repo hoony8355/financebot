@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783862242053",
+    "title": "랙스페이스 테크놀로지 (RXT): 변모하는 클라우드 서비스 시장의 도전과 AI 성장 모멘텀 분석",
+    "ticker": "RXT",
+    "market": "US",
+    "timestamp": "2026-07-12T13:17:22.053Z",
+    "summary": "Rackspace Technology는 글로벌 멀티클라우드 기술 서비스 기업으로, 관리형 호스팅, 클라우드, 데이터, AI 및 사이버 보안 솔루션을 공공, 프라이빗, 하이브리드 환경에 제공합니다. 최근 AMD 및 Palantir와의 파트너십을 통해 규제 산업을 위한 AI 인프라 부문으로 전략적 전환을 추진하고 있습니다. [3, 5, 11, 30, 31, 32, 33, 34, 35]",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1783852032955",
     "title": "크리네틱스 파마슈티컬스 (CRNX) 버텍스 인수: 전략적 재편과 투자자 전망 심층 분석",
     "ticker": "CRNX",
@@ -987,16 +997,6 @@
     "timestamp": "2026-06-13T22:03:31.440Z",
     "summary": "Virgin Galactic Holdings, Inc. (SPCE)는 개인 및 연구 목적의 상업용 우주비행 및 첨단 항공우주 시스템을 개발하는 기업입니다. 최근 VSS Unity의 글라이드 비행 재개와 2026년 3분기 신형 우주선 시험 비행, 4분기 상업 운항 개시 목표 소식이 있었습니다. SpaceX IPO에 대한 시장의 높은 관심과 후속적인 우주 산업 전반의 매도세에 영향을 받으며 주가 변동성이 매우 높습니다.",
     "sentimentScore": 0.33,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1781367256164",
-    "title": "테슬라(TSLA): 혁신과 변동성 속, AI 및 에너지 전환을 선도하는 미래 기업의 심층 분석",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-06-13T16:14:16.164Z",
-    "summary": "테슬라(TSLA)는 전기차와 청정에너지 분야의 선두 기업으로, AI, 로보택시, 에너지 저장 시스템 분야에 대한 집중을 확대하고 있습니다. 일론 머스크, FSD 기술, 그리고 최근 SpaceX IPO 관련 뉴스에 따라 주가는 높은 변동성을 보입니다. 애널리스트들의 의견은 혼재되어 '보유(Hold)' 컨센서스가 많지만, AI 및 로봇 공학 분야의 장기적인 성장 잠재력에 대한 기대감도 존재합니다.",
-    "sentimentScore": 63,
     "investmentRating": "Hold"
   }
 ]
