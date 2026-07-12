@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1783852032955",
+    "title": "크리네틱스 파마슈티컬스 (CRNX) 버텍스 인수: 전략적 재편과 투자자 전망 심층 분석",
+    "ticker": "CRNX",
+    "market": "US",
+    "timestamp": "2026-07-12T10:27:12.955Z",
+    "summary": "Crinetics Pharmaceuticals (CRNX)는 Vertex Pharmaceuticals에 100억 달러 규모로 인수될 예정이라는 발표 이후 주가가 2배 가까이 급등하며 높은 변동성을 보였습니다. 인수 가격은 주당 85달러로 책정되었습니다.",
+    "sentimentScore": 90,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1783796502134",
     "title": "SRX Global Inc. (SRXH) 심층 분석: 초소형 시가총액 헬스케어 서비스 기업의 투기적 매도 리포트",
     "ticker": "SRXH",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 전기차와 청정에너지 분야의 선두 기업으로, AI, 로보택시, 에너지 저장 시스템 분야에 대한 집중을 확대하고 있습니다. 일론 머스크, FSD 기술, 그리고 최근 SpaceX IPO 관련 뉴스에 따라 주가는 높은 변동성을 보입니다. 애널리스트들의 의견은 혼재되어 '보유(Hold)' 컨센서스가 많지만, AI 및 로봇 공학 분야의 장기적인 성장 잠재력에 대한 기대감도 존재합니다.",
     "sentimentScore": 63,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1781359118721",
-    "title": "AMD, AI 반도체 시장 선도: 성장 동력, 밸류에이션 및 투자 전망 심층 분석",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-06-13T13:58:38.721Z",
-    "summary": "AMD는 인공지능(AI) 반도체 시장의 핵심 플레이어로, 데이터센터용 GPU 및 CPU 수요가 급증하며 높은 성장세를 보이고 있습니다. 최근 영국 AI 혁신에 대한 대규모 투자 계획 발표와 애널리스트들의 긍정적인 평가 및 목표가 상향 조정이 주가에 긍정적인 영향을 미치고 있습니다. 주가는 최근 높은 변동성을 보였습니다.",
-    "sentimentScore": 0.77,
-    "investmentRating": "Strong Buy"
   }
 ]
