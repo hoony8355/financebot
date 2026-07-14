@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784066253387",
+    "title": "NextCure (NXTC): Avere Therapeutics 합병을 통한 전략적 피벗과 IL-23 파이프라인의 미래 가치 분석",
+    "ticker": "NXTC",
+    "market": "US",
+    "timestamp": "2026-07-14T21:57:33.387Z",
+    "summary": "NextCure, Inc. (NXTC)는 암 및 면역 관련 질환 치료를 위한 면역의약품 개발에 주력하는 임상 단계 바이오제약 회사입니다. 2026년 7월 14일, NextCure는 염증성 질환 치료를 위한 경구용 IL-23 치료 프로그램(AVR-001)을 개발하는 비상장 바이오기술 회사인 Avere Therapeutics, Inc.와의 최종 합병 계약을 발표했습니다. 이 합병은 Avere의 프로그램을 발전시키기 위한 것이며, 동시에 약 3억 2천만 달러의 사모를 통해 AVR-001의 개발에 자금을 조달할 계획입니다. 합병 후 기존 NextCure 주주들은 합병 회사의 약 1.21%를 소유하게 될 것으로 예상됩니다. 이 소식으로 인해 NextCure의 주가는 200% 이상 급등하며 상당한 변동성을 보였습니다.",
+    "sentimentScore": 85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1784045641756",
     "title": "마이크론 테크놀로지: AI 시대 HBM 리더십과 메모리 사이클 전환기 투자 매력도 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "Palladyne AI (PDYN)는 AI 기반 자율 솔루션을 제공하는 미국의 방위 및 산업 기술 기업입니다. 최근 미 육군과 SwarmOS 및 Gremlin-X 기술 관련 계약을 확보하며 주가가 급등했습니다. 애널리스트들은 상당한 상승 잠재력을 가진 '매수' 의견을 제시하지만, 회사의 낮은 수익성과 높은 밸류에이션은 높은 위험을 내포하고 있어 고위험-고수익 투자로 평가됩니다.",
     "sentimentScore": 70,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1781650390872",
-    "title": "테슬라(TSLA) 심층 분석: 전기차 시장의 도전과 미래 기술 플랫폼으로의 전환 가능성",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-06-16T22:53:10.872Z",
-    "summary": "테슬라는 전기차, 에너지 저장 및 생성 시스템을 설계, 제조, 판매하는 미국의 다국적 기업입니다. 최근 시장에서는 완화된 수요, 높은 밸류에이션, 그리고 AI, 로봇 공학(Optimus), 완전 자율 주행(FSD) 기술의 잠재력에 대한 기대감이 복합적으로 작용하며 투자 심리가 혼재되어 있습니다. [2, 23, 27]",
-    "sentimentScore": 0.36,
-    "investmentRating": "Hold"
   }
 ]
