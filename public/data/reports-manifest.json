@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784152792070",
+    "title": "AMC 엔터테인먼트 홀딩스: 재무구조 개선과 시장 회복의 기로에 선 투자 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-07-15T21:59:52.070Z",
+    "summary": "AMC Entertainment Holdings (AMC)는 높은 변동성을 보이는 영화 상영 기업입니다. 최근 박스오피스 회복세와 부채 관리 노력에도 불구하고 여전히 재정적 난관에 직면해 있습니다. 7월 20일 발표될 2026년 2분기 실적 발표가 핵심적인 이슈입니다.",
+    "sentimentScore": 50,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784142531753",
     "title": "PayPal Holdings (PYPL): 인수 제안, 기술적 돌파, 그리고 디지털 결제 시장의 재편",
     "ticker": "PYPL",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 인공지능(AI) 칩 시장에서 압도적인 선두 주자이며(85% 시장 점유율), GPU, 칩셋 및 관련 소프트웨어 설계 및 제조에 주력하고 있습니다. 특히 데이터 센터 부문에서 높은 매출 성장을 기록 중이며, RTX Spark '슈퍼칩'을 통한 PC AI 시장 및 네트워킹 솔루션 분야로 확장을 꾀하고 있습니다.",
     "sentimentScore": 0.94,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1781864679482",
-    "title": "Butterfly Network (BFLY): 혁신과 변동성 교차점에서의 투자 분석",
-    "ticker": "BFLY",
-    "market": "US",
-    "timestamp": "2026-06-19T10:24:39.482Z",
-    "summary": "Butterfly Network (BFLY)는 최근 긍정적인 실적, FDA 승인 및 Midjourney Medical과의 파트너십 발표로 인해 주가가 급등한 디지털 헬스케어 기업입니다. 그러나 현재 주가는 애널리스트들의 목표가를 상회하며, 내부자 매도 활동이 관찰되어 높은 변동성을 보이고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Buy"
   }
 ]
