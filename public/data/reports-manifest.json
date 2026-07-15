@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784142531753",
+    "title": "PayPal Holdings (PYPL): 인수 제안, 기술적 돌파, 그리고 디지털 결제 시장의 재편",
+    "ticker": "PYPL",
+    "market": "US",
+    "timestamp": "2026-07-15T19:08:51.753Z",
+    "summary": "PayPal Holdings (PYPL)는 디지털 결제 분야의 선두 주자로서 최근 Stripe 및 Advent International의 $60.50 인수 제안 소식에 주가가 급등하며 강력한 시장 관심을 받고 있습니다. 회사는 견고한 대차대조표와 매출 성장을 이어가고 있으며, 디지털 결제 솔루션 혁신에 집중하고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784132490031",
     "title": "루시드 그룹 (LCID) 심층 분석: 럭셔리 EV 시장의 기회와 재정적 도전",
     "ticker": "LCID",
@@ -988,15 +998,5 @@
     "summary": "Butterfly Network (BFLY)는 최근 긍정적인 실적, FDA 승인 및 Midjourney Medical과의 파트너십 발표로 인해 주가가 급등한 디지털 헬스케어 기업입니다. 그러나 현재 주가는 애널리스트들의 목표가를 상회하며, 내부자 매도 활동이 관찰되어 높은 변동성을 보이고 있습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1781823354663",
-    "title": "Aditxt (ADTX) 심층 분석: 극심한 재정 위험과 투자 가치 훼손에 대한 보고서",
-    "ticker": "ADTX",
-    "market": "US",
-    "timestamp": "2026-06-18T22:55:54.663Z",
-    "summary": "Aditxt, Inc. (ADTX)는 면역 체계 모니터링 및 조절 기술에 중점을 둔 바이오 기술 혁신 기업입니다. 최근 자회사 Ignite Proteomics의 가치를 약 1억 5천만 달러로 평가하는 최종 계약을 체결했으나, 주가는 급락세를 보이며 매우 높은 변동성과 심각한 재정적 어려움에 직면해 있습니다. 최근 대규모 역주식 분할과 주요 주주의 지분 매도 또한 투자자들에게 부정적인 신호로 작용하고 있습니다.",
-    "sentimentScore": 1,
-    "investmentRating": "Strong Sell"
   }
 ]
