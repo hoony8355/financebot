@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784315155043",
+    "title": "테슬라(TSLA) 심층 분석: 거시경제 역풍과 경쟁 심화 속 투자 전략",
+    "ticker": "TSLA",
+    "market": "US",
+    "timestamp": "2026-07-17T19:05:55.043Z",
+    "summary": "Tesla (TSLA)는 최근 주가 하락과 약세 기술적 지표를 보이며 하락 추세 채널에 진입했습니다. 애널리스트들은 대체로 '보유' 의견을 유지하고 있으며, 단기적으로는 하방 압력이 우세할 것으로 예상됩니다. 중장기적으로는 EV 시장 지배력과 혁신에 대한 기대감이 상존하지만, 경쟁 심화와 거시 경제 요인이 주요 변수입니다.",
+    "sentimentScore": 40,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784304935902",
     "title": "애보트 래버러토리스(ABT): 2026년 2분기 실적 호조 및 상향 가이던스 기반 심층 투자 분석",
     "ticker": "ABT",
@@ -987,16 +997,6 @@
     "timestamp": "2026-06-21T14:09:18.715Z",
     "summary": "Hyperscale Data, Inc. (GPUS)는 비트코인 채굴 및 AI 데이터 센터 서비스로 전환 중인 고변동성 미국 기업입니다. 최근 대규모 AI 컴퓨팅 계약 협상 소식과 상당한 비트코인 및 현금 보유에도 불구하고, 주가는 하락세를 보였으며 희석 가능성이 있는 증자 계획이 있습니다.",
     "sentimentScore": -0.2,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1782035348275",
-    "title": "FreeCast, Inc. (CAST): 파트너십 기대와 극단적 재무 불안정성 간의 기로 분석",
-    "ticker": "CAST",
-    "market": "US",
-    "timestamp": "2026-06-21T09:49:08.275Z",
-    "summary": "FreeCast, Inc. (CAST)는 TV 및 디지털 비디오 배포를 위한 Platform-as-a-Service (PaaS) 솔루션을 제공하는 스트리밍 기술 회사입니다. 최근 DIRECTV 및 Starlink Business와의 파트너십 확장 소식으로 인해 주가가 급등하며 상당한 변동성을 보였습니다. 하지만 회사는 최소한의 매출, 확대되는 손실, 마이너스 현금 흐름, 그리고 극도로 투기적인 밸류에이션 등 심각한 재정적 어려움에 직면해 있습니다.",
-    "sentimentScore": 0.4,
     "investmentRating": "Hold"
   }
 ]
