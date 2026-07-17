@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784285227155",
+    "title": "Nuvve Holding Corp. (NVVE) 심층 분석: V2G 기술의 잠재력과 극심한 재정 리스크 공존",
+    "ticker": "NVVE",
+    "market": "US",
+    "timestamp": "2026-07-17T10:47:07.155Z",
+    "summary": "Nuvve Holding Corp. (NVVE)는 미국, 프랑스, 일본, 덴마크에서 상업용 Vehicle-to-Grid (V2G) 기술 플랫폼과 지능형 에너지 플랫폼을 제공하는 청정에너지 기술 회사이다. EV 배터리를 활용하여 에너지를 전력망에 저장하고 재판매하며, 전기차 충전 솔루션을 제공한다. 최근 1-for-18 주식 역분할을 발표했으며, 재무 상태가 취약하고 나스닥 상장 유지에 대한 불확실성이 존재하여 높은 변동성을 보이고 있다.",
+    "sentimentScore": 0.2,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1784255522763",
     "title": "한화오션(042660): 고부가 선박 및 신사업 시너지로 도약하는 해양 솔루션 프로바이더",
     "ticker": "042660",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 인공지능(AI) 메모리(HBM) 시장의 독보적인 리더십과 차세대 HBM4E 샘플 공급으로 높은 주가 상승세를 기록하며 국내 증시의 핵심 종목으로 부상했습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1781993154855",
-    "title": "Palantir Technologies (PLTR) 심층 분석: AI 성장 가속화 속 밸류에이션과 기술적 리스크 평가",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-06-20T22:05:54.855Z",
-    "summary": "Palantir Technologies (PLTR)는 데이터 분석 및 AI 소프트웨어 분야의 핵심 기업으로, 상업 및 정부 부문 모두에서 AI 비즈니스 성장이 가속화되고 있습니다. 최근 주가는 하락세를 보였으나, 장기적인 성장 잠재력과 견고한 기술적 우위로 Moderate Buy 등급을 유지하고 있습니다. 높은 밸류에이션이 리스크 요인으로 작용합니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Moderate Buy"
   }
 ]
