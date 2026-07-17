@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784304935902",
+    "title": "애보트 래버러토리스(ABT): 2026년 2분기 실적 호조 및 상향 가이던스 기반 심층 투자 분석",
+    "ticker": "ABT",
+    "market": "US",
+    "timestamp": "2026-07-17T16:15:35.902Z",
+    "summary": "Abbott Laboratories (ABT)는 2026년 2분기 시장 예상을 뛰어넘는 실적을 발표하고 연간 가이던스를 상향 조정하며 주가가 10% 이상 급등했습니다. 의료 기기 및 진단 부문의 강력한 성장이 실적을 견인했으며, 시장에서는 단기적인 긍정적 모멘텀을 기대하고 있습니다.",
+    "sentimentScore": 85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1784285227155",
     "title": "Nuvve Holding Corp. (NVVE) 심층 분석: V2G 기술의 잠재력과 극심한 재정 리스크 공존",
     "ticker": "NVVE",
@@ -988,15 +998,5 @@
     "summary": "FreeCast, Inc. (CAST)는 TV 및 디지털 비디오 배포를 위한 Platform-as-a-Service (PaaS) 솔루션을 제공하는 스트리밍 기술 회사입니다. 최근 DIRECTV 및 Starlink Business와의 파트너십 확장 소식으로 인해 주가가 급등하며 상당한 변동성을 보였습니다. 하지만 회사는 최소한의 매출, 확대되는 손실, 마이너스 현금 흐름, 그리고 극도로 투기적인 밸류에이션 등 심각한 재정적 어려움에 직면해 있습니다.",
     "sentimentScore": 0.4,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1782014840806",
-    "title": "SK하이닉스: AI 메모리 시대의 절대 강자, HBM 리더십 기반 심층 분석",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2026-06-21T04:07:20.806Z",
-    "summary": "SK하이닉스는 인공지능(AI) 메모리(HBM) 시장의 독보적인 리더십과 차세대 HBM4E 샘플 공급으로 높은 주가 상승세를 기록하며 국내 증시의 핵심 종목으로 부상했습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
