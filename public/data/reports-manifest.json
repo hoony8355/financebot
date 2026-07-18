@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784380319694",
+    "title": "엔비디아(NVDA) 주가 조정 분석: AI 성장 기대감 재평가와 단기 변동성 심층 진단",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-07-18T13:11:59.694Z",
+    "summary": "AI 칩 시장 선두주자인 엔비디아(NVDA)는 2026년 7월 17일 광범위한 기술주 및 반도체 섹터 매도세의 영향으로 주가가 하락했습니다. 장기적인 AI 성장 전망과 신규 플랫폼에 대한 애널리스트들의 낙관론은 여전하지만, 단기적인 변동성과 시장의 신중한 분위기가 반영되었습니다.",
+    "sentimentScore": -0.3,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1784369917704",
     "title": "CoreWeave (CRWV): 고성장 AI 인프라의 빛과 그림자 - 심층 투자 분석 보고서",
     "ticker": "CRWV",
@@ -988,15 +998,5 @@
     "summary": "K Bank (279570)는 한국의 인터넷 전문 은행으로, 최근 1분기 실적 발표 후 투자 심리가 개선되며 주가가 급등했으나 단기적인 조정을 겪고 있습니다. 높은 성장 잠재력을 가진 핀테크 산업에 속하며, 애널리스트들은 '매수' 의견과 높은 목표 주가를 제시하고 있습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1782168450561",
-    "title": "Apogee Therapeutics (APGE): AbbVie 인수 보도와 Zumilokibart 임상 성공이 촉발한 전략적 재평가",
-    "ticker": "APGE",
-    "market": "US",
-    "timestamp": "2026-06-22T22:47:30.561Z",
-    "summary": "Apogee Therapeutics (APGE)는 아토피 피부염(AD) 및 만성 폐쇄성 폐질환(COPD) 등 염증 및 면역(I&I) 질환 치료를 위한 신규 생체 제제를 개발하는 임상 단계 생명공학 기업입니다. 최근 AbbVie에 의해 109억 달러에 인수될 것이라는 보도로 인해 주가가 46% 이상 급등하며 투자자들의 큰 관심을 받고 있습니다. 특히 주요 후보 물질인 zumilokibart (APG777)가 아토피 피부염 2상 임상에서 긍정적인 데이터를 보여주면서 그 가치가 부각되고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
