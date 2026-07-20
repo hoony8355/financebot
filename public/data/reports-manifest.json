@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784576575524",
+    "title": "NVIDIA: AI 시대의 핵심 인프라, 성장 잠재력과 리스크 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-07-20T19:42:55.524Z",
+    "summary": "NVIDIA는 AI, 게이밍, 데이터 센터 시장을 선도하는 그래픽 처리 장치(GPU) 설계 기업입니다. 최신 AI 소프트웨어 툴킷과 전략적 파트너십을 통해 AI 및 로보틱스 분야에서 성장을 이어가고 있습니다. 경쟁 심화와 시장 변동성에도 불구하고 강력한 애널리스트 의견과 견고한 재무 성과가 장기적인 성장 잠재력을 뒷받침합니다.",
+    "sentimentScore": 0.74,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1784564628881",
     "title": "테슬라(TSLA): 혁신과 밸류에이션 압박 사이의 고위험 항해",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "Inno Holdings Inc.는 AI 개발 계약 발표 이후 주가가 3,600% 이상 급등하며 극심한 변동성을 보였으나, 나스닥 거래 중단 및 연이은 역분할 이력이 있는 고위험 종목입니다.",
     "sentimentScore": 30,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1782557870681",
-    "title": "모더나(MRNA)의 팬데믹 이후 성장 전략: 백신 다각화와 mRNA 플랫폼의 미래 가치 평가",
-    "ticker": "MRNA",
-    "market": "US",
-    "timestamp": "2026-06-27T10:57:50.681Z",
-    "summary": "Moderna (MRNA)는 최근 FDA 자문 위원회의 독감 백신 만장일치 승인 권고와 과학의 날 업데이트에 대한 긍정적인 반응으로 주가가 급등하며 투자자들의 관심을 받고 있습니다. COVID-19 백신 의존도를 넘어 다양한 파이프라인(암 예방, 자가면역 질환, 차세대 mRNA 의약품)으로 확장하려는 노력이 긍정적인 투자 심리를 이끌고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Hold"
   }
 ]
