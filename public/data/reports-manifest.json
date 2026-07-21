@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784671408483",
+    "title": "China Pharma Holdings (CPHI): 800% 급등 뒤 숨겨진 극단적 리스크와 펀더멘털 분석",
+    "ticker": "CPHI",
+    "market": "US",
+    "timestamp": "2026-07-21T22:03:28.483Z",
+    "summary": "중국 제약사인 China Pharma Holdings (CPHI)는 2026년 7월 21일 이례적인 800% 이상의 주가 급등을 경험하며 극심한 변동성을 보였습니다. NYSE American은 이러한 비정상적인 거래 활동에 대해 회사에 문의했지만, 회사는 급등을 설명할 어떠한 중요한 비공개 정보도 알지 못한다고 밝혔습니다. 회사는 여러 차례의 역주식 분할 기록과 낮은 시가총액, 수익 감소, 지속적인 손실 등 취약한 재무 펀더멘털을 가지고 있습니다.",
+    "sentimentScore": 70,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784650972283",
     "title": "메타 플랫폼스 (META): AI 기반 클라우드 전략 전환과 성장 잠재력 분석",
     "ticker": "META",
@@ -988,15 +998,5 @@
     "summary": "INVO Fertility, Inc.는 2026년 1분기에 23%의 매출 성장과 재무구조 개선을 보고했으나, 지속적인 손실, NASDAQ 규정 준수 문제, 높은 변동성에 직면해 있습니다. AI 기반 분석은 'Strong Sell' 신호를, 기술적 지표는 전반적인 하락 추세를 가리키고 있습니다.",
     "sentimentScore": 20,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1782636623453",
-    "title": "America's Car-Mart (CRMT): 심각한 재무 압박과 불확실성 속 투자 위험 분석",
-    "ticker": "CRMT",
-    "market": "US",
-    "timestamp": "2026-06-28T08:50:23.453Z",
-    "summary": "America's Car-Mart (CRMT)는 최근 3분기 실적 부진, 순대손율 증가, 그리고 채권단과의 채무 유예 합의 소식으로 인해 극심한 변동성을 겪고 있습니다. 주가는 52주 신저점 부근에서 거래되고 있으며, 전반적인 시장의 '극심한 공포' 심리와 함께 높은 투자 위험을 보입니다. 단기 반등 가능성이 있지만, 근본적인 재무 문제 해결이 핵심입니다.",
-    "sentimentScore": 20,
-    "investmentRating": "Hold"
   }
 ]
