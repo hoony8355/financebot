@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784632024131",
+    "title": "Janus Living (JAN): 52주 신고가 경신과 상승 모멘텀 분석",
+    "ticker": "JAN",
+    "market": "US",
+    "timestamp": "2026-07-21T11:07:04.131Z",
+    "summary": "Janus Living, Inc. (NYSE: JAN)는 미국 상장 시니어 주택 리츠(REIT)로, 2026년 7월 21일 52주 신고가를 경신했습니다. 이는 예상을 상회하는 분기 매출과 예상치에 부합하는 주당순이익(EPS)을 기록한 강력한 실적, 그리고 2026년 연간 가이던스 상향 조정에 힘입은 결과입니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1784622409146",
     "title": "JPMorgan Chase & Co. (JPM): 견고한 실적과 전략적 강점, 거시경제 역풍 속 투자 매력 분석",
     "ticker": "JPM",
@@ -988,15 +998,5 @@
     "summary": "SK하이닉스는 AI 반도체 시장의 핵심인 고대역폭 메모리(HBM) 기술을 선도하며 폭발적인 실적 성장세를 보이고 있습니다. 최근 코스피 시가총액 1위로 올라섰으며, 미국 나스닥 ADR 상장 추진 등 긍정적인 모멘텀이 이어지고 있습니다. 단기 급등 후 시장 전반의 변동성 확대와 차익 실현 매물로 조정을 받고 있으나, 장기적인 성장 전망은 견고합니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1782597739847",
-    "title": "EverCommerce (EVCM) 심층 분석: 전략적 전환과 투자 심리 악화의 교차로",
-    "ticker": "EVCM",
-    "market": "US",
-    "timestamp": "2026-06-27T22:02:19.847Z",
-    "summary": "EverCommerce Inc.는 미국 및 해외 서비스 기반 중소기업(SMB)을 위한 통합 SaaS(Software-as-a-Service) 솔루션 제공업체입니다. 주요 사업 영역은 주택 서비스, 의료 서비스, 피트니스 및 웰니스 서비스에 걸쳐 비즈니스 관리, 청구 및 결제, 고객 경험 및 마케팅 기술 솔루션을 제공합니다. 최근 수익성 및 AI 기반 버티컬 소프트웨어에 집중하고 있으나, 내부자 매도 및 투자 심리 악화 조짐도 보이고 있습니다.",
-    "sentimentScore": -0.1,
-    "investmentRating": "Hold"
   }
 ]
