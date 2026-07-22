@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784728622241",
+    "title": "Vivakor (VIVK): 극심한 변동성과 재무 취약성을 동반한 초소형 에너지 기업 분석",
+    "ticker": "VIVK",
+    "market": "US",
+    "timestamp": "2026-07-22T13:57:02.241Z",
+    "summary": "Vivakor (VIVK)는 청정에너지 기술, 환경 솔루션(토양 복원 등), 원유 물류(운송, 저장, 거래)를 전문으로 하는 에너지 부문 기업입니다. 최근 연간 수익을 크게 증대시키는 원유 마케팅 거래 확장과 역분할로 인해 극심한 변동성을 겪었습니다. 이 회사는 환경 정화와 탄화수소 회수 및 거래를 결합한 틈새 시장에서 운영되고 있습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1784718555956",
     "title": "마이크론 테크놀로지 (MU): AI 시대 HBM 선두주자의 성장 잠재력과 리스크 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "AI 및 가속 컴퓨팅 시장을 선도하는 GPU 개발사로, 데이터 센터, 게이밍, 전문 시각화 분야에서 지배적인 위치를 차지하고 있습니다. AI 소프트웨어 플랫폼(CUDA)과 데이터 센터 네트워킹 솔루션으로 사업을 확장하며 인공지능 투자 붐의 핵심 종목으로 주목받고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1782730617436",
-    "title": "PS International Group Ltd. (PSIG): 극심한 재무 위기와 시장 신뢰 상실에 따른 '강력 매도' 리포트",
-    "ticker": "PSIG",
-    "market": "US",
-    "timestamp": "2026-06-29T10:56:57.436Z",
-    "summary": "PS International Group Ltd. (PSIG)는 홍콩 기반의 물류 및 공급망 솔루션 기업으로, 최근 극심한 주가 변동성을 겪으며 87% 이상의 급락을 기록했습니다. 재무 건전성 악화와 부정적인 시장 전망이 주요 이슈입니다.",
-    "sentimentScore": 2,
-    "investmentRating": "Strong Sell"
   }
 ]
