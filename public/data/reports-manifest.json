@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784708829791",
+    "title": "Li Bang International (LBGJ): 극심한 변동성 속 재무 악화와 상장 유지의 도전에 직면한 초소형주 심층 분석",
+    "ticker": "LBGJ",
+    "market": "US",
+    "timestamp": "2026-07-22T08:27:09.791Z",
+    "summary": "Li Bang International Corporation Inc. (LBGJ)는 중국 상업용 주방 장비 설계, 개발, 생산 및 판매 기업으로, 최근 극심한 주가 변동성을 겪고 있습니다. 2026년 3월 액면병합(1-for-100)을 통해 나스닥 상장 요건을 일시적으로 충족했으나, 이후 급격한 주가 하락을 보이며 투자자들의 우려를 사고 있습니다.",
+    "sentimentScore": 1,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1784671408483",
     "title": "China Pharma Holdings (CPHI): 800% 급등 뒤 숨겨진 극단적 리스크와 펀더멘털 분석",
     "ticker": "CPHI",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 글로벌 반도체, 전자제품, 디스플레이 및 통신장비 기업으로, 최근 한국 증시의 높은 변동성 속에서 인공지능(AI) 반도체, 특히 HBM 사업이 핵심 이슈로 부상하고 있습니다. HBM4 매출 호조와 2분기 실적에 대한 긍정적인 전망에도 불구하고, 성과급 등 일회성 비용과 SK하이닉스와의 치열한 경쟁, 외국인 투자자 매도세로 인해 주가 변동성이 확대되고 있습니다.",
     "sentimentScore": -0.3,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1782663027528",
-    "title": "INVO Fertility, Inc. (IVF): 고성장 잠재력과 극심한 리스크의 공존, 'Strong Sell' 신호에 대한 심층 분석",
-    "ticker": "IVF",
-    "market": "US",
-    "timestamp": "2026-06-28T16:10:27.528Z",
-    "summary": "INVO Fertility, Inc.는 2026년 1분기에 23%의 매출 성장과 재무구조 개선을 보고했으나, 지속적인 손실, NASDAQ 규정 준수 문제, 높은 변동성에 직면해 있습니다. AI 기반 분석은 'Strong Sell' 신호를, 기술적 지표는 전반적인 하락 추세를 가리키고 있습니다.",
-    "sentimentScore": 20,
-    "investmentRating": "Sell"
   }
 ]
