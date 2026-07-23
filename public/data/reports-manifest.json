@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784824051506",
+    "title": "Zhongchao Inc. (ZCMD): 극한의 변동성과 근본적인 재무 압박에 직면한 헬스케어 교육 서비스 기업 심층 분석",
+    "ticker": "ZCMD",
+    "market": "US",
+    "timestamp": "2026-07-23T16:27:31.506Z",
+    "summary": "Zhongchao Inc. (ZCMD)는 미국의 헬스케어 정보, 교육 및 훈련 서비스 제공업체로, 최근 대규모 유상증자 및 주식 병합 발표로 인해 극심한 변동성과 매도 압력에 직면해 있습니다. 낮은 기관 투자자 지분율과 애널리스트들의 '강력 매도' 의견이 지배적입니다.",
+    "sentimentScore": 1,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1784814924513",
     "title": "Super Micro Computer (SMCI): AI 인프라 수혜와 변동성 사이의 '보유' 전략 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "리가켐바이오(141080)는 ADC(항체-약물 접합체) 플랫폼 기술 기반 신약 개발 전문 바이오 기업입니다. 최근 국민성장펀드를 포함한 투자자들로부터 5,000억 원 규모의 대규모 자금 조달에 성공하며 글로벌 후기 임상 및 상업화 준비에 박차를 가하고 있습니다. 이는 정부의 바이오·헬스케어 산업 육성 의지가 반영된 사례로 평가됩니다.",
     "sentimentScore": 85,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1782849345880",
-    "title": "AMD(Advanced Micro Devices) 심층 분석: AI 시대의 선두 주자, 밸류에이션과 성장 잠재력",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-06-30T19:55:45.880Z",
-    "summary": "Advanced Micro Devices (AMD)는 AI 및 서버 시장에서 강력한 성과를 보이며 반도체 업계를 선도하고 있는 핵심 종목입니다. EPYC 서버 CPU와 데이터센터 GPU에 대한 수요 증가, 파트너십을 통한 AI 인프라 확장이 주가 상승의 주요 동력으로 작용하고 있습니다. 최근 애널리스트들의 목표 주가 상향 조정과 함께 전반적으로 낙관적인 시장 전망이 이어지고 있습니다.",
-    "sentimentScore": 60.68,
-    "investmentRating": "Strong Buy"
   }
 ]
