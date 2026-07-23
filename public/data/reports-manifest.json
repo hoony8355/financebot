@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784814924513",
+    "title": "Super Micro Computer (SMCI): AI 인프라 수혜와 변동성 사이의 '보유' 전략 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-07-23T13:55:24.513Z",
+    "summary": "Super Micro Computer (SMCI)는 고성능 및 AI 서버 인프라 분야의 핵심 기업입니다. 2026년 7월 23일 급격한 주가 반등을 보였으며, 이는 강력한 4분기 잠정 실적과 600억 달러가 넘는 기록적인 수주잔고 덕분입니다. 하지만 연초 대비 및 전년 대비 하락세를 기록했으며, 지배구조 문제와 잠재적 지분 희석 우려도 존재합니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784774216550",
     "title": "SK하이닉스: 인공지능 시대 HBM 리더십과 밸류에이션 재평가 잠재력 심층 분석",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "Advanced Micro Devices (AMD)는 AI 및 서버 시장에서 강력한 성과를 보이며 반도체 업계를 선도하고 있는 핵심 종목입니다. EPYC 서버 CPU와 데이터센터 GPU에 대한 수요 증가, 파트너십을 통한 AI 인프라 확장이 주가 상승의 주요 동력으로 작용하고 있습니다. 최근 애널리스트들의 목표 주가 상향 조정과 함께 전반적으로 낙관적인 시장 전망이 이어지고 있습니다.",
     "sentimentScore": 60.68,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1782828999079",
-    "title": "FreeCast (CAST): 고변동성 속 파트너십 기대와 심화되는 재무 리스크 분석",
-    "ticker": "CAST",
-    "market": "US",
-    "timestamp": "2026-06-30T14:16:39.079Z",
-    "summary": "FreeCast (CAST)는 최근 DIRECTV 및 Starlink 파트너십 확장 소식으로 급등했으나, 이후 급격한 변동성과 함께 최근 7일간 큰 폭으로 하락했습니다. 회사는 재정적 어려움과 치열한 스트리밍 시장 경쟁에 직면해 있습니다.",
-    "sentimentScore": 40,
-    "investmentRating": "Hold"
   }
 ]
