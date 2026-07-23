@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784774216550",
+    "title": "SK하이닉스: 인공지능 시대 HBM 리더십과 밸류에이션 재평가 잠재력 심층 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-07-23T02:36:56.550Z",
+    "summary": "SK하이닉스는 인공지능(AI) 메모리 반도체, 특히 고대역폭메모리(HBM) 시장을 선도하는 국내 대표 반도체 기업입니다. 데이터센터향 매출 비중 확대와 청주 P&T7 공장 투자를 통해 AI 수요에 적극적으로 대응하고 있으며, 최근 주가는 높은 변동성을 보였습니다.",
+    "sentimentScore": 70,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1784757780970",
     "title": "테슬라(TSLA): 미래를 위한 투자, 단기 수익성 압박 심화 분석",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "FreeCast (CAST)는 최근 DIRECTV 및 Starlink 파트너십 확장 소식으로 급등했으나, 이후 급격한 변동성과 함께 최근 7일간 큰 폭으로 하락했습니다. 회사는 재정적 어려움과 치열한 스트리밍 시장 경쟁에 직면해 있습니다.",
     "sentimentScore": 40,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1782770946820",
-    "title": "Decoy Therapeutics (DCOY): AI 혁신과 임상 모멘텀, 그러나 극심한 변동성 경고",
-    "ticker": "DCOY",
-    "market": "US",
-    "timestamp": "2026-06-29T22:09:06.820Z",
-    "summary": "Decoy Therapeutics Inc.는 AI 및 머신러닝 기반의 IMP3ACT 플랫폼을 활용하여 호흡기 바이러스 및 위장암을 포함한 감염병 및 종양학 분야의 펩타이드 접합 치료제를 개발하는 전임상 단계 바이오텍 기업입니다. 최근 최대 2,100만 달러 규모의 자금 조달 소식과 함께 임상 시험 진행 계획을 발표하며 주가가 급등했습니다.",
-    "sentimentScore": 0.49,
-    "investmentRating": "Buy"
   }
 ]
