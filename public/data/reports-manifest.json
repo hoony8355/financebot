@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784891107797",
+    "title": "Wearable Devices Ltd. (WLDS): 차세대 신경 입력 기술의 선두 주자, 그러나 높은 투기적 위험과 밸류에이션 부담 분석",
+    "ticker": "WLDS",
+    "market": "US",
+    "timestamp": "2026-07-24T11:05:07.797Z",
+    "summary": "Wearable Devices Ltd. (WLDS)는 이스라엘 기반의 기술 성장 기업으로, 미묘한 손가락 움직임과 제스처를 사용하여 디지털 장치를 제어하는 AI 기반 비침습 신경 입력 기술을 전문으로 합니다. Mudra Band(Apple 생태계용) 및 Mudra Link(기타 Bluetooth 호환 장치용) 제품을 통해 AR/VR 헤드셋, AI, 로봇 공학 등 차세대 인간-컴퓨터 상호작용 시장을 목표로 합니다. 최근 AI 및 XR 상호작용을 위한 '의도 레이어'로서 신경 센싱에 대한 백서를 발행하고 주요 컨퍼런스에서 발표하며 주목받고 있습니다. 현재 낮은 매출과 높은 주가매출비율은 회사의 미래 성장 잠재력에 대한 시장의 기대를 반영합니다.",
+    "sentimentScore": 60,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1784881536477",
     "title": "Maison Solutions Inc. (MSS): 고위험 고변동성 아시아 식료품 소매업체의 전략적 재편 분석",
     "ticker": "MSS",
@@ -988,15 +998,5 @@
     "summary": "Reddit (RDDT)는 커뮤니티 중심의 소셜 미디어 플랫폼으로, 광고 및 데이터 라이선싱을 통해 수익을 창출합니다. 2026년 1분기 실적이 예상을 상회하며 강력한 매출 성장, 높은 총마진 및 영업현금흐름 마진을 기록했습니다. 특히 AI 콘텐츠 라이선싱 계약은 향후 성장의 핵심 동력으로 주목받고 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1782982501224",
-    "title": "Shutterstock (SSTK): 합병 무산과 AI 전환기 속 투자 심리 분석 및 향후 전망",
-    "ticker": "SSTK",
-    "market": "US",
-    "timestamp": "2026-07-02T08:55:01.224Z",
-    "summary": "Shutterstock, Inc. (SSTK)는 전 세계 크리에이티브 전문가와 기업에 고품질 라이선스 이미지, 동영상, 음악, 편집 도구 및 생성형 AI 콘텐츠를 제공하는 글로벌 플랫폼입니다. 최근 Getty Images와의 37억 달러 규모의 합병 계약이 영국 경쟁시장청(CMA)의 조건(Shutterstock의 편집 사업부 매각)으로 인해 해지되면서 주가가 급락하며 높은 변동성을 보였습니다. 이는 1분기 실적 부진과 함께 투자 심리를 크게 위축시켰습니다.",
-    "sentimentScore": 2,
-    "investmentRating": "Hold"
   }
 ]
