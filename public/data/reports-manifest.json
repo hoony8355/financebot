@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784921017000",
+    "title": "Domo (DOMO): 핵심 자산 매각을 통한 주주 가치 실현 및 향후 전망 분석",
+    "ticker": "DOMO",
+    "market": "US",
+    "timestamp": "2026-07-24T19:23:37.000Z",
+    "summary": "클라우드 기반 비즈니스 인텔리전스 및 데이터 분석 소프트웨어 기업인 Domo, Inc.(NASDAQ: DOMO)는 최근 프로그레스 소프트웨어(Progress Software)에 주요 자산 및 특정 부채를 4억 달러에 매각하는 계약을 발표했습니다. 이는 Domo 주주들에게 주당 4.84달러의 현금 가치를 의미하며, 이 소식으로 인해 주가가 크게 상승했습니다. 회사는 AI 도구와의 경쟁 심화로 인해 성장 둔화를 겪었으며, 이 인수는 장기적인 사업적 어려움 속에서 주주들에게 청산 기회를 제공합니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784891107797",
     "title": "Wearable Devices Ltd. (WLDS): 차세대 신경 입력 기술의 선두 주자, 그러나 높은 투기적 위험과 밸류에이션 부담 분석",
     "ticker": "WLDS",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-02T16:49:05.564Z",
     "summary": "Palantir Technologies는 정부 및 상업 고객에게 Foundry 및 Gotham 플랫폼을 제공하는 AI, 분석 및 자동 의사 결정 회사입니다. 최근 미국 육군과 100억 달러 규모의 계약을 체결했으며, 강력한 AI 플랫폼 채택에 힘입어 2026년 1분기 사상 최대 매출을 기록했습니다. 주가는 연초 대비 약 31.1% 하락하는 등 상당한 변동성을 보였으며, 높은 밸류에이션과 경쟁 심화가 주요 요인으로 작용하고 있습니다.",
     "sentimentScore": 65,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1782992025952",
-    "title": "Reddit (RDDT): AI 데이터 라이선싱과 광고 매출의 시너지, 강력한 성장 모멘텀 심층 분석",
-    "ticker": "RDDT",
-    "market": "US",
-    "timestamp": "2026-07-02T11:33:45.952Z",
-    "summary": "Reddit (RDDT)는 커뮤니티 중심의 소셜 미디어 플랫폼으로, 광고 및 데이터 라이선싱을 통해 수익을 창출합니다. 2026년 1분기 실적이 예상을 상회하며 강력한 매출 성장, 높은 총마진 및 영업현금흐름 마진을 기록했습니다. 특히 AI 콘텐츠 라이선싱 계약은 향후 성장의 핵심 동력으로 주목받고 있습니다.",
-    "sentimentScore": 0.75,
     "investmentRating": "Buy"
   }
 ]
