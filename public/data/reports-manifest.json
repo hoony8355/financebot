@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784881536477",
+    "title": "Maison Solutions Inc. (MSS): 고위험 고변동성 아시아 식료품 소매업체의 전략적 재편 분석",
+    "ticker": "MSS",
+    "market": "US",
+    "timestamp": "2026-07-24T08:25:36.477Z",
+    "summary": "Maison Solutions Inc. (MSS)는 미국 내 아시아 식료품 및 관련 제품을 전문으로 하는 소매업체입니다. 최근 실적 부진 점포 매각 및 AI 기반 공급망 솔루션 탐색 등 전략적 재편을 진행 중입니다. 극심한 주가 변동성을 겪고 있으며, 현재 적자 상태로 나스닥 상장 유지 요건 충족에 어려움을 겪은 이력이 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1784860395743",
     "title": "채비(0011T0): 전기차 충전 인프라 선두주자의 장기 성장 잠재력과 단기 변동성 심층 분석",
     "ticker": "0011T0",
@@ -988,15 +998,5 @@
     "summary": "Shutterstock, Inc. (SSTK)는 전 세계 크리에이티브 전문가와 기업에 고품질 라이선스 이미지, 동영상, 음악, 편집 도구 및 생성형 AI 콘텐츠를 제공하는 글로벌 플랫폼입니다. 최근 Getty Images와의 37억 달러 규모의 합병 계약이 영국 경쟁시장청(CMA)의 조건(Shutterstock의 편집 사업부 매각)으로 인해 해지되면서 주가가 급락하며 높은 변동성을 보였습니다. 이는 1분기 실적 부진과 함께 투자 심리를 크게 위축시켰습니다.",
     "sentimentScore": 2,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1782944235596",
-    "title": "아마존(AMZN) 심층 분석: AI 시대의 성장 동력과 잠재 리스크",
-    "ticker": "AMZN",
-    "market": "US",
-    "timestamp": "2026-07-01T22:17:15.596Z",
-    "summary": "Amazon은 전자상거래, 클라우드 컴퓨팅(AWS), 온라인 광고, 디지털 스트리밍, AI 분야를 아우르는 다국적 기술 기업입니다. 최근 성공적인 프라임 데이와 AWS의 강력한 성장이 긍정적인 촉매로 작용했으나, 대규모 AI 투자 관련 자본 지출 및 규제 강화 가능성은 주가에 잠재적 부담 요인으로 작용하고 있습니다.",
-    "sentimentScore": 71,
-    "investmentRating": "Strong Buy"
   }
 ]
