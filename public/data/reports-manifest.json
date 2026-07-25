@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1784975183713",
+    "title": "China SXT Pharmaceuticals (SXTC): 극심한 희석 및 상장 폐지 위험에 직면한 제약사의 생존 전략 분석",
+    "ticker": "SXTC",
+    "market": "US",
+    "timestamp": "2026-07-25T10:26:23.713Z",
+    "summary": "China SXT Pharmaceuticals Inc. (SXTC)는 중국 전통 의학(TCM) 분야의 제약 회사로, 최근 900만 달러 규모의 직접 공모 발표 후 주가가 83% 폭락하며 극심한 변동성을 보였습니다. 주주 희석, 재정 악화, 상장 폐지 위험에 직면해 있습니다.",
+    "sentimentScore": 1,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1784966672274",
     "title": "GameStop (GME): 전략적 전환과 '밈 주식' 특성 속 고변동성 투자 위험 분석",
     "ticker": "GME",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-04T02:47:36.235Z",
     "summary": "SK하이닉스는 고대역폭메모리(HBM)를 포함한 D램과 낸드플래시를 생산하는 글로벌 메모리 반도체 기업으로, 최근 AI 서버용 HBM 공급 확대와 미국 나스닥 상장 계획으로 인해 시장의 주목을 받고 있습니다. 주가는 최근 극심한 변동성을 보였으나, AI 투자 가속화와 메모리 공급 부족 장기화 전망에 힘입어 증권사들은 긍정적인 전망과 함께 목표주가를 상향 조정하고 있습니다.",
     "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1783095848863",
-    "title": "NVIDIA (NVDA): AI 시대의 핵심 인프라, 성장 동력과 투자 리스크 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-07-03T16:24:08.863Z",
-    "summary": "NVIDIA는 인공지능(AI) 및 반도체 산업의 핵심 기업으로, GPU(그래픽 처리 장치) 시장을 선도하고 있습니다. 게임, 전문 시각화, 데이터 센터, 자율주행차 등 다양한 분야에 플랫폼을 제공하며 장기적인 성장 동력을 확보하고 있습니다. 월스트리트 애널리스트들은 NVIDIA에 대해 'Strong Buy' 의견을 제시하며 상당한 상승 여력을 기대하고 있습니다.",
-    "sentimentScore": 0.84,
     "investmentRating": "Strong Buy"
   }
 ]
