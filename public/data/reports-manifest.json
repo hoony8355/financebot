@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785033513243",
+    "title": "현대힘스(215080) 심층 분석: 조선업 회복기, 강력한 상승 모멘텀 지속 가능성 평가",
+    "ticker": "215080",
+    "market": "KR",
+    "timestamp": "2026-07-26T02:38:33.243Z",
+    "summary": "현대힘스는 조선기자재 전문 기업으로, 2026년 7월 24일 22.5% 급등하며 대량 거래를 동반한 강한 반등세를 보였습니다. 최근 주가 흐름은 단기 하락 후 급격한 상승 전환으로 높은 변동성을 나타내고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1785006366098",
     "title": "LiveWire Group (LVWR): 고변동성 전기 오토바이 시장의 선구자, 투자 위험과 잠재력 심층 분석",
     "ticker": "LVWR",
@@ -988,15 +998,5 @@
     "summary": "SoFi Technologies (SOFI)는 대출, 투자, 은행 업무 및 기술 솔루션을 포함한 광범위한 디지털 금융 서비스를 제공하는 미국의 핀테크 기업입니다. 주로 젊은 소비자를 대상으로 원스톱 금융 서비스를 목표로 합니다.",
     "sentimentScore": 81,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1783192269258",
-    "title": "Micron Technology: AI 시대 고대역폭 메모리 리더십과 최근 시장 조정 분석",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-07-04T19:11:09.258Z",
-    "summary": "Micron Technology는 DRAM, NAND, HBM을 포함한 메모리 및 스토리지 칩을 제조하는 선도적인 반도체 기업입니다. 최근 AI 기반 고대역폭 메모리(HBM) 수요 급증에 힘입어 2026년 회계연도 3분기에 견조한 실적을 발표했으나, 7월 초 광범위한 반도체 섹터의 매도세와 유명 투자자의 약세 베팅으로 인해 주가가 상당한 조정을 받았습니다. 장기적인 전략적 고객 계약을 통해 안정적인 매출을 확보하고 있습니다.",
-    "sentimentScore": 65,
-    "investmentRating": "Strong Buy"
   }
 ]
