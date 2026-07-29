@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785314326088",
+    "title": "AiRWA Inc. (YYAI): 극심한 변동성 속 재무 리스크와 불확실한 성장 동력 분석",
+    "ticker": "YYAI",
+    "market": "US",
+    "timestamp": "2026-07-29T08:38:46.088Z",
+    "summary": "AiRWA Inc. (NASDAQ: YYAI)는 AI 기반 매치메이킹 및 디지털 금융 솔루션을 제공하는 기술 라이선싱 및 디지털 금융 회사입니다. 최근 홍콩 기반의 수입-수출 회사인 Best Life Trade를 인수하여 AI 데이터 훈련 사업을 보완하고 수익원을 다각화하고 있습니다. 또한 Web3 및 실물자산(RWA) 토큰화 시장으로의 확장을 추진하고 있습니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1785292260546",
     "title": "삼성전자, 글로벌 반도체 시장의 불확실성 속 밸류에이션 재조명 및 전략적 대응 분석",
     "ticker": "005930",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-07T17:13:33.159Z",
     "summary": "SpaceX(SPCX)는 최근 상장된 종목으로, 우주 발사 서비스, 스타링크 위성 인터넷, 인공지능(xAI) 사업을 영위하고 있습니다. 최근 Nasdaq-100 지수 편입 소식과 함께 주요 애널리스트들의 긍정적인 초기 커버리지 평가가 이어지고 있으나, 아직 인공지능 사업 부문의 수익성 증명과 엘론 머스크 의존도, 그리고 잠재적인 보호예수 해제 물량 등 리스크 요인도 존재합니다.",
     "sentimentScore": 65,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1783434700991",
-    "title": "IREN Limited: AI 클라우드 전환 가속화와 전략적 포지셔닝 분석",
-    "ticker": "IREN",
-    "market": "US",
-    "timestamp": "2026-07-07T14:31:40.991Z",
-    "summary": "IREN Limited는 재생 에너지를 활용하여 비트코인 채굴 및 AI 클라우드 인프라를 운영하는 수직 통합 데이터 센터 기업입니다. 회사는 기존 비트코인 채굴 역량을 AI 목적으로 전환하고 있으며, Microsoft, NVIDIA와 같은 업계 선두 기업과의 파트너십을 통해 데이터 센터 운영을 확장하고 있습니다. 지난 1년간 174.95%의 주가 상승을 보였으나 최근 변동성이 커지고 하락세를 겪고 있습니다. 최근 Russell 1000 지수에 편입되었습니다.",
-    "sentimentScore": 45,
     "investmentRating": "Buy"
   }
 ]
