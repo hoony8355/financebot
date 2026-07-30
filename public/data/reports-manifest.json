@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785377541307",
+    "title": "SK이터닉스: AI 시대 재생에너지의 성장 동력과 투자 리스크 심층 분석",
+    "ticker": "475150",
+    "market": "KR",
+    "timestamp": "2026-07-30T02:12:21.307Z",
+    "summary": "SK이터닉스는 SK그룹의 신재생에너지 전문 기업으로, AI 데이터센터 전력 수요 증가와 KKR과의 합작법인 설립 기대감으로 주가가 급등했으나, 최근 단기 급등에 따른 차익 실현 및 높은 밸류에이션 부담으로 급락세를 보이고 있습니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1785352466190",
     "title": "아메리칸 항공 그룹(AAL): 시장 변화 속 수익성 제고 및 재무 건전성 강화 전략 분석",
     "ticker": "AAL",
@@ -988,15 +998,5 @@
     "summary": "델 테크놀로지스는 AI 서버 시장의 강력한 수요와 뛰어난 1분기 실적에 힘입어 지난 1년간 상당한 성장을 보였습니다. 하지만 최근 AI 서버 마진 압박에 대한 우려와 광범위한 기술 섹터 변동성으로 인해 주가 변동이 있었습니다. 'Trump-driven publicity' 또한 주가에 영향을 미쳤습니다.",
     "sentimentScore": 4.3,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1783462285515",
-    "title": "Crinetics Pharmaceuticals: Vertex 인수 발표 이후의 투자 전략 및 밸류에이션 재조명",
-    "ticker": "CRNX",
-    "market": "US",
-    "timestamp": "2026-07-07T22:11:25.515Z",
-    "summary": "Vertex Pharmaceuticals의 100억 달러 현금 인수 제안으로 주가가 급등한 바이오텍 Crinetics Pharmaceuticals (CRNX)에 대한 분석입니다. 인수 가격은 주당 $85로, 거래 완료 시 주가는 이 수준에 수렴할 것으로 예상됩니다. 인수 리스크와 향후 전망이 주요 투자 포인트입니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Hold"
   }
 ]
