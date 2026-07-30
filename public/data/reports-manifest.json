@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785449074241",
+    "title": "비욘드 미트(BYND) 심층 분석: 침체된 식물성 육류 시장과 재정적 난국 속 'Strong Sell' 의견",
+    "ticker": "BYND",
+    "market": "US",
+    "timestamp": "2026-07-30T22:04:34.241Z",
+    "summary": "Beyond Meat (BYND)는 식물성 육류 시장의 선두 주자이지만, 현재 심각한 재정적 어려움에 직면해 있습니다. 매출 감소와 수익성 악화로 인해 애널리스트들은 'Strong Sell' 의견을 제시하고 있으며, 주가는 52주 신저가에 근접해 있습니다. 기술적 분석 또한 강력한 하락 추세를 나타내고 있어 투자 위험이 매우 높은 상황입니다.",
+    "sentimentScore": -4,
+    "investmentRating": "Strong Sell"
+  },
+  {
     "id": "report-1785439462143",
     "title": "Teladoc Health (TDOC): 전환점에서의 재무 건전성 및 성장 동력 심층 분석",
     "ticker": "TDOC",
@@ -988,15 +998,5 @@
     "summary": "Sadot Group Inc. (SDOT)는 최근 부채를 주식으로 전환하며 상당한 주주 희석이 발생했음에도 불구하고 유동성을 확보했습니다. 이 농산물 상품 거래 및 식품 공급망 솔루션 기업은 Fugazi Research의 강력한 공매도 보고서 이후 주가가 72% 폭락하는 등 극심한 변동성을 보였습니다. 이 보고서는 회사의 기초 가치가 거의 없으며 계속기업으로서의 존속 능력에 대한 심각한 의문을 제기하고 있습니다.",
     "sentimentScore": 20,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1783617874465",
-    "title": "Wrap Technologies (WRAP): 비살상 치안 기술 시장의 변곡점과 투자 전망 심층 분석",
-    "ticker": "WRAP",
-    "market": "US",
-    "timestamp": "2026-07-09T17:24:34.465Z",
-    "summary": "Wrap Technologies, Inc. (WRAP)는 전 세계 법 집행 및 보안 담당자를 위한 비살상 치안 솔루션을 개발하는 공공 안전 기술 및 서비스 기업입니다. 주요 제품으로는 비살상 구속 장치인 BolaWrap Remote Restraint Device, VR 훈련 시스템인 Wrap Reality, 신체 착용 카메라 WrapVision, 그리고 무인 항공기 시스템(C-UAS) 대응 솔루션이 있습니다. 최근 BolaWrap 150이 총기가 아닌 구속 장치로 분류되었다는 미 연방 주류·담배·총기류 단속국(ATF)의 역사적인 판결과 자율 방어 및 공공 안전 플랫폼인 WrapShield의 출시로 긍정적인 모멘텀을 얻고 있습니다. 주가는 지난 한 주와 한 달 동안 상당한 상승세를 보였으나, 당일에는 소폭 하락했습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Hold"
   }
 ]
