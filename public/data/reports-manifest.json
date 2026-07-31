@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785516310450",
+    "title": "GameStop (GME): 디지털 전환 시대의 밈 주식, 불확실성 증폭과 매도 의견 유지",
+    "ticker": "GME",
+    "market": "US",
+    "timestamp": "2026-07-31T16:45:10.450Z",
+    "summary": "GameStop (GME)은 높은 변동성과 밈 주식 특성으로 주목받는 종목입니다. 최근 1분기 실적 호조와 Uber Eats와의 파트너십을 통한 사업 다각화 노력이 있었으나, 디지털 게임으로의 전환 가속화와 eBay 인수 실패로 인한 장기적인 사업 전략 불확실성에 직면해 있습니다. 기술적 분석은 전반적으로 약세 신호를 보이며, 시장의 우려 수준은 '공포'에 해당합니다.",
+    "sentimentScore": 45,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1785506566437",
     "title": "Cycurion, Inc. (CYCU): 대규모 계약 수주와 상장 폐지 리스크가 공존하는 초고위험 투자 분석",
     "ticker": "CYCU",
@@ -986,16 +996,6 @@
     "market": "US",
     "timestamp": "2026-07-10T16:55:13.769Z",
     "summary": "NVIDIA (NVDA)는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, GPU 및 CUDA 소프트웨어 플랫폼을 통해 AI 모델 개발 및 훈련 시장을 지배하고 있습니다. 최근 주가는 변동성을 보였으나, 장기적인 AI 시장 성장에 대한 기대감과 애널리스트들의 'Strong Buy' 의견이 지배적입니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1783684268157",
-    "title": "AMD: AI 반도체 혁명의 핵심 주자, 성장성과 밸류에이션 심층 분석",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-07-10T11:51:08.157Z",
-    "summary": "AMD는 AI 혁명의 주요 수혜주로, 특히 데이터센터 부문의 강력한 성장을 바탕으로 미국 증시에서 핵심적인 역할을 하고 있는 글로벌 반도체 기업입니다. 최근 AI 관련 전략적 협력과 애널리스트들의 긍정적인 전망이 주가를 견인하고 있으며, 지난 한 해 동안 높은 주가 상승률을 기록했습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
   }
