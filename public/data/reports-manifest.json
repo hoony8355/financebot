@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785525808225",
+    "title": "레딧(RDDT)의 이중 딜레마: 강력한 실적과 구글 AI 리스크의 교차 분석",
+    "ticker": "RDDT",
+    "market": "US",
+    "timestamp": "2026-07-31T19:23:28.225Z",
+    "summary": "Reddit(RDDT)은 강력한 2026년 2분기 실적(매출 61% 성장)을 발표했음에도 불구하고, Google의 AI 검색 변화가 트래픽 및 AI 데이터 라이선스 계약에 미칠 영향에 대한 우려로 인해 주가가 급락했습니다. 이는 단기적인 변동성을 높이며 투자자들의 주의가 필요합니다.",
+    "sentimentScore": 0.3,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1785516310450",
     "title": "GameStop (GME): 디지털 전환 시대의 밈 주식, 불확실성 증폭과 매도 의견 유지",
     "ticker": "GME",
@@ -988,15 +998,5 @@
     "summary": "금호타이어 (073240)는 한국의 주요 타이어 제조업체로, 승용차, SUV, RV, 트럭, 버스 및 레이싱용 타이어를 생산 및 판매합니다. 한국, 중국, 베트남, 미국에 생산 시설을 두고 글로벌 시장에서 사업을 영위하고 있습니다.",
     "sentimentScore": 0.7,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1783702513769",
-    "title": "NVIDIA (NVDA): AI 시대의 핵심 인프라, 변동성 속 성장 잠재력 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-07-10T16:55:13.769Z",
-    "summary": "NVIDIA (NVDA)는 인공지능(AI) 컴퓨팅 분야의 선두 주자로, GPU 및 CUDA 소프트웨어 플랫폼을 통해 AI 모델 개발 및 훈련 시장을 지배하고 있습니다. 최근 주가는 변동성을 보였으나, 장기적인 AI 시장 성장에 대한 기대감과 애널리스트들의 'Strong Buy' 의견이 지배적입니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
