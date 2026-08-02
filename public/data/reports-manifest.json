@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785659052428",
+    "title": "IonQ (IONQ): 양자 컴퓨팅 시장의 선두 주자, 고성장과 고변동성 사이의 투자 기회 분석",
+    "ticker": "IONQ",
+    "market": "US",
+    "timestamp": "2026-08-02T08:24:12.428Z",
+    "summary": "IonQ는 양자 컴퓨팅 하드웨어 및 소프트웨어 개발 기업으로, 최근 SkyWater Technology 인수를 통해 공급망을 강화했습니다. 755%의 높은 매출 성장률에도 불구하고 양자 컴퓨팅 섹터의 투기적 특성 및 전반적인 기술주 매도세로 인해 최근 한 달간 주가가 39% 급락하는 등 높은 변동성을 보였습니다. 애널리스트들은 대체로 '매수' 의견을 유지하고 있지만, 높은 밸류에이션과 내부자 매도가 위험 요인으로 작용하고 있습니다.",
+    "sentimentScore": 0.66,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1785650235061",
     "title": "두산(000150): AI 시대 핵심 인프라 리더로의 변모와 압도적 성장 잠재력 분석",
     "ticker": "000150",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-12T13:17:22.053Z",
     "summary": "Rackspace Technology는 글로벌 멀티클라우드 기술 서비스 기업으로, 관리형 호스팅, 클라우드, 데이터, AI 및 사이버 보안 솔루션을 공공, 프라이빗, 하이브리드 환경에 제공합니다. 최근 AMD 및 Palantir와의 파트너십을 통해 규제 산업을 위한 AI 인프라 부문으로 전략적 전환을 추진하고 있습니다. [3, 5, 11, 30, 31, 32, 33, 34, 35]",
     "sentimentScore": 40,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1783852032955",
-    "title": "크리네틱스 파마슈티컬스 (CRNX) 버텍스 인수: 전략적 재편과 투자자 전망 심층 분석",
-    "ticker": "CRNX",
-    "market": "US",
-    "timestamp": "2026-07-12T10:27:12.955Z",
-    "summary": "Crinetics Pharmaceuticals (CRNX)는 Vertex Pharmaceuticals에 100억 달러 규모로 인수될 예정이라는 발표 이후 주가가 2배 가까이 급등하며 높은 변동성을 보였습니다. 인수 가격은 주당 85달러로 책정되었습니다.",
-    "sentimentScore": 90,
     "investmentRating": "Hold"
   }
 ]
