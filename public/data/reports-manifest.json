@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1785832505714",
+    "title": "Palantir Technologies (PLTR): AI 플랫폼 수요 폭증에 따른 성장 모멘텀 분석 및 밸류에이션 점검",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-08-04T08:35:05.714Z",
+    "summary": "Palantir Technologies는 2026년 2분기 실적 발표 후 예상치를 크게 뛰어넘는 실적과 상향 조정된 연간 가이던스로 인해 주가가 급등했습니다. 특히 미국 상업 부문 매출이 149% 성장하며 강력한 AI 플랫폼 수요를 입증했습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1785794934519",
     "title": "SpaceX (SPCX) IPO 이후 격랑: 2분기 실적 및 보호예수 해제 임박, 고밸류에이션 리스크와 장기 성장 잠재력 심층 분석",
     "ticker": "SPCX",
@@ -988,15 +998,5 @@
     "summary": "마이크론 테크놀로지는 AI 인프라 구축에 필수적인 DRAM 및 NAND 플래시 메모리를 전문으로 하는 선도적인 반도체 기업입니다. 강력한 수요와 메모리 칩 부족에 힘입어 상당한 성장을 보였지만, 최근 시장 및 섹터 전반의 조정으로 인해 변동성도 겪고 있습니다.",
     "sentimentScore": 76,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1784036433966",
-    "title": "IBM 쇼크: AI 전환기 엔터프라이즈 IT 지출 재편과 투자 전략 심층 분석",
-    "ticker": "IBM",
-    "market": "US",
-    "timestamp": "2026-07-14T13:40:33.966Z",
-    "summary": "IBM은 2026년 2분기 예비 실적이 월가 예상치를 크게 하회하고, 고객들의 AI 인프라 투자 집중으로 인해 소프트웨어 및 인프라 부문에서 부진을 겪으며 주가가 20% 이상 급락했습니다. 이는 시장 전반의 엔터프라이즈 IT 지출 둔화 우려를 증폭시키고 있습니다.",
-    "sentimentScore": 25,
-    "investmentRating": "Buy"
   }
 ]
