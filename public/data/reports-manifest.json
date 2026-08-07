@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786118105616",
+    "title": "Palantir Technologies (PLTR): AI 기반 데이터 분석 시장의 선두주자, 성장 모멘텀과 밸류에이션 심층 분석",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-08-07T15:55:05.616Z",
+    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 데이터 통합, 분석 및 인공지능 플랫폼을 제공하는 선두 기업입니다. Gotham 및 Foundry 플랫폼은 보안 데이터 융합, 조사 워크플로우, 데이터 통합 및 운영 애플리케이션에 활용됩니다. 최근 2026년 2분기 실적 발표에서 미국 상업 및 정부 부문에서 상당한 매출 성장을 기록하며 연간 가이던스를 상향 조정했습니다.",
+    "sentimentScore": 74,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1786078437929",
     "title": "유니켐(011330): '로봇 전자피부' 신성장 동력 vs. 과열된 투기적 과대평가 분석",
     "ticker": "011330",
@@ -988,15 +998,5 @@
     "summary": "SOBR Safe, Inc. (SOBR)는 비침습적 알코올 감지 시스템(SOBRcheck 및 SOBRsure)을 개발하는 기술 회사입니다. 이 주식은 매우 높은 변동성을 보이며 최근 일주일간 160% 이상 급등했습니다. 소규모 시가총액 회사로, 최근 Clean World Ventures와의 합병 추진 소식과 워런트 행사 발표가 주가에 큰 영향을 미쳤습니다.",
     "sentimentScore": 65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1784218617845",
-    "title": "마이크론 테크놀로지(MU): AI 시대의 메모리 리더십과 전략적 성장 기회 분석",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-07-16T16:16:57.845Z",
-    "summary": "마이크론 테크놀로지(MU)는 인공지능(AI) 수요 증가에 힘입어 강력한 성장세를 보이는 반도체 메모리 솔루션 선두 기업입니다. 자동차 부문과의 전략적 제휴를 통해 AI 지원 차량용 메모리 및 스토리지 공급을 강화하고 있으며, 애널리스트들은 대체로 긍정적인 전망을 내놓고 있습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Strong Buy"
   }
 ]
