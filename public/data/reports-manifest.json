@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786193056771",
+    "title": "NVIDIA: AI 혁명 선도 기업의 전략적 위치 및 미래 성장 잠재력 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-08-08T12:44:16.771Z",
+    "summary": "NVIDIA (NVDA)는 인공지능(AI) 및 그래픽 처리 장치(GPU) 시장의 선두 주자로, 데이터 센터와 AI 인프라 구축 수요 증가에 힘입어 높은 성장세를 보이고 있습니다. 최근 주가는 견고한 실적과 AI 기술 혁신에 대한 기대로 긍정적인 모멘텀을 유지하고 있습니다.",
+    "sentimentScore": 72,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1786181797141",
     "title": "SpaceX(SPCX): AI 혁신과 우주 경제 선도, 락업 해제 역설이 가리키는 미래 가치",
     "ticker": "SPCX",
@@ -988,15 +998,5 @@
     "summary": "한성기업(003680)은 수산물 가공식품 제조업체로, 최근 '애국 테마주'로 부각되며 개인 투자자들의 '돈쭐(응원 구매/투자)' 열풍에 힘입어 주가가 급등했습니다. 과거 상장폐지 우려가 있었으나, 한국전쟁 참전용사 후원 사실이 알려지면서 주가에 긍정적인 영향을 미쳤습니다. [1, 7, 8, 9, 10, 24]",
     "sentimentScore": 85,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1784325209853",
-    "title": "게임스톱(GME)의 재편과 밸류에이션 논쟁: 초고위험 투기 자산의 심층 분석",
-    "ticker": "GME",
-    "market": "US",
-    "timestamp": "2026-07-17T21:53:29.853Z",
-    "summary": "GameStop은 실물 게임 판매 감소에 대응하여 고마진 수집품 및 온라인 유통 채널로 사업을 재편하고 있습니다. Uber Eats와의 협력은 이러한 전환의 일환으로, 시장 변동성이 매우 높은 종목입니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Sell"
   }
 ]
