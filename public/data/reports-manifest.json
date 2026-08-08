@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786162222949",
+    "title": "동화기업: 전고체 배터리 소재 사업 확대로 본 기업가치 재평가 분석",
+    "ticker": "025900",
+    "market": "KR",
+    "timestamp": "2026-08-08T04:10:22.949Z",
+    "summary": "동화기업은 전고체 배터리 소재 사업 확대 기대감과 2차전지 전해액 자회사 성장에 힘입어 급등세를 보이고 있으며, 장기적인 저평가에서 벗어나 반등을 시도 중인 코스닥 종목입니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1786138695012",
     "title": "Dell Technologies: AI 인프라 시장 주도와 밸류에이션 재조명",
     "ticker": "DELL",
@@ -988,15 +998,5 @@
     "summary": "Abbott Laboratories (ABT)는 2026년 2분기 시장 예상을 뛰어넘는 실적을 발표하고 연간 가이던스를 상향 조정하며 주가가 10% 이상 급등했습니다. 의료 기기 및 진단 부문의 강력한 성장이 실적을 견인했으며, 시장에서는 단기적인 긍정적 모멘텀을 기대하고 있습니다.",
     "sentimentScore": 85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1784285227155",
-    "title": "Nuvve Holding Corp. (NVVE) 심층 분석: V2G 기술의 잠재력과 극심한 재정 리스크 공존",
-    "ticker": "NVVE",
-    "market": "US",
-    "timestamp": "2026-07-17T10:47:07.155Z",
-    "summary": "Nuvve Holding Corp. (NVVE)는 미국, 프랑스, 일본, 덴마크에서 상업용 Vehicle-to-Grid (V2G) 기술 플랫폼과 지능형 에너지 플랫폼을 제공하는 청정에너지 기술 회사이다. EV 배터리를 활용하여 에너지를 전력망에 저장하고 재판매하며, 전기차 충전 솔루션을 제공한다. 최근 1-for-18 주식 역분할을 발표했으며, 재무 상태가 취약하고 나스닥 상장 유지에 대한 불확실성이 존재하여 높은 변동성을 보이고 있다.",
-    "sentimentScore": 0.2,
-    "investmentRating": "Sell"
   }
 ]
