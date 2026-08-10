@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786367041215",
+    "title": "Critical Metals Corp. (CRML): 미래 핵심 광물 시장의 고위험 고수익 기회 분석",
+    "ticker": "CRML",
+    "market": "US",
+    "timestamp": "2026-08-10T13:04:01.215Z",
+    "summary": "Critical Metals Corp.는 리튬 및 희토류 원소와 같은 핵심 광물 탐사 및 개발에 주력하는 광산 회사입니다. 오스트리아(Wolfsberg Lithium Project)와 남부 그린란드(Tanbreez 희토류 매장지)에 주요 프로젝트를 보유하고 있으며, 청정 에너지, 전기차(EV), 방위 산업을 위한 원자재 공급을 목표로 전 세계 공급망 다각화 노력에 기여하고 있습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1786336109373",
     "title": "에코프로비엠: 단기 조정 속 글로벌 확장과 수직계열화로 도약하는 양극재 선두주자",
     "ticker": "247540",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-19T02:35:02.983Z",
     "summary": "카카오는 국내 대표 IT 기업으로, 메신저 카카오톡 기반의 플랫폼 사업과 다양한 콘텐츠 사업을 영위하고 있습니다. 최근 AI 사업의 수익화 모델 부재와 목표가 하향 조정, 노조 파업 등의 이슈로 주가 변동성이 확대되고 있으나, 모빌리티 및 페이 사업의 안정적인 성장과 AI '카나나'에 대한 기대감으로 반등을 모색 중입니다.",
     "sentimentScore": 0.5,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1784401362484",
-    "title": "Bank of America (BAC): 2분기 실적 돌풍과 AI 전략, 금융 시장 불확실성 속 견고한 성장 로드맵",
-    "ticker": "BAC",
-    "market": "US",
-    "timestamp": "2026-07-18T19:02:42.484Z",
-    "summary": "Bank of America (BAC)는 강력한 2분기 실적 발표와 애널리스트들의 목표가 상향 조정에 힘입어 긍정적인 모멘텀을 유지하고 있습니다. 대출, 자산 관리, 트레이딩, 기업 서비스 등 전 사업 부문에서 견조한 성장을 보였으며, 순이자수익 개선과 AI 도입을 통한 효율성 증대 기대감이 주가에 반영되고 있습니다.",
-    "sentimentScore": 0.75,
     "investmentRating": "Buy"
   }
 ]
