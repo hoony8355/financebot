@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786398015268",
+    "title": "Archer Aviation (ACHR): 보잉 파트너십과 물리적 AI 플랫폼 전환을 통한 항공우주 혁신 분석",
+    "ticker": "ACHR",
+    "market": "US",
+    "timestamp": "2026-08-10T21:40:15.268Z",
+    "summary": "Archer Aviation (ACHR)은 보잉의 Wisk Aero, Insitu, SkyGrid 자회사 인수를 발표하며 항공우주 및 방위 산업을 위한 엔드 투 엔드 물리적 AI 플랫폼 구축을 목표로 합니다. 이 거래에는 보잉의 상당한 지분 투자와 전략적 협력이 포함되어 있으며, Archer는 새로운 eVTOL 항공기 모델과 항공용 AI 기반 모델(ZEE)을 공개했습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1786388161109",
     "title": "Super Micro Computer (SMCI) 심층 분석: AI 인프라 성장과 도전 과제",
     "ticker": "SMCI",
@@ -986,16 +996,6 @@
     "market": "US",
     "timestamp": "2026-07-19T15:56:45.718Z",
     "summary": "AMC Entertainment Holdings는 극심한 변동성과 높은 거래량을 보이는 미국 증시의 대표적인 '밈 주식'입니다. 최근 주가는 7일간 소폭 상승했으나, 지난 한 달간 21.93% 하락했으며, 12개월 기준으로는 45.28% 하락했습니다. 애널리스트들은 '보유(Hold)' 의견을 제시하며 목표 주가는 현재가와 비슷한 수준인 1.80달러에서 2.242달러 사이로 보고 있습니다. 회사는 부채 관리 노력과 박스 오피스 회복 기미에도 불구하고, 지속적인 희석 우려와 높은 부채 부담으로 인해 투자자들의 신중한 접근이 요구됩니다.",
-    "sentimentScore": 0.2,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1784448876209",
-    "title": "루시드 그룹 (LCID) 투자 분석: 극심한 변동성 속 고성장 프리미엄 전기차 기업의 잠재력과 위험",
-    "ticker": "LCID",
-    "market": "US",
-    "timestamp": "2026-07-19T08:14:36.209Z",
-    "summary": "Lucid Group (LCID)는 미국에 본사를 둔 고급 전기차 제조업체로, 최근 파산 보도 부인 후 주가가 급락했다가 크게 반등하며 극심한 변동성을 보였습니다. 생산 지연과 지속적인 손실 등 여러 난관에도 불구하고, 애널리스트들은 대체로 '보류(Hold)' 등급을 유지하고 있으며, 사우디 국부펀드(PIF)의 자금 지원, 우버와의 로보택시 파트너십, 그리고 곧 출시될 미드사이즈 플랫폼이 장기 성장 잠재력으로 꼽힙니다.",
     "sentimentScore": 0.2,
     "investmentRating": "Hold"
   }
