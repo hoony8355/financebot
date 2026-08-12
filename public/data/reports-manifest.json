@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786550398948",
+    "title": "CoreWeave: AI 클라우드 인프라 시장의 급부상하는 강자, 폭발적 성장과 투자 리스크 분석",
+    "ticker": "CRWV",
+    "market": "US",
+    "timestamp": "2026-08-12T15:59:58.948Z",
+    "summary": "CoreWeave는 AI 중심의 고성능 클라우드 인프라 제공업체로, 2026년 8월 12일 예상치를 뛰어넘는 2분기 실적과 상향된 연간 매출 가이던스를 발표하며 주가가 18-21% 급등했습니다. 이는 Nvidia GPU 및 Vera Rubin 플랫폼에 대한 AI 클라우드 수요 가속화와 약 1,040억 달러에 달하는 계약 백로그에 힘입은 것입니다. 다수의 애널리스트들이 목표주가를 상향 조정하며 긍정적인 전망을 내놓았습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1786539922552",
     "title": "Katapult Holdings (KPLT): 합병 후 비우량 소비자 금융 플랫폼으로의 변모와 재무적 도전 과제 심층 분석",
     "ticker": "KPLT",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-21T02:32:54.166Z",
     "summary": "주연테크(044380)는 1988년에 설립된 대한민국의 PC 제조업체입니다. 데스크톱, 노트북, 모니터 등 다양한 PC 제품을 생산 및 판매하며, B2B 사업과 파트너십을 통해 주변기기 사업도 확장하고 있습니다. 최근에는 AI PC, 고성능 컴퓨팅, 펫테크 등 신사업 진출을 모색 중이며, 최근 증시에서 높은 거래량과 가격 변동성을 보였습니다. 2026년 상반기 누적 영업이익이 흑자 전환되는 등 실적 개선 조짐을 보이고 있습니다.",
     "sentimentScore": 65,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1784584757343",
-    "title": "Super Micro Computer (SMCI): AI 인프라 성장의 핵심과 과매도 국면에서의 투자 전략 심층 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-07-20T21:59:17.343Z",
-    "summary": "Super Micro Computer, Inc.는 클라우드 컴퓨팅, 데이터 센터 및 AI 인프라를 위한 고성능 서버 및 스토리지 솔루션을 설계, 제조 및 유통하는 주요 기업입니다.",
-    "sentimentScore": 77,
     "investmentRating": "Hold"
   }
 ]
