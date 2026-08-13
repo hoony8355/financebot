@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786636681106",
+    "title": "Hut 8 (HUT): 비트코인 채굴에서 AI 인프라로의 전환, 고성장 잠재력과 리스크 분석",
+    "ticker": "HUT",
+    "market": "US",
+    "timestamp": "2026-08-13T15:58:01.106Z",
+    "summary": "Hut 8 Corp. (HUT)는 전력, 디지털 인프라 및 컴퓨팅을 통합하여 비트코인 채굴 및 AI 데이터 센터를 포함한 에너지 집약적인 사용 사례를 지원하는 에너지 인프라 플랫폼입니다. 최근 AI 인프라 부문으로의 전환에 집중하고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1786616007449",
     "title": "Super Micro Computer (SMCI): AI 인프라 수요 폭증과 구조적 리스크 심층 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "마이크론 테크놀로지는 AI 인프라 수요 급증에 힘입어 HBM(고대역폭 메모리) 칩을 포함한 메모리 및 스토리지 제품 분야에서 선두를 달리고 있습니다. 최근 5월 분기 실적은 매출 및 이익 가이던스를 크게 상회했으며, 전년 대비 346%의 매출 성장을 기록했습니다. 메모리 가격 상승 전망과 애널리스트들의 '강력 매수' 의견이 지배적이지만, 최근 단기적으로 주가는 조정 양상을 보이고 있습니다.",
     "sentimentScore": 0.74,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1784708829791",
-    "title": "Li Bang International (LBGJ): 극심한 변동성 속 재무 악화와 상장 유지의 도전에 직면한 초소형주 심층 분석",
-    "ticker": "LBGJ",
-    "market": "US",
-    "timestamp": "2026-07-22T08:27:09.791Z",
-    "summary": "Li Bang International Corporation Inc. (LBGJ)는 중국 상업용 주방 장비 설계, 개발, 생산 및 판매 기업으로, 최근 극심한 주가 변동성을 겪고 있습니다. 2026년 3월 액면병합(1-for-100)을 통해 나스닥 상장 요건을 일시적으로 충족했으나, 이후 급격한 주가 하락을 보이며 투자자들의 우려를 사고 있습니다.",
-    "sentimentScore": 1,
-    "investmentRating": "Sell"
   }
 ]
