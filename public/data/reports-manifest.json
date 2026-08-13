@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786616007449",
+    "title": "Super Micro Computer (SMCI): AI 인프라 수요 폭증과 구조적 리스크 심층 분석",
+    "ticker": "SMCI",
+    "market": "US",
+    "timestamp": "2026-08-13T10:13:27.449Z",
+    "summary": "Super Micro Computer (SMCI)는 강력한 AI 인프라 수요에 힘입어 고성능 서버 및 스토리지 솔루션 분야를 선도하고 있습니다. 최근 예상치를 뛰어넘는 실적 발표와 낙관적인 미래 가이던스로 인해 주가가 급등했습니다.",
+    "sentimentScore": 75,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1786596592399",
     "title": "LK삼양: 드론 및 우주항공 테마 주도주로서의 성장 잠재력 분석과 투자 전략",
     "ticker": "225190",
@@ -988,15 +998,5 @@
     "summary": "Li Bang International Corporation Inc. (LBGJ)는 중국 상업용 주방 장비 설계, 개발, 생산 및 판매 기업으로, 최근 극심한 주가 변동성을 겪고 있습니다. 2026년 3월 액면병합(1-for-100)을 통해 나스닥 상장 요건을 일시적으로 충족했으나, 이후 급격한 주가 하락을 보이며 투자자들의 우려를 사고 있습니다.",
     "sentimentScore": 1,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1784671408483",
-    "title": "China Pharma Holdings (CPHI): 800% 급등 뒤 숨겨진 극단적 리스크와 펀더멘털 분석",
-    "ticker": "CPHI",
-    "market": "US",
-    "timestamp": "2026-07-21T22:03:28.483Z",
-    "summary": "중국 제약사인 China Pharma Holdings (CPHI)는 2026년 7월 21일 이례적인 800% 이상의 주가 급등을 경험하며 극심한 변동성을 보였습니다. NYSE American은 이러한 비정상적인 거래 활동에 대해 회사에 문의했지만, 회사는 급등을 설명할 어떠한 중요한 비공개 정보도 알지 못한다고 밝혔습니다. 회사는 여러 차례의 역주식 분할 기록과 낮은 시가총액, 수익 감소, 지속적인 손실 등 취약한 재무 펀더멘털을 가지고 있습니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Hold"
   }
 ]
