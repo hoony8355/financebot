@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786701581697",
+    "title": "AMC 엔터테인먼트 홀딩스: 재무구조 개선과 콘텐츠 확보를 통한 회복 모멘텀 심층 분석",
+    "ticker": "AMC",
+    "market": "US",
+    "timestamp": "2026-08-14T09:59:41.697Z",
+    "summary": "AMC Entertainment Holdings는 기록적인 2분기 매출, 부채 재융자 진전, 신용 등급 상향 및 영화 '오디세이'의 흥행에 힘입어 시장의 긍정적인 반응을 얻고 있습니다. 여러 증권사로부터 'Moderate Buy' 등급을 받았으나, 높은 부채와 변동성은 여전히 투자 위험 요소로 남아있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1786692151464",
     "title": "팔란티어(PLTR) 심층 분석: AI 데이터 플랫폼의 고성장과 밸류에이션 딜레마",
     "ticker": "PLTR",
@@ -988,15 +998,5 @@
     "summary": "Zhongchao Inc. (ZCMD)는 미국의 헬스케어 정보, 교육 및 훈련 서비스 제공업체로, 최근 대규모 유상증자 및 주식 병합 발표로 인해 극심한 변동성과 매도 압력에 직면해 있습니다. 낮은 기관 투자자 지분율과 애널리스트들의 '강력 매도' 의견이 지배적입니다.",
     "sentimentScore": 1,
     "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1784814924513",
-    "title": "Super Micro Computer (SMCI): AI 인프라 수혜와 변동성 사이의 '보유' 전략 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-07-23T13:55:24.513Z",
-    "summary": "Super Micro Computer (SMCI)는 고성능 및 AI 서버 인프라 분야의 핵심 기업입니다. 2026년 7월 23일 급격한 주가 반등을 보였으며, 이는 강력한 4분기 잠정 실적과 600억 달러가 넘는 기록적인 수주잔고 덕분입니다. 하지만 연초 대비 및 전년 대비 하락세를 기록했으며, 지배구조 문제와 잠재적 지분 희석 우려도 존재합니다.",
-    "sentimentScore": 60,
-    "investmentRating": "Hold"
   }
 ]
