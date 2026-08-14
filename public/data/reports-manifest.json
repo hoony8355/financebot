@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786692151464",
+    "title": "팔란티어(PLTR) 심층 분석: AI 데이터 플랫폼의 고성장과 밸류에이션 딜레마",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-08-14T07:22:31.464Z",
+    "summary": "Palantir Technologies, Inc. (PLTR)는 정부 및 상업 고객에게 AI 기반 데이터 분석 및 의사 결정 플랫폼(Foundry 및 Gotham)을 제공하는 소프트웨어 기업입니다. 2026년 2분기 기록적인 93%의 매출 성장을 기록했으며, 특히 미국 상업 부문에서 149% 급증하며 주가 랠리를 이끌었습니다. 그러나 높은 밸류에이션과 성장세 둔화 가능성에 대한 우려도 상존합니다.",
+    "sentimentScore": 72,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1786672162531",
     "title": "SK하이닉스: AI 시대 HBM 리더십을 통한 구조적 성장과 재평가 전망",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "Super Micro Computer (SMCI)는 고성능 및 AI 서버 인프라 분야의 핵심 기업입니다. 2026년 7월 23일 급격한 주가 반등을 보였으며, 이는 강력한 4분기 잠정 실적과 600억 달러가 넘는 기록적인 수주잔고 덕분입니다. 하지만 연초 대비 및 전년 대비 하락세를 기록했으며, 지배구조 문제와 잠재적 지분 희석 우려도 존재합니다.",
     "sentimentScore": 60,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1784774216550",
-    "title": "SK하이닉스: 인공지능 시대 HBM 리더십과 밸류에이션 재평가 잠재력 심층 분석",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2026-07-23T02:36:56.550Z",
-    "summary": "SK하이닉스는 인공지능(AI) 메모리 반도체, 특히 고대역폭메모리(HBM) 시장을 선도하는 국내 대표 반도체 기업입니다. 데이터센터향 매출 비중 확대와 청주 P&T7 공장 투자를 통해 AI 수요에 적극적으로 대응하고 있으며, 최근 주가는 높은 변동성을 보였습니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Strong Buy"
   }
 ]
