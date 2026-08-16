@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786893623182",
+    "title": "엔비디아(NVDA): AI 시대의 핵심 인프라 주도 기업 분석 및 투자 전략",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-08-16T15:20:23.182Z",
+    "summary": "NVIDIA (NVDA)는 게임 및 인공지능(AI) 부문에서 핵심적인 그래픽 처리 장치(GPU) 개발 기업입니다. AI 모델 개발 및 학습을 위한 CUDA 소프트웨어 플랫폼을 제공하며, 데이터 센터 네트워킹 솔루션으로 사업을 확장하고 있습니다. 견고한 재무 건전성, 높은 수익성 및 성장률을 바탕으로 AI 인프라 투자 확대를 통해 시장 지배력을 강화하고 있습니다.",
+    "sentimentScore": 76,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1786883766851",
     "title": "Capricor Therapeutics (CAPR) 심층 분석: 희귀 질환 치료제의 잠재력과 고위험 규제 리스크의 교차점",
     "ticker": "CAPR",
@@ -988,15 +998,5 @@
     "summary": "LiveWire Group (LVWR)는 Harley-Davidson의 전기 오토바이 사업부로, 최근 2026년 2분기 실적 발표와 전략적 인수로 인해 주가가 급등하며 높은 변동성을 보이고 있습니다. 그러나 여전히 수익성 문제와 기술적 분석상 하락 추세를 나타내 투자 위험이 높은 종목으로 평가됩니다.",
     "sentimentScore": 30,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1784985773081",
-    "title": "마이크론 테크놀로지(MU): AI 시대의 핵심 수혜주, 사이클 변동성과 기술적 도전 속 기회 분석",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-07-25T13:22:53.081Z",
-    "summary": "Micron Technology, Inc. (MU)는 Dynamic Random-Access Memory (DRAM) 및 NAND 플래시 메모리, CMOS 이미지 센서를 포함한 메모리 및 스토리지 제품을 전 세계적으로 설계, 개발, 제조 및 판매하는 주요 반도체 기업입니다. 이 회사의 제품은 컴퓨터, 스마트폰, 엔터프라이즈 서버, 인공지능(AI), 머신러닝, 빅데이터 애플리케이션 등 다양한 전자기기에 필수적입니다. 최근 AI 데이터 센터 구축의 강력한 수요에 힘입어 Micron은 견고한 재무 성과와 성장을 보였습니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Strong Buy"
   }
 ]
