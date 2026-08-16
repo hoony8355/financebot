@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786915126915",
+    "title": "팔란티어 테크놀로지스(PLTR) 심층 분석: AI 플랫폼 수요 속 성장 모멘텀과 밸류에이션 리스크",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-08-16T21:18:46.915Z",
+    "summary": "Palantir Technologies (PLTR)는 데이터 통합, 분석 및 AI 플랫폼을 제공하는 기업으로, 정부 및 상업 부문에서 강력한 성장을 보이고 있습니다. 최근 실적 호조와 긍정적인 애널리스트 전망으로 주가가 상승세를 탔으며, 현재 기술적으로 과매수 구간에 진입했습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1786893623182",
     "title": "엔비디아(NVDA): AI 시대의 핵심 인프라 주도 기업 분석 및 투자 전략",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "현대힘스는 조선기자재 전문 기업으로, 2026년 7월 24일 22.5% 급등하며 대량 거래를 동반한 강한 반등세를 보였습니다. 최근 주가 흐름은 단기 하락 후 급격한 상승 전환으로 높은 변동성을 나타내고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1785006366098",
-    "title": "LiveWire Group (LVWR): 고변동성 전기 오토바이 시장의 선구자, 투자 위험과 잠재력 심층 분석",
-    "ticker": "LVWR",
-    "market": "US",
-    "timestamp": "2026-07-25T19:06:06.098Z",
-    "summary": "LiveWire Group (LVWR)는 Harley-Davidson의 전기 오토바이 사업부로, 최근 2026년 2분기 실적 발표와 전략적 인수로 인해 주가가 급등하며 높은 변동성을 보이고 있습니다. 그러나 여전히 수익성 문제와 기술적 분석상 하락 추세를 나타내 투자 위험이 높은 종목으로 평가됩니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Sell"
   }
 ]
