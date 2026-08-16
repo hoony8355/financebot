@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786883766851",
+    "title": "Capricor Therapeutics (CAPR) 심층 분석: 희귀 질환 치료제의 잠재력과 고위험 규제 리스크의 교차점",
+    "ticker": "CAPR",
+    "market": "US",
+    "timestamp": "2026-08-16T12:36:06.851Z",
+    "summary": "Capricor Therapeutics (CAPR)는 뒤센 근이영양증(DMD) 치료제 'CAP-1002(데라미오셀)'를 중심으로 세포 및 엑소좀 기반 치료제를 개발하는 임상 단계 바이오테크 기업입니다. 최근 FDA 규제 검토 지연과 자문위원회 부정적 의견으로 인해 주가 변동성이 심화되었으며, 2026년 2분기 순손실 확대 및 증권 사기 소송에 직면해 있습니다. 다만, 긍정적인 HOPE-3 임상 데이터가 학술지에 게재되기도 했습니다.",
+    "sentimentScore": 35,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1786872574228",
     "title": "Critical Metals Corp. (CRML): 핵심 광물 시장의 기회와 높은 위험 분석",
     "ticker": "CRML",
@@ -988,15 +998,5 @@
     "summary": "Micron Technology, Inc. (MU)는 Dynamic Random-Access Memory (DRAM) 및 NAND 플래시 메모리, CMOS 이미지 센서를 포함한 메모리 및 스토리지 제품을 전 세계적으로 설계, 개발, 제조 및 판매하는 주요 반도체 기업입니다. 이 회사의 제품은 컴퓨터, 스마트폰, 엔터프라이즈 서버, 인공지능(AI), 머신러닝, 빅데이터 애플리케이션 등 다양한 전자기기에 필수적입니다. 최근 AI 데이터 센터 구축의 강력한 수요에 힘입어 Micron은 견고한 재무 성과와 성장을 보였습니다.",
     "sentimentScore": 70,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1784975183713",
-    "title": "China SXT Pharmaceuticals (SXTC): 극심한 희석 및 상장 폐지 위험에 직면한 제약사의 생존 전략 분석",
-    "ticker": "SXTC",
-    "market": "US",
-    "timestamp": "2026-07-25T10:26:23.713Z",
-    "summary": "China SXT Pharmaceuticals Inc. (SXTC)는 중국 전통 의학(TCM) 분야의 제약 회사로, 최근 900만 달러 규모의 직접 공모 발표 후 주가가 83% 폭락하며 극심한 변동성을 보였습니다. 주주 희석, 재정 악화, 상장 폐지 위험에 직면해 있습니다.",
-    "sentimentScore": 1,
-    "investmentRating": "Strong Sell"
   }
 ]
