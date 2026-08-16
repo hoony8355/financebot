@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786872574228",
+    "title": "Critical Metals Corp. (CRML): 핵심 광물 시장의 기회와 높은 위험 분석",
+    "ticker": "CRML",
+    "market": "US",
+    "timestamp": "2026-08-16T09:29:34.228Z",
+    "summary": "Critical Metals Corp. (CRML)는 오스트리아와 그린란드에 걸쳐 리튬 및 희토류 원소를 탐사하고 개발하는 미국 상장 광업 회사입니다. 핵심 광물에 대한 지정학적 관심 속에서 높은 변동성을 보이고 있으나, 프로젝트 실행 위험과 애널리스트들의 엇갈린 평가에 직면해 있습니다.",
+    "sentimentScore": 94,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1786862253397",
     "title": "두산에너빌리티(034020): SMR 및 차세대 에너지 시장 선점, '8만빌리티'를 넘어선 성장 가속화 분석",
     "ticker": "034020",
@@ -987,16 +997,6 @@
     "timestamp": "2026-07-25T10:26:23.713Z",
     "summary": "China SXT Pharmaceuticals Inc. (SXTC)는 중국 전통 의학(TCM) 분야의 제약 회사로, 최근 900만 달러 규모의 직접 공모 발표 후 주가가 83% 폭락하며 극심한 변동성을 보였습니다. 주주 희석, 재정 악화, 상장 폐지 위험에 직면해 있습니다.",
     "sentimentScore": 1,
-    "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1784966672274",
-    "title": "GameStop (GME): 전략적 전환과 '밈 주식' 특성 속 고변동성 투자 위험 분석",
-    "ticker": "GME",
-    "market": "US",
-    "timestamp": "2026-07-25T08:04:32.274Z",
-    "summary": "GameStop (GME)는 전자상거래 전환 전략과 eBay 인수 시도 관련 뉴스로 인해 높은 변동성을 보이는 핵심 미국 종목입니다. 2027년 1분기 실적은 예상치를 상회했으나, 애널리스트들은 현재 주가보다 훨씬 낮은 목표가와 함께 '매도' 의견을 제시하며 주가 하락 가능성을 경고하고 있습니다.",
-    "sentimentScore": 40,
     "investmentRating": "Strong Sell"
   }
 ]
