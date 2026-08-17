@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1786970483910",
+    "title": "Wetour Robotics (WETO): 물리적 AI 혁신과 투기적 열풍 사이의 고위험 투자 분석",
+    "ticker": "WETO",
+    "market": "US",
+    "timestamp": "2026-08-17T12:41:23.910Z",
+    "summary": "Wetour Robotics Limited는 물리적 AI 인프라 및 웨어러블 로봇 공학 회사로, AI 기반 여행 및 모빌리티 서비스를 제공합니다. NVIDIA Jetson 기반의 웨어러블 로봇용 운영체제 'Orchestra' 개발에 주력하고 있으며, 2026년 3월 Webus International Limited에서 사명을 변경하고 텍사스 오스틴에 본사를 두고 있습니다.",
+    "sentimentScore": 80,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1786959594658",
     "title": "MDxHealth SA: 비뇨기과 정밀 진단의 성장 잠재력과 고위험 투자 분석",
     "ticker": "MDXH",
@@ -988,15 +998,5 @@
     "summary": "네이버는 엔비디아의 1조 4,809억 원(10억 달러) 규모 전략적 투자와 글로벌 AI 팩토리 공동 구축 사업 추진 소식에 급등했습니다. 또한 1조 원 규모의 자사주 소각 계획을 발표하며 주주환원 정책을 강화했습니다. 이는 네이버가 기존 플랫폼 사업을 넘어 AI 인프라 사업자로 도약하는 중요한 전환점이 될 것으로 평가됩니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1785092931891",
-    "title": "Inno Holdings Inc. (INHD): 투기적 AI 광풍 속 숨겨진 극단적 리스크 심층 분석",
-    "ticker": "INHD",
-    "market": "US",
-    "timestamp": "2026-07-26T19:08:51.891Z",
-    "summary": "Inno Holdings Inc. (INHD)는 홍콩 자회사를 통해 전자 제품 거래 및 냉간성형 강철 프레임 건축 기술을 주력으로 하는 미국 지주 회사입니다. 최근 AI 개발 계획 발표로 주가가 폭등했으나, 재무 상태가 불안정하고 나스닥 상장 규정 준수를 위해 역주식 분할을 단행하는 등 극심한 변동성과 높은 투자 위험을 안고 있습니다. 현재 거래가 중단된 상태입니다.",
-    "sentimentScore": -0.8,
-    "investmentRating": "Sell"
   }
 ]
