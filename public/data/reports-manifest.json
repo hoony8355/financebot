@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787078317278",
+    "title": "SoFi Technologies (SOFI): 성장 모멘텀과 밸류에이션 리스크의 교차점 분석",
+    "ticker": "SOFI",
+    "market": "US",
+    "timestamp": "2026-08-18T18:38:37.278Z",
+    "summary": "SoFi Technologies (SOFI)는 디지털 금융 서비스 플랫폼으로, 대출, 뱅킹, 투자 등 다양한 상품을 제공하며 최근 강력한 회원 및 제품 성장세를 보이고 있습니다. 최근 애널리스트의 'Strong Buy' 상향 조정과 긍정적인 실적 발표가 있었으나, 전반적인 시장 심리는 혼조세입니다.",
+    "sentimentScore": 0.67,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1787067012303",
     "title": "Intel (INTC): AI 및 파운드리 전환 속 성장 잠재력과 희석 우려 심층 분석",
     "ticker": "INTC",
@@ -988,15 +998,5 @@
     "summary": "미국 전기차 제조업체 리비안(Rivian Automotive Inc.)은 R1T 픽업트럭, R1S SUV 및 아마존에 공급되는 전기 배달 밴을 생산합니다. 최근 파이퍼 샌들러의 '비중확대' 상향 조정과 함께 긍정적인 전망이 나오고 있으나, 공급망 문제, 치열한 경쟁, 그리고 높은 변동성 등 도전 과제도 안고 있습니다. 지난 7일간 주가는 하락세를 보였지만, 주요 지지선 부근에서 반등 시도가 관찰됩니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1785256862619",
-    "title": "T3 Defense Inc. (DFNS): 역주식 분할과 드론 사업 확장이 촉발한 극심한 변동성 분석",
-    "ticker": "DFNS",
-    "market": "US",
-    "timestamp": "2026-07-28T16:41:02.619Z",
-    "summary": "T3 Defense Inc. (DFNS)는 미국 및 이스라엘 국방 기술 기업으로, 최근 1대 125 역주식 분할과 드론 제조사 Project35 인수를 통해 시장의 높은 변동성과 거래량 증가를 보였습니다. 현재 주가는 급등세를 나타내지만, 극심한 변동성과 제한적인 애널리스트 커버리지로 인해 투자 위험도가 높습니다. 한 애널리스트는 '매수' 의견과 목표가 100달러를 제시했습니다.",
-    "sentimentScore": 39.11,
-    "investmentRating": "Buy"
   }
 ]
