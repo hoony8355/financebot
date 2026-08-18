@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787088245939",
+    "title": "NVIDIA (NVDA): AI 시대의 핵심 인프라 제공자, 지배적 리더십과 밸류에이션 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-08-18T21:24:05.939Z",
+    "summary": "NVIDIA Corp.는 인공지능(AI) 반도체 시장을 선도하는 핵심 기업으로, 게이밍, 전문 시각화, 데이터센터 및 AI 개발에 필수적인 GPU 및 소프트웨어 플랫폼을 설계 및 제조합니다. 강력한 재무 성과와 AI 생태계에 대한 전략적 투자로 시장의 높은 기대와 분석가들의 긍정적인 평가를 받고 있습니다.",
+    "sentimentScore": 0.77,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787078317278",
     "title": "SoFi Technologies (SOFI): 성장 모멘텀과 밸류에이션 리스크의 교차점 분석",
     "ticker": "SOFI",
@@ -988,15 +998,5 @@
     "summary": "삼성전자는 글로벌 전자제품 제조업체로 DX(가전, 스마트폰), DS(반도체), SDC(디스플레이), Harman(전장부품) 사업을 영위하고 있습니다. 최근 인공지능(AI) 기술 확대와 선단 공정 개발에 주력하고 있으나, 중국의 반도체 자립 우려 및 AI 투자 사이클에 대한 의구심 확산으로 주가가 급격한 변동성을 보이고 있습니다.",
     "sentimentScore": 20,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1785276233255",
-    "title": "리비안(RIVN) 심층 분석: 전기차 시장의 도전과 기회, 그리고 투자 전략",
-    "ticker": "RIVN",
-    "market": "US",
-    "timestamp": "2026-07-28T22:03:53.255Z",
-    "summary": "미국 전기차 제조업체 리비안(Rivian Automotive Inc.)은 R1T 픽업트럭, R1S SUV 및 아마존에 공급되는 전기 배달 밴을 생산합니다. 최근 파이퍼 샌들러의 '비중확대' 상향 조정과 함께 긍정적인 전망이 나오고 있으나, 공급망 문제, 치열한 경쟁, 그리고 높은 변동성 등 도전 과제도 안고 있습니다. 지난 7일간 주가는 하락세를 보였지만, 주요 지지선 부근에서 반등 시도가 관찰됩니다.",
-    "sentimentScore": 0.65,
-    "investmentRating": "Hold"
   }
 ]
