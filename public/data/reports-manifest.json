@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787174637390",
+    "title": "Marvell Technology (MRVL): AI 및 데이터 센터 인프라 성장을 주도하는 전략적 포지셔닝 심층 분석",
+    "ticker": "MRVL",
+    "market": "US",
+    "timestamp": "2026-08-19T21:23:57.390Z",
+    "summary": "Marvell Technology (MRVL)는 AI 및 데이터 센터 시장에 중점을 둔 데이터 인프라 반도체 솔루션을 제공하는 선도적인 팹리스 반도체 회사입니다. 최근 Google과의 전략적 파트너십으로 Google이 맞춤형 AI 칩을 위해 최대 122억 달러 상당의 MRVL 주식을 구매할 수 있게 되면서 시장의 긍정적인 심리와 AI 메모리, 스토리지 및 광학 인터커넥트 포트폴리오에 대한 관심이 집중되고 있습니다.",
+    "sentimentScore": 68,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787164399794",
     "title": "Enovix (ENVX): 혁신적 배터리 기술의 빛과 그림자 - 경영 불확실성과 생산 난관 속 투자 전략 심층 분석",
     "ticker": "ENVX",
@@ -988,15 +998,5 @@
     "summary": "야스(YAS)는 OLED 디스플레이 패널 제작용 증착시스템 및 증착원 전문 기업으로, 특히 8세대 이상 대형 OLED 증착장비 양산 경험을 가진 세계 유일한 업체입니다. OLED TV, 조명, 태양전지 등 다양한 분야에 사용되는 장비를 공급하며, LG디스플레이, BOE, CSOT 등 글로벌 주요 패널사들을 고객으로 두고 있습니다.",
     "sentimentScore": 70,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1785377541307",
-    "title": "SK이터닉스: AI 시대 재생에너지의 성장 동력과 투자 리스크 심층 분석",
-    "ticker": "475150",
-    "market": "KR",
-    "timestamp": "2026-07-30T02:12:21.307Z",
-    "summary": "SK이터닉스는 SK그룹의 신재생에너지 전문 기업으로, AI 데이터센터 전력 수요 증가와 KKR과의 합작법인 설립 기대감으로 주가가 급등했으나, 최근 단기 급등에 따른 차익 실현 및 높은 밸류에이션 부담으로 급락세를 보이고 있습니다.",
-    "sentimentScore": 0.3,
-    "investmentRating": "Buy"
   }
 ]
