@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787153391580",
+    "title": "SanDisk (SNDK): AI 인프라 확장의 핵심, NAND 플래시 메모리 시장의 재평가와 투자 전망",
+    "ticker": "SNDK",
+    "market": "US",
+    "timestamp": "2026-08-19T15:29:51.580Z",
+    "summary": "SanDisk (SNDK)는 NAND 플래시 메모리 및 스토리지 솔루션 시장의 핵심 플레이어로, AI 하드웨어 및 메모리 붐에 힘입어 높은 변동성과 강력한 랠리를 경험하고 있습니다. 특히 AI 및 클라우드 워크로드용 엔터프라이즈 SSD 포트폴리오와 하이퍼스케일러 계약을 통해 성장을 주도하고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787131971130",
     "title": "마이크론 테크놀로지: AI 슈퍼사이클의 핵심 동력, 성장과 변동성 속 투자 기회 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "아메리칸 항공 그룹(AAL)은 전 세계적으로 승객 및 화물 서비스를 제공하는 주요 네트워크 항공사입니다. 2026년 2분기 기록적인 매출을 달성했으나 순이익은 감소했습니다. 최근 높은 거래량과 분석가들의 주목을 받고 있습니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1785324367234",
-    "title": "Baiya International Group (BIYA): 극심한 변동성과 전략적 불확실성 속의 '강력 매도' 리포트",
-    "ticker": "BIYA",
-    "market": "US",
-    "timestamp": "2026-07-29T11:26:07.234Z",
-    "summary": "Baiya International Group (BIYA)는 중국 기반의 인사 기술 기업으로, 최근 극심한 주가 변동성을 보이며 대규모 가격 등락을 경험했습니다. 나스닥 상장 유지 요건 충족을 위해 여러 차례 액면 병합을 단행했으며, 디지털 자산 전략을 추진 중입니다. 재무적으로는 매출 증가에도 불구하고 상당한 순손실을 기록하고 있습니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Strong Sell"
   }
 ]
