@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787347399092",
+    "title": "마라톤 디지털 홀딩스(MARA): 비트코인 채굴에서 AI/HPC 인프라로의 전략적 전환 분석 및 투자 전망",
+    "ticker": "MARA",
+    "market": "US",
+    "timestamp": "2026-08-21T21:23:19.092Z",
+    "summary": "Mara Holdings (MARA) is a digital asset technology company focused on Bitcoin mining, currently undergoing a strategic pivot towards AI and high-performance computing (HPC) infrastructure. The stock exhibits high volatility and is significantly influenced by Bitcoin price movements and cryptocurrency regulatory news. Recent performance reflects a sharp swing to a net loss in Q2 2026 amid its transition, but also recent surges driven by positive crypto market sentiment and US regulatory developments.",
+    "sentimentScore": 60,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1787316195218",
     "title": "Super Micro Computer (SMCI): AI 서버 시장의 리더십 강화와 성장 잠재력 심층 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "본느(225320)는 화장품 ODM 전문 기업으로, 최근 30% 급등하며 투자자들의 단기적인 관심을 받고 있습니다. 그러나 회계처리 기준 위반으로 인한 상장적격성 실질심사 진행 중이며, 이는 심각한 리스크 요인으로 작용하고 있습니다.",
     "sentimentScore": 35,
     "investmentRating": "Strong Sell"
-  },
-  {
-    "id": "report-1785551965448",
-    "title": "SK하이닉스: AI 메모리 선도 기업의 재도약, 하반기 실적 및 주가 전망 심층 분석",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2026-08-01T02:39:25.448Z",
-    "summary": "SK하이닉스는 글로벌 AI 메모리(HBM) 시장의 선두 주자로, 최근 2분기 사상 최대 실적 발표에도 불구하고 일시적인 주가 급락을 경험했습니다. 그러나 외국인 투자자의 대규모 매수세와 마이크로소프트 등 빅테크 기업들의 AI 투자 지속성 확인에 힘입어 7월 31일 역사적인 상한가를 기록하며 강력하게 반등, 시장의 이목을 집중시키고 있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Strong Buy"
   }
 ]
