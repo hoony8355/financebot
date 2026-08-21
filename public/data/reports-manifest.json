@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787304901454",
+    "title": "NVIDIA: AI 혁명 선도 기업의 심층 투자 분석 및 미래 전망",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-08-21T09:35:01.454Z",
+    "summary": "NVIDIA는 AI 및 데이터 센터 GPU 시장을 선도하는 반도체 기업으로, 혁신적인 기술력과 강력한 시장 지배력을 바탕으로 높은 성장세를 보이며 투자자들의 기대를 모으고 있습니다.",
+    "sentimentScore": 76,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787294581713",
     "title": "삼성전자(005930): AI 시대 선도, 대규모 주주환원 임박에 따른 가치 재평가 분석 리포트",
     "ticker": "005930",
@@ -988,15 +998,5 @@
     "summary": "Reddit(RDDT)은 강력한 2026년 2분기 실적(매출 61% 성장)을 발표했음에도 불구하고, Google의 AI 검색 변화가 트래픽 및 AI 데이터 라이선스 계약에 미칠 영향에 대한 우려로 인해 주가가 급락했습니다. 이는 단기적인 변동성을 높이며 투자자들의 주의가 필요합니다.",
     "sentimentScore": 0.3,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1785516310450",
-    "title": "GameStop (GME): 디지털 전환 시대의 밈 주식, 불확실성 증폭과 매도 의견 유지",
-    "ticker": "GME",
-    "market": "US",
-    "timestamp": "2026-07-31T16:45:10.450Z",
-    "summary": "GameStop (GME)은 높은 변동성과 밈 주식 특성으로 주목받는 종목입니다. 최근 1분기 실적 호조와 Uber Eats와의 파트너십을 통한 사업 다각화 노력이 있었으나, 디지털 게임으로의 전환 가속화와 eBay 인수 실패로 인한 장기적인 사업 전략 불확실성에 직면해 있습니다. 기술적 분석은 전반적으로 약세 신호를 보이며, 시장의 우려 수준은 '공포'에 해당합니다.",
-    "sentimentScore": 45,
-    "investmentRating": "Sell"
   }
 ]
