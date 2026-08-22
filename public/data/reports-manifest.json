@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787412366051",
+    "title": "고성능 컴퓨팅 및 AI 가속기 시장의 핵심 동력: AMD의 성장 잠재력 분석",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-08-22T15:26:06.051Z",
+    "summary": "AMD (Advanced Micro Devices, Inc.)는 중앙 처리 장치(CPU) 및 그래픽 처리 장치(GPU)를 설계하는 선도적인 미국 반도체 기업입니다. 데이터 센터 부문에서 강력한 성장세를 보이며 인공지능(AI) 가속기 시장에서 NVIDIA의 주요 대안으로 부상하고 있습니다. 최근 분기 실적은 매출이 50% 증가하며 추정치를 상회했으며, 이는 AI 칩 수요 증가에 기인합니다.",
+    "sentimentScore": 4,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787390763841",
     "title": "Lumentum (LITE), AI 시대 광학 솔루션의 핵심 동력: 초고도화 성장 잠재력 분석",
     "ticker": "LITE",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-02T13:17:39.683Z",
     "summary": "Ambarella는 저전력, 고화질 비디오 압축 및 이미지 처리, 컴퓨터 비전 프로세서에 주력하는 팹리스 반도체 설계 기업입니다. 이 회사의 SoC 솔루션은 비디오 보안, 첨단 운전자 보조 시스템(ADAS), 전자 거울, 자율 주행 및 로봇 공학을 포함한 다양한 AI 애플리케이션에 사용됩니다. 최근 NXP Semiconductors의 인수 논의 보도로 인해 주가가 급등하며 시장의 큰 주목을 받고 있습니다.",
     "sentimentScore": 0.75,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1785659052428",
-    "title": "IonQ (IONQ): 양자 컴퓨팅 시장의 선두 주자, 고성장과 고변동성 사이의 투자 기회 분석",
-    "ticker": "IONQ",
-    "market": "US",
-    "timestamp": "2026-08-02T08:24:12.428Z",
-    "summary": "IonQ는 양자 컴퓨팅 하드웨어 및 소프트웨어 개발 기업으로, 최근 SkyWater Technology 인수를 통해 공급망을 강화했습니다. 755%의 높은 매출 성장률에도 불구하고 양자 컴퓨팅 섹터의 투기적 특성 및 전반적인 기술주 매도세로 인해 최근 한 달간 주가가 39% 급락하는 등 높은 변동성을 보였습니다. 애널리스트들은 대체로 '매수' 의견을 유지하고 있지만, 높은 밸류에이션과 내부자 매도가 위험 요인으로 작용하고 있습니다.",
-    "sentimentScore": 0.66,
     "investmentRating": "Buy"
   }
 ]
