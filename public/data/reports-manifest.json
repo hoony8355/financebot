@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787596683291",
+    "title": "RF Acquisition Corp II (RFAI): AI 기반 신약 개발 기업 Nanyang Biologics 합병 승인 이후 극심한 변동성 분석 및 투자 전략",
+    "ticker": "RFAI",
+    "market": "US",
+    "timestamp": "2026-08-24T18:38:03.291Z",
+    "summary": "RF Acquisition Corp II (RFAI)는 최근 주주들이 AI 기반 신약 개발 기업인 Nanyang Biologics와의 합병을 승인하면서 극심한 주가 변동성을 겪었습니다. 이 소식에 주가는 사상 최고치를 기록했지만, 이후 급격한 조정이 이어지고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1787585895633",
     "title": "Celestica (CLS): AI 인프라 고성장의 핵심 수혜주, 밸류에이션 과열과 내부자 매도의 이중 리스크 분석",
     "ticker": "CLS",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 전기차, 에너지 생성 및 저장 시스템을 설계, 개발, 제조, 임대, 판매하는 기업입니다. 자율주행 소프트웨어 개발에 적극적으로 투자하고 있으며, 로보택시 및 휴머노이드 로봇(Optimus)과 같은 AI 기반 기술을 통해 미래 성장 동력을 확보하려 합니다. 최근에는 주요 생산 시설의 확장과 신제품 출시를 통해 성장을 모색하고 있으나, 높은 자본 지출과 경쟁 심화로 인해 단기적인 변동성이 큰 상황입니다.",
     "sentimentScore": 58,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1785842576788",
-    "title": "아마존(AMZN) 2026년 2분기 실적 분석: AI 투자 가속화와 AWS 성장세에 기반한 심층 투자 리포트",
-    "ticker": "AMZN",
-    "market": "US",
-    "timestamp": "2026-08-04T11:22:56.788Z",
-    "summary": "Amazon.com, Inc.는 전자상거래, 클라우드 컴퓨팅(AWS), 온라인 광고, 디지털 스트리밍 및 인공지능 분야에 주력하는 미국 다국적 기술 기업입니다. 최근 뛰어난 2026년 2분기 실적을 발표했으며, 특히 AWS 부문의 강력한 성장이 두드러집니다. AI 인프라에 대한 대규모 투자를 진행 중입니다.",
-    "sentimentScore": 88,
-    "investmentRating": "Strong Buy"
   }
 ]
