@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787575606618",
+    "title": "마이크론 테크놀로지: AI 시대의 고성장 동력, HBM 리더십과 밸류에이션 전망",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-08-24T12:46:46.618Z",
+    "summary": "마이크론 테크놀로지(MU)는 AI 수요에 힘입어 DRAM, NAND, HBM과 같은 메모리 반도체 시장에서 강한 성장을 보이고 있는 핵심 종목입니다. 최근 강력한 실적을 발표했으며, 애널리스트들은 향후 상당한 상승 여력을 예상하고 있습니다. 하지만 높은 변동성과 시장의 주기성, 그리고 단기적인 밸류에이션 우려도 존재합니다.",
+    "sentimentScore": 85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787554513806",
     "title": "기도산업(282620) IPO 폭락 분석: 오버행, 매크로 리스크, 그리고 투자 심리 위축",
     "ticker": "282620",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-04T08:35:05.714Z",
     "summary": "Palantir Technologies는 2026년 2분기 실적 발표 후 예상치를 크게 뛰어넘는 실적과 상향 조정된 연간 가이던스로 인해 주가가 급등했습니다. 특히 미국 상업 부문 매출이 149% 성장하며 강력한 AI 플랫폼 수요를 입증했습니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1785794934519",
-    "title": "SpaceX (SPCX) IPO 이후 격랑: 2분기 실적 및 보호예수 해제 임박, 고밸류에이션 리스크와 장기 성장 잠재력 심층 분석",
-    "ticker": "SPCX",
-    "market": "US",
-    "timestamp": "2026-08-03T22:08:54.519Z",
-    "summary": "SpaceX(SPCX)는 최근 IPO 이후 변동성이 큰 주식으로, 8월 4일 2분기 실적 발표와 8월 6일 대규모 내부자 보호예수 해제(lockup expiration)를 앞두고 있습니다. 주가는 IPO 이후 최고점에서 50% 이상 하락하여 현재 신저가 부근에서 거래되고 있습니다.",
-    "sentimentScore": -0.6,
     "investmentRating": "Buy"
   }
 ]
