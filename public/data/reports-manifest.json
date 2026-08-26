@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1787748512047",
+    "title": "메타 플랫폼스(META): AI 전환기, 핵심 사업 강점과 장기 성장 잠재력 분석",
+    "ticker": "META",
+    "market": "US",
+    "timestamp": "2026-08-26T12:48:32.047Z",
+    "summary": "Meta Platforms, Inc. (META)는 소셜 미디어(Facebook, Instagram, WhatsApp)를 주력으로 하며 인공지능(AI) 및 Reality Labs에 대규모 투자를 진행 중인 주요 기술 기업입니다. 최근 AI 인프라 투자 비용 증가와 그로 인한 실적 및 잉여 현금 흐름 압박에도 불구하고, 강력한 광고 매출 성장세와 방대한 사용자 기반을 보유하고 있습니다. 애널리스트들은 AI 기반의 미래 성장 잠재력을 높이 평가하며 'Strong Buy' 의견과 상당한 상승 여력을 제시하고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1787737209218",
     "title": "슈퍼마이크로 컴퓨터(SMCI): AI 인프라 확장의 핵심 수혜주, 성장성과 위험 요인 심층 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "Doximity (NYSE: DOCS)는 미국 의료 전문가를 위한 선도적인 디지털 플랫폼으로, 협업, 환자 관리, 가상 방문 및 경력 관리를 위한 도구를 제공합니다. 최근 발표된 2027 회계연도 1분기 실적은 예상치를 상회하는 매출과 조정 EPS를 기록하며 견조한 재무 성과를 보였습니다. 특히 CEO는 Doximity의 임상 AI가 경쟁사의 모델을 능가하고 상당한 수익을 창출하고 있다고 밝히며 AI가 주요 성장 동력이 될 것임을 강조했습니다. 이러한 긍정적인 소식은 주가에 큰 폭의 급등을 가져왔으며, 이전의 성장 둔화 우려를 불식시키고 애널리스트들의 목표가 상향 조정으로 이어졌습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1786118105616",
-    "title": "Palantir Technologies (PLTR): AI 기반 데이터 분석 시장의 선두주자, 성장 모멘텀과 밸류에이션 심층 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-08-07T15:55:05.616Z",
-    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 데이터 통합, 분석 및 인공지능 플랫폼을 제공하는 선두 기업입니다. Gotham 및 Foundry 플랫폼은 보안 데이터 융합, 조사 워크플로우, 데이터 통합 및 운영 애플리케이션에 활용됩니다. 최근 2026년 2분기 실적 발표에서 미국 상업 및 정부 부문에서 상당한 매출 성장을 기록하며 연간 가이던스를 상향 조정했습니다.",
-    "sentimentScore": 74,
-    "investmentRating": "Moderate Buy"
   }
 ]
