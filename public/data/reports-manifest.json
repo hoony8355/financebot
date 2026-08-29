@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788044444119",
+    "title": "마이크론 테크놀로지 (MU): AI 시대 고대역폭 메모리(HBM) 시장의 선두 주자, 강력한 성장 잠재력 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-08-29T23:00:44.119Z",
+    "summary": "마이크론 테크놀로지는 AI 수요 증가에 따른 고대역폭 메모리(HBM) 및 일반 DRAM 시장의 강력한 수요에 힘입어 긍정적인 전망을 보이고 있는 주요 메모리 칩 제조업체입니다. 최근 신기술 투자와 애널리스트들의 높은 목표가 제시가 특징입니다.",
+    "sentimentScore": 80,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788005989569",
     "title": "Amkor Technology (AMKR) 심층 분석: AI 시대, 첨단 패키징 선두 주자의 기회와 도전",
     "ticker": "AMKR",
@@ -988,15 +998,5 @@
     "summary": "Tesla, Inc.는 전기차(EV), 에너지 생성 및 저장 시스템을 설계, 개발, 제조, 임대 및 판매하는 미국의 다국적 자동차 및 청정 에너지 기업입니다. 일론 머스크가 이끄는 Tesla는 EV 시장을 대중화하고 자동차 산업을 혁신하는 데 핵심적인 역할을 해왔으며, Solar Roof, Powerwall, Megapack과 같은 에너지 제품과 배터리 저장 솔루션으로 사업 영역을 확장하고 있습니다.",
     "sentimentScore": 58,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1786193056771",
-    "title": "NVIDIA: AI 혁명 선도 기업의 전략적 위치 및 미래 성장 잠재력 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-08-08T12:44:16.771Z",
-    "summary": "NVIDIA (NVDA)는 인공지능(AI) 및 그래픽 처리 장치(GPU) 시장의 선두 주자로, 데이터 센터와 AI 인프라 구축 수요 증가에 힘입어 높은 성장세를 보이고 있습니다. 최근 주가는 견고한 실적과 AI 기술 혁신에 대한 기대로 긍정적인 모멘텀을 유지하고 있습니다.",
-    "sentimentScore": 72,
-    "investmentRating": "Strong Buy"
   }
 ]
