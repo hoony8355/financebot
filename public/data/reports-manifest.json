@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788061495712",
+    "title": "SK하이닉스: AI 메모리 시대의 선두주자, 급락 후 반등 모멘텀 심층 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-08-30T03:44:55.712Z",
+    "summary": "SK하이닉스는 글로벌 AI 메모리 시장의 선두주자로, 고대역폭메모리(HBM) 기술을 기반으로 성장하고 있습니다. 최근 미국 내 HBM 생산 시설 투자 발표와 대규모 자사주 매입 계획을 통해 AI 시대의 핵심 공급망으로서의 입지를 강화하고 있습니다. 하지만 최근 주가는 45%에 달하는 급격한 조정을 겪으며 투자자들의 관심이 집중되고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788044444119",
     "title": "마이크론 테크놀로지 (MU): AI 시대 고대역폭 메모리(HBM) 시장의 선두 주자, 강력한 성장 잠재력 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "Advanced Micro Devices (AMD)는 최근 2분기 실적 발표에서 시장 예상치를 상회하는 강력한 성과를 기록했음에도 불구하고 주가가 단기적인 하락세를 보였습니다. AI 및 데이터 센터 부문에서의 견고한 성장과 함께, 분석가들은 'Strong Buy' 의견과 높은 목표 주가를 제시하며 장기적인 전망을 긍정적으로 평가하고 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1786202930855",
-    "title": "테슬라(TSLA): 혁신과 불확실성 사이, 중장기 전망 분석",
-    "ticker": "TSLA",
-    "market": "US",
-    "timestamp": "2026-08-08T15:28:50.855Z",
-    "summary": "Tesla, Inc.는 전기차(EV), 에너지 생성 및 저장 시스템을 설계, 개발, 제조, 임대 및 판매하는 미국의 다국적 자동차 및 청정 에너지 기업입니다. 일론 머스크가 이끄는 Tesla는 EV 시장을 대중화하고 자동차 산업을 혁신하는 데 핵심적인 역할을 해왔으며, Solar Roof, Powerwall, Megapack과 같은 에너지 제품과 배터리 저장 솔루션으로 사업 영역을 확장하고 있습니다.",
-    "sentimentScore": 58,
-    "investmentRating": "Hold"
   }
 ]
