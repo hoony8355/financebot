@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788303838648",
+    "title": "GoPro (GPRO): AI 광학 기술 피벗과 인플루언서 효과, 그 너머의 심층 분석",
+    "ticker": "GPRO",
+    "market": "US",
+    "timestamp": "2026-09-01T23:03:58.648Z",
+    "summary": "GoPro (GPRO) shares have experienced extreme volatility and significant surges, driven by news of a merger agreement with Starman Optical to pivot into AI-driven optical technologies and a substantial investment disclosure by popular YouTube creator Markiplier. Despite these catalysts, the company faces underlying financial challenges, including declining revenue and net losses, leading to conflicting market sentiment and analyst caution.",
+    "sentimentScore": 7,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1788286232944",
     "title": "메타 플랫폼스(META): AI 혁신 가속화와 법적 불확실성 해소, 장기 성장 동력 확보 속 단기 변동성 심층 분석",
     "ticker": "META",
@@ -988,15 +998,5 @@
     "summary": "Super Micro Computer, Inc. (SMCI)는 모듈식 및 개방형 아키텍처 기반의 에너지 효율적인 서버 및 스토리지 솔루션을 설계, 개발, 제조 및 판매하는 기업입니다. 특히 AI 데이터 센터, 클라우드 컴퓨팅, 5G 및 엣지 컴퓨팅 시장에서 고성능 서버 기술 서비스 분야의 핵심 플레이어로 주목받고 있으며, 최근 AI 인프라 부문의 강력한 주문 모멘텀으로 시장의 큰 관심을 받고 있습니다.",
     "sentimentScore": 67,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1786377625716",
-    "title": "팔란티어 테크놀로지스 (PLTR): AI 모멘텀과 높은 밸류에이션 속 성장 잠재력 분석",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-08-10T16:00:25.716Z",
-    "summary": "Palantir Technologies Inc.는 정부 및 상업 부문에 데이터 통합, 분석 및 인공지능 플랫폼을 제공하는 기업입니다. 특히 Q2 2026 실적 발표 후 미국 상업 및 정부 부문에서의 강력한 매출 성장과 AI 플랫폼(AIP)의 수요 증가로 주가가 급등했습니다.",
-    "sentimentScore": 74,
-    "investmentRating": "Moderate Buy"
   }
 ]
