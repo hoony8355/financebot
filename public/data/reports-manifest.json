@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788286232944",
+    "title": "메타 플랫폼스(META): AI 혁신 가속화와 법적 불확실성 해소, 장기 성장 동력 확보 속 단기 변동성 심층 분석",
+    "ticker": "META",
+    "market": "US",
+    "timestamp": "2026-09-01T18:10:32.944Z",
+    "summary": "메타 플랫폼스(META)는 170억 달러 규모의 소송 합의로 주요 불확실성을 해소했으며, AI 및 데이터 센터에 대한 대규모 투자를 통해 미래 성장을 모색하고 있습니다. 단기적으로는 기술적 하락 추세와 투자 비용 증가에 대한 우려가 상존하지만, 다수의 애널리스트들은 장기적인 관점에서 '강력 매수' 의견을 유지하고 있습니다.",
+    "sentimentScore": 66,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788271038265",
     "title": "PG&E (PCG) 극심한 변동성 속 규제 리스크와 장기 성장 잠재력 분석: 과매도 국면 진입인가?",
     "ticker": "PCG",
@@ -988,15 +998,5 @@
     "summary": "Palantir Technologies Inc.는 정부 및 상업 부문에 데이터 통합, 분석 및 인공지능 플랫폼을 제공하는 기업입니다. 특히 Q2 2026 실적 발표 후 미국 상업 및 정부 부문에서의 강력한 매출 성장과 AI 플랫폼(AIP)의 수요 증가로 주가가 급등했습니다.",
     "sentimentScore": 74,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1786367041215",
-    "title": "Critical Metals Corp. (CRML): 미래 핵심 광물 시장의 고위험 고수익 기회 분석",
-    "ticker": "CRML",
-    "market": "US",
-    "timestamp": "2026-08-10T13:04:01.215Z",
-    "summary": "Critical Metals Corp.는 리튬 및 희토류 원소와 같은 핵심 광물 탐사 및 개발에 주력하는 광산 회사입니다. 오스트리아(Wolfsberg Lithium Project)와 남부 그린란드(Tanbreez 희토류 매장지)에 주요 프로젝트를 보유하고 있으며, 청정 에너지, 전기차(EV), 방위 산업을 위한 원자재 공급을 목표로 전 세계 공급망 다각화 노력에 기여하고 있습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Strong Buy"
   }
 ]
