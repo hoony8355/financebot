@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788354904619",
+    "title": "SanDisk Corporation: AI 시대 고성장 동력 확보와 리스크 분석",
+    "ticker": "SNDK",
+    "market": "US",
+    "timestamp": "2026-09-02T13:15:04.619Z",
+    "summary": "SanDisk Corporation은 NAND 플래시 기술 기반 데이터 저장 장치 및 솔루션 개발, 제조 및 공급업체로, 데이터센터, 엣지 컴퓨팅, 소비자 시장을 아우릅니다. AI 메모리 수요 증가에 힘입어 최근 주가가 크게 상승했으며, AI 칩 생산량 증대를 위한 대규모 투자 계획을 발표했습니다.",
+    "sentimentScore": 7,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788303838648",
     "title": "GoPro (GPRO): AI 광학 기술 피벗과 인플루언서 효과, 그 너머의 심층 분석",
     "ticker": "GPRO",
@@ -988,15 +998,5 @@
     "summary": "Archer Aviation (ACHR)은 보잉의 Wisk Aero, Insitu, SkyGrid 자회사 인수를 발표하며 항공우주 및 방위 산업을 위한 엔드 투 엔드 물리적 AI 플랫폼 구축을 목표로 합니다. 이 거래에는 보잉의 상당한 지분 투자와 전략적 협력이 포함되어 있으며, Archer는 새로운 eVTOL 항공기 모델과 항공용 AI 기반 모델(ZEE)을 공개했습니다.",
     "sentimentScore": 75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1786388161109",
-    "title": "Super Micro Computer (SMCI) 심층 분석: AI 인프라 성장과 도전 과제",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-08-10T18:56:01.109Z",
-    "summary": "Super Micro Computer, Inc. (SMCI)는 모듈식 및 개방형 아키텍처 기반의 에너지 효율적인 서버 및 스토리지 솔루션을 설계, 개발, 제조 및 판매하는 기업입니다. 특히 AI 데이터 센터, 클라우드 컴퓨팅, 5G 및 엣지 컴퓨팅 시장에서 고성능 서버 기술 서비스 분야의 핵심 플레이어로 주목받고 있으며, 최근 AI 인프라 부문의 강력한 주문 모멘텀으로 시장의 큰 관심을 받고 있습니다.",
-    "sentimentScore": 67,
-    "investmentRating": "Hold"
   }
 ]
