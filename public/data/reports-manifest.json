@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788476603935",
+    "title": "로빈후드(HOOD)의 급등세 심층 분석: 성장 동력과 밸류에이션 리스크",
+    "ticker": "HOOD",
+    "market": "US",
+    "timestamp": "2026-09-03T23:03:23.935Z",
+    "summary": "로빈후드(HOOD) 주가는 최근 2026년 2분기 실적 호조, 애널리스트들의 상향 조정, 예측 시장 및 로빈후드 체인과 같은 신규 상품 출시, 그리고 소매 거래량 증가에 힘입어 급등했습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1788459702673",
     "title": "Micron Technology: AI 시대 고성장 동력과 밸류에이션 매력을 겸비한 메모리 반도체 강자 심층 분석",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "LK삼양 (225190)은 광학 전문 기업으로, 최근 국방부 드론 사업 카메라 모듈 공급, 제2우주센터 건립 기대감, 스페이스X의 AI 스타트래커 및 위성용 렌즈 탑재 성공 등의 연이은 호재로 주가가 이틀 연속 상한가를 기록하며 급등했습니다. 하지만 장기간의 영업 및 순손실 등 취약한 펀더멘탈은 투자 시 고려해야 할 위험 요인으로 지적됩니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1786484633661",
-    "title": "Riot Platforms: 비트코인 채굴의 선두주자에서 AI/HPC 데이터 센터 혁신 기업으로의 도약",
-    "ticker": "RIOT",
-    "market": "US",
-    "timestamp": "2026-08-11T21:43:53.661Z",
-    "summary": "Riot Platforms Inc.는 비트코인 채굴 및 확장 가능한 데이터 센터 솔루션에 중점을 둔 수직 통합 디지털 인프라 회사입니다. 대규모 전력 자산을 최적화하여 비트코인 채굴을 수행하며, 엔지니어링 서비스도 제공합니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Strong Buy"
   }
 ]
