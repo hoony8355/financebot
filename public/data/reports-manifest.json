@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788768602401",
+    "title": "Datavault AI Inc. (DVLT): 극심한 위험 속 숨겨진 잠재력? 심층 분석 리포트",
+    "ticker": "DVLT",
+    "market": "US",
+    "timestamp": "2026-09-07T08:10:02.401Z",
+    "summary": "Datavault AI Inc. (DVLT)는 데이터와 실물 자산을 지능적이고 안전하며 수익화 가능한 디지털 자산으로 전환하는 데 주력하는 AI 플랫폼 기업입니다. 최근 대규모 재정 손실, 지속적인 주식 희석, 그리고 허위 재무제표 혐의로 인한 집단 소송으로 인해 주가가 사상 최저치인 약 $0.20까지 25% 이상 폭락했습니다. 또한, 주가가 $1 미만으로 거래되면서 NASDAQ 상장 폐지 위험에 직면해 있습니다. 이러한 심각한 어려움에도 불구하고 일부 분석가들은 회사의 야심찬 성장 목표와 혁신적인 AI 생태계에 대한 기대로 높은 목표 주가와 함께 'Moderate Buy' 등급을 유지하고 있습니다.",
+    "sentimentScore": 15,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1788715969432",
     "title": "고프로(GPRO): 전략적 합병과 시장 투기 사이의 딜레마 분석",
     "ticker": "GPRO",
@@ -988,15 +998,5 @@
     "summary": "Hut 8 Corp. (HUT)는 전력, 디지털 인프라 및 컴퓨팅을 통합하여 비트코인 채굴 및 AI 데이터 센터를 포함한 에너지 집약적인 사용 사례를 지원하는 에너지 인프라 플랫폼입니다. 최근 AI 인프라 부문으로의 전환에 집중하고 있습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1786616007449",
-    "title": "Super Micro Computer (SMCI): AI 인프라 수요 폭증과 구조적 리스크 심층 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-08-13T10:13:27.449Z",
-    "summary": "Super Micro Computer (SMCI)는 강력한 AI 인프라 수요에 힘입어 고성능 서버 및 스토리지 솔루션 분야를 선도하고 있습니다. 최근 예상치를 뛰어넘는 실적 발표와 낙관적인 미래 가이던스로 인해 주가가 급등했습니다.",
-    "sentimentScore": 75,
-    "investmentRating": "Hold"
   }
 ]
