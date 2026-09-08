@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788836957175",
+    "title": "SK하이닉스: AI 반도체 시대의 선두주자, HBM 기술 리더십과 미래 성장 동력 분석",
+    "ticker": "000660",
+    "market": "KR",
+    "timestamp": "2026-09-08T03:09:17.175Z",
+    "summary": "SK하이닉스는 글로벌 메모리 반도체 시장의 핵심 기업으로, AI 시장의 폭발적인 성장과 고대역폭 메모리(HBM) 수요 증대에 힘입어 긍정적인 실적 전망을 보이고 있습니다. HBM 기술 리더십과 엔비디아와의 협력 관계가 강점이며, 최근 오픈AI의 GPT-6 아스트라 공개로 인한 AI 반도체 수요 확대 기대감에 주가가 강세를 보였습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788768602401",
     "title": "Datavault AI Inc. (DVLT): 극심한 위험 속 숨겨진 잠재력? 심층 분석 리포트",
     "ticker": "DVLT",
@@ -988,15 +998,5 @@
     "summary": "플러그 파워(PLUG)는 친환경 수소 에너지 생태계 구축에 주력하는 기업으로, 최근 2분기 실적 개선과 마진 호조로 시장의 주목을 받고 있지만, 장기적인 수익성 확보와 유동성 관리가 주요 과제입니다.",
     "sentimentScore": 62,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1786636681106",
-    "title": "Hut 8 (HUT): 비트코인 채굴에서 AI 인프라로의 전환, 고성장 잠재력과 리스크 분석",
-    "ticker": "HUT",
-    "market": "US",
-    "timestamp": "2026-08-13T15:58:01.106Z",
-    "summary": "Hut 8 Corp. (HUT)는 전력, 디지털 인프라 및 컴퓨팅을 통합하여 비트코인 채굴 및 AI 데이터 센터를 포함한 에너지 집약적인 사용 사례를 지원하는 에너지 인프라 플랫폼입니다. 최근 AI 인프라 부문으로의 전환에 집중하고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
   }
 ]
