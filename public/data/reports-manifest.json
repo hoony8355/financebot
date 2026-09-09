@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1788994617923",
+    "title": "Lumentum Holdings (LITE): AI 데이터센터 광학 부품 시장의 선두 주자, 고성장과 고변동성 분석",
+    "ticker": "LITE",
+    "market": "US",
+    "timestamp": "2026-09-09T22:56:57.923Z",
+    "summary": "Lumentum Holdings (LITE)는 인공지능(AI) 데이터센터 광학 부품 수요 증가에 힘입어 주가가 급등하며 주목받는 미국의 광학 및 포토닉스 제품 기업입니다. 최근 견고한 실적 발표와 긍정적인 전망으로 월스트리트의 강력 매수 의견을 받고 있으며, 높은 변동성을 보이고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1788969465946",
     "title": "NVIDIA (NVDA): AI 시대의 독점적 리더십과 지속 가능한 성장 전략 심층 분석",
     "ticker": "NVDA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-14T09:59:41.697Z",
     "summary": "AMC Entertainment Holdings는 기록적인 2분기 매출, 부채 재융자 진전, 신용 등급 상향 및 영화 '오디세이'의 흥행에 힘입어 시장의 긍정적인 반응을 얻고 있습니다. 여러 증권사로부터 'Moderate Buy' 등급을 받았으나, 높은 부채와 변동성은 여전히 투자 위험 요소로 남아있습니다.",
     "sentimentScore": 0.7,
-    "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1786692151464",
-    "title": "팔란티어(PLTR) 심층 분석: AI 데이터 플랫폼의 고성장과 밸류에이션 딜레마",
-    "ticker": "PLTR",
-    "market": "US",
-    "timestamp": "2026-08-14T07:22:31.464Z",
-    "summary": "Palantir Technologies, Inc. (PLTR)는 정부 및 상업 고객에게 AI 기반 데이터 분석 및 의사 결정 플랫폼(Foundry 및 Gotham)을 제공하는 소프트웨어 기업입니다. 2026년 2분기 기록적인 93%의 매출 성장을 기록했으며, 특히 미국 상업 부문에서 149% 급증하며 주가 랠리를 이끌었습니다. 그러나 높은 밸류에이션과 성장세 둔화 가능성에 대한 우려도 상존합니다.",
-    "sentimentScore": 72,
     "investmentRating": "Moderate Buy"
   }
 ]
