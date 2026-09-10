@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1789072057420",
+    "title": "마이크론 테크놀로지(MU): AI 기반 HBM 시장 선점과 리스크 요인 심층 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-09-10T20:27:37.420Z",
+    "summary": "마이크론 테크놀로지(MU)는 인공지능(AI) 기반 고대역폭 메모리(HBM) 수요 급증으로 인해 높은 변동성을 보이며 주목받고 있는 글로벌 반도체 및 메모리 솔루션 기업입니다. 최근 특허 소송과 거시경제적 역풍에도 불구하고 강력한 시장 수요와 애널리스트들의 긍정적인 전망이 기대됩니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1788994617923",
     "title": "Lumentum Holdings (LITE): AI 데이터센터 광학 부품 시장의 선두 주자, 고성장과 고변동성 분석",
     "ticker": "LITE",
@@ -988,15 +998,5 @@
     "summary": "SanDisk Corporation (SNDK)은 NAND 플래시 메모리 산업의 선두 주자로, 최근 인베스터 데이에서 발표된 강력한 성장 전략, 높은 마진 목표, 주주 환원 정책에 대한 기대로 주가가 크게 급등했습니다. 특히 AI 관련 스토리지 솔루션 및 새로운 BiCS9 QLC 기술에 대한 수요 증가가 성장을 견인할 것으로 전망됩니다.",
     "sentimentScore": 85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1786701581697",
-    "title": "AMC 엔터테인먼트 홀딩스: 재무구조 개선과 콘텐츠 확보를 통한 회복 모멘텀 심층 분석",
-    "ticker": "AMC",
-    "market": "US",
-    "timestamp": "2026-08-14T09:59:41.697Z",
-    "summary": "AMC Entertainment Holdings는 기록적인 2분기 매출, 부채 재융자 진전, 신용 등급 상향 및 영화 '오디세이'의 흥행에 힘입어 시장의 긍정적인 반응을 얻고 있습니다. 여러 증권사로부터 'Moderate Buy' 등급을 받았으나, 높은 부채와 변동성은 여전히 투자 위험 요소로 남아있습니다.",
-    "sentimentScore": 0.7,
-    "investmentRating": "Moderate Buy"
   }
 ]
