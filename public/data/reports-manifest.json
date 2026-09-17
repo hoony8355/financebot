@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1789687690019",
+    "title": "Alphabet (GOOGL): AI 투자 가속화, 클라우드 성장, 그리고 미래 가치 재평가",
+    "ticker": "GOOGL",
+    "market": "US",
+    "timestamp": "2026-09-17T23:28:10.019Z",
+    "summary": "Alphabet (GOOGL)는 Google의 모회사로, 검색, 광고, 클라우드 컴퓨팅(Google Cloud) 및 AI 분야를 아우르는 다국적 기술 기업입니다. 최근 AI 인프라에 대한 대규모 투자로 인해 단기적으로 현금 흐름에 부담을 겪었으나, 이는 장기적인 성장 동력으로 평가받고 있으며 애널리스트들은 'Strong Buy' 의견을 유지하고 있습니다.",
+    "sentimentScore": 0.65,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1789678734065",
     "title": "마이크론 테크놀로지: AI 메모리 혁명을 선도하는 거인의 부상과 투자 전략",
     "ticker": "MU",
@@ -988,15 +998,5 @@
     "summary": "시스웍(025320)은 감사의견 거절 및 계속기업 존속능력 불확실성으로 인해 상장폐지가 결정되어 2026년 8월 13일부터 7거래일간 정리매매에 돌입했습니다. 정리매매 개시 후 가격제한폭 없이 폭락하며 극심한 변동성을 보이고 있으며, 투자금 회수가능성이 매우 낮은 상황입니다.",
     "sentimentScore": -10,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1787001879245",
-    "title": "Enovix (ENVX): 리더십 전환기 속 기술 혁신과 시장 불확실성 심층 분석",
-    "ticker": "ENVX",
-    "market": "US",
-    "timestamp": "2026-08-17T21:24:39.245Z",
-    "summary": "Enovix (ENVX)는 혁신적인 실리콘-음극 리튬이온 배터리 개발 및 제조 기업으로, 최근 CEO 사임 및 임시 CEO 임명 소식과 함께 주가가 급락했습니다. 회사는 3분기 재무 가이던스를 재확인했음에도 불구하고, 시장은 리더십 변화에 대한 불확실성과 운영상의 도전에 반응하며 주가가 18.9% 하락했습니다.",
-    "sentimentScore": -0.4,
-    "investmentRating": "Hold"
   }
 ]
