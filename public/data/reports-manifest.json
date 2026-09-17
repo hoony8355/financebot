@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1789661826112",
+    "title": "AMD, AI 반도체 시장의 강력한 선두 주자: 성장 동력과 투자 매력 분석",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-09-17T16:17:06.112Z",
+    "summary": "AMD는 고성능 컴퓨팅, 그래픽 및 AI 반도체 분야의 선두 기업으로, 데이터센터 및 AI 인프라 확장에 주력하고 있습니다. 최근 Instinct MI400/MI500 시리즈 GPU 출시와 마이크로소프트, Anthropic 등과의 전략적 파트너십을 통해 AI 시장에서의 입지를 강화하고 있습니다. 2026년 2분기에는 데이터센터 매출이 두 배 이상 증가하는 등 견고한 실적을 기록했습니다. 현재 애널리스트들은 'Strong Buy' 의견과 높은 목표 주가를 제시하며 긍정적인 전망을 내놓고 있습니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1789615876858",
     "title": "네이버 (035420): 디지털 전환의 선봉에서 AI 인프라 강자로, 규제 리스크를 넘어선 성장 잠재력 분석",
     "ticker": "035420",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-17T18:37:06.276Z",
     "summary": "테슬라(TSLA)는 전기차, 에너지 생성 및 저장 시스템을 설계, 개발, 제조, 판매하는 미국의 혁신 기업입니다. 최근 노동 문제 해결 및 로드스터 재설계 소식으로 단기적인 주가 상승 모멘텀을 얻었으나, 생산 지연, 경쟁 심화, 마진 압박 등 도전 과제에 직면해 있습니다. 장기적으로는 로보택시, AI, 에너지 사업 확장 등 다양한 성장 동력을 보유하고 있습니다.",
     "sentimentScore": 6.5,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1786970483910",
-    "title": "Wetour Robotics (WETO): 물리적 AI 혁신과 투기적 열풍 사이의 고위험 투자 분석",
-    "ticker": "WETO",
-    "market": "US",
-    "timestamp": "2026-08-17T12:41:23.910Z",
-    "summary": "Wetour Robotics Limited는 물리적 AI 인프라 및 웨어러블 로봇 공학 회사로, AI 기반 여행 및 모빌리티 서비스를 제공합니다. NVIDIA Jetson 기반의 웨어러블 로봇용 운영체제 'Orchestra' 개발에 주력하고 있으며, 2026년 3월 Webus International Limited에서 사명을 변경하고 텍사스 오스틴에 본사를 두고 있습니다.",
-    "sentimentScore": 80,
     "investmentRating": "Hold"
   }
 ]
