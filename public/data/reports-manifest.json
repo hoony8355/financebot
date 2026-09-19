@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1789857771523",
+    "title": "Coinbase (COIN): 암호화폐 강세와 규제 명확화 속 'Everything Exchange' 전략 분석",
+    "ticker": "COIN",
+    "market": "US",
+    "timestamp": "2026-09-19T22:42:51.523Z",
+    "summary": "암호화폐 시장 강세와 SEC의 디지털 증권 관련 규제 명확화 기대로 급등세를 보인 주요 암호화폐 거래소. 변동성이 크지만 월스트리트의 긍정적 평가와 장기 성장 잠재력에 주목.",
+    "sentimentScore": 3.92,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1789813288075",
     "title": "Inspire Medical Systems (INSP): 불확실성 속 혁신, 장기 성장 잠재력과 단기 리스크의 교차점 분석",
     "ticker": "INSP",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-19T01:08:37.187Z",
     "summary": "한화에어로스페이스는 항공우주, 방위산업(항공기 엔진, K9 자주포, 장갑차 등), 산업 장비, IT 서비스, 해양 솔루션 등을 영위하는 기업입니다. 최근 미국 자회사인 한화 디펜스 USA가 미 육군의 자주포 현대화 프로그램(SPH-M)의 시제품 생산 및 테스트를 위한 단독 계약자로 선정되었습니다. 이는 최대 2억 6,290만 달러 규모의 시제품 공급 계약이며, 향후 최대 500대 생산으로 이어질 경우 약 10조 원 규모의 대형 프로젝트가 될 수 있습니다. 이 소식은 시장 전반의 하락세 속에서도 주가에 강력한 상승 모멘텀을 제공했습니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787088245939",
-    "title": "NVIDIA (NVDA): AI 시대의 핵심 인프라 제공자, 지배적 리더십과 밸류에이션 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-08-18T21:24:05.939Z",
-    "summary": "NVIDIA Corp.는 인공지능(AI) 반도체 시장을 선도하는 핵심 기업으로, 게이밍, 전문 시각화, 데이터센터 및 AI 개발에 필수적인 GPU 및 소프트웨어 플랫폼을 설계 및 제조합니다. 강력한 재무 성과와 AI 생태계에 대한 전략적 투자로 시장의 높은 기대와 분석가들의 긍정적인 평가를 받고 있습니다.",
-    "sentimentScore": 0.77,
     "investmentRating": "Strong Buy"
   }
 ]
