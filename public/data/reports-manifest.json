@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1790508426926",
+    "title": "엔비디아(NVDA) 심층 분석: AI 가속기 시장 지배력과 미래 성장 동력에 대한 투자 보고서",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-09-27T11:27:06.926Z",
+    "summary": "NVIDIA (NVDA)는 AI 가속기 시장의 지배적인 리더로, 게이밍, 데이터센터, 자율주행 등 다양한 분야에서 혁신적인 GPU 기술을 제공합니다. 최근 Hugging Face 인수 및 Anthropic IPO 참여 가능성으로 AI 생태계를 확장하고 있으며, 강력한 실적과 애널리스트들의 'Strong Buy' 등급이 긍정적인 투자 심리를 이끌고 있습니다. 그러나 경쟁 심화 및 거시경제 불확실성은 잠재적 위험 요인으로 작용합니다.",
+    "sentimentScore": 84,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1790455252069",
     "title": "테슬라(TSLA)의 미래 성장 동력과 기술적 하방 압력 분석: 혁신 기대와 경쟁 심화의 교차점",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "Mara Holdings (MARA) is a digital asset technology company focused on Bitcoin mining, currently undergoing a strategic pivot towards AI and high-performance computing (HPC) infrastructure. The stock exhibits high volatility and is significantly influenced by Bitcoin price movements and cryptocurrency regulatory news. Recent performance reflects a sharp swing to a net loss in Q2 2026 amid its transition, but also recent surges driven by positive crypto market sentiment and US regulatory developments.",
     "sentimentScore": 60,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1787316195218",
-    "title": "Super Micro Computer (SMCI): AI 서버 시장의 리더십 강화와 성장 잠재력 심층 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-08-21T12:43:15.218Z",
-    "summary": "AI 서버 전문 기업인 Super Micro Computer (SMCI)는 최근 수출 통제 위반에 대한 독립 조사를 완료하여 경영진의 위법 행위가 없음을 확인하고 과거 재무제표의 신뢰성을 입증했습니다. 이는 중요한 불확실성을 해소했습니다. 동사는 2027 회계연도에 대한 강력한 매출 가이던스(650억~720억 달러)를 제시했으며, 이는 액체 냉각 랙 솔루션에 대한 막대한 수요와 600억 달러에 달하는 사상 최대 수주잔고에 힘입은 것입니다. 애널리스트들은 '보유(Hold)' 의견을 유지하고 있지만, 최근 뉴스 및 블로거 정서가 강세로 기울어 전반적인 시장 정서는 긍정적입니다. 다만, 상대강도지수(RSI)가 과매수 상태를 시사하는 등 기술적 지표는 엇갈리는 양상을 보입니다.",
-    "sentimentScore": 70,
-    "investmentRating": "Hold"
   }
 ]
