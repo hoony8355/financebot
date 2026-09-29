@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1790711298563",
+    "title": "극심한 변동성 속 Faraday Future: AI EV 전환 전략과 재무 리스크 심층 분석",
+    "ticker": "FFIE",
+    "market": "US",
+    "timestamp": "2026-09-29T19:48:18.563Z",
+    "summary": "Faraday Future Intelligent Electric Inc. (FFIE)는 미국에 본사를 둔 초고급 인공지능(AI) 기반 전기차(EV) 제조업체입니다. 회사는 새로운 에너지, AI, 인터넷 및 공유 모델을 통합한 제품 및 서비스를 제공하며, 최근 AI 중심의 연구 개발 및 인재 채용을 확대하고 있습니다. FFIE는 극심한 주가 변동성을 보이며 올해 주가가 94% 급락했습니다. 최근 주주총회에서 증자 관련 안건이 통과되어 향후 자금 조달 및 운영에 영향을 미칠 것으로 예상됩니다. 2025년 3월 10일부터 티커 심볼을 FFAI로 변경할 계획이며, 이는 AI 중심 혁신에 대한 전략적 집중을 반영합니다.",
+    "sentimentScore": 0.81,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1790655636340",
     "title": "동국생명과학: 조영제 시장 선도기업의 성장 모멘텀과 투자 전략 분석",
     "ticker": "303810",
@@ -988,15 +998,5 @@
     "summary": "테슬라(TSLA)는 전기차 시장의 선두주자이자 에너지 저장, AI 및 자율주행 기술 분야에서 혁신을 추구하는 기업입니다. 최근 주가는 로보택시 및 세미 트럭 관련 긍정적 소식과 함께 단기적으로 상승 모멘텀을 보이고 있으나, 높은 밸류에이션과 경쟁 심화, 규제 불확실성 등의 리스크 요인을 안고 있습니다.",
     "sentimentScore": 63,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1787412366051",
-    "title": "고성능 컴퓨팅 및 AI 가속기 시장의 핵심 동력: AMD의 성장 잠재력 분석",
-    "ticker": "AMD",
-    "market": "US",
-    "timestamp": "2026-08-22T15:26:06.051Z",
-    "summary": "AMD (Advanced Micro Devices, Inc.)는 중앙 처리 장치(CPU) 및 그래픽 처리 장치(GPU)를 설계하는 선도적인 미국 반도체 기업입니다. 데이터 센터 부문에서 강력한 성장세를 보이며 인공지능(AI) 가속기 시장에서 NVIDIA의 주요 대안으로 부상하고 있습니다. 최근 분기 실적은 매출이 50% 증가하며 추정치를 상회했으며, 이는 AI 칩 수요 증가에 기인합니다.",
-    "sentimentScore": 4,
-    "investmentRating": "Strong Buy"
   }
 ]
