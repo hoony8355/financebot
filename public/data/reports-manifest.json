@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1790655636340",
+    "title": "동국생명과학: 조영제 시장 선도기업의 성장 모멘텀과 투자 전략 분석",
+    "ticker": "303810",
+    "market": "KR",
+    "timestamp": "2026-09-29T04:20:36.340Z",
+    "summary": "동국생명과학은 동국제약의 자회사로, 조영제 제조 및 판매, 진단장비 및 의료 AI 유통을 주력으로 하는 국내 선두 기업입니다. 최근 코스닥 시장에서 높은 거래량과 급등세를 보이며 투자자들의 주목을 받고 있습니다. 조영제 사업 부문에서 국내 시장 점유율 1위를 차지하고 있으며, 차세대 MRI 조영제 개발 및 생산 능력 확대를 통해 글로벌 시장 진출을 모색하고 있습니다.",
+    "sentimentScore": 8,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1790629687899",
     "title": "Kodiak Sciences (KOD): Zenkuda 임상 성공과 망막 질환 치료 시장의 판도 변화 분석",
     "ticker": "KOD",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-22T15:26:06.051Z",
     "summary": "AMD (Advanced Micro Devices, Inc.)는 중앙 처리 장치(CPU) 및 그래픽 처리 장치(GPU)를 설계하는 선도적인 미국 반도체 기업입니다. 데이터 센터 부문에서 강력한 성장세를 보이며 인공지능(AI) 가속기 시장에서 NVIDIA의 주요 대안으로 부상하고 있습니다. 최근 분기 실적은 매출이 50% 증가하며 추정치를 상회했으며, 이는 AI 칩 수요 증가에 기인합니다.",
     "sentimentScore": 4,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787390763841",
-    "title": "Lumentum (LITE), AI 시대 광학 솔루션의 핵심 동력: 초고도화 성장 잠재력 분석",
-    "ticker": "LITE",
-    "market": "US",
-    "timestamp": "2026-08-22T09:26:03.841Z",
-    "summary": "Lumentum Holdings Inc. (LITE)는 광학 및 포토닉 제품의 선도적인 공급업체로, 최근 AI 데이터 센터의 광학 부품 수요 가속화에 힘입어 강력한 실적을 보이고 있습니다. 회사는 2026년 4분기 실적 발표에서 시장 예상치를 뛰어넘는 강력한 결과를 보고했으며, 2027년 1분기에도 긍정적인 가이던스를 제시했습니다. [7, 8, 17, 20]",
-    "sentimentScore": 80,
     "investmentRating": "Strong Buy"
   }
 ]
