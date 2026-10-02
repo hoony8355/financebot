@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1790977862591",
+    "title": "NVIDIA: AI 시대의 선봉장, 성장 모멘텀과 밸류에이션 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-10-02T21:51:02.591Z",
+    "summary": "AI 칩 시장의 선두주자인 NVIDIA는 강력한 데이터센터 수요와 신제품 출시 기대감으로 사상 최고가에 근접하며 시장의 주목을 받고 있습니다. 높은 성장률과 매력적인 밸류에이션이 긍정적이지만, 경쟁 심화와 경기 둔화 가능성은 리스크 요인입니다.",
+    "sentimentScore": 0.8,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1790933000648",
     "title": "Synaptics (SYNA) 인수 심층 분석: Onsemi와의 $123 전액 현금 거래의 의미와 투자 전략",
     "ticker": "SYNA",
@@ -988,15 +998,5 @@
     "summary": "신풍제약 (019170)은 말라리아 치료제 '피라맥스'를 활용한 항바이러스 치료제 개발 이력으로 인해 코로나19 등 감염병 재확산 우려에 따른 치료제 수요 기대감으로 20% 이상 급등한 KRX 제약 종목입니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1787509615949",
-    "title": "엔비디아 (NVDA) 심층 분석: AI 혁명의 핵심 인프라와 미래 성장 동력",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-08-23T18:26:55.950Z",
-    "summary": "NVIDIA Corporation은 GPU(그래픽 처리 장치), SoC(시스템 온 칩) 및 API(애플리케이션 프로그래밍 인터페이스)를 설계 및 제조하는 선도적인 미국 기술 기업입니다. 특히 AI 칩 기술 분야의 선두 주자이며 게임, 데이터 센터, AI 및 자동차 시장의 핵심 인프라 제공업체로서 인공지능 혁명을 주도하고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Buy"
   }
 ]
