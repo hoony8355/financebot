@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791059855286",
+    "title": "AMD: AI 시대의 핵심 가속기, 데이터 센터 지배력과 장기 성장 전망 심층 분석",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-10-03T20:37:35.286Z",
+    "summary": "Advanced Micro Devices (AMD)는 고성능 컴퓨팅 및 그래픽 프로세서를 설계하는 선도적인 팹리스 반도체 기업입니다. AI, 데이터 센터, 클라이언트, 게이밍 및 임베디드 부문에서 핵심적인 역할을 하며, 최근 World Labs 인수를 통해 AI 역량을 적극적으로 확장하고 있습니다.",
+    "sentimentScore": 61,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1791042345683",
     "title": "Alpha Modus Holdings (AMOD): 투기적 열기와 근본적 리스크가 공존하는 AI 및 암호화폐 융합 소형주 심층 분석",
     "ticker": "AMOD",
@@ -988,15 +998,5 @@
     "summary": "Celestica (CLS)는 AI 인프라 시장의 핵심 플레이어로, 고성능 컴퓨팅, 네트워킹 하드웨어 및 데이터 센터를 위한 엔드투엔드 공급망 솔루션 및 제조 서비스를 제공합니다. AI 관련 기술에 대한 강력한 수요에 힘입어 2026년 2분기에 견고한 실적을 기록하고 연간 가이던스를 상향 조정하여 애널리스트들로부터 압도적으로 긍정적인 평가를 받고 있습니다. 그러나 현재 주가는 내재가치 대비 상당히 고평가되어 있으며, 상당한 규모의 내부자 매도 활동이 관찰되었습니다.",
     "sentimentScore": 75,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1787575606618",
-    "title": "마이크론 테크놀로지: AI 시대의 고성장 동력, HBM 리더십과 밸류에이션 전망",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-08-24T12:46:46.618Z",
-    "summary": "마이크론 테크놀로지(MU)는 AI 수요에 힘입어 DRAM, NAND, HBM과 같은 메모리 반도체 시장에서 강한 성장을 보이고 있는 핵심 종목입니다. 최근 강력한 실적을 발표했으며, 애널리스트들은 향후 상당한 상승 여력을 예상하고 있습니다. 하지만 높은 변동성과 시장의 주기성, 그리고 단기적인 밸류에이션 우려도 존재합니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Strong Buy"
   }
 ]
