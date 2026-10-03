@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791042345683",
+    "title": "Alpha Modus Holdings (AMOD): 투기적 열기와 근본적 리스크가 공존하는 AI 및 암호화폐 융합 소형주 심층 분석",
+    "ticker": "AMOD",
+    "market": "US",
+    "timestamp": "2026-10-03T15:45:45.683Z",
+    "summary": "Alpha Modus Holdings (AMOD)는 소매 AI 기술 및 AlphaCash 금융 플랫폼을 보유한 고변동성 소형주입니다. 최근 비트코인 자산 편입 및 나스닥 상장 준수 소식으로 급등했으나, 취약한 재무 상태로 인해 높은 투기적 위험을 안고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1791025719017",
     "title": "테슬라(TSLA): 혁신과 도전의 교차로, 미래 모빌리티와 AI의 리더십 분석",
     "ticker": "TSLA",
@@ -988,15 +998,5 @@
     "summary": "마이크론 테크놀로지(MU)는 AI 수요에 힘입어 DRAM, NAND, HBM과 같은 메모리 반도체 시장에서 강한 성장을 보이고 있는 핵심 종목입니다. 최근 강력한 실적을 발표했으며, 애널리스트들은 향후 상당한 상승 여력을 예상하고 있습니다. 하지만 높은 변동성과 시장의 주기성, 그리고 단기적인 밸류에이션 우려도 존재합니다.",
     "sentimentScore": 85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787554513806",
-    "title": "기도산업(282620) IPO 폭락 분석: 오버행, 매크로 리스크, 그리고 투자 심리 위축",
-    "ticker": "282620",
-    "market": "KR",
-    "timestamp": "2026-08-24T06:55:13.806Z",
-    "summary": "고기능성 의류 OEM 전문기업 기도산업은 코스닥 상장 첫날 공모가 대비 34.58% 폭락하며 투자 심리 위축을 겪었습니다. 이는 낮은 기관 의무보유확약 비율과 오버행(잠재적 매도 물량) 우려가 현실화된 결과로 분석됩니다.",
-    "sentimentScore": 25,
-    "investmentRating": "Sell"
   }
 ]
