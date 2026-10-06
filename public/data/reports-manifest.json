@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791290874902",
+    "title": "NVIDIA: AI 시대의 지배자, 블랙웰 + 루빈 기회와 압도적 시장 리더십 심층 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-10-06T12:47:54.902Z",
+    "summary": "NVIDIA는 AI 및 가속 컴퓨팅 분야의 선두 주자로, GPU 시장에서 80% 이상의 점유율을 자랑하며 AI 혁명과 대규모 자사주 매입 프로그램을 통해 강력한 성장 동력을 확보하고 있습니다.",
+    "sentimentScore": 0.85,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1791237061972",
     "title": "Flux Power Holdings (FLUX): 위기 속 기회 모색, '계속기업 우려'와 전략적 독립의 교차점 분석",
     "ticker": "FLUX",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 인공지능(AI) 칩 시장의 선두 주자로, 데이터 센터 및 가속 컴퓨팅 분야에서 강력한 성장을 보이며 혁신적인 GPU와 소프트웨어 생태계를 통해 AI 산업을 주도하고 있습니다. 최근 7일간의 하락세에도 불구하고 애널리스트들은 강력한 \"Strong Buy\" 의견을 유지하며 높은 목표 주가를 제시하고 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787683083261",
-    "title": "모더나(MRNA)의 mRNA 항암 백신 플랫폼 재평가와 향후 투자 전망: 과열된 기대감 속 리스크 분석",
-    "ticker": "MRNA",
-    "market": "US",
-    "timestamp": "2026-08-25T18:38:03.261Z",
-    "summary": "모더나(MRNA)는 최근 머크(Merck)와의 협력을 통해 개발된 개인 맞춤형 mRNA 흑색종 암 백신(Intismeran autogene)의 긍정적인 임상 3상 시험 결과 발표로 인해 주가가 177%까지 급등하는 등 기록적인 변동성을 보였습니다. 이는 감염병 백신을 넘어 고부가가치 항암 분야로의 확장 가능성을 제시하며 투자 심리를 강하게 자극했습니다.",
-    "sentimentScore": 85,
-    "investmentRating": "Hold"
   }
 ]
