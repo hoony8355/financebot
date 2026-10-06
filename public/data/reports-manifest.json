@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791316777839",
+    "title": "ArriVent BioPharma (AVBP): 임상 3상 실패 이후의 회복 잠재력과 고위험-고수익 투자 전략 분석",
+    "ticker": "AVBP",
+    "market": "US",
+    "timestamp": "2026-10-06T19:59:37.839Z",
+    "summary": "ArriVent BioPharma, Inc. (AVBP)는 임상 단계 바이오 제약 회사로, 폐암 치료제 개발에 주력하고 있습니다. 최근 주요 후보 물질인 firmonertinib의 3상 임상 시험 실패로 주가가 급락하여 변동성이 높은 이슈 종목으로 부각되었습니다. 현재 애널리스트들은 여전히 '강력 매수' 의견을 유지하고 있으나, 단기적인 하락 추세와 높은 투자 위험을 보입니다.",
+    "sentimentScore": -3,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1791290874902",
     "title": "NVIDIA: AI 시대의 지배자, 블랙웰 + 루빈 기회와 압도적 시장 리더십 심층 분석",
     "ticker": "NVDA",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-26T01:21:23.485Z",
     "summary": "SK하이닉스(000660)는 글로벌 AI 시장의 폭발적인 성장에 따른 고대역폭 메모리(HBM) 수요 급증의 최대 수혜주로, 최근 견조한 실적과 주주환원 정책 강화 발표로 투자심리가 긍정적입니다. 다만, 최근 노조의 임금협상 잠정합의안 부결 소식으로 단기적인 주가 변동성이 확대되었습니다.",
     "sentimentScore": 0.6,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787693214232",
-    "title": "NVIDIA: AI 시대의 심장, 독점적 지위를 통한 성장 동력 심층 분석 및 투자 전망",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-08-25T21:26:54.232Z",
-    "summary": "NVIDIA는 인공지능(AI) 칩 시장의 선두 주자로, 데이터 센터 및 가속 컴퓨팅 분야에서 강력한 성장을 보이며 혁신적인 GPU와 소프트웨어 생태계를 통해 AI 산업을 주도하고 있습니다. 최근 7일간의 하락세에도 불구하고 애널리스트들은 강력한 \"Strong Buy\" 의견을 유지하며 높은 목표 주가를 제시하고 있습니다.",
-    "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
   }
 ]
