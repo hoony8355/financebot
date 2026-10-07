@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791397687951",
+    "title": "SDEV (Stablecoin Development Corporation): 투기적 열풍과 근본적 리스크의 충돌 - '매도' 의견 유지",
+    "ticker": "SDEV",
+    "market": "US",
+    "timestamp": "2026-10-07T18:28:07.951Z",
+    "summary": "Stablecoin Development Corporation (SDEV)는 블록체인 기반 네트워크 참여를 위한 디지털 자산(주로 SKY 프로토콜 토큰) 축적 및 배포에 중점을 둔 고변동성 미국 주식입니다. 최근 투기적 거래에 힘입어 상당한 가격 변동성을 보였으며, 이는 명확한 근본적 촉매제보다는 시장 심리에 의해 주도되었습니다. 이전에는 제약 회사였으며, 현재는 자산 집중도 및 희석 위험에 대한 우려가 제기되고 있습니다.",
+    "sentimentScore": 35,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1791316777839",
     "title": "ArriVent BioPharma (AVBP): 임상 3상 실패 이후의 회복 잠재력과 고위험-고수익 투자 전략 분석",
     "ticker": "AVBP",
@@ -987,16 +997,6 @@
     "timestamp": "2026-08-26T03:53:03.522Z",
     "summary": "두산에너빌리티는 글로벌 원전 및 SMR(소형모듈원자로) 시장 확대, AI 데이터센터용 가스터빈 수요 증가에 힘입어 강력한 수주 모멘텀을 확보하고 있습니다. 증권가에서는 '매수' 이상의 투자의견과 높은 목표주가를 제시하고 있으나, 단기 기술적 지표는 과열 가능성을 시사하고 있어 투자에 신중한 접근이 필요합니다.",
     "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1787707283485",
-    "title": "SK하이닉스(000660): AI 시대 HBM 리더십과 주주가치 제고를 통한 초고성장 잠재력 분석",
-    "ticker": "000660",
-    "market": "KR",
-    "timestamp": "2026-08-26T01:21:23.485Z",
-    "summary": "SK하이닉스(000660)는 글로벌 AI 시장의 폭발적인 성장에 따른 고대역폭 메모리(HBM) 수요 급증의 최대 수혜주로, 최근 견조한 실적과 주주환원 정책 강화 발표로 투자심리가 긍정적입니다. 다만, 최근 노조의 임금협상 잠정합의안 부결 소식으로 단기적인 주가 변동성이 확대되었습니다.",
-    "sentimentScore": 0.6,
     "investmentRating": "Strong Buy"
   }
 ]
