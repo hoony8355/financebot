@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1791568823448",
+    "title": "AST SpaceMobile (ASTS): 위성 기반 스마트폰 직접 연결 기술의 선두주자, 혁신과 시장 역풍 속 투자 심층 분석",
+    "ticker": "ASTS",
+    "market": "US",
+    "timestamp": "2026-10-09T18:00:23.448Z",
+    "summary": "AST SpaceMobile (ASTS)는 금요일 미국 증시에서 SpaceX의 스펙트럼 인수에 따른 경쟁 심화와 기대에 못 미치는 실적 발표로 인해 52주 신저가 부근까지 급락하며 높은 변동성을 보였습니다. 그럼에도 불구하고, ASTS는 TELUS와의 성공적인 통합 테스트 및 미-일 기술 이니셔티브 포함과 같은 긍정적인 소식으로 장기적인 성장 잠재력을 가지고 있다는 평가도 있습니다.",
+    "sentimentScore": 35,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1791507604862",
     "title": "에코프로비엠: 차세대 배터리 기술 혁신과 시장 변동성 속 투자 전략 분석",
     "ticker": "247540",
@@ -988,15 +998,5 @@
     "summary": "미국 정부 및 상업 부문에서 AI 데이터 분석 플랫폼을 제공하는 팔란티어(PLTR)는 강력한 2분기 실적과 지속적인 정부 계약 수주로 주목받고 있습니다. AI 채택 가속화로 성장세가 돋보이나, 높은 밸류에이션과 경쟁 심화가 리스크로 작용합니다.",
     "sentimentScore": 75,
     "investmentRating": "Moderate Buy"
-  },
-  {
-    "id": "report-1787748512047",
-    "title": "메타 플랫폼스(META): AI 전환기, 핵심 사업 강점과 장기 성장 잠재력 분석",
-    "ticker": "META",
-    "market": "US",
-    "timestamp": "2026-08-26T12:48:32.047Z",
-    "summary": "Meta Platforms, Inc. (META)는 소셜 미디어(Facebook, Instagram, WhatsApp)를 주력으로 하며 인공지능(AI) 및 Reality Labs에 대규모 투자를 진행 중인 주요 기술 기업입니다. 최근 AI 인프라 투자 비용 증가와 그로 인한 실적 및 잉여 현금 흐름 압박에도 불구하고, 강력한 광고 매출 성장세와 방대한 사용자 기반을 보유하고 있습니다. 애널리스트들은 AI 기반의 미래 성장 잠재력을 높이 평가하며 'Strong Buy' 의견과 상당한 상승 여력을 제시하고 있습니다.",
-    "sentimentScore": 0.75,
-    "investmentRating": "Strong Buy"
   }
 ]
