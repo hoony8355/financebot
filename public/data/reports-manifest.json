@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792097846982",
+    "title": "CoreWeave 투자 심층 분석: AI 클라우드 인프라의 기회와 재정적 도전",
+    "ticker": "CRWV",
+    "market": "US",
+    "timestamp": "2026-10-15T20:57:26.982Z",
+    "summary": "CoreWeave는 AI를 위한 고성능 클라우드 인프라를 전문으로 하는 기업으로, 최근 NVIDIA GPU 인스턴스에 대한 강력한 수요를 바탕으로 성장하고 있습니다. 그러나 인플레이션 우려와 AI 인프라 자금 조달에 대한 투자자들의 불안감으로 인해 주식과 채권 모두 상당한 압력을 받으며 높은 변동성을 보였습니다. 1042억 달러에 달하는 상당한 매출 잔고에도 불구하고, 증가하는 이자 비용, 막대한 리스 의무, 그리고 390억 달러에 이르는 자본 지출 계획은 주요 재정적 위험으로 남아있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1792081283698",
     "title": "NVIDIA(NVDA): AI 혁명의 심장부, 독점적 지위와 고평가 사이의 투자 전략",
     "ticker": "NVDA",
@@ -988,15 +998,5 @@
     "summary": "Micron Technology는 AI 및 데이터 센터 수요 강세에 힘입어 강력한 실적을 보이고 있는 선도적인 메모리 및 스토리지 솔루션 반도체 기업입니다. 최근 주가는 7거래일간 혼조세를 보였으나, 장기적인 상승 추세를 유지하고 있습니다.",
     "sentimentScore": 0.75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1788441381958",
-    "title": "모더나 (MRNA) 심층 분석: mRNA 종양학 백신 Intismeran 성공과 밸류에이션 재조명",
-    "ticker": "MRNA",
-    "market": "US",
-    "timestamp": "2026-09-03T13:16:21.958Z",
-    "summary": "Moderna는 mRNA 기술에 중점을 둔 생명공학 기업으로, COVID-19 백신으로 잘 알려져 있습니다. 최근 Merck와 협력하여 개발 중인 개인 맞춤형 mRNA 흑색종 암 백신(Intismeran)의 긍정적인 임상 3상 결과 발표 이후 주가가 급등했습니다. 회사는 COVID-19 및 독감 백신을 넘어 종양학, 감염병, 심혈관 질환 및 희귀 유전 질환 등으로 파이프라인을 확장하고 있습니다.",
-    "sentimentScore": 0.85,
-    "investmentRating": "Hold"
   }
 ]
