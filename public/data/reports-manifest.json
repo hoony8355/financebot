@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792337093208",
+    "title": "Direxion Daily Semiconductor Bull 3X Shares (SOXL): 극한의 변동성 속 투기적 베팅, 심층 분석 및 투자 위험 진단",
+    "ticker": "SOXL",
+    "market": "US",
+    "timestamp": "2026-10-18T15:24:53.208Z",
+    "summary": "Direxion Daily Semiconductor Bull 3X Shares (SOXL)는 미국 상장 반도체 기업 30개로 구성된 지수를 3배 추종하는 레버리지 ETF입니다. 최근 AI 관련 지출 및 금리 인상 우려로 인한 반도체 섹터 매도세 속에서도 기록적인 자금 유입을 경험하며, 일부 투자자들이 반등에 베팅하는 투기적 움직임을 보이고 있습니다.",
+    "sentimentScore": 25,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1792319166054",
     "title": "CCC Intelligent Solutions: 사모펀드 인수 결정에 따른 투자 가치 분석 및 전략적 함의",
     "ticker": "CCC",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA (NVDA)는 인공지능 컴퓨팅 분야의 선두 기업으로, 게이밍, 전문 시각화, 데이터 센터 및 자동차 애플리케이션을 위한 GPU 시장에서 압도적인 점유율을 차지하고 있습니다. AI 칩 시장에서 80% 이상의 시장 점유율을 보유하며 지속적인 혁신을 통해 강력한 성장세를 보이고 있습니다. [2, 3, 21, 24]",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1788923492815",
-    "title": "주성엔지니어링(036930): AI 반도체 시대의 선두 주자, HBM 장비 수요 폭증과 SK하이닉스 투자 수혜 분석",
-    "ticker": "036930",
-    "market": "KR",
-    "timestamp": "2026-09-09T03:11:32.815Z",
-    "summary": "주성엔지니어링(036930)은 AI 반도체 장비 수요 증가와 SK하이닉스의 대규모 투자에 힘입어 주가 급등세를 보이는 반도체, 디스플레이, 태양광 장비 전문 기업입니다. 최근 2분기 흑자 전환에 성공하며 실적 턴어라운드 기대감이 높아지고 있습니다.",
-    "sentimentScore": 72.1,
-    "investmentRating": "Buy"
   }
 ]
