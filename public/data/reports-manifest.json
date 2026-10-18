@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792354096453",
+    "title": "Picard Medical, Inc. (PMI): 극심한 변동성과 재무 위험에 직면한 마이크로캡 의료 기술 기업 분석",
+    "ticker": "PMI",
+    "market": "US",
+    "timestamp": "2026-10-18T20:08:16.453Z",
+    "summary": "Picard Medical, Inc. (PMI)는 애리조나주 투손에 본사를 둔 마이크로캡 의료 기술 기업으로, 미국 FDA 및 캐나다 보건부 승인을 받은 SynCardia TAH(Total Artificial Heart)를 제조 및 판매하고 있습니다. 이 회사는 심장 이식의 대안으로 완전 이식형 SynCardia TAH를 개발 중입니다. 최근 주가는 높은 변동성을 보이며 단기간에 상당한 상승을 경험했습니다.",
+    "sentimentScore": 10,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1792337093208",
     "title": "Direxion Daily Semiconductor Bull 3X Shares (SOXL): 극한의 변동성 속 투기적 베팅, 심층 분석 및 투자 위험 진단",
     "ticker": "SOXL",
@@ -987,16 +997,6 @@
     "timestamp": "2026-09-09T22:56:57.923Z",
     "summary": "Lumentum Holdings (LITE)는 인공지능(AI) 데이터센터 광학 부품 수요 증가에 힘입어 주가가 급등하며 주목받는 미국의 광학 및 포토닉스 제품 기업입니다. 최근 견고한 실적 발표와 긍정적인 전망으로 월스트리트의 강력 매수 의견을 받고 있으며, 높은 변동성을 보이고 있습니다.",
     "sentimentScore": 0.85,
-    "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1788969465946",
-    "title": "NVIDIA (NVDA): AI 시대의 독점적 리더십과 지속 가능한 성장 전략 심층 분석",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-09-09T15:57:45.946Z",
-    "summary": "NVIDIA (NVDA)는 인공지능 컴퓨팅 분야의 선두 기업으로, 게이밍, 전문 시각화, 데이터 센터 및 자동차 애플리케이션을 위한 GPU 시장에서 압도적인 점유율을 차지하고 있습니다. AI 칩 시장에서 80% 이상의 시장 점유율을 보유하며 지속적인 혁신을 통해 강력한 성장세를 보이고 있습니다. [2, 3, 21, 24]",
-    "sentimentScore": 75,
     "investmentRating": "Strong Buy"
   }
 ]
