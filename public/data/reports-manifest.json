@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792484001083",
+    "title": "SCWorx Corp. (WORX) 심층 분석: 극심한 변동성 속 투자 리스크 평가 및 전망",
+    "ticker": "WORX",
+    "market": "US",
+    "timestamp": "2026-10-20T08:13:21.083Z",
+    "summary": "SCWorx Corp. (WORX)는 헬스케어 산업에 특화된 소프트웨어 및 데이터 관리 솔루션을 제공하는 마이크로캡 기업입니다. 최근 새로운 헬스케어 시스템과의 계약 발표로 인해 주가가 24시간 내 88% 이상 급등하며 투자자들의 주목을 받았으나, 장기적인 하락 추세와 높은 변동성을 보이고 있습니다.",
+    "sentimentScore": 0.79,
+    "investmentRating": "Sell"
+  },
+  {
     "id": "report-1792454866500",
     "title": "에스엠벡셀(010580): 자동차 부품을 넘어 우주항공 배터리 혁신으로 비상하는 성장 전략 분석",
     "ticker": "010580",
@@ -988,15 +998,5 @@
     "summary": "AMD는 AI 및 데이터센터 부문 성장에 힘입어 급성장하는 반도체 기업입니다. 2030년까지 AI 시장 기회를 3조 달러로 예상하며, EPYC CPU 및 Instinct GPU 수요 강세가 주가를 견인하고 있습니다. 애널리스트들의 긍정적인 평가와 AI 칩 부문 모멘텀으로 시장의 높은 관심을 받고 있습니다.",
     "sentimentScore": 90,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1789142070640",
-    "title": "Tenon Medical (TNON): 고위험 고수익 잠재력을 지닌 SI 관절 융합 시스템 선도 기업의 심층 분석",
-    "ticker": "TNON",
-    "market": "US",
-    "timestamp": "2026-09-11T15:54:30.640Z",
-    "summary": "Tenon Medical, Inc. (TNON)는 만성 요통을 유발하는 천장관절(SI Joint) 질환 치료를 위한 최소 침습 수술 임플란트 시스템(Catamaran® SI-Joint Fusion System)을 개발 및 상용화하는 의료기기 회사입니다. 최근 전환사채의 조기 상환 발표로 인한 희석 위험 해소 및 재정 유연성 확보 기대감에 힘입어 주가가 크게 상승하며 높은 변동성을 보이고 있습니다.",
-    "sentimentScore": 77,
-    "investmentRating": "Buy"
   }
 ]
