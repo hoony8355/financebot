@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792553018787",
+    "title": "카카오 (035720): AI 수익화 불확실성 및 인적분할 리스크 진단 보고서",
+    "ticker": "035720",
+    "market": "KR",
+    "timestamp": "2026-10-21T03:23:38.787Z",
+    "summary": "카카오는 3분기 실적 부진 전망과 인적분할(카카오AI, 카카오X)에 대한 불확실성, AI 서비스 수익화 지연 우려 등으로 주가가 하방 압력을 받고 있습니다. 다수의 증권사가 목표주가를 하향 조정했으며, 기술적 분석은 '적극 매도' 신호를 나타냅니다.",
+    "sentimentScore": 30,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1792522514091",
     "title": "AMD (Advanced Micro Devices): AI 시대의 선두 주자, 성장 잠재력과 밸류에이션 리스크 심층 분석",
     "ticker": "AMD",
@@ -988,15 +998,5 @@
     "summary": "TruGolf Holdings, Inc. (TRUG)는 실내 골프 시뮬레이터 및 E6 시뮬레이션 소프트웨어를 개발하는 회사입니다. 최근 Polymath Research Inc. 인수를 통한 토큰화 시장 진출 및 캐나다 유통 MOU 체결 등의 긍정적 소식이 있었으나, 주가는 지난 12개월간 약 98% 하락하는 등 극심한 변동성을 보였습니다. 현재 주가는 52주 최저점 부근에서 거래되고 있으며, Nasdaq으로부터 자기자본 및 잠재적 희석에 대한 경고를 받았고, 증권 사기 관련 집단 소송에 직면해 있습니다.",
     "sentimentScore": 40,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1789330912936",
-    "title": "오라클(ORCL): AI 인프라 성장 동력과 거시 경제적 불확실성 속 투자 전략 심층 분석",
-    "ticker": "ORCL",
-    "market": "US",
-    "timestamp": "2026-09-13T20:21:52.936Z",
-    "summary": "Oracle (ORCL)는 강력한 클라우드 및 AI 인프라 성장 기대감과 함께 견고한 1분기 실적을 발표했으나, 높은 변동성, 막대한 AI 투자 관련 부채 및 신용 등급 우려로 혼조세를 보이며 투자 심리가 엇갈리고 있습니다. 애널리스트들은 '강력 매수'를 권고하며 상당한 상승 여력을 예상하고 있습니다.",
-    "sentimentScore": 0.45,
-    "investmentRating": "Strong Buy"
   }
 ]
