@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792753523566",
+    "title": "Robert Half International (RHI): 고용 시장 회복의 신호탄인가, 지속 가능한 성장의 시험대인가?",
+    "ticker": "RHI",
+    "market": "US",
+    "timestamp": "2026-10-23T11:05:23.566Z",
+    "summary": "Robert Half International (RHI)은 최근 2026년 3분기 실적 발표에서 조정 EPS $0.49를 기록하며 시장 예상치인 $0.47을 상회했습니다. 주요 사업 부문인 Talent Solutions는 2022년 이후 처음으로 전년 대비 2%의 매출 성장을 달성했으며, 이는 기술 및 금융 전문 분야의 고용 활동 개선에 힘입은 것입니다. 실적 발표 이후 주가는 9% 이상 급등했습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1792726079730",
     "title": "아이패밀리에스씨: 마루베니 공개매수發 글로벌 도약 가속화 및 밸류에이션 재평가 분석",
     "ticker": "114840",
@@ -987,16 +997,6 @@
     "timestamp": "2026-09-16T20:54:25.367Z",
     "summary": "Super Micro Computer Inc. (SMCI)는 클라우드 컴퓨팅, 데이터 센터 및 인공지능(AI) 인프라를 위한 고성능 서버 기술을 제공하는 핵심 기업입니다. AI 슈퍼사이클의 주요 수혜주로, 최근 견고한 실적과 상당한 수주 잔고를 발표했습니다. 다만, 최근 한 달간 주가 하락과 매도 의견이 혼재하는 기술적 분석을 보이며 변동성이 큰 움직임을 나타내고 있습니다.",
     "sentimentScore": 40,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1789556000450",
-    "title": "인텔(INTC): 턴어라운드 전략의 기회와 도전, 심층 분석",
-    "ticker": "INTC",
-    "market": "US",
-    "timestamp": "2026-09-16T10:53:20.450Z",
-    "summary": "Intel (INTC)은 x86 아키텍처를 개척한 주요 디지털 칩 제조업체로, PC 및 데이터센터 시장의 핵심 기업입니다. 현재 파운드리 사업과 AI 기반 데이터센터 수요를 중심으로 턴어라운드를 진행 중입니다. 최근 SK 하이닉스와의 미국 내 메모리 칩 생산 협상 가능성과 새로운 Terafab 파트너십 소식으로 주가 상승 모멘텀을 얻었으나, AMD 및 Arm과의 경쟁 심화, 밸류에이션 부담, 파운드리 사업의 외부 고객 확보 불확실성에 대한 우려도 존재합니다.",
-    "sentimentScore": 75,
     "investmentRating": "Hold"
   }
 ]
