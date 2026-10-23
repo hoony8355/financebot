@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1792799426382",
+    "title": "마이크론 테크놀로지(MU) 딥다이브: AI 메모리 혁명을 통한 성장 잠재력과 전략적 투자 기회 분석",
+    "ticker": "MU",
+    "market": "US",
+    "timestamp": "2026-10-23T23:50:26.382Z",
+    "summary": "Micron Technology (MU)는 AI 기반 메모리 수요 급증에 힘입어 강력한 실적을 보이고 있는 선도적인 메모리 및 스토리지 솔루션 제공업체입니다. 애널리스트들은 압도적으로 낙관적이지만, 최근 단기적인 주가 하락은 투자 기회와 함께 위험도 내포하고 있습니다.",
+    "sentimentScore": 0.75,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1792753523566",
     "title": "Robert Half International (RHI): 고용 시장 회복의 신호탄인가, 지속 가능한 성장의 시험대인가?",
     "ticker": "RHI",
@@ -987,16 +997,6 @@
     "timestamp": "2026-09-16T23:33:22.554Z",
     "summary": "Qualcomm (QCOM)는 AI 데이터 센터 및 자동차 산업으로의 성공적인 다각화와 Amazon과의 협력 소식에 힘입어 최근 강력한 상승 모멘텀을 보이고 있는 핵심 반도체 종목입니다. 단기적으로 긍정적인 기술적 신호가 나타나고 있지만, 스마트폰 시장의 경쟁 심화와 Apple의 자체 모뎀 개발은 여전히 주요 위험 요소로 작용합니다.",
     "sentimentScore": 0.7,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1789592065367",
-    "title": "Super Micro Computer Inc. (SMCI): AI 슈퍼사이클 속 성장 잠재력과 변동성 분석",
-    "ticker": "SMCI",
-    "market": "US",
-    "timestamp": "2026-09-16T20:54:25.367Z",
-    "summary": "Super Micro Computer Inc. (SMCI)는 클라우드 컴퓨팅, 데이터 센터 및 인공지능(AI) 인프라를 위한 고성능 서버 기술을 제공하는 핵심 기업입니다. AI 슈퍼사이클의 주요 수혜주로, 최근 견고한 실적과 상당한 수주 잔고를 발표했습니다. 다만, 최근 한 달간 주가 하락과 매도 의견이 혼재하는 기술적 분석을 보이며 변동성이 큰 움직임을 나타내고 있습니다.",
-    "sentimentScore": 40,
     "investmentRating": "Hold"
   }
 ]
