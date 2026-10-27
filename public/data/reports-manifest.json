@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793113750606",
+    "title": "JetBlue Airways (JBLU) 심층 분석: 재무 위기 극복과 'JetForward' 계획의 성공 가능성 평가",
+    "ticker": "JBLU",
+    "market": "US",
+    "timestamp": "2026-10-27T15:09:10.606Z",
+    "summary": "JetBlue Airways Corp (JBLU)는 미국, 카리브해, 라틴 아메리카, 캐나다, 영국 전역에서 운항하는 저가 항공사입니다. 최근 3분기 실적은 연료비 급증으로 손실이 확대되었으나, 강력한 4분기 매출 전망과 2027년 지속적인 영업 이익 달성 및 2028년 긍정적인 잉여 현금 흐름을 목표로 하는 'JetForward' 턴어라운드 계획을 발표하며 주가가 반등했습니다. 본사는 뉴욕 롱아일랜드 시티에 있습니다.",
+    "sentimentScore": 55,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1793090438640",
     "title": "Azitra, Inc. (AZTR): 정밀 피부과 혁신과 초고변동성 시장의 기회 및 위험 분석",
     "ticker": "AZTR",
@@ -987,16 +997,6 @@
     "timestamp": "2026-09-18T23:02:16.905Z",
     "summary": "Boeing은 상업용 제트기 및 국방, 우주, 보안 시스템을 제조하는 항공우주 기업입니다. 최근 737 MAX 생산 지연, 공급망 문제, 규제 조사 등 여러 도전 과제에 직면했지만, NASA Starliner 임무 및 대한항공으로부터의 기록적인 수주와 같은 긍정적인 소식도 있습니다. 애널리스트들은 재정적 위험에도 불구하고 대체로 '매수' 의견과 상당한 상승 잠재력을 제시하고 있습니다.",
     "sentimentScore": 66,
-    "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1789763181806",
-    "title": "Marathon Digital Holdings (MARA): 비트코인 채굴을 넘어선 AI 인프라 확장의 기회와 위험 분석",
-    "ticker": "MARA",
-    "market": "US",
-    "timestamp": "2026-09-18T20:26:21.806Z",
-    "summary": "Marathon Digital Holdings (MARA)는 비트코인 채굴에 중점을 둔 디지털 자산 기술 회사입니다. 최근에는 에너지 자산과 파트너십을 활용하여 AI 데이터 센터를 포함한 디지털 인프라 및 에너지 기술 기업으로 포지셔닝을 전환하고 있습니다. 주가는 비트코인 가격 및 암호화폐 규제 변화에 민감하게 반응하며 높은 변동성을 보입니다.",
-    "sentimentScore": 72,
     "investmentRating": "Buy"
   }
 ]
