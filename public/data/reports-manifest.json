@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793090438640",
+    "title": "Azitra, Inc. (AZTR): 정밀 피부과 혁신과 초고변동성 시장의 기회 및 위험 분석",
+    "ticker": "AZTR",
+    "market": "US",
+    "timestamp": "2026-10-27T08:40:38.640Z",
+    "summary": "Azitra, Inc. (AZTR)는 정밀 피부과 분야에 중점을 둔 초기 단계 임상 바이오 제약 회사로, 공학 단백질 및 국소 생체 치료 제품을 활용하여 피부 질환 치료법을 개발하고 있습니다. 주요 파이프라인에는 암 환자의 발진 치료를 위한 ATR-04 (1/2상, FDA Fast Track 지정), Netherton 증후군 치료를 위한 ATR-12 (1b/2a상), 어린선(Ichthyosis vulgaris) 치료를 위한 ATR-01 (IND-준비 단계) 등이 있습니다. 회사는 인공지능과 머신러닝 기술을 플랫폼에 통합하고 있습니다. 최근에는 자사의 미용 제품 후보인 ATR-COSF의 생체 외(ex vivo) 연구에서 주름 감소 및 피부 탄력 개선이라는 긍정적인 결과를 발표했습니다. 또한, NYSE American 상장 기준을 충족하기 위해 2026년 10월 26일에 1대 10 역 주식 분할을 단행했으며, 시장 판매 프로그램(at-the-market offering program)을 일시 중단했습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1793060133181",
     "title": "SK하이닉스, AI 시대의 선봉인가, 시장 변동성 속 전환점인가: 심층 분석 리포트",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "Marathon Digital Holdings (MARA)는 비트코인 채굴에 중점을 둔 디지털 자산 기술 회사입니다. 최근에는 에너지 자산과 파트너십을 활용하여 AI 데이터 센터를 포함한 디지털 인프라 및 에너지 기술 기업으로 포지셔닝을 전환하고 있습니다. 주가는 비트코인 가격 및 암호화폐 규제 변화에 민감하게 반응하며 높은 변동성을 보입니다.",
     "sentimentScore": 72,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1789746886125",
-    "title": "RETO Eco-Solutions: 파라볼릭 폭락 이후의 생존 가능성 분석 및 투자 위험 평가 보고서",
-    "ticker": "RETO",
-    "market": "US",
-    "timestamp": "2026-09-18T15:54:46.125Z",
-    "summary": "ReTo Eco-Solutions, Inc. (RETO)는 중국에 본사를 둔 친환경 건축 자재, 고형 폐기물 처리 솔루션 및 장비 제조 및 유통 기업입니다. 최근 극심한 주가 변동성을 겪으며 급락했으며, 재무 상태가 취약하고 사업 구조에 내재된 위험이 높은 것으로 평가됩니다.",
-    "sentimentScore": -1.5,
-    "investmentRating": "Sell"
   }
 ]
