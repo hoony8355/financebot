@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793189381404",
+    "title": "SoFi Technologies: 혁신적 금융 모델과 견고한 성장 동력으로 시장 재평가",
+    "ticker": "SOFI",
+    "market": "US",
+    "timestamp": "2026-10-28T12:09:41.404Z",
+    "summary": "SoFi Technologies는 2026년 3분기 강력한 실적을 발표하며 매출과 주당순이익(EPS) 모두 애널리스트 예상치를 상회했습니다. 회원 및 제품 수의 상당한 증가와 수수료 기반 매출 확대에 힘입어 2026년 연간 가이던스를 상향 조정하고 2027년 낙관적인 전망을 제시했습니다. 이러한 긍정적인 재무 성과는 금리 인상에 대한 우려에도 불구하고 주가 급등과 애널리스트들의 긍정적인 평가로 이어졌습니다.",
+    "sentimentScore": 70,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1793160296226",
     "title": "ICH (368600): 폴더블 혁신을 선도하는 핵심 소재 기업, 이중 고객 확보를 통한 성장 가속화 분석",
     "ticker": "368600",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 인공지능(AI) 및 가속 컴퓨팅 분야의 글로벌 선두 주자로, 데이터센터 GPU와 AI 인프라 솔루션을 통해 높은 성장세를 지속하고 있습니다. 최근에는 SpaceX와의 AI 칩 공급 계약 및 CEO의 대규모 주식 기부 소식이 시장의 주목을 받았으며, 애널리스트들로부터 압도적인 'Strong Buy' 등급을 유지하고 있습니다. 그러나 높은 시장 변동성과 경쟁 심화, 지정학적 리스크는 잠재적인 우려 요인으로 남아있습니다.",
     "sentimentScore": 80,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1789857771523",
-    "title": "Coinbase (COIN): 암호화폐 강세와 규제 명확화 속 'Everything Exchange' 전략 분석",
-    "ticker": "COIN",
-    "market": "US",
-    "timestamp": "2026-09-19T22:42:51.523Z",
-    "summary": "암호화폐 시장 강세와 SEC의 디지털 증권 관련 규제 명확화 기대로 급등세를 보인 주요 암호화폐 거래소. 변동성이 크지만 월스트리트의 긍정적 평가와 장기 성장 잠재력에 주목.",
-    "sentimentScore": 3.92,
-    "investmentRating": "Buy"
   }
 ]
