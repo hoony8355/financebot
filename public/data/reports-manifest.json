@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793160296226",
+    "title": "ICH (368600): 폴더블 혁신을 선도하는 핵심 소재 기업, 이중 고객 확보를 통한 성장 가속화 분석",
+    "ticker": "368600",
+    "market": "KR",
+    "timestamp": "2026-10-28T04:04:56.226Z",
+    "summary": "ICH Co., Ltd.는 전자 기기용 특수 소재 부품을 개발, 제조 및 유통하는 한국 기업입니다. 최근 Apple의 첫 폴더블 스마트폰인 iPhone Duo에 PE 폼 공급을 확대하고, 기존 Samsung Galaxy Z 시리즈에도 공급하며 시장의 주목을 받고 있습니다. 이는 성장하는 폴더블 폰 시장에서 동사의 입지를 강화할 것으로 보입니다. 다만, 2026년 7월 22일 5대1 주식 병합을 단행하여 주가 안정화 및 기업 가치 제고를 추진한 바 있습니다.",
+    "sentimentScore": 7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1793137884852",
     "title": "GameStop (GME) 투자 분석: '밈 주식'의 투기적 매력과 내재된 위험성 심층 진단",
     "ticker": "GME",
@@ -988,15 +998,5 @@
     "summary": "암호화폐 시장 강세와 SEC의 디지털 증권 관련 규제 명확화 기대로 급등세를 보인 주요 암호화폐 거래소. 변동성이 크지만 월스트리트의 긍정적 평가와 장기 성장 잠재력에 주목.",
     "sentimentScore": 3.92,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1789813288075",
-    "title": "Inspire Medical Systems (INSP): 불확실성 속 혁신, 장기 성장 잠재력과 단기 리스크의 교차점 분석",
-    "ticker": "INSP",
-    "market": "US",
-    "timestamp": "2026-09-19T10:21:28.075Z",
-    "summary": "Inspire Medical Systems (INSP)는 수면 무호흡증(OSA) 환자를 위한 최소 침습 솔루션을 개발 및 상용화하는 의료 기술 기업입니다. 최근 코딩 및 보험 적용 불확실성, 사전 승인 지연, 잠재적 경쟁 심화 등의 어려움에 직면하여 2026년 매출 가이던스를 하향 조정했습니다. 그럼에도 불구하고 높은 매출 총이익률과 현금 보유량, 새로운 Inspire V 시스템 출시 및 전략적 성장 계획인 Project Horizon을 통해 긍정적인 요인도 존재합니다. 단기적으로 주가 모멘텀이 있었지만 장기적으로는 하락세를 보였습니다.",
-    "sentimentScore": 0.25,
-    "investmentRating": "Hold"
   }
 ]
