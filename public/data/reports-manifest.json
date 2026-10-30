@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793353077597",
+    "title": "ADT Inc. 인수 합병 분석: Thrive Holdings의 전략적 베팅과 투자자 시사점",
+    "ticker": "ADT",
+    "market": "US",
+    "timestamp": "2026-10-30T09:37:57.597Z",
+    "summary": "ADT Inc.의 주가는 2026년 10월 29일 Thrive Holdings가 주당 10.00달러, 총 153억 달러의 기업 가치로 주택 보안 회사를 인수하기로 합의하면서 약 33-34% 급등했습니다. 이 거래는 기존 주주들에게 상당한 프리미엄을 제공하며 2027년 1분기 완료될 것으로 예상됩니다.",
+    "sentimentScore": 0.55,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1793265740885",
     "title": "Super Micro Computer (SMCI): AI 서버 시장의 첨병, 성장과 위험의 이중성 분석",
     "ticker": "SMCI",
@@ -988,15 +998,5 @@
     "summary": "생성형 AI 음성 합성 기술 기업 네오사피엔스 (470870)는 2026년 9월 21일 코스닥 상장 후 공모가 대비 243% 급등하며 시장의 뜨거운 관심을 받았습니다. '타입캐스트'를 주력으로 B2B 및 글로벌 시장 확대를 추진하며 2027년 흑자 전환을 목표하고 있습니다.",
     "sentimentScore": 85,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1790020488465",
-    "title": "워너 브로스. 디스커버리 (WBD): 파라마운트 합병 진전과 복합적인 투자 전망 분석",
-    "ticker": "WBD",
-    "market": "US",
-    "timestamp": "2026-09-21T19:54:48.465Z",
-    "summary": "Warner Bros. Discovery (WBD)의 주가는 2026년 9월 21일 파라마운트와의 1110억 달러 규모 합병 관련 독점금지 우려를 해소하는 합의 보고서가 나온 후 10% 급등했습니다. 이는 제안된 합병의 주요 장애물을 제거할 수 있는 중요한 진전으로 평가됩니다. 이 회사는 스트리밍, 스튜디오, 케이블 네트워크를 포함한 다각화된 미디어 부문에서 사업을 운영하고 있습니다.",
-    "sentimentScore": 78,
-    "investmentRating": "Hold"
   }
 ]
