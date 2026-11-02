@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793654744308",
+    "title": "SK하이닉스(SKHY) 심층 분석: AI 시대 HBM 리더십과 밸류에이션 매력, 리스크 점검",
+    "ticker": "SKHY",
+    "market": "US",
+    "timestamp": "2026-11-02T21:25:44.308Z",
+    "summary": "SK hynix (SKHY)는 AI 시대의 핵심인 고대역폭 메모리(HBM)와 같은 반도체 메모리(DRAM 및 NAND)를 제조하는 선두 기업입니다. 최근 강력한 3분기 실적과 AI 메모리 수요 증가로 인해 긍정적인 전망을 보이고 있으나, 시장의 전반적인 변동성 및 경쟁 심화로 인해 주가 등락이 심했습니다. 애널리스트들은 대부분 'Strong Buy' 의견을 제시하며 상당한 상승 여력을 보고 있습니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1793615657566",
     "title": "GameStop (GME): 사업 전환, 밈 주식 현상, 그리고 극심한 변동성 속 투자 전략 심층 분석",
     "ticker": "GME",
@@ -988,15 +998,5 @@
     "summary": "Pershing Square (PS)는 최근 새로운 52주 최고가를 기록하며 강력한 분기별 실적과 애널리스트 상향 조정에 힘입어 상승세를 보였습니다. 하지만 심각한 밸류에이션 프리미엄과 금리 인상에 대한 노출로 인한 우려가 존재하며, 기술적으로는 과매수 상태를 나타내고 있습니다.",
     "sentimentScore": 65,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1790354135987",
-    "title": "마이크론 테크놀로지(MU): AI 메모리 주도권 확보를 통한 고성장 모멘텀 분석",
-    "ticker": "MU",
-    "market": "US",
-    "timestamp": "2026-09-25T16:35:35.987Z",
-    "summary": "Micron Technology는 DRAM, NAND 및 NOR 플래시 메모리 솔루션을 제공하는 글로벌 선도 기업으로, 데이터 센터, AI, 모바일 및 자동차 시장에 광범위하게 사용됩니다. AI 기술 발전과 함께 고성능 메모리 수요가 급증하며 강력한 성장 모멘텀을 보이고 있습니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
