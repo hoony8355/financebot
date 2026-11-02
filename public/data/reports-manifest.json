@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793615657566",
+    "title": "GameStop (GME): 사업 전환, 밈 주식 현상, 그리고 극심한 변동성 속 투자 전략 심층 분석",
+    "ticker": "GME",
+    "market": "US",
+    "timestamp": "2026-11-02T10:34:17.566Z",
+    "summary": "GameStop (GME)은 미국 증시에서 높은 변동성과 개인 투자자들의 강한 관심을 받고 있는 주요 종목입니다. 비디오 게임 소매업에서 이커머스 및 수집품 중심으로 사업을 전환하고 있으며, 애널리스트 의견과 기술적 신호가 엇갈리는 가운데 높은 리스크를 동반하고 있습니다.",
+    "sentimentScore": 68,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1793578546757",
     "title": "SK하이닉스, AI 메모리 지배력 강화와 미래가치 재평가: HBM 선도기업의 성장 동력 및 투자 전망 분석",
     "ticker": "000660",
@@ -988,15 +998,5 @@
     "summary": "Micron Technology는 DRAM, NAND 및 NOR 플래시 메모리 솔루션을 제공하는 글로벌 선도 기업으로, 데이터 센터, AI, 모바일 및 자동차 시장에 광범위하게 사용됩니다. AI 기술 발전과 함께 고성능 메모리 수요가 급증하며 강력한 성장 모멘텀을 보이고 있습니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1790334734623",
-    "title": "APUS 심층 분석: 임상 바이오와 디지털 자산, 극심한 변동성 속 투자 위험 진단",
-    "ticker": "APUS",
-    "market": "US",
-    "timestamp": "2026-09-25T11:12:14.623Z",
-    "summary": "Apimeds Pharmaceuticals US, Inc. (APUS)는 슬개골 골관절염 및 다발성 경화증 통증 관리를 위한 아피톡스(Apitos)라는 벌독 기반 치료제를 개발하는 임상 단계 바이오 제약 회사입니다. 최근 자회사 MindWave Innovations Inc.의 디지털 자산 플랫폼 구축 계약 소식으로 주가가 급등하며 높은 변동성을 보였습니다. 이 회사는 아직 매출이 없고 지속적인 순손실을 기록하고 있으며, 최근 1대 10 역병합을 실시했습니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Sell"
   }
 ]
