@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793738848297",
+    "title": "AMD(Advanced Micro Devices) 2026년 3분기 실적 및 향후 전망: AI 시대의 고성장과 밸류에이션 리스크 분석",
+    "ticker": "AMD",
+    "market": "US",
+    "timestamp": "2026-11-03T20:47:28.297Z",
+    "summary": "Advanced Micro Devices (AMD)는 CPU, GPU 및 AI 가속기 분야의 선도적인 반도체 기업입니다. 최근 발표된 2026년 3분기 실적은 데이터 센터 부문의 견조한 성장세를 보였으나, 높은 밸류에이션, PC 시장 둔화, 잠재적인 차익 실현 우려로 인해 투자 심리는 엇갈리고 있습니다. 단기 기술적 지표는 약세를 시사하지만, 장기적으로는 상승 추세를 유지하고 있습니다.",
+    "sentimentScore": 7,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1793713277140",
     "title": "이노비오 파마슈티컬스(INO): VOCERYQ FDA 가속 승인 및 소송 승리로 전환점 맞은 DNA 면역요법 선두주자의 심층 분석",
     "ticker": "INO",
@@ -988,15 +998,5 @@
     "summary": "Qualcomm (QCOM)은 무선 기술 및 스마트폰, 자동차, IoT용 칩 설계 분야의 핵심 기업입니다. 최근 온디바이스 AI를 위한 새로운 스냅드래곤 칩셋 출시를 통해 AI, 데이터센터, 로봇공학 분야로의 확장을 가속화하고 있으며, 애플과의 글로벌 특허 라이선스 계약을 갱신했습니다. 시장의 전반적인 'Hold' 의견에도 불구하고, AI 이니셔티브를 통한 잠재적 상승 여력이 주목됩니다.",
     "sentimentScore": 0.6,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1790508426926",
-    "title": "엔비디아(NVDA) 심층 분석: AI 가속기 시장 지배력과 미래 성장 동력에 대한 투자 보고서",
-    "ticker": "NVDA",
-    "market": "US",
-    "timestamp": "2026-09-27T11:27:06.926Z",
-    "summary": "NVIDIA (NVDA)는 AI 가속기 시장의 지배적인 리더로, 게이밍, 데이터센터, 자율주행 등 다양한 분야에서 혁신적인 GPU 기술을 제공합니다. 최근 Hugging Face 인수 및 Anthropic IPO 참여 가능성으로 AI 생태계를 확장하고 있으며, 강력한 실적과 애널리스트들의 'Strong Buy' 등급이 긍정적인 투자 심리를 이끌고 있습니다. 그러나 경쟁 심화 및 거시경제 불확실성은 잠재적 위험 요인으로 작용합니다.",
-    "sentimentScore": 84,
-    "investmentRating": "Strong Buy"
   }
 ]
