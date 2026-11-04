@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793788209343",
+    "title": "Palantir Technologies (PLTR) 심층 분석: AI 혁신과 성장 모멘텀, 그리고 밸류에이션의 딜레마",
+    "ticker": "PLTR",
+    "market": "US",
+    "timestamp": "2026-11-04T10:30:09.343Z",
+    "summary": "Palantir Technologies (PLTR)는 정부 및 상업 고객을 위한 데이터 통합, 분석 및 인공지능(AI) 소프트웨어 플랫폼을 개발합니다. 최근 2026년 3분기 실적 발표에서 미국 상업 부문 매출이 정부 부문을 처음으로 넘어섰으며, 견조한 성장세를 보였습니다. 하지만 높은 밸류에이션과 국제 시장에서의 성장 둔화에 대한 우려가 존재합니다.",
+    "sentimentScore": 0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1793738848297",
     "title": "AMD(Advanced Micro Devices) 2026년 3분기 실적 및 향후 전망: AI 시대의 고성장과 밸류에이션 리스크 분석",
     "ticker": "AMD",
@@ -987,16 +997,6 @@
     "timestamp": "2026-09-27T23:40:34.325Z",
     "summary": "Masonglory Limited (MSGY)는 홍콩에 본사를 둔 투자 지주 회사로, 습식 공사 및 관련 보조 서비스를 제공하는 하청업체입니다. 2018년에 설립되어 2025년 7월 나스닥에 상장되었으며, 최근 극심한 변동성과 상당한 주가 급등을 보였습니다. 2026년 8월 오스트리아 건설 자재 무역 회사인 Beta Beteiligungs und Besitz GmbH의 지분 20%를 인수했습니다.",
     "sentimentScore": 0.3,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1790526390188",
-    "title": "퀄컴(QCOM): 온디바이스 AI 시대의 핵심 플레이어, 기회와 위험 공존 분석",
-    "ticker": "QCOM",
-    "market": "US",
-    "timestamp": "2026-09-27T16:26:30.188Z",
-    "summary": "Qualcomm (QCOM)은 무선 기술 및 스마트폰, 자동차, IoT용 칩 설계 분야의 핵심 기업입니다. 최근 온디바이스 AI를 위한 새로운 스냅드래곤 칩셋 출시를 통해 AI, 데이터센터, 로봇공학 분야로의 확장을 가속화하고 있으며, 애플과의 글로벌 특허 라이선스 계약을 갱신했습니다. 시장의 전반적인 'Hold' 의견에도 불구하고, AI 이니셔티브를 통한 잠재적 상승 여력이 주목됩니다.",
-    "sentimentScore": 0.6,
     "investmentRating": "Hold"
   }
 ]
