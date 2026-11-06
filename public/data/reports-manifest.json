@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1793928201987",
+    "title": "현대차(005380): 글로벌 스마트 모빌리티 솔루션 기업으로의 대전환, 미국 시장 성과와 미래 기술 리더십을 통한 가치 재평가 분석",
+    "ticker": "005380",
+    "market": "KR",
+    "timestamp": "2026-11-06T01:23:21.987Z",
+    "summary": "현대차(005380)는 1967년 설립된 글로벌 자동차 제조 기업으로, 최근 전기차, 자율주행, AI 등 스마트 모빌리티 솔루션 기업으로의 전환을 적극 추진하고 있습니다. 최근 두 달간 30% 가까이 주가가 급락한 후 미국 중간선거 결과에 따른 전기차 지원 정책 변화 기대감 및 미국 판매 호조에 힘입어 반등에 성공했습니다. 다만, 중국 전기차 업체들의 가격 경쟁 심화와 환율 변동성 등은 여전히 리스크 요인으로 작용하고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1793788209343",
     "title": "Palantir Technologies (PLTR) 심층 분석: AI 혁신과 성장 모멘텀, 그리고 밸류에이션의 딜레마",
     "ticker": "PLTR",
@@ -988,15 +998,5 @@
     "summary": "Firefly Neuroscience, Inc. (AIFF)는 AI 기반 뇌 분석 회사로, FDA 승인을 받은 BNA™(Brain Network Analytics) 기술과 Evoke™ 시스템을 통해 뇌파(EEG) 및 사건 관련 전위(ERP) 데이터를 분석하여 우울증, 치매, ADHD 등 신경학적 및 정신 질환의 진단 및 치료 모니터링 솔루션을 제공합니다. 최근 NeuroSigma와의 파트너십을 통해 소아 ADHD 비약물 치료 시스템의 접근성을 확대하고 있습니다.",
     "sentimentScore": 30,
     "investmentRating": "Sell"
-  },
-  {
-    "id": "report-1790552434325",
-    "title": "Masonglory (MSGY): 투기적 열풍 속 극심한 변동성과 잠재적 하방 위험 심층 분석",
-    "ticker": "MSGY",
-    "market": "US",
-    "timestamp": "2026-09-27T23:40:34.325Z",
-    "summary": "Masonglory Limited (MSGY)는 홍콩에 본사를 둔 투자 지주 회사로, 습식 공사 및 관련 보조 서비스를 제공하는 하청업체입니다. 2018년에 설립되어 2025년 7월 나스닥에 상장되었으며, 최근 극심한 변동성과 상당한 주가 급등을 보였습니다. 2026년 8월 오스트리아 건설 자재 무역 회사인 Beta Beteiligungs und Besitz GmbH의 지분 20%를 인수했습니다.",
-    "sentimentScore": 0.3,
-    "investmentRating": "Hold"
   }
 ]
