@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1794044328122",
+    "title": "NVIDIA (NVDA): AI 컴퓨팅 지배자의 시장 변동성 속 투자 기회 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-11-07T09:38:48.122Z",
+    "summary": "NVIDIA (NVDA)는 AI 컴퓨팅 분야의 선두 주자로, 높은 변동성과 거래량을 보이는 핵심 이슈 종목입니다. 최근 주가는 데이터 센터 확장 및 AI 투자 지속 가능성에 대한 우려와 함께 급락세를 보였으나, 강력한 AI 칩 시장 지배력과 향후 플랫폼 기대감으로 반등을 모색하고 있습니다. 시장 심리는 '극심한 공포' 상태에 있으며, 기술적 분석은 단기 하락 추세와 과매도 신호를 나타냅니다.",
+    "sentimentScore": 72,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1794011900099",
     "title": "NHN, AI 클라우드 및 핵심 사업 성장에 기반한 턴어라운드 분석: 2026년 2분기 사상 최대 실적 달성 및 미래 성장 동력 점검",
     "ticker": "181710",
@@ -988,15 +998,5 @@
     "summary": "동국생명과학은 동국제약의 자회사로, 조영제 제조 및 판매, 진단장비 및 의료 AI 유통을 주력으로 하는 국내 선두 기업입니다. 최근 코스닥 시장에서 높은 거래량과 급등세를 보이며 투자자들의 주목을 받고 있습니다. 조영제 사업 부문에서 국내 시장 점유율 1위를 차지하고 있으며, 차세대 MRI 조영제 개발 및 생산 능력 확대를 통해 글로벌 시장 진출을 모색하고 있습니다.",
     "sentimentScore": 8,
     "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1790629687899",
-    "title": "Kodiak Sciences (KOD): Zenkuda 임상 성공과 망막 질환 치료 시장의 판도 변화 분석",
-    "ticker": "KOD",
-    "market": "US",
-    "timestamp": "2026-09-28T21:08:07.899Z",
-    "summary": "Kodiak Sciences Inc. (KOD)는 망막 질환 치료제 개발에 주력하는 임상 단계 바이오 제약 회사입니다. 이 회사의 주가는 습성 연령 관련 황반변성(wAMD) 및 기타 망막 질환에 대한 주요 파이프라인 약물인 Zenkuda(tarcocimab tedromer)의 긍정적인 Phase 3 DAYBREAK 임상 시험 결과 발표로 인해 2026년 9월 28일 급등했습니다. Zenkuda는 aflibercept(Regeneron의 Eylea)에 대한 비열등성을 입증했으며, 연장된 투여 간격 가능성을 보여주었습니다. Kodiak Sciences는 2026년 4분기에 미국 식품의약국(FDA)에 생물의약품 허가 신청(BLA)을 제출할 계획입니다.",
-    "sentimentScore": 0.8,
-    "investmentRating": "Strong Buy"
   }
 ]
