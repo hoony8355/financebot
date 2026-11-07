@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1794011900099",
+    "title": "NHN, AI 클라우드 및 핵심 사업 성장에 기반한 턴어라운드 분석: 2026년 2분기 사상 최대 실적 달성 및 미래 성장 동력 점검",
+    "ticker": "181710",
+    "market": "KR",
+    "timestamp": "2026-11-07T00:38:20.099Z",
+    "summary": "NHN은 게임, 결제 (PAYCO, NHN KCP), 광고, 커머스, 웹툰 (comico), 음악 (Bugs), 클라우드 서비스를 제공하는 한국 IT 기업입니다. 2026년 2분기에는 게임, 결제, 특히 AI 클라우드 사업의 성장에 힘입어 사상 최대 분기 매출과 영업이익을 기록했습니다. 회사는 AI 인프라 사업 확장을 위해 GPUaaS (서비스형 GPU) 제공을 확대하고 추가 AI 데이터센터 용량을 확보할 계획입니다.",
+    "sentimentScore": 4,
+    "investmentRating": "Strong Buy"
+  },
+  {
     "id": "report-1793928201987",
     "title": "현대차(005380): 글로벌 스마트 모빌리티 솔루션 기업으로의 대전환, 미국 시장 성과와 미래 기술 리더십을 통한 가치 재평가 분석",
     "ticker": "005380",
@@ -988,15 +998,5 @@
     "summary": "Kodiak Sciences Inc. (KOD)는 망막 질환 치료제 개발에 주력하는 임상 단계 바이오 제약 회사입니다. 이 회사의 주가는 습성 연령 관련 황반변성(wAMD) 및 기타 망막 질환에 대한 주요 파이프라인 약물인 Zenkuda(tarcocimab tedromer)의 긍정적인 Phase 3 DAYBREAK 임상 시험 결과 발표로 인해 2026년 9월 28일 급등했습니다. Zenkuda는 aflibercept(Regeneron의 Eylea)에 대한 비열등성을 입증했으며, 연장된 투여 간격 가능성을 보여주었습니다. Kodiak Sciences는 2026년 4분기에 미국 식품의약국(FDA)에 생물의약품 허가 신청(BLA)을 제출할 계획입니다.",
     "sentimentScore": 0.8,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1790600326499",
-    "title": "Firefly Neuroscience (AIFF): 고위험 고변동성 AI 기반 신경과학 솔루션 기업 분석 보고서",
-    "ticker": "AIFF",
-    "market": "US",
-    "timestamp": "2026-09-28T12:58:46.499Z",
-    "summary": "Firefly Neuroscience, Inc. (AIFF)는 AI 기반 뇌 분석 회사로, FDA 승인을 받은 BNA™(Brain Network Analytics) 기술과 Evoke™ 시스템을 통해 뇌파(EEG) 및 사건 관련 전위(ERP) 데이터를 분석하여 우울증, 치매, ADHD 등 신경학적 및 정신 질환의 진단 및 치료 모니터링 솔루션을 제공합니다. 최근 NeuroSigma와의 파트너십을 통해 소아 ADHD 비약물 치료 시스템의 접근성을 확대하고 있습니다.",
-    "sentimentScore": 30,
-    "investmentRating": "Sell"
   }
 ]
