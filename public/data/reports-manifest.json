@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1795000219033",
+    "title": "SELLAS Life Sciences (SLS): 임상 3상 성공과 자금 조달 리스크, 고변동성 속 성장 잠재력 분석",
+    "ticker": "SLS",
+    "market": "US",
+    "timestamp": "2026-11-18T11:10:19.033Z",
+    "summary": "SELLAS Life Sciences Group Inc (SLS)는 다양한 암 치료를 위한 신약 개발에 중점을 둔 임상 단계 후기 바이오제약 회사입니다. 주요 파이프라인에는 급성 골수성 백혈병(AML) 대상의 galinpepimut-S(GPS) 면역치료제와 혈액암 및 고형암 대상의 cyclin-dependent kinase 9(CDK9) 억제제 GFH009(SLS009)가 있습니다. 최근 GPS의 주요 임상 3상 REGAL 시험에서 AML 환자의 전체 생존율이 통계적으로 유의미하게 개선되었다는 긍정적인 데이터가 발표되며 주가가 급등했습니다. 그러나 이후 1억 5천만 달러 규모의 공모주 발행 계획이 발표되어 주가에 단기적인 하락 압력을 가했습니다.",
+    "sentimentScore": 90,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1794969907201",
     "title": "두산 (000150): 고변동성 속 잠재된 가치와 재무 리스크 심층 분석",
     "ticker": "000150",
@@ -988,15 +998,5 @@
     "summary": "NVIDIA는 AI 및 가속 컴퓨팅 분야의 선두 주자로, GPU 시장에서 80% 이상의 점유율을 자랑하며 AI 혁명과 대규모 자사주 매입 프로그램을 통해 강력한 성장 동력을 확보하고 있습니다.",
     "sentimentScore": 0.85,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1791237061972",
-    "title": "Flux Power Holdings (FLUX): 위기 속 기회 모색, '계속기업 우려'와 전략적 독립의 교차점 분석",
-    "ticker": "FLUX",
-    "market": "US",
-    "timestamp": "2026-10-05T21:51:01.972Z",
-    "summary": "Flux Power Holdings (FLUX)는 산업용 애플리케이션을 위한 리튬 이온 에너지 저장 솔루션을 설계, 제조, 판매하는 기업입니다. 최근 솔리디언 테크놀로지의 인수 제안을 거부했으며, 감사인의 '계속기업 우려'와 나스닥 상장 규정 미준수 압력 등 심각한 재정적 도전에 직면해 있습니다. 주가는 높은 변동성을 보이며 최근 급락했습니다.",
-    "sentimentScore": -0.17,
-    "investmentRating": "Hold"
   }
 ]
