@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1795086539198",
+    "title": "버진 갤럭틱(SPCE): 준궤도 우주 관광의 개척자, 고위험-고수익 스펙트럼 분석",
+    "ticker": "SPCE",
+    "market": "US",
+    "timestamp": "2026-11-19T11:08:59.198Z",
+    "summary": "Virgin Galactic Holdings (SPCE)는 준궤도 우주 관광 및 연구 임무에 중점을 둔 상업용 우주비행 회사입니다. 현재 수익을 창출하지 못하는 개발 단계의 기업으로, 차세대 Delta-class 우주선 프로그램과 관련된 높은 현금 소모 및 실행 위험에 직면해 있습니다.",
+    "sentimentScore": -0.2,
+    "investmentRating": "Hold"
+  },
+  {
     "id": "report-1795054603204",
     "title": "레인보우로보틱스: 로봇 산업 혁신을 주도하는 삼성전자의 전략적 파트너",
     "ticker": "277810",
@@ -988,15 +998,5 @@
     "summary": "AI 메모리 시장의 선두주자 SK하이닉스는 강력한 실적 성장과 높은 목표주가에도 불구하고 최근 시장 변동성으로 인해 주가가 조정받고 있습니다. 인공지능 수요 증가에 따른 HBM 및 D램 시장의 견조한 성장이 예상되며, IBK투자증권은 400만원 목표주가와 '매수' 의견을 유지하며 저평가 상태라고 진단했습니다.",
     "sentimentScore": 75,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1791397687951",
-    "title": "SDEV (Stablecoin Development Corporation): 투기적 열풍과 근본적 리스크의 충돌 - '매도' 의견 유지",
-    "ticker": "SDEV",
-    "market": "US",
-    "timestamp": "2026-10-07T18:28:07.951Z",
-    "summary": "Stablecoin Development Corporation (SDEV)는 블록체인 기반 네트워크 참여를 위한 디지털 자산(주로 SKY 프로토콜 토큰) 축적 및 배포에 중점을 둔 고변동성 미국 주식입니다. 최근 투기적 거래에 힘입어 상당한 가격 변동성을 보였으며, 이는 명확한 근본적 촉매제보다는 시장 심리에 의해 주도되었습니다. 이전에는 제약 회사였으며, 현재는 자산 집중도 및 희석 위험에 대한 우려가 제기되고 있습니다.",
-    "sentimentScore": 35,
-    "investmentRating": "Sell"
   }
 ]
