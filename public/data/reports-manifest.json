@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1795140083504",
+    "title": "삼성전자 (005930): 미래 신사업 주도권 확보를 위한 전략적 변곡점 분석 보고서",
+    "ticker": "005930",
+    "market": "KR",
+    "timestamp": "2026-11-20T02:01:23.504Z",
+    "summary": "삼성전자는 1969년 설립된 글로벌 전자 기업으로, 반도체, 스마트폰, TV, 디스플레이 패널 등 다양한 분야에서 세계적인 경쟁력을 보유하고 있습니다. 특히 AI, 메타버스, 로보틱스, 자율주행차량용 반도체 등 미래 신사업 분야로 사업 확장을 추진하며 혁신을 선도하고 있습니다.",
+    "sentimentScore": 0.6,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1795118308228",
     "title": "ARM Holdings: AI 시대의 핵심 IP 기업, 성장 기대와 밸류에이션 부담 사이의 딜레마 분석",
     "ticker": "ARM",
@@ -987,16 +997,6 @@
     "timestamp": "2026-10-09T01:00:04.862Z",
     "summary": "에코프로비엠은 리튬이온 이차전지의 핵심 소재인 양극활물질과 전구체를 제조 및 판매하는 기업으로, 전기차(EV) 및 에너지 저장 시스템(ESS) 등 다양한 애플리케이션에 사용되는 하이니켈계 양극재 기술을 선도하고 있습니다. 최근 삼성SDI와의 전고체 배터리 공동 개발 업무협약(MOU) 체결을 통해 차세대 배터리 시장에서의 경쟁력을 강화하고 있습니다.",
     "sentimentScore": 45,
-    "investmentRating": "Hold"
-  },
-  {
-    "id": "report-1791484034900",
-    "title": "Pacira BioSciences (PCRX) 인수 심층 분석: Viatris의 비마약성 통증 치료제 시장 진출 전략과 투자자 전망",
-    "ticker": "PCRX",
-    "market": "US",
-    "timestamp": "2026-10-08T18:27:14.900Z",
-    "summary": "Pacira BioSciences는 비마약성 통증 치료제 분야의 선두 기업으로, Viatris에 의해 주당 36.50달러, 총 16.5억 달러에 인수될 예정이라는 발표 후 주가가 급등했습니다. 이 거래는 Viatris의 혁신 의약품 사업을 강화하고, Pacira의 주요 제품인 EXPAREL과 ZILRETTA를 추가할 것입니다.",
-    "sentimentScore": 85,
     "investmentRating": "Hold"
   }
 ]
