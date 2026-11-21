@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1795257644198",
+    "title": "엔비디아 (NVDA): 격동의 AI 시대, 리더십 공백과 규제 리스크 속 숨겨진 잠재력 분석",
+    "ticker": "NVDA",
+    "market": "US",
+    "timestamp": "2026-11-21T10:40:44.198Z",
+    "summary": "NVIDIA는 AI 시스템 솔루션의 선두 개발사로, 게임용 GPU뿐만 아니라 AI 모델 및 데이터 센터용으로 사용되는 GPU로 잘 알려져 있습니다. 최근 CEO 사임 및 SEC의 회계 조사 가능성으로 인해 주가 변동성이 커지고 있으며, 시장 가치에 상당한 하락이 있었습니다. 그럼에도 불구하고, AI 시장에서의 지배적인 위치와 강력한 실적 가이던스가 긍정적인 요소로 작용하고 있습니다.",
+    "sentimentScore": 45,
+    "investmentRating": "Moderate Buy"
+  },
+  {
     "id": "report-1795172159413",
     "title": "Anthropic (ANT) 투자 분석: AI 시장의 신성, 성장통을 넘어설 수 있을 것인가?",
     "ticker": "ANT",
@@ -988,15 +998,5 @@
     "summary": "Corteva Inc. (CTVA)는 최근 종자 사업부인 Vylor의 분사 이후 작물 보호 제품에 집중하는 글로벌 농업 기업입니다. 분사 후 주가는 80% 이상 급락하며 대규모 재평가를 겪었으나, 애널리스트들은 '강력 매수' 또는 '매수' 의견을 유지하며 현재 수준 대비 상당한 상승 여력을 제시하고 있습니다. 높은 변동성과 과매도 신호가 특징입니다.",
     "sentimentScore": 0.65,
     "investmentRating": "Strong Buy"
-  },
-  {
-    "id": "report-1791568823448",
-    "title": "AST SpaceMobile (ASTS): 위성 기반 스마트폰 직접 연결 기술의 선두주자, 혁신과 시장 역풍 속 투자 심층 분석",
-    "ticker": "ASTS",
-    "market": "US",
-    "timestamp": "2026-10-09T18:00:23.448Z",
-    "summary": "AST SpaceMobile (ASTS)는 금요일 미국 증시에서 SpaceX의 스펙트럼 인수에 따른 경쟁 심화와 기대에 못 미치는 실적 발표로 인해 52주 신저가 부근까지 급락하며 높은 변동성을 보였습니다. 그럼에도 불구하고, ASTS는 TELUS와의 성공적인 통합 테스트 및 미-일 기술 이니셔티브 포함과 같은 긍정적인 소식으로 장기적인 성장 잠재력을 가지고 있다는 평가도 있습니다.",
-    "sentimentScore": 35,
-    "investmentRating": "Hold"
   }
 ]
