@@ -1,5 +1,15 @@
 [
   {
+    "id": "report-1795625379607",
+    "title": "CoreWeave: AI 인프라 시장의 고위험-고수익 전선, 심층 분석",
+    "ticker": "CRWV",
+    "market": "US",
+    "timestamp": "2026-11-25T16:49:39.607Z",
+    "summary": "CoreWeave는 AI, 머신러닝, 시각 효과(VFX) 워크로드를 위한 고성능 GPU 컴퓨팅 클라우드 인프라를 제공하는 기업입니다. 사용량 기반의 장기 계약 모델을 통해 운영되며, Nvidia와의 긴밀한 파트너십을 통해 차세대 GPU에 대한 조기 접근성을 확보하고 있습니다.",
+    "sentimentScore": -0.7,
+    "investmentRating": "Buy"
+  },
+  {
     "id": "report-1795579076817",
     "title": "셀트리온, 글로벌 바이오시밀러 시장 개척의 선봉장: 전략적 성장 동력과 밸류에이션 심층 분석",
     "ticker": "068270",
@@ -988,15 +998,5 @@
     "summary": "MNDR은 싱가포르 기반의 AI 기반 디지털 헬스 및 원격 의료 기업으로, MaNaDr 플랫폼을 통해 헬스케어 솔루션을 제공합니다. 최근 AI 헬스케어 관련 소식과 낮은 유통 주식수로 인해 급격한 변동성을 보이며 투자자들의 주목을 받고 있습니다.",
     "sentimentScore": 92,
     "investmentRating": "Buy"
-  },
-  {
-    "id": "report-1791800179344",
-    "title": "모더나(MRNA) 심층 분석: mRNA 기술의 미래 가치와 현재 밸류에이션의 괴리",
-    "ticker": "MRNA",
-    "market": "US",
-    "timestamp": "2026-10-12T10:16:19.344Z",
-    "summary": "Moderna (MRNA)는 RNA 치료제, 특히 mRNA 백신 개발에 주력하는 상업 단계 생명공학 회사입니다. 2010년에 설립되어 2018년에 상장되었으며, COVID-19 백신으로 mRNA 기술의 효능을 입증했습니다. 이 회사는 전염병, 종양학, 심혈관 질환 및 희귀 유전 질환을 포함한 광범위한 파이프라인(44개 후보 물질 중 37개가 임상 시험 중)을 보유하고 있습니다. 최근 Merck와의 개인 맞춤형 흑색종 암 백신(intismeran autogene) 3상 임상 시험의 긍정적인 데이터는 주요 촉매제로 작용하고 있으며, 최근 나스닥 100 지수에 편입되었습니다.",
-    "sentimentScore": 0.6,
-    "investmentRating": "Hold"
   }
 ]
